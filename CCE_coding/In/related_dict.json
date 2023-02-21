@@ -1,0 +1,16 @@
+{
+ "main_logic": [
+  "loop"
+ ],
+ "processSerial": [
+  "Serial_write",
+  "Serial_write",
+  "Serial_write"
+ ],
+ "main": [
+  "main_logic"
+ ],
+ "loop": [
+  "processSerial"
+ ]
+}

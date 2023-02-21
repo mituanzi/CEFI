@@ -1,0 +1,9 @@
+digraph changed_graph {
+	main [label="main|1"]
+	main_logic [label="main_logic|1"]
+	main -> main_logic [label="+0"]
+	listen_to_events [label="listen_to_events|1"]
+	main_logic -> listen_to_events [label="+0"]
+	react_to_pattern [label="react_to_pattern|1"]
+	listen_to_events -> react_to_pattern [label="+0"]
+}

@@ -1,0 +1,55 @@
+{
+ "edges_id": [
+  {
+   "callingName": "main",
+   "calledFunc": [
+    {
+     "calledName": "main_logic",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "main_logic",
+   "calledFunc": [
+    {
+     "calledName": "processdata",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "processdata",
+   "calledFunc": [
+    {
+     "calledName": "get_temp",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "check_temp",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "get_humidity",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "get_new_temp",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

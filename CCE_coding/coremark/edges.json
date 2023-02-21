@@ -1,0 +1,117 @@
+{
+ "edges_id": [
+  {
+   "callingName": "None",
+   "calledFunc": []
+  },
+  {
+   "callingName": "main",
+   "calledFunc": [
+    {
+     "calledName": "main_logic",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "main_logic",
+   "calledFunc": [
+    {
+     "calledName": "coremain",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "coremain",
+   "calledFunc": [
+    {
+     "calledName": "core_list_init",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "iterate",
+     "idweight": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "core_list_init",
+   "calledFunc": [
+    {
+     "calledName": "core_list_mergesort",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "core_bench_list",
+   "calledFunc": [
+    {
+     "calledName": "core_list_mergesort",
+     "idweight": [
+      1,
+      5
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "core_list_mergesort",
+   "calledFunc": [
+    {
+     "calledName": "core_list_mergesort_Indir1",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "core_list_mergesort_Indir1",
+   "calledFunc": [
+    {
+     "calledName": "cmp_complex",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "cmp_complex",
+   "calledFunc": [
+    {
+     "calledName": "calc_func",
+     "idweight": [
+      0,
+      9
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "iterate",
+   "calledFunc": [
+    {
+     "calledName": "core_bench_list",
+     "idweight": [
+      0,
+      2
+     ]
+    }
+   ]
+  }
+ ]
+}

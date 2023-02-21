@@ -1,0 +1,9 @@
+digraph original_graph {
+	main
+	main_logic
+	main -> main_logic
+	listen_to_events
+	main_logic -> listen_to_events
+	react_to_pattern
+	listen_to_events -> react_to_pattern
+}

@@ -1,0 +1,56 @@
+{
+ "edges_id": [
+  {
+   "callingName": "main",
+   "calledFunc": [
+    {
+     "calledName": "main_logic",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "main_logic",
+   "calledFunc": [
+    {
+     "calledName": "unlock",
+     "idweight": [
+      0,
+      1
+     ]
+    },
+    {
+     "calledName": "lock",
+     "idweight": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "unlock",
+   "calledFunc": [
+    {
+     "calledName": "BSP_LED_On",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "lock",
+   "calledFunc": [
+    {
+     "calledName": "BSP_LED_Off",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

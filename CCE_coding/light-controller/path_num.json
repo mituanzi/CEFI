@@ -1,0 +1,5 @@
+{
+ "('main', 'tdTurnOn')": 2,
+ "('main', 'tdTurnOff')": 2,
+ "('main', 'negative_status_response')": 3
+}

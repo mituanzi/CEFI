@@ -1,0 +1,54 @@
+{
+ "edges_id": [
+  {
+   "callingName": "None",
+   "calledFunc": []
+  },
+  {
+   "callingName": "main",
+   "calledFunc": [
+    {
+     "calledName": "main_logic",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "main_logic",
+   "calledFunc": [
+    {
+     "calledName": "loop",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "loop",
+   "calledFunc": [
+    {
+     "calledName": "processSerial",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "processSerial",
+   "calledFunc": [
+    {
+     "calledName": "Serial_write",
+     "idweight": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  }
+ ]
+}

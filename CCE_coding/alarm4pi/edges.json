@@ -1,0 +1,32 @@
+{
+ "edges_id": [
+  {
+   "callingName": "main",
+   "calledFunc": [
+    {
+     "calledName": "main_logic",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "main_logic",
+   "calledFunc": [
+    {
+     "calledName": "atoi",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "input",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

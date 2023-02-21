@@ -1,0 +1,74 @@
+{
+ "edges_id": [
+  {
+   "callingName": "main",
+   "calledFunc": [
+    {
+     "calledName": "main_logic",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "main_logic",
+   "calledFunc": [
+    {
+     "calledName": "listen_to_events",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "listen_to_events",
+   "calledFunc": [
+    {
+     "calledName": "react_to_pattern",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "tdTurnOn",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "tdTurnOff",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "negative_status_response",
+     "idweight": [
+      0,
+      1,
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "react_to_pattern",
+   "calledFunc": [
+    {
+     "calledName": "tdTurnOn",
+     "idweight": [
+      1
+     ]
+    },
+    {
+     "calledName": "tdTurnOff",
+     "idweight": [
+      1
+     ]
+    }
+   ]
+  }
+ ]
+}

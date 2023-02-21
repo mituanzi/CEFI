@@ -1,0 +1,8 @@
+[
+ "switch_on",
+ "switch_off",
+ "lock",
+ "unlock",
+ "update_firmware",
+ "recovery_firmware"
+]

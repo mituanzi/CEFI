@@ -1,0 +1,4897 @@
+{
+	"DMA_CalcDMAMUXChannelBaseAndMask" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_DMA_DeInit" : 1,
+			"HAL_DMA_Init" : 1
+		}
+	},
+	"DMA_CalcDMAMUXRequestGenBaseAndMask" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_DMA_DeInit" : 1,
+			"HAL_DMA_Init" : 1
+		}
+	},
+	"DMA_MultiBufferSetConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_DMAEx_MultiBufferStart" : 1,
+			"HAL_DMAEx_MultiBufferStart_IT" : 1
+		}
+	},
+	"DMA_SetConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_DMA_Start" : 1,
+			"HAL_DMA_Start_IT" : 1
+		}
+	},
+	"DWT_GetTick" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"main_logic" : 2
+		}
+	},
+	"DWT_Init" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"init" : 1
+		}
+	},
+	"Error_Handler" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_MspInit" : 1,
+			"MX_USART1_UART_Init" : 4,
+			"SystemClock_Config" : 3,
+			"input" : 1,
+			"output" : 1
+		}
+	},
+	"FLASH_MassErase" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_Erase" : 1,
+			"HAL_FLASHEx_Erase_IT" : 1
+		}
+	},
+	"FLASH_OB_BootAddrConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_OBProgram" : 1
+		}
+	},
+	"FLASH_OB_GetBootAddr" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_OBGetConfig" : 1
+		}
+	},
+	"FLASH_OB_GetRDP" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_OBGetConfig" : 1
+		}
+	},
+	"FLASH_OB_GetUser" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_OBGetConfig" : 1
+		}
+	},
+	"FLASH_OB_GetWRP" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_OBGetConfig" : 1
+		}
+	},
+	"FLASH_OB_RDPConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_OBProgram" : 1
+		}
+	},
+	"FLASH_OB_UserConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_OBProgram" : 1
+		}
+	},
+	"FLASH_OB_WRPConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_OBProgram" : 1
+		}
+	},
+	"FLASH_PageErase" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_Erase" : 1,
+			"HAL_FLASHEx_Erase_IT" : 1,
+			"HAL_FLASH_IRQHandler" : 1
+		}
+	},
+	"FLASH_Program_DoubleWord" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASH_Program" : 1,
+			"HAL_FLASH_Program_IT" : 1
+		}
+	},
+	"FLASH_WaitForLastOperation" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : 
+		{
+			"HAL_FLASHEx_ConfigLVEPin" : 1,
+			"HAL_FLASHEx_Erase" : 3,
+			"HAL_FLASHEx_Erase_IT" : 1,
+			"HAL_FLASHEx_OBProgram" : 2,
+			"HAL_FLASH_Program" : 2,
+			"HAL_FLASH_Program_IT" : 1
+		}
+	},
+	"HAL_DBGMCU_DisableDBGStandbyMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DBGMCU_DisableDBGStopMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DBGMCU_EnableDBGStandbyMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DBGMCU_EnableDBGStopMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DMAEx_ChangeMemory" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DMAEx_ConfigMuxRequestGenerator" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DMAEx_ConfigMuxSync" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DMAEx_DisableMuxRequestGenerator" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DMAEx_EnableMuxRequestGenerator" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DMAEx_MUX_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMAEx_MUX_IRQHandler_Indir1" : 1,
+			"HAL_DMAEx_MUX_IRQHandler_Indir2" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_DMAEx_MUX_IRQHandler_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMAEx_MUX_IRQHandler" : 1
+		}
+	},
+	"HAL_DMAEx_MUX_IRQHandler_Indir2" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMAEx_MUX_IRQHandler" : 1
+		}
+	},
+	"HAL_DMAEx_MultiBufferStart" : 
+	{
+		"Callees" : 
+		{
+			"DMA_MultiBufferSetConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_DMAEx_MultiBufferStart_IT" : 
+	{
+		"Callees" : 
+		{
+			"DMA_MultiBufferSetConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_DMA_Abort" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_Abort" : 2,
+			"HAL_UART_AbortReceive" : 1,
+			"HAL_UART_AbortTransmit" : 1,
+			"HAL_UART_DMAStop" : 2,
+			"HAL_UART_IRQHandler" : 1
+		}
+	},
+	"HAL_DMA_Abort_IT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort_IT_Indir1" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Slave_Seq_Receive_DMA" : 2,
+			"HAL_I2C_Slave_Seq_Receive_IT" : 1,
+			"HAL_I2C_Slave_Seq_Transmit_DMA" : 2,
+			"HAL_I2C_Slave_Seq_Transmit_IT" : 1,
+			"HAL_UART_AbortReceive_IT" : 1,
+			"HAL_UART_AbortTransmit_IT" : 1,
+			"HAL_UART_Abort_IT" : 2,
+			"HAL_UART_IRQHandler" : 1,
+			"I2C_ITError" : 2
+		}
+	},
+	"HAL_DMA_Abort_IT_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMA_Abort_IT" : 1
+		}
+	},
+	"HAL_DMA_ConfigChannelAttributes" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DMA_DeInit" : 
+	{
+		"Callees" : 
+		{
+			"DMA_CalcDMAMUXChannelBaseAndMask" : 1,
+			"DMA_CalcDMAMUXRequestGenBaseAndMask" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_DMA_GetConfigChannelAttributes" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DMA_GetError" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_Abort" : 2,
+			"HAL_UART_AbortReceive" : 1,
+			"HAL_UART_AbortTransmit" : 1,
+			"HAL_UART_DMAStop" : 2
+		}
+	},
+	"HAL_DMA_GetState" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITError" : 2
+		}
+	},
+	"HAL_DMA_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_IRQHandler_Indir1" : 1,
+			"HAL_DMA_IRQHandler_Indir2" : 1,
+			"HAL_DMA_IRQHandler_Indir3" : 1,
+			"HAL_DMA_IRQHandler_Indir4" : 1,
+			"HAL_DMA_IRQHandler_Indir5" : 1,
+			"HAL_DMA_IRQHandler_Indir6" : 1,
+			"HAL_DMA_IRQHandler_Indir7" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_DMA_IRQHandler_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMA_IRQHandler" : 1
+		}
+	},
+	"HAL_DMA_IRQHandler_Indir2" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMA_IRQHandler" : 1
+		}
+	},
+	"HAL_DMA_IRQHandler_Indir3" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMA_IRQHandler" : 1
+		}
+	},
+	"HAL_DMA_IRQHandler_Indir4" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMA_IRQHandler" : 1
+		}
+	},
+	"HAL_DMA_IRQHandler_Indir5" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMA_IRQHandler" : 1
+		}
+	},
+	"HAL_DMA_IRQHandler_Indir6" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMA_IRQHandler" : 1
+		}
+	},
+	"HAL_DMA_IRQHandler_Indir7" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_DMA_IRQHandler" : 1
+		}
+	},
+	"HAL_DMA_Init" : 
+	{
+		"Callees" : 
+		{
+			"DMA_CalcDMAMUXChannelBaseAndMask" : 1,
+			"DMA_CalcDMAMUXRequestGenBaseAndMask" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_DMA_PollForTransfer" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_DMA_RegisterCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DMA_Start" : 
+	{
+		"Callees" : 
+		{
+			"DMA_SetConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_DMA_Start_IT" : 
+	{
+		"Callees" : 
+		{
+			"DMA_SetConfig" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Master_Receive_DMA" : 1,
+			"HAL_I2C_Master_Seq_Receive_DMA" : 1,
+			"HAL_I2C_Master_Seq_Transmit_DMA" : 1,
+			"HAL_I2C_Master_Transmit_DMA" : 1,
+			"HAL_I2C_Mem_Read_DMA" : 1,
+			"HAL_I2C_Mem_Write_DMA" : 1,
+			"HAL_I2C_Slave_Receive_DMA" : 1,
+			"HAL_I2C_Slave_Seq_Receive_DMA" : 1,
+			"HAL_I2C_Slave_Seq_Transmit_DMA" : 1,
+			"HAL_I2C_Slave_Transmit_DMA" : 1,
+			"HAL_UART_Transmit_DMA" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"UART_Start_Receive_DMA" : 1
+		}
+	},
+	"HAL_DMA_UnRegisterCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_DeInit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_MspDeInit" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_Delay" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : 
+		{
+			"main_logic" : 1
+		}
+	},
+	"HAL_EXTI_ClearConfigLine" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_EXTI_ClearPending" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_EXTI_ConfigLineAttributes" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_EXTI_GenerateSWI" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_EXTI_GetConfigLine" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_EXTI_GetConfigLineAttributes" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_EXTI_GetHandle" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_EXTI_GetPending" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_EXTI_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_EXTI_IRQHandler_Indir1" : 1,
+			"HAL_EXTI_IRQHandler_Indir2" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_EXTI_IRQHandler_Indir1" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_EXTI_IRQHandler" : 1
+		}
+	},
+	"HAL_EXTI_IRQHandler_Indir2" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_EXTI_IRQHandler" : 1
+		}
+	},
+	"HAL_EXTI_RegisterCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_EXTI_SetConfigLine" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASHEx_ConfigLVEPin" : 
+	{
+		"Callees" : 
+		{
+			"FLASH_WaitForLastOperation" : 1,
+			"HAL_PWREx_GetVoltageRange" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_FLASHEx_ConfigPrivMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASHEx_DisableRunPowerDown" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASHEx_EnableRunPowerDown" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASHEx_Erase" : 
+	{
+		"Callees" : 
+		{
+			"FLASH_MassErase" : 1,
+			"FLASH_PageErase" : 1,
+			"FLASH_WaitForLastOperation" : 3
+		},
+		"Callers" : null
+	},
+	"HAL_FLASHEx_Erase_IT" : 
+	{
+		"Callees" : 
+		{
+			"FLASH_MassErase" : 1,
+			"FLASH_PageErase" : 1,
+			"FLASH_WaitForLastOperation" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_FLASHEx_GetLVEPin" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASHEx_GetPrivMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASHEx_OBGetConfig" : 
+	{
+		"Callees" : 
+		{
+			"FLASH_OB_GetBootAddr" : 1,
+			"FLASH_OB_GetRDP" : 1,
+			"FLASH_OB_GetUser" : 1,
+			"FLASH_OB_GetWRP" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_FLASHEx_OBProgram" : 
+	{
+		"Callees" : 
+		{
+			"FLASH_OB_BootAddrConfig" : 1,
+			"FLASH_OB_RDPConfig" : 1,
+			"FLASH_OB_UserConfig" : 1,
+			"FLASH_OB_WRPConfig" : 1,
+			"FLASH_WaitForLastOperation" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_FLASHEx_OB_DBankConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASH_EndOfOperationCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASH_IRQHandler" : 1
+		}
+	},
+	"HAL_FLASH_GetError" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASH_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"FLASH_PageErase" : 1,
+			"HAL_FLASH_EndOfOperationCallback" : 1,
+			"HAL_FLASH_OperationErrorCallback" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_FLASH_Lock" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASH_OB_Launch" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASH_OB_Lock" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASH_OB_Unlock" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_FLASH_OperationErrorCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASH_IRQHandler" : 1
+		}
+	},
+	"HAL_FLASH_Program" : 
+	{
+		"Callees" : 
+		{
+			"FLASH_Program_DoubleWord" : 1,
+			"FLASH_WaitForLastOperation" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_FLASH_Program_IT" : 
+	{
+		"Callees" : 
+		{
+			"FLASH_Program_DoubleWord" : 1,
+			"FLASH_WaitForLastOperation" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_FLASH_Unlock" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GPIO_DeInit" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_MspDeInit" : 1
+		}
+	},
+	"HAL_GPIO_EXTI_Falling_Callback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_GPIO_EXTI_IRQHandler" : 1
+		}
+	},
+	"HAL_GPIO_EXTI_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GPIO_EXTI_Falling_Callback" : 1,
+			"HAL_GPIO_EXTI_Rising_Callback" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_GPIO_EXTI_Rising_Callback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_GPIO_EXTI_IRQHandler" : 1
+		}
+	},
+	"HAL_GPIO_Init" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_EnableLSCO" : 1,
+			"HAL_RCC_MCOConfig" : 1,
+			"HAL_UART_MspInit" : 1
+		}
+	},
+	"HAL_GPIO_LockPin" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GPIO_ReadPin" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GPIO_TogglePin" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GPIO_WritePin" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GetDEVID" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GetHalVersion" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GetREVID" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GetTick" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"FLASH_WaitForLastOperation" : 2,
+			"HAL_DMA_PollForTransfer" : 2,
+			"HAL_Delay" : 2,
+			"HAL_I2C_IsDeviceReady" : 2,
+			"HAL_I2C_Master_Receive" : 1,
+			"HAL_I2C_Master_Transmit" : 1,
+			"HAL_I2C_Mem_Read" : 1,
+			"HAL_I2C_Mem_Read_DMA" : 1,
+			"HAL_I2C_Mem_Read_IT" : 1,
+			"HAL_I2C_Mem_Write" : 1,
+			"HAL_I2C_Mem_Write_DMA" : 1,
+			"HAL_I2C_Mem_Write_IT" : 1,
+			"HAL_I2C_Slave_Receive" : 1,
+			"HAL_I2C_Slave_Transmit" : 1,
+			"HAL_ICACHE_Disable" : 2,
+			"HAL_ICACHE_WaitForInvalidateComplete" : 2,
+			"HAL_RCCEx_CRSWaitSynchronization" : 2,
+			"HAL_RCCEx_DisablePLLSAI1" : 2,
+			"HAL_RCCEx_DisablePLLSAI2" : 2,
+			"HAL_RCCEx_EnablePLLSAI1" : 4,
+			"HAL_RCCEx_EnablePLLSAI2" : 4,
+			"HAL_RCCEx_PeriphCLKConfig" : 4,
+			"HAL_RCC_ClockConfig" : 2,
+			"HAL_RCC_DeInit" : 8,
+			"HAL_RCC_OscConfig" : 35,
+			"HAL_SYSCFG_EnableVREFBUF" : 2,
+			"HAL_UARTEx_ReceiveToIdle" : 2,
+			"HAL_UARTEx_StopModeWakeUpSourceConfig" : 1,
+			"HAL_UART_Receive" : 1,
+			"HAL_UART_Transmit" : 1,
+			"I2C_IsAcknowledgeFailed" : 1,
+			"I2C_WaitOnFlagUntilTimeout" : 1,
+			"I2C_WaitOnRXNEFlagUntilTimeout" : 1,
+			"I2C_WaitOnSTOPFlagUntilTimeout" : 1,
+			"I2C_WaitOnTXISFlagUntilTimeout" : 1,
+			"RCCEx_PLLSAI1_Config" : 4,
+			"RCCEx_PLLSAI2_Config" : 4,
+			"RCCEx_PLLSource_Enable" : 6,
+			"UART_CheckIdleState" : 1,
+			"UART_WaitOnFlagUntilTimeout" : 1
+		}
+	},
+	"HAL_GetTickFreq" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GetTickPrio" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GetUIDw0" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GetUIDw1" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_GetUIDw2" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_HalfDuplex_EnableReceiver" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_HalfDuplex_EnableTransmitter" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_HalfDuplex_Init" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_MspInit" : 1,
+			"UART_AdvFeatureConfig" : 1,
+			"UART_CheckIdleState" : 1,
+			"UART_SetConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2CEx_ConfigAnalogFilter" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_I2CEx_ConfigDigitalFilter" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_I2CEx_DisableFastModePlus" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_I2CEx_DisableWakeUp" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_I2CEx_EnableFastModePlus" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_I2CEx_EnableWakeUp" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_I2C_AbortCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_TreatErrorCallback" : 1
+		}
+	},
+	"HAL_I2C_AddrCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITAddrCplt" : 3
+		}
+	},
+	"HAL_I2C_DeInit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_MspDeInit" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_DisableListen_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Disable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_ER_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"I2C_ITError" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_EV_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_EV_IRQHandler_Indir1" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_EV_IRQHandler_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Master_ISR_DMA" : 1,
+			"I2C_Master_ISR_IT" : 1,
+			"I2C_Slave_ISR_DMA" : 1,
+			"I2C_Slave_ISR_IT" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_EV_IRQHandler" : 1
+		}
+	},
+	"HAL_I2C_EnableListen_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Enable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_ErrorCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_TreatErrorCallback" : 1
+		}
+	},
+	"HAL_I2C_GetError" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_I2C_GetMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_I2C_GetState" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_I2C_Init" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_MspInit" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_IsDeviceReady" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2,
+			"I2C_WaitOnFlagUntilTimeout" : 3
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_ListenCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITListenCplt" : 1,
+			"I2C_ITSlaveCplt" : 1
+		}
+	},
+	"HAL_I2C_MasterRxCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITMasterCplt" : 1,
+			"I2C_ITMasterSeqCplt" : 1
+		}
+	},
+	"HAL_I2C_MasterTxCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITMasterCplt" : 1,
+			"I2C_ITMasterSeqCplt" : 1
+		}
+	},
+	"HAL_I2C_Master_Abort_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Disable_IRQ" : 2,
+			"I2C_Enable_IRQ" : 1,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Receive" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_TransferConfig" : 4,
+			"I2C_WaitOnFlagUntilTimeout" : 2,
+			"I2C_WaitOnRXNEFlagUntilTimeout" : 1,
+			"I2C_WaitOnSTOPFlagUntilTimeout" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Receive_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"I2C_Enable_IRQ" : 2,
+			"I2C_TransferConfig" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Receive_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Enable_IRQ" : 1,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Seq_Receive_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"I2C_ConvertOtherXferOptions" : 1,
+			"I2C_Enable_IRQ" : 2,
+			"I2C_TransferConfig" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Seq_Receive_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_ConvertOtherXferOptions" : 1,
+			"I2C_Enable_IRQ" : 1,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Seq_Transmit_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"I2C_ConvertOtherXferOptions" : 1,
+			"I2C_Enable_IRQ" : 2,
+			"I2C_TransferConfig" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Seq_Transmit_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_ConvertOtherXferOptions" : 1,
+			"I2C_Enable_IRQ" : 1,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Transmit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_TransferConfig" : 4,
+			"I2C_WaitOnFlagUntilTimeout" : 2,
+			"I2C_WaitOnSTOPFlagUntilTimeout" : 1,
+			"I2C_WaitOnTXISFlagUntilTimeout" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Transmit_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"I2C_Enable_IRQ" : 2,
+			"I2C_TransferConfig" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Master_Transmit_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Enable_IRQ" : 1,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_MemRxCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITMasterCplt" : 1
+		}
+	},
+	"HAL_I2C_MemTxCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITMasterCplt" : 1
+		}
+	},
+	"HAL_I2C_Mem_Read" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_RequestMemoryRead" : 1,
+			"I2C_TransferConfig" : 4,
+			"I2C_WaitOnFlagUntilTimeout" : 3,
+			"I2C_WaitOnSTOPFlagUntilTimeout" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Mem_Read_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"HAL_GetTick" : 1,
+			"I2C_Enable_IRQ" : 1,
+			"I2C_RequestMemoryRead" : 1,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Mem_Read_IT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_Enable_IRQ" : 1,
+			"I2C_RequestMemoryRead" : 1,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Mem_Write" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_RequestMemoryWrite" : 1,
+			"I2C_TransferConfig" : 4,
+			"I2C_WaitOnFlagUntilTimeout" : 2,
+			"I2C_WaitOnSTOPFlagUntilTimeout" : 1,
+			"I2C_WaitOnTXISFlagUntilTimeout" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Mem_Write_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"HAL_GetTick" : 1,
+			"I2C_Enable_IRQ" : 1,
+			"I2C_RequestMemoryWrite" : 1,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Mem_Write_IT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_Enable_IRQ" : 1,
+			"I2C_RequestMemoryWrite" : 1,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_MspDeInit" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_I2C_DeInit" : 1
+		}
+	},
+	"HAL_I2C_MspInit" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_I2C_Init" : 1
+		}
+	},
+	"HAL_I2C_SlaveRxCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITSlaveCplt" : 1,
+			"I2C_ITSlaveSeqCplt" : 1
+		}
+	},
+	"HAL_I2C_SlaveTxCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITSlaveCplt" : 1,
+			"I2C_ITSlaveSeqCplt" : 1
+		}
+	},
+	"HAL_I2C_Slave_Receive" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_WaitOnFlagUntilTimeout" : 3,
+			"I2C_WaitOnRXNEFlagUntilTimeout" : 1,
+			"I2C_WaitOnSTOPFlagUntilTimeout" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Slave_Receive_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"I2C_Enable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Slave_Receive_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Enable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Slave_Seq_Receive_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort_IT" : 2,
+			"HAL_DMA_Start_IT" : 1,
+			"HAL_I2C_Slave_Seq_Receive_DMA_Indir1" : 1,
+			"HAL_I2C_Slave_Seq_Receive_DMA_Indir2" : 1,
+			"I2C_Disable_IRQ" : 2,
+			"I2C_Enable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Slave_Seq_Receive_DMA_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Slave_Seq_Receive_DMA" : 1
+		}
+	},
+	"HAL_I2C_Slave_Seq_Receive_DMA_Indir2" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Slave_Seq_Receive_DMA" : 1
+		}
+	},
+	"HAL_I2C_Slave_Seq_Receive_IT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort_IT" : 1,
+			"HAL_I2C_Slave_Seq_Receive_IT_Indir1" : 1,
+			"I2C_Disable_IRQ" : 2,
+			"I2C_Enable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Slave_Seq_Receive_IT_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Slave_Seq_Receive_IT" : 1
+		}
+	},
+	"HAL_I2C_Slave_Seq_Transmit_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort_IT" : 2,
+			"HAL_DMA_Start_IT" : 1,
+			"HAL_I2C_Slave_Seq_Transmit_DMA_Indir1" : 1,
+			"HAL_I2C_Slave_Seq_Transmit_DMA_Indir2" : 1,
+			"I2C_Disable_IRQ" : 2,
+			"I2C_Enable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Slave_Seq_Transmit_DMA_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Slave_Seq_Transmit_DMA" : 1
+		}
+	},
+	"HAL_I2C_Slave_Seq_Transmit_DMA_Indir2" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Slave_Seq_Transmit_DMA" : 1
+		}
+	},
+	"HAL_I2C_Slave_Seq_Transmit_IT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort_IT" : 1,
+			"HAL_I2C_Slave_Seq_Transmit_IT_Indir1" : 1,
+			"I2C_Disable_IRQ" : 2,
+			"I2C_Enable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Slave_Seq_Transmit_IT_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Slave_Seq_Transmit_IT" : 1
+		}
+	},
+	"HAL_I2C_Slave_Transmit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_WaitOnFlagUntilTimeout" : 4,
+			"I2C_WaitOnSTOPFlagUntilTimeout" : 1,
+			"I2C_WaitOnTXISFlagUntilTimeout" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Slave_Transmit_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"I2C_Enable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_I2C_Slave_Transmit_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Enable_IRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_ICACHE_ConfigAssociativityMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_ICACHE_DeInit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_ICACHE_DisableRemapRegion" : 4,
+			"HAL_ICACHE_Monitor_Reset" : 1,
+			"HAL_ICACHE_Monitor_Stop" : 1,
+			"HAL_ICACHE_WaitForInvalidateComplete" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_ICACHE_Disable" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_ICACHE_DisableRemapRegion" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_ICACHE_DeInit" : 4
+		}
+	},
+	"HAL_ICACHE_Enable" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_ICACHE_EnableRemapRegion" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_ICACHE_ErrorCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_ICACHE_IRQHandler" : 1
+		}
+	},
+	"HAL_ICACHE_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_ICACHE_ErrorCallback" : 1,
+			"HAL_ICACHE_InvalidateCompleteCallback" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_ICACHE_Invalidate" : 
+	{
+		"Callees" : 
+		{
+			"HAL_ICACHE_WaitForInvalidateComplete" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_ICACHE_InvalidateCompleteCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_ICACHE_IRQHandler" : 1
+		}
+	},
+	"HAL_ICACHE_Invalidate_IT" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_ICACHE_Monitor_GetHitValue" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_ICACHE_Monitor_GetMissValue" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_ICACHE_Monitor_Reset" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_ICACHE_DeInit" : 1
+		}
+	},
+	"HAL_ICACHE_Monitor_Start" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_ICACHE_Monitor_Stop" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_ICACHE_DeInit" : 1
+		}
+	},
+	"HAL_ICACHE_WaitForInvalidateComplete" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : 
+		{
+			"HAL_ICACHE_DeInit" : 1,
+			"HAL_ICACHE_Invalidate" : 1
+		}
+	},
+	"HAL_IncTick" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"SysTick_Handler" : 1
+		}
+	},
+	"HAL_Init" : 
+	{
+		"Callees" : 
+		{
+			"HAL_InitTick" : 1,
+			"HAL_MspInit" : 1,
+			"HAL_NVIC_SetPriorityGrouping" : 1,
+			"SystemCoreClockUpdate" : 1
+		},
+		"Callers" : 
+		{
+			"init" : 1
+		}
+	},
+	"HAL_InitTick" : 
+	{
+		"Callees" : 
+		{
+			"HAL_NVIC_SetPriority" : 1,
+			"HAL_SYSTICK_Config" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_Init" : 1,
+			"HAL_RCC_ClockConfig" : 1,
+			"HAL_RCC_DeInit" : 1,
+			"HAL_RCC_OscConfig" : 1,
+			"HAL_SetTickFreq" : 1
+		}
+	},
+	"HAL_LIN_Init" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_MspInit" : 1,
+			"UART_AdvFeatureConfig" : 1,
+			"UART_CheckIdleState" : 1,
+			"UART_SetConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_LIN_SendBreak" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_MPU_ConfigMemoryAttributes" : 
+	{
+		"Callees" : 
+		{
+			"MPU_ConfigMemoryAttributes" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_MPU_ConfigRegion" : 
+	{
+		"Callees" : 
+		{
+			"MPU_ConfigRegion" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_MPU_Disable" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_MPU_Enable" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_MspDeInit" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_DeInit" : 1
+		}
+	},
+	"HAL_MspInit" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_Init" : 1
+		}
+	},
+	"HAL_MultiProcessorEx_AddressLength_Set" : 
+	{
+		"Callees" : 
+		{
+			"UART_CheckIdleState" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_MultiProcessor_DisableMuteMode" : 
+	{
+		"Callees" : 
+		{
+			"UART_CheckIdleState" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_MultiProcessor_EnableMuteMode" : 
+	{
+		"Callees" : 
+		{
+			"UART_CheckIdleState" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_MultiProcessor_EnterMuteMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_MultiProcessor_Init" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_MspInit" : 1,
+			"UART_AdvFeatureConfig" : 1,
+			"UART_CheckIdleState" : 1,
+			"UART_SetConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_NVIC_ClearPendingIRQ" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_ClearPendingIRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_NVIC_DisableIRQ" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_DisableIRQ" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UART_MspDeInit" : 1
+		}
+	},
+	"HAL_NVIC_EnableIRQ" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_EnableIRQ" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UART_MspInit" : 1
+		}
+	},
+	"HAL_NVIC_GetActive" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_GetActive" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_NVIC_GetPendingIRQ" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_GetPendingIRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_NVIC_GetPriority" : 
+	{
+		"Callees" : 
+		{
+			"NVIC_DecodePriority" : 1,
+			"__NVIC_GetPriority" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_NVIC_GetPriorityGrouping" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_GetPriorityGrouping" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_NVIC_SetPendingIRQ" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_SetPendingIRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_NVIC_SetPriority" : 
+	{
+		"Callees" : 
+		{
+			"NVIC_EncodePriority" : 1,
+			"__NVIC_GetPriorityGrouping" : 1,
+			"__NVIC_SetPriority" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_InitTick" : 1,
+			"HAL_UART_MspInit" : 1
+		}
+	},
+	"HAL_NVIC_SetPriorityGrouping" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_SetPriorityGrouping" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_Init" : 1
+		}
+	},
+	"HAL_NVIC_SystemReset" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_SystemReset" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_PWREx_ConfigPVM" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_ConfigSRAM2ContentRetention" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWREx_DisableSRAM2ContentRetention" : 1,
+			"HAL_PWREx_EnableSRAM2ContentRetention" : 1
+		}
+	},
+	"HAL_PWREx_ControlVoltageScaling" : 
+	{
+		"Callees" : 
+		{
+			"HAL_PWREx_SMPS_GetEffectiveMode" : 1
+		},
+		"Callers" : 
+		{
+			"SystemClock_Config" : 1
+		}
+	},
+	"HAL_PWREx_DisableBatteryCharging" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisableGPIOPullDown" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisableGPIOPullUp" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisableLowPowerRunMode" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWR_EnterSLEEPMode" : 1
+		}
+	},
+	"HAL_PWREx_DisablePVM1" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisablePVM2" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisablePVM3" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisablePVM4" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisablePullUpPullDownConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisableSRAM2ContentRetention" : 
+	{
+		"Callees" : 
+		{
+			"HAL_PWREx_ConfigSRAM2ContentRetention" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_PWREx_DisableUCPDDeadBattery" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisableUCPDStandbyMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisableUltraLowPowerMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisableVddIO2" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_DisableVddUSB" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableBatteryCharging" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableGPIOPullDown" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableGPIOPullUp" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableLowPowerRunMode" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWR_EnterSLEEPMode" : 1
+		}
+	},
+	"HAL_PWREx_EnablePVM1" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnablePVM2" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnablePVM3" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnablePVM4" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnablePullUpPullDownConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableSRAM2ContentRetention" : 
+	{
+		"Callees" : 
+		{
+			"HAL_PWREx_ConfigSRAM2ContentRetention" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableUCPDDeadBattery" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableUCPDStandbyMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableUltraLowPowerMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableVddIO2" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnableVddUSB" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnterSHUTDOWNMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_EnterSTOP0Mode" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWR_EnterSTOPMode" : 1
+		}
+	},
+	"HAL_PWREx_EnterSTOP1Mode" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWR_EnterSTOPMode" : 1
+		}
+	},
+	"HAL_PWREx_EnterSTOP2Mode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_GetVoltageRange" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_FLASHEx_ConfigLVEPin" : 1,
+			"HAL_PWREx_SMPS_SetMode" : 1,
+			"RCC_SetFlashLatencyFromMSIRange" : 2
+		}
+	},
+	"HAL_PWREx_PVD_PVM_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_PWREx_PVM1Callback" : 1,
+			"HAL_PWREx_PVM2Callback" : 1,
+			"HAL_PWREx_PVM3Callback" : 1,
+			"HAL_PWREx_PVM4Callback" : 1,
+			"HAL_PWR_PVDCallback" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_PWREx_PVM1Callback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWREx_PVD_PVM_IRQHandler" : 1
+		}
+	},
+	"HAL_PWREx_PVM2Callback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWREx_PVD_PVM_IRQHandler" : 1
+		}
+	},
+	"HAL_PWREx_PVM3Callback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWREx_PVD_PVM_IRQHandler" : 1
+		}
+	},
+	"HAL_PWREx_PVM4Callback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWREx_PVD_PVM_IRQHandler" : 1
+		}
+	},
+	"HAL_PWREx_SMPS_DisableBypassMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_SMPS_DisableExternal" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_SMPS_DisableFastStart" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_SMPS_EnableBypassMode" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWREx_SMPS_SetMode" : 1
+		}
+	},
+	"HAL_PWREx_SMPS_EnableExternal" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_SMPS_EnableFastStart" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_SMPS_GetEffectiveMode" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWREx_ControlVoltageScaling" : 1,
+			"HAL_PWREx_SMPS_SetMode" : 2
+		}
+	},
+	"HAL_PWREx_SMPS_GetMainRegulatorExtSMPSReadyStatus" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWREx_SMPS_SetMode" : 
+	{
+		"Callees" : 
+		{
+			"HAL_PWREx_GetVoltageRange" : 1,
+			"HAL_PWREx_SMPS_EnableBypassMode" : 1,
+			"HAL_PWREx_SMPS_GetEffectiveMode" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_PWR_ConfigAttributes" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_ConfigPVD" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_DeInit" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_DisableBkUpAccess" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_DisableLSCO" : 1,
+			"HAL_RCCEx_EnableLSCO" : 1
+		}
+	},
+	"HAL_PWR_DisablePVD" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_DisableSEVOnPend" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_DisableSleepOnExit" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_DisableWakeUpPin" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_EnableBkUpAccess" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_DisableLSCO" : 1,
+			"HAL_RCCEx_EnableLSCO" : 1
+		}
+	},
+	"HAL_PWR_EnablePVD" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_EnableSEVOnPend" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_EnableSleepOnExit" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_EnableWakeUpPin" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_EnterSLEEPMode" : 
+	{
+		"Callees" : 
+		{
+			"HAL_PWREx_DisableLowPowerRunMode" : 1,
+			"HAL_PWREx_EnableLowPowerRunMode" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_PWR_EnterSTANDBYMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_EnterSTOPMode" : 
+	{
+		"Callees" : 
+		{
+			"HAL_PWREx_EnterSTOP0Mode" : 1,
+			"HAL_PWREx_EnterSTOP1Mode" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_PWR_GetConfigAttributes" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_PWR_PVDCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_PWREx_PVD_PVM_IRQHandler" : 1
+		}
+	},
+	"HAL_RCCEx_CRSConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCCEx_CRSGetSynchronizationInfo" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCCEx_CRSSoftwareSynchronizationGenerate" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCCEx_CRSWaitSynchronization" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_CRS_ErrorCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_CRS_IRQHandler" : 1
+		}
+	},
+	"HAL_RCCEx_CRS_ExpectedSyncCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_CRS_IRQHandler" : 1
+		}
+	},
+	"HAL_RCCEx_CRS_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_RCCEx_CRS_ErrorCallback" : 1,
+			"HAL_RCCEx_CRS_ExpectedSyncCallback" : 1,
+			"HAL_RCCEx_CRS_SyncOkCallback" : 1,
+			"HAL_RCCEx_CRS_SyncWarnCallback" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_CRS_SyncOkCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_CRS_IRQHandler" : 1
+		}
+	},
+	"HAL_RCCEx_CRS_SyncWarnCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_CRS_IRQHandler" : 1
+		}
+	},
+	"HAL_RCCEx_DisableLSCO" : 
+	{
+		"Callees" : 
+		{
+			"HAL_PWR_DisableBkUpAccess" : 1,
+			"HAL_PWR_EnableBkUpAccess" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_DisableLSECSS" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCCEx_DisableMSIPLLMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCCEx_DisablePLLSAI1" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_DisablePLLSAI2" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_EnableLSCO" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GPIO_Init" : 1,
+			"HAL_PWR_DisableBkUpAccess" : 1,
+			"HAL_PWR_EnableBkUpAccess" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_EnableLSECSS" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCCEx_EnableMSIPLLMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCCEx_EnablePLLSAI1" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 4,
+			"RCCEx_PLLSource_Enable" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_EnablePLLSAI2" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 4,
+			"RCCEx_PLLSource_Enable" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_GetPeriphCLKConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCCEx_GetPeriphCLKFreq" : 
+	{
+		"Callees" : 
+		{
+			"HAL_RCC_GetPCLK1Freq" : 12,
+			"HAL_RCC_GetPCLK2Freq" : 2,
+			"HAL_RCC_GetSysClockFreq" : 12,
+			"RCCEx_GetSAIxPeriphCLKFreq" : 3,
+			"RCCEx_PLLSAI1_GetVCOFreq" : 4
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_LSECSS_Callback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_LSECSS_IRQHandler" : 1
+		}
+	},
+	"HAL_RCCEx_LSECSS_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_RCCEx_LSECSS_Callback" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_RCCEx_PeriphCLKConfig" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 4,
+			"RCCEx_PLLSAI1_Config" : 7,
+			"RCCEx_PLLSAI2_Config" : 2
+		},
+		"Callers" : 
+		{
+			"HAL_UART_MspInit" : 1
+		}
+	},
+	"HAL_RCCEx_StandbyMSIRangeConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCCEx_WakeUpStopCLKConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCC_CSSCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCC_NMI_IRQHandler" : 1
+		}
+	},
+	"HAL_RCC_ClockConfig" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2,
+			"HAL_InitTick" : 1,
+			"HAL_RCC_GetHCLKFreq" : 1,
+			"HAL_RCC_GetSysClockFreq" : 1,
+			"RCC_GetSysClockFreqFromPLLSource" : 1
+		},
+		"Callers" : 
+		{
+			"SystemClock_Config" : 1
+		}
+	},
+	"HAL_RCC_ConfigAttributes" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCC_DeInit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 8,
+			"HAL_InitTick" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_RCC_EnableCSS" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCC_GetClockConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCC_GetConfigAttributes" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCC_GetHCLKFreq" : 
+	{
+		"Callees" : 
+		{
+			"HAL_RCC_GetSysClockFreq" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_RCC_ClockConfig" : 1,
+			"HAL_RCC_GetPCLK1Freq" : 1,
+			"HAL_RCC_GetPCLK2Freq" : 1,
+			"HAL_RCC_OscConfig" : 1
+		}
+	},
+	"HAL_RCC_GetOscConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_RCC_GetPCLK1Freq" : 
+	{
+		"Callees" : 
+		{
+			"HAL_RCC_GetHCLKFreq" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_RCCEx_GetPeriphCLKFreq" : 12,
+			"UART_SetConfig" : 3
+		}
+	},
+	"HAL_RCC_GetPCLK2Freq" : 
+	{
+		"Callees" : 
+		{
+			"HAL_RCC_GetHCLKFreq" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_RCCEx_GetPeriphCLKFreq" : 2,
+			"UART_SetConfig" : 3
+		}
+	},
+	"HAL_RCC_GetSysClockFreq" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_GetPeriphCLKFreq" : 12,
+			"HAL_RCC_ClockConfig" : 1,
+			"HAL_RCC_GetHCLKFreq" : 1,
+			"UART_SetConfig" : 3
+		}
+	},
+	"HAL_RCC_MCOConfig" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GPIO_Init" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_RCC_NMI_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_RCC_CSSCallback" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_RCC_OscConfig" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 35,
+			"HAL_InitTick" : 1,
+			"HAL_RCC_GetHCLKFreq" : 1,
+			"RCC_SetFlashLatencyFromMSIRange" : 2
+		},
+		"Callers" : 
+		{
+			"SystemClock_Config" : 1
+		}
+	},
+	"HAL_RS485Ex_Init" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_MspInit" : 1,
+			"UART_AdvFeatureConfig" : 1,
+			"UART_CheckIdleState" : 1,
+			"UART_SetConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_ResumeTick" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_DisableIOAnalogBooster" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_DisableIOAnalogSwitchVdd" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_DisableVREFBUF" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_EnableIOAnalogBooster" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_EnableIOAnalogSwitchVdd" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_EnableVREFBUF" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_SYSCFG_GetLock" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_Lock" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_SRAM2Erase" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_VREFBUF_HighImpedanceConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSCFG_VREFBUF_TrimmingConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_SYSCFG_VREFBUF_VoltageScalingConfig" : 1
+		}
+	},
+	"HAL_SYSCFG_VREFBUF_VoltageScalingConfig" : 
+	{
+		"Callees" : 
+		{
+			"HAL_SYSCFG_VREFBUF_TrimmingConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_SYSTICK_CLKSourceConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_SYSTICK_Callback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_SYSTICK_IRQHandler" : 1
+		}
+	},
+	"HAL_SYSTICK_Config" : 
+	{
+		"Callees" : 
+		{
+			"SysTick_Config" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_InitTick" : 1
+		}
+	},
+	"HAL_SYSTICK_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_SYSTICK_Callback" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_SetTickFreq" : 
+	{
+		"Callees" : 
+		{
+			"HAL_InitTick" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_SuspendTick" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UARTEx_DisableFifoMode" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"MX_USART1_UART_Init" : 1
+		}
+	},
+	"HAL_UARTEx_DisableStopMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UARTEx_EnableFifoMode" : 
+	{
+		"Callees" : 
+		{
+			"UARTEx_SetNbDataToProcess" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UARTEx_EnableStopMode" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UARTEx_ReceiveToIdle" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_UARTEx_ReceiveToIdle_DMA" : 
+	{
+		"Callees" : 
+		{
+			"UART_Start_Receive_DMA" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UARTEx_ReceiveToIdle_IT" : 
+	{
+		"Callees" : 
+		{
+			"UART_Start_Receive_IT" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UARTEx_RxEventCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 2,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_RxISR_16BIT" : 1,
+			"UART_RxISR_16BIT_FIFOEN" : 1,
+			"UART_RxISR_8BIT" : 1,
+			"UART_RxISR_8BIT_FIFOEN" : 1
+		}
+	},
+	"HAL_UARTEx_RxFifoFullCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 1
+		}
+	},
+	"HAL_UARTEx_SetRxFifoThreshold" : 
+	{
+		"Callees" : 
+		{
+			"UARTEx_SetNbDataToProcess" : 1
+		},
+		"Callers" : 
+		{
+			"MX_USART1_UART_Init" : 1
+		}
+	},
+	"HAL_UARTEx_SetTxFifoThreshold" : 
+	{
+		"Callees" : 
+		{
+			"UARTEx_SetNbDataToProcess" : 1
+		},
+		"Callers" : 
+		{
+			"MX_USART1_UART_Init" : 1
+		}
+	},
+	"HAL_UARTEx_StopModeWakeUpSourceConfig" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"UARTEx_Wakeup_AddressConfig" : 1,
+			"UART_WaitOnFlagUntilTimeout" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UARTEx_TxFifoEmptyCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 1
+		}
+	},
+	"HAL_UARTEx_WakeupCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 1
+		}
+	},
+	"HAL_UART_Abort" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort" : 2,
+			"HAL_DMA_GetError" : 2
+		},
+		"Callers" : null
+	},
+	"HAL_UART_AbortCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_Abort_IT" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMATxAbortCallback" : 1
+		}
+	},
+	"HAL_UART_AbortReceive" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort" : 1,
+			"HAL_DMA_GetError" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_AbortReceiveCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_AbortReceive_IT" : 2,
+			"UART_DMARxOnlyAbortCallback" : 1
+		}
+	},
+	"HAL_UART_AbortReceive_IT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort_IT" : 1,
+			"HAL_UART_AbortReceiveCpltCallback" : 2,
+			"HAL_UART_AbortReceive_IT_Indir1" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_AbortReceive_IT_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UART_AbortReceive_IT" : 1
+		}
+	},
+	"HAL_UART_AbortTransmit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort" : 1,
+			"HAL_DMA_GetError" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_AbortTransmitCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_AbortTransmit_IT" : 2,
+			"UART_DMATxOnlyAbortCallback" : 1
+		}
+	},
+	"HAL_UART_AbortTransmit_IT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort_IT" : 1,
+			"HAL_UART_AbortTransmitCpltCallback" : 2,
+			"HAL_UART_AbortTransmit_IT_Indir1" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_AbortTransmit_IT_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UART_AbortTransmit_IT" : 1
+		}
+	},
+	"HAL_UART_Abort_IT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort_IT" : 2,
+			"HAL_UART_AbortCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_DMAPause" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UART_DMAResume" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UART_DMAStop" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort" : 2,
+			"HAL_DMA_GetError" : 2,
+			"UART_EndRxTransfer" : 1,
+			"UART_EndTxTransfer" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_DeInit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_MspDeInit" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_DisableReceiverTimeout" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UART_EnableReceiverTimeout" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UART_ErrorCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 3,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_RxISR_16BIT_FIFOEN" : 1,
+			"UART_RxISR_8BIT_FIFOEN" : 1
+		}
+	},
+	"HAL_UART_GetError" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UART_GetState" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"input" : 1,
+			"output" : 1
+		}
+	},
+	"HAL_UART_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort" : 1,
+			"HAL_DMA_Abort_IT" : 1,
+			"HAL_UARTEx_RxEventCallback" : 2,
+			"HAL_UARTEx_RxFifoFullCallback" : 1,
+			"HAL_UARTEx_TxFifoEmptyCallback" : 1,
+			"HAL_UARTEx_WakeupCallback" : 1,
+			"HAL_UART_ErrorCallback" : 3,
+			"HAL_UART_IRQHandler_Indir1" : 1,
+			"HAL_UART_IRQHandler_Indir2" : 1,
+			"HAL_UART_IRQHandler_Indir3" : 1,
+			"HAL_UART_IRQHandler_Indir4" : 1,
+			"UART_EndRxTransfer" : 1,
+			"UART_EndTransmit_IT" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_IRQHandler_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_IRQHandler" : 1,
+			"HAL_UART_MspDeInit" : 1,
+			"HAL_UART_MspInit" : 1,
+			"UART_RxISR_16BIT" : 1,
+			"UART_RxISR_16BIT_FIFOEN" : 1,
+			"UART_RxISR_8BIT" : 1,
+			"UART_RxISR_8BIT_FIFOEN" : 1,
+			"UART_TxISR_16BIT" : 1,
+			"UART_TxISR_16BIT_FIFOEN" : 1,
+			"UART_TxISR_8BIT" : 1,
+			"UART_TxISR_8BIT_FIFOEN" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 1
+		}
+	},
+	"HAL_UART_IRQHandler_Indir2" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_IRQHandler" : 1,
+			"HAL_UART_MspDeInit" : 1,
+			"HAL_UART_MspInit" : 1,
+			"UART_RxISR_16BIT" : 1,
+			"UART_RxISR_16BIT_FIFOEN" : 1,
+			"UART_RxISR_8BIT" : 1,
+			"UART_RxISR_8BIT_FIFOEN" : 1,
+			"UART_TxISR_16BIT" : 1,
+			"UART_TxISR_16BIT_FIFOEN" : 1,
+			"UART_TxISR_8BIT" : 1,
+			"UART_TxISR_8BIT_FIFOEN" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 1
+		}
+	},
+	"HAL_UART_IRQHandler_Indir3" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 1
+		}
+	},
+	"HAL_UART_IRQHandler_Indir4" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_IRQHandler" : 1,
+			"HAL_UART_MspDeInit" : 1,
+			"HAL_UART_MspInit" : 1,
+			"UART_RxISR_16BIT" : 1,
+			"UART_RxISR_16BIT_FIFOEN" : 1,
+			"UART_RxISR_8BIT" : 1,
+			"UART_RxISR_8BIT_FIFOEN" : 1,
+			"UART_TxISR_16BIT" : 1,
+			"UART_TxISR_16BIT_FIFOEN" : 1,
+			"UART_TxISR_8BIT" : 1,
+			"UART_TxISR_8BIT_FIFOEN" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 1
+		}
+	},
+	"HAL_UART_Init" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_MspInit" : 1,
+			"UART_AdvFeatureConfig" : 1,
+			"UART_CheckIdleState" : 1,
+			"UART_SetConfig" : 1
+		},
+		"Callers" : 
+		{
+			"MX_USART1_UART_Init" : 1
+		}
+	},
+	"HAL_UART_MspDeInit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GPIO_DeInit" : 1,
+			"HAL_NVIC_DisableIRQ" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_MspInit" : 
+	{
+		"Callees" : 
+		{
+			"Error_Handler" : 1,
+			"HAL_GPIO_Init" : 1,
+			"HAL_NVIC_EnableIRQ" : 1,
+			"HAL_NVIC_SetPriority" : 1,
+			"HAL_RCCEx_PeriphCLKConfig" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_Receive" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"UART_WaitOnFlagUntilTimeout" : 1
+		},
+		"Callers" : 
+		{
+			"input" : 1
+		}
+	},
+	"HAL_UART_Receive_DMA" : 
+	{
+		"Callees" : 
+		{
+			"UART_Start_Receive_DMA" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_Receive_IT" : 
+	{
+		"Callees" : 
+		{
+			"UART_Start_Receive_IT" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_ReceiverTimeout_Config" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UART_RxCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"UART_DMAReceiveCplt" : 1,
+			"UART_RxISR_16BIT" : 1,
+			"UART_RxISR_16BIT_FIFOEN" : 1,
+			"UART_RxISR_8BIT" : 1,
+			"UART_RxISR_8BIT_FIFOEN" : 1
+		}
+	},
+	"HAL_UART_RxHalfCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"UART_DMARxHalfCplt" : 1
+		}
+	},
+	"HAL_UART_Transmit" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"UART_WaitOnFlagUntilTimeout" : 2
+		},
+		"Callers" : 
+		{
+			"output" : 1
+		}
+	},
+	"HAL_UART_Transmit_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1
+		},
+		"Callers" : null
+	},
+	"HAL_UART_Transmit_IT" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"HAL_UART_TxCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"UART_DMATransmitCplt" : 1,
+			"UART_EndTransmit_IT" : 1
+		}
+	},
+	"HAL_UART_TxHalfCpltCallback" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"UART_DMATxHalfCplt" : 1
+		}
+	},
+	"I2C_ConvertOtherXferOptions" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_I2C_Master_Seq_Receive_DMA" : 1,
+			"HAL_I2C_Master_Seq_Receive_IT" : 1,
+			"HAL_I2C_Master_Seq_Transmit_DMA" : 1,
+			"HAL_I2C_Master_Seq_Transmit_IT" : 1
+		}
+	},
+	"I2C_DMAAbort" : 
+	{
+		"Callees" : 
+		{
+			"I2C_TreatErrorCallback" : 1
+		},
+		"Callers" : null
+	},
+	"I2C_DMAError" : 
+	{
+		"Callees" : 
+		{
+			"I2C_ITError" : 1
+		},
+		"Callers" : null
+	},
+	"I2C_DMAMasterReceiveCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"I2C_Enable_IRQ" : 2,
+			"I2C_ITError" : 1
+		},
+		"Callers" : null
+	},
+	"I2C_DMAMasterTransmitCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1,
+			"I2C_Enable_IRQ" : 2,
+			"I2C_ITError" : 1
+		},
+		"Callers" : null
+	},
+	"I2C_DMASlaveReceiveCplt" : 
+	{
+		"Callees" : 
+		{
+			"I2C_ITSlaveSeqCplt" : 1
+		},
+		"Callers" : null
+	},
+	"I2C_DMASlaveTransmitCplt" : 
+	{
+		"Callees" : 
+		{
+			"I2C_ITSlaveSeqCplt" : 1
+		},
+		"Callers" : null
+	},
+	"I2C_Disable_IRQ" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_I2C_DisableListen_IT" : 1,
+			"HAL_I2C_Master_Abort_IT" : 2,
+			"HAL_I2C_Slave_Seq_Receive_DMA" : 2,
+			"HAL_I2C_Slave_Seq_Receive_IT" : 2,
+			"HAL_I2C_Slave_Seq_Transmit_DMA" : 2,
+			"HAL_I2C_Slave_Seq_Transmit_IT" : 2,
+			"I2C_ITAddrCplt" : 2,
+			"I2C_ITError" : 2,
+			"I2C_ITListenCplt" : 1,
+			"I2C_ITMasterCplt" : 2,
+			"I2C_ITMasterSeqCplt" : 2,
+			"I2C_ITSlaveCplt" : 2,
+			"I2C_ITSlaveSeqCplt" : 2
+		}
+	},
+	"I2C_Enable_IRQ" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_I2C_EnableListen_IT" : 1,
+			"HAL_I2C_Master_Abort_IT" : 1,
+			"HAL_I2C_Master_Receive_DMA" : 2,
+			"HAL_I2C_Master_Receive_IT" : 1,
+			"HAL_I2C_Master_Seq_Receive_DMA" : 2,
+			"HAL_I2C_Master_Seq_Receive_IT" : 1,
+			"HAL_I2C_Master_Seq_Transmit_DMA" : 2,
+			"HAL_I2C_Master_Seq_Transmit_IT" : 1,
+			"HAL_I2C_Master_Transmit_DMA" : 2,
+			"HAL_I2C_Master_Transmit_IT" : 1,
+			"HAL_I2C_Mem_Read_DMA" : 1,
+			"HAL_I2C_Mem_Read_IT" : 1,
+			"HAL_I2C_Mem_Write_DMA" : 1,
+			"HAL_I2C_Mem_Write_IT" : 1,
+			"HAL_I2C_Slave_Receive_DMA" : 1,
+			"HAL_I2C_Slave_Receive_IT" : 1,
+			"HAL_I2C_Slave_Seq_Receive_DMA" : 1,
+			"HAL_I2C_Slave_Seq_Receive_IT" : 1,
+			"HAL_I2C_Slave_Seq_Transmit_DMA" : 1,
+			"HAL_I2C_Slave_Seq_Transmit_IT" : 1,
+			"HAL_I2C_Slave_Transmit_DMA" : 1,
+			"HAL_I2C_Slave_Transmit_IT" : 1,
+			"I2C_DMAMasterReceiveCplt" : 2,
+			"I2C_DMAMasterTransmitCplt" : 2,
+			"I2C_Master_ISR_DMA" : 1
+		}
+	},
+	"I2C_Flush_TXDR" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"I2C_ITMasterCplt" : 1,
+			"I2C_ITSlaveCplt" : 1,
+			"I2C_IsAcknowledgeFailed" : 1,
+			"I2C_Master_ISR_DMA" : 1,
+			"I2C_Master_ISR_IT" : 1,
+			"I2C_Slave_ISR_DMA" : 1,
+			"I2C_Slave_ISR_IT" : 1
+		}
+	},
+	"I2C_ITAddrCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_AddrCallback" : 3,
+			"I2C_Disable_IRQ" : 2
+		},
+		"Callers" : 
+		{
+			"I2C_Slave_ISR_DMA" : 1,
+			"I2C_Slave_ISR_IT" : 1
+		}
+	},
+	"I2C_ITError" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Abort_IT" : 2,
+			"HAL_DMA_GetState" : 2,
+			"I2C_Disable_IRQ" : 2,
+			"I2C_ITError_Indir1" : 1,
+			"I2C_ITError_Indir2" : 1,
+			"I2C_TreatErrorCallback" : 3
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_ER_IRQHandler" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_ITMasterCplt" : 1,
+			"I2C_ITSlaveCplt" : 1,
+			"I2C_Master_ISR_DMA" : 2,
+			"I2C_Master_ISR_IT" : 2,
+			"I2C_Slave_ISR_DMA" : 1,
+			"I2C_Slave_ISR_IT" : 1
+		}
+	},
+	"I2C_ITError_Indir1" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"I2C_ITError" : 1
+		}
+	},
+	"I2C_ITError_Indir2" : 
+	{
+		"Callees" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_DMAError" : 1,
+			"I2C_DMAMasterReceiveCplt" : 1,
+			"I2C_DMAMasterTransmitCplt" : 1,
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"UART_DMAAbortOnError" : 1,
+			"UART_DMAError" : 1,
+			"UART_DMAReceiveCplt" : 1,
+			"UART_DMARxAbortCallback" : 1,
+			"UART_DMARxHalfCplt" : 1,
+			"UART_DMARxOnlyAbortCallback" : 1,
+			"UART_DMATransmitCplt" : 1,
+			"UART_DMATxAbortCallback" : 1,
+			"UART_DMATxHalfCplt" : 1,
+			"UART_DMATxOnlyAbortCallback" : 1
+		},
+		"Callers" : 
+		{
+			"I2C_ITError" : 1
+		}
+	},
+	"I2C_ITListenCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_ListenCpltCallback" : 1,
+			"I2C_Disable_IRQ" : 1
+		},
+		"Callers" : 
+		{
+			"I2C_ITSlaveCplt" : 1,
+			"I2C_Slave_ISR_DMA" : 1,
+			"I2C_Slave_ISR_IT" : 1
+		}
+	},
+	"I2C_ITMasterCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_MasterRxCpltCallback" : 1,
+			"HAL_I2C_MasterTxCpltCallback" : 1,
+			"HAL_I2C_MemRxCpltCallback" : 1,
+			"HAL_I2C_MemTxCpltCallback" : 1,
+			"I2C_Disable_IRQ" : 2,
+			"I2C_Flush_TXDR" : 1,
+			"I2C_ITError" : 1
+		},
+		"Callers" : 
+		{
+			"I2C_Master_ISR_DMA" : 1,
+			"I2C_Master_ISR_IT" : 1
+		}
+	},
+	"I2C_ITMasterSeqCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_MasterRxCpltCallback" : 1,
+			"HAL_I2C_MasterTxCpltCallback" : 1,
+			"I2C_Disable_IRQ" : 2
+		},
+		"Callers" : 
+		{
+			"I2C_Master_ISR_DMA" : 2,
+			"I2C_Master_ISR_IT" : 2
+		}
+	},
+	"I2C_ITSlaveCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_ListenCpltCallback" : 1,
+			"HAL_I2C_SlaveRxCpltCallback" : 1,
+			"HAL_I2C_SlaveTxCpltCallback" : 1,
+			"I2C_Disable_IRQ" : 2,
+			"I2C_Flush_TXDR" : 1,
+			"I2C_ITError" : 1,
+			"I2C_ITListenCplt" : 1,
+			"I2C_ITSlaveSeqCplt" : 1
+		},
+		"Callers" : 
+		{
+			"I2C_Slave_ISR_DMA" : 1,
+			"I2C_Slave_ISR_IT" : 1
+		}
+	},
+	"I2C_ITSlaveSeqCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_SlaveRxCpltCallback" : 1,
+			"HAL_I2C_SlaveTxCpltCallback" : 1,
+			"I2C_Disable_IRQ" : 2
+		},
+		"Callers" : 
+		{
+			"I2C_DMASlaveReceiveCplt" : 1,
+			"I2C_DMASlaveTransmitCplt" : 1,
+			"I2C_ITSlaveCplt" : 1,
+			"I2C_Slave_ISR_DMA" : 1,
+			"I2C_Slave_ISR_IT" : 3
+		}
+	},
+	"I2C_IsAcknowledgeFailed" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_Flush_TXDR" : 1
+		},
+		"Callers" : 
+		{
+			"I2C_WaitOnRXNEFlagUntilTimeout" : 1,
+			"I2C_WaitOnSTOPFlagUntilTimeout" : 1,
+			"I2C_WaitOnTXISFlagUntilTimeout" : 1
+		}
+	},
+	"I2C_Master_ISR_DMA" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Enable_IRQ" : 1,
+			"I2C_Flush_TXDR" : 1,
+			"I2C_ITError" : 2,
+			"I2C_ITMasterCplt" : 1,
+			"I2C_ITMasterSeqCplt" : 2,
+			"I2C_TransferConfig" : 1
+		},
+		"Callers" : null
+	},
+	"I2C_Master_ISR_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Flush_TXDR" : 1,
+			"I2C_ITError" : 2,
+			"I2C_ITMasterCplt" : 1,
+			"I2C_ITMasterSeqCplt" : 2,
+			"I2C_TransferConfig" : 3
+		},
+		"Callers" : null
+	},
+	"I2C_RequestMemoryRead" : 
+	{
+		"Callees" : 
+		{
+			"I2C_TransferConfig" : 1,
+			"I2C_WaitOnFlagUntilTimeout" : 1,
+			"I2C_WaitOnTXISFlagUntilTimeout" : 2
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Mem_Read" : 1,
+			"HAL_I2C_Mem_Read_DMA" : 1,
+			"HAL_I2C_Mem_Read_IT" : 1
+		}
+	},
+	"I2C_RequestMemoryWrite" : 
+	{
+		"Callees" : 
+		{
+			"I2C_TransferConfig" : 1,
+			"I2C_WaitOnFlagUntilTimeout" : 1,
+			"I2C_WaitOnTXISFlagUntilTimeout" : 2
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Mem_Write" : 1,
+			"HAL_I2C_Mem_Write_DMA" : 1,
+			"HAL_I2C_Mem_Write_IT" : 1
+		}
+	},
+	"I2C_Slave_ISR_DMA" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Flush_TXDR" : 1,
+			"I2C_ITAddrCplt" : 1,
+			"I2C_ITError" : 1,
+			"I2C_ITListenCplt" : 1,
+			"I2C_ITSlaveCplt" : 1,
+			"I2C_ITSlaveSeqCplt" : 1
+		},
+		"Callers" : null
+	},
+	"I2C_Slave_ISR_IT" : 
+	{
+		"Callees" : 
+		{
+			"I2C_Flush_TXDR" : 1,
+			"I2C_ITAddrCplt" : 1,
+			"I2C_ITError" : 1,
+			"I2C_ITListenCplt" : 1,
+			"I2C_ITSlaveCplt" : 1,
+			"I2C_ITSlaveSeqCplt" : 3
+		},
+		"Callers" : null
+	},
+	"I2C_TransferConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_I2C_Master_Abort_IT" : 1,
+			"HAL_I2C_Master_Receive" : 4,
+			"HAL_I2C_Master_Receive_DMA" : 2,
+			"HAL_I2C_Master_Receive_IT" : 1,
+			"HAL_I2C_Master_Seq_Receive_DMA" : 2,
+			"HAL_I2C_Master_Seq_Receive_IT" : 1,
+			"HAL_I2C_Master_Seq_Transmit_DMA" : 2,
+			"HAL_I2C_Master_Seq_Transmit_IT" : 1,
+			"HAL_I2C_Master_Transmit" : 4,
+			"HAL_I2C_Master_Transmit_DMA" : 2,
+			"HAL_I2C_Master_Transmit_IT" : 1,
+			"HAL_I2C_Mem_Read" : 4,
+			"HAL_I2C_Mem_Read_DMA" : 1,
+			"HAL_I2C_Mem_Read_IT" : 1,
+			"HAL_I2C_Mem_Write" : 4,
+			"HAL_I2C_Mem_Write_DMA" : 1,
+			"HAL_I2C_Mem_Write_IT" : 1,
+			"I2C_Master_ISR_DMA" : 1,
+			"I2C_Master_ISR_IT" : 3,
+			"I2C_RequestMemoryRead" : 1,
+			"I2C_RequestMemoryWrite" : 1
+		}
+	},
+	"I2C_TreatErrorCallback" : 
+	{
+		"Callees" : 
+		{
+			"HAL_I2C_AbortCpltCallback" : 1,
+			"HAL_I2C_ErrorCallback" : 1
+		},
+		"Callers" : 
+		{
+			"I2C_DMAAbort" : 1,
+			"I2C_ITError" : 3
+		}
+	},
+	"I2C_WaitOnFlagUntilTimeout" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_IsDeviceReady" : 3,
+			"HAL_I2C_Master_Receive" : 2,
+			"HAL_I2C_Master_Transmit" : 2,
+			"HAL_I2C_Mem_Read" : 3,
+			"HAL_I2C_Mem_Write" : 2,
+			"HAL_I2C_Slave_Receive" : 3,
+			"HAL_I2C_Slave_Transmit" : 4,
+			"I2C_RequestMemoryRead" : 1,
+			"I2C_RequestMemoryWrite" : 1
+		}
+	},
+	"I2C_WaitOnRXNEFlagUntilTimeout" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_IsAcknowledgeFailed" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Master_Receive" : 1,
+			"HAL_I2C_Slave_Receive" : 1
+		}
+	},
+	"I2C_WaitOnSTOPFlagUntilTimeout" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_IsAcknowledgeFailed" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Master_Receive" : 1,
+			"HAL_I2C_Master_Transmit" : 1,
+			"HAL_I2C_Mem_Read" : 1,
+			"HAL_I2C_Mem_Write" : 1,
+			"HAL_I2C_Slave_Receive" : 1,
+			"HAL_I2C_Slave_Transmit" : 1
+		}
+	},
+	"I2C_WaitOnTXISFlagUntilTimeout" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"I2C_IsAcknowledgeFailed" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_I2C_Master_Transmit" : 1,
+			"HAL_I2C_Mem_Write" : 1,
+			"HAL_I2C_Slave_Transmit" : 1,
+			"I2C_RequestMemoryRead" : 2,
+			"I2C_RequestMemoryWrite" : 2
+		}
+	},
+	"MPU_ConfigMemoryAttributes" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_MPU_ConfigMemoryAttributes" : 1
+		}
+	},
+	"MPU_ConfigRegion" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_MPU_ConfigRegion" : 1
+		}
+	},
+	"MX_GPIO_Init" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"init" : 1
+		}
+	},
+	"MX_USART1_UART_Init" : 
+	{
+		"Callees" : 
+		{
+			"Error_Handler" : 4,
+			"HAL_UARTEx_DisableFifoMode" : 1,
+			"HAL_UARTEx_SetRxFifoThreshold" : 1,
+			"HAL_UARTEx_SetTxFifoThreshold" : 1,
+			"HAL_UART_Init" : 1
+		},
+		"Callers" : 
+		{
+			"init" : 1
+		}
+	},
+	"MemManage_Handler" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"NVIC_DecodePriority" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_GetPriority" : 1
+		}
+	},
+	"NVIC_EncodePriority" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_SetPriority" : 1
+		}
+	},
+	"PendSV_Handler" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"RCCEx_GetSAIxPeriphCLKFreq" : 
+	{
+		"Callees" : 
+		{
+			"RCCEx_PLLSAI1_GetVCOFreq" : 1,
+			"RCCEx_PLLSAI2_GetVCOFreq" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_RCCEx_GetPeriphCLKFreq" : 3
+		}
+	},
+	"RCCEx_PLLSAI1_Config" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 4
+		},
+		"Callers" : 
+		{
+			"HAL_RCCEx_PeriphCLKConfig" : 7
+		}
+	},
+	"RCCEx_PLLSAI1_GetVCOFreq" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCCEx_GetPeriphCLKFreq" : 4,
+			"RCCEx_GetSAIxPeriphCLKFreq" : 1
+		}
+	},
+	"RCCEx_PLLSAI2_Config" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 4
+		},
+		"Callers" : 
+		{
+			"HAL_RCCEx_PeriphCLKConfig" : 2
+		}
+	},
+	"RCCEx_PLLSAI2_GetVCOFreq" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"RCCEx_GetSAIxPeriphCLKFreq" : 1
+		}
+	},
+	"RCCEx_PLLSource_Enable" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 6
+		},
+		"Callers" : 
+		{
+			"HAL_RCCEx_EnablePLLSAI1" : 1,
+			"HAL_RCCEx_EnablePLLSAI2" : 1
+		}
+	},
+	"RCC_GetSysClockFreqFromPLLSource" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_RCC_ClockConfig" : 1
+		}
+	},
+	"RCC_SetFlashLatencyFromMSIRange" : 
+	{
+		"Callees" : 
+		{
+			"HAL_PWREx_GetVoltageRange" : 2
+		},
+		"Callers" : 
+		{
+			"HAL_RCC_OscConfig" : 2
+		}
+	},
+	"SECURE_SystemCoreClockUpdate" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"SystemCoreClockUpdate" : 1
+		}
+	},
+	"SysTick_Config" : 
+	{
+		"Callees" : 
+		{
+			"__NVIC_SetPriority" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_SYSTICK_Config" : 1
+		}
+	},
+	"SysTick_Handler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_IncTick" : 1
+		},
+		"Callers" : null
+	},
+	"SystemClock_Config" : 
+	{
+		"Callees" : 
+		{
+			"Error_Handler" : 3,
+			"HAL_PWREx_ControlVoltageScaling" : 1,
+			"HAL_RCC_ClockConfig" : 1,
+			"HAL_RCC_OscConfig" : 1
+		},
+		"Callers" : 
+		{
+			"init" : 1
+		}
+	},
+	"SystemCoreClockUpdate" : 
+	{
+		"Callees" : 
+		{
+			"SECURE_SystemCoreClockUpdate" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_Init" : 1
+		}
+	},
+	"SystemInit" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"UARTEx_SetNbDataToProcess" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UARTEx_EnableFifoMode" : 1,
+			"HAL_UARTEx_SetRxFifoThreshold" : 1,
+			"HAL_UARTEx_SetTxFifoThreshold" : 1
+		}
+	},
+	"UARTEx_Wakeup_AddressConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UARTEx_StopModeWakeUpSourceConfig" : 1
+		}
+	},
+	"UART_AdvFeatureConfig" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_HalfDuplex_Init" : 1,
+			"HAL_LIN_Init" : 1,
+			"HAL_MultiProcessor_Init" : 1,
+			"HAL_RS485Ex_Init" : 1,
+			"HAL_UART_Init" : 1
+		}
+	},
+	"UART_CheckIdleState" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1,
+			"UART_WaitOnFlagUntilTimeout" : 2
+		},
+		"Callers" : 
+		{
+			"HAL_HalfDuplex_Init" : 1,
+			"HAL_LIN_Init" : 1,
+			"HAL_MultiProcessorEx_AddressLength_Set" : 1,
+			"HAL_MultiProcessor_DisableMuteMode" : 1,
+			"HAL_MultiProcessor_EnableMuteMode" : 1,
+			"HAL_MultiProcessor_Init" : 1,
+			"HAL_RS485Ex_Init" : 1,
+			"HAL_UART_Init" : 1
+		}
+	},
+	"UART_DMAAbortOnError" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_ErrorCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_DMAError" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_ErrorCallback" : 1,
+			"UART_EndRxTransfer" : 1,
+			"UART_EndTxTransfer" : 1
+		},
+		"Callers" : null
+	},
+	"UART_DMAReceiveCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UARTEx_RxEventCallback" : 1,
+			"HAL_UART_RxCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_DMARxAbortCallback" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_AbortCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_DMARxHalfCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UARTEx_RxEventCallback" : 1,
+			"HAL_UART_RxHalfCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_DMARxOnlyAbortCallback" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_AbortReceiveCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_DMATransmitCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_TxCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_DMATxAbortCallback" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_AbortCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_DMATxHalfCplt" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_TxHalfCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_DMATxOnlyAbortCallback" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_AbortTransmitCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_EndRxTransfer" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_DMAStop" : 1,
+			"HAL_UART_IRQHandler" : 1,
+			"UART_DMAError" : 1
+		}
+	},
+	"UART_EndTransmit_IT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_TxCpltCallback" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UART_IRQHandler" : 1
+		}
+	},
+	"UART_EndTxTransfer" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UART_DMAStop" : 1,
+			"UART_DMAError" : 1
+		}
+	},
+	"UART_RxISR_16BIT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UARTEx_RxEventCallback" : 1,
+			"HAL_UART_RxCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_RxISR_16BIT_FIFOEN" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UARTEx_RxEventCallback" : 1,
+			"HAL_UART_ErrorCallback" : 1,
+			"HAL_UART_RxCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_RxISR_8BIT" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UARTEx_RxEventCallback" : 1,
+			"HAL_UART_RxCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_RxISR_8BIT_FIFOEN" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UARTEx_RxEventCallback" : 1,
+			"HAL_UART_ErrorCallback" : 1,
+			"HAL_UART_RxCpltCallback" : 1
+		},
+		"Callers" : null
+	},
+	"UART_SetConfig" : 
+	{
+		"Callees" : 
+		{
+			"HAL_RCC_GetPCLK1Freq" : 3,
+			"HAL_RCC_GetPCLK2Freq" : 3,
+			"HAL_RCC_GetSysClockFreq" : 3
+		},
+		"Callers" : 
+		{
+			"HAL_HalfDuplex_Init" : 1,
+			"HAL_LIN_Init" : 1,
+			"HAL_MultiProcessor_Init" : 1,
+			"HAL_RS485Ex_Init" : 1,
+			"HAL_UART_Init" : 1
+		}
+	},
+	"UART_Start_Receive_DMA" : 
+	{
+		"Callees" : 
+		{
+			"HAL_DMA_Start_IT" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UARTEx_ReceiveToIdle_DMA" : 1,
+			"HAL_UART_Receive_DMA" : 1
+		}
+	},
+	"UART_Start_Receive_IT" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_UARTEx_ReceiveToIdle_IT" : 1,
+			"HAL_UART_Receive_IT" : 1
+		}
+	},
+	"UART_TxISR_16BIT" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"UART_TxISR_16BIT_FIFOEN" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"UART_TxISR_8BIT" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"UART_TxISR_8BIT_FIFOEN" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"UART_WaitOnFlagUntilTimeout" : 
+	{
+		"Callees" : 
+		{
+			"HAL_GetTick" : 1
+		},
+		"Callers" : 
+		{
+			"HAL_UARTEx_StopModeWakeUpSourceConfig" : 1,
+			"HAL_UART_Receive" : 1,
+			"HAL_UART_Transmit" : 2,
+			"UART_CheckIdleState" : 2
+		}
+	},
+	"USART1_IRQHandler" : 
+	{
+		"Callees" : 
+		{
+			"HAL_UART_IRQHandler" : 1
+		},
+		"Callers" : null
+	},
+	"UsageFault_Handler" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"__NVIC_ClearPendingIRQ" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_ClearPendingIRQ" : 1
+		}
+	},
+	"__NVIC_DisableIRQ" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_DisableIRQ" : 1
+		}
+	},
+	"__NVIC_EnableIRQ" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_EnableIRQ" : 1
+		}
+	},
+	"__NVIC_GetActive" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_GetActive" : 1
+		}
+	},
+	"__NVIC_GetPendingIRQ" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_GetPendingIRQ" : 1
+		}
+	},
+	"__NVIC_GetPriority" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_GetPriority" : 1
+		}
+	},
+	"__NVIC_GetPriorityGrouping" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_GetPriorityGrouping" : 1,
+			"HAL_NVIC_SetPriority" : 1
+		}
+	},
+	"__NVIC_SetPendingIRQ" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_SetPendingIRQ" : 1
+		}
+	},
+	"__NVIC_SetPriority" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_SetPriority" : 1,
+			"SysTick_Config" : 1
+		}
+	},
+	"__NVIC_SetPriorityGrouping" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_SetPriorityGrouping" : 1
+		}
+	},
+	"__NVIC_SystemReset" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"HAL_NVIC_SystemReset" : 1
+		}
+	},
+	"__errno" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"_execve" : 1,
+			"_fork" : 1,
+			"_kill" : 1,
+			"_link" : 1,
+			"_sbrk" : 1,
+			"_unlink" : 1,
+			"_wait" : 1
+		}
+	},
+	"__io_getchar" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"_read" : 1
+		}
+	},
+	"__io_putchar" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"_write" : 1
+		}
+	},
+	"_close" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"_execve" : 
+	{
+		"Callees" : 
+		{
+			"__errno" : 1
+		},
+		"Callers" : null
+	},
+	"_exit" : 
+	{
+		"Callees" : 
+		{
+			"_kill" : 1
+		},
+		"Callers" : null
+	},
+	"_fork" : 
+	{
+		"Callees" : 
+		{
+			"__errno" : 1
+		},
+		"Callers" : null
+	},
+	"_fstat" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"_getpid" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"_isatty" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"_kill" : 
+	{
+		"Callees" : 
+		{
+			"__errno" : 1
+		},
+		"Callers" : 
+		{
+			"_exit" : 1
+		}
+	},
+	"_link" : 
+	{
+		"Callees" : 
+		{
+			"__errno" : 1
+		},
+		"Callers" : null
+	},
+	"_lseek" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"_open" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"_read" : 
+	{
+		"Callees" : 
+		{
+			"__io_getchar" : 1
+		},
+		"Callers" : null
+	},
+	"_sbrk" : 
+	{
+		"Callees" : 
+		{
+			"__errno" : 1
+		},
+		"Callers" : null
+	},
+	"_stat" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"_times" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"_unlink" : 
+	{
+		"Callees" : 
+		{
+			"__errno" : 1
+		},
+		"Callers" : null
+	},
+	"_wait" : 
+	{
+		"Callees" : 
+		{
+			"__errno" : 1
+		},
+		"Callers" : null
+	},
+	"_write" : 
+	{
+		"Callees" : 
+		{
+			"__io_putchar" : 1
+		},
+		"Callers" : null
+	},
+	"atoi" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"main_logic" : 1
+		}
+	},
+	"init" : 
+	{
+		"Callees" : 
+		{
+			"DWT_Init" : 1,
+			"HAL_Init" : 1,
+			"MX_GPIO_Init" : 1,
+			"MX_USART1_UART_Init" : 1,
+			"SystemClock_Config" : 1
+		},
+		"Callers" : 
+		{
+			"main" : 1
+		}
+	},
+	"initialise_monitor_handles" : 
+	{
+		"Callees" : null,
+		"Callers" : null
+	},
+	"input" : 
+	{
+		"Callees" : 
+		{
+			"Error_Handler" : 1,
+			"HAL_UART_GetState" : 1,
+			"HAL_UART_Receive" : 1
+		},
+		"Callers" : 
+		{
+			"main_logic" : 1
+		}
+	},
+	"judge_legality" : 
+	{
+		"Callees" : 
+		{
+			"output" : 1,
+			"sprintf" : 1,
+			"trust_interface" : 1
+		},
+		"Callers" : null
+	},
+	"main" : 
+	{
+		"Callees" : 
+		{
+			"init" : 1,
+			"main_logic" : 1
+		},
+		"Callers" : null
+	},
+	"main_logic" : 
+	{
+		"Callees" : 
+		{
+			"DWT_GetTick" : 2,
+			"HAL_Delay" : 1,
+			"atoi" : 1,
+			"input" : 1,
+			"output" : 7,
+			"sprintf" : 7
+		},
+		"Callers" : 
+		{
+			"main" : 1
+		}
+	},
+	"output" : 
+	{
+		"Callees" : 
+		{
+			"Error_Handler" : 1,
+			"HAL_UART_GetState" : 1,
+			"HAL_UART_Transmit" : 1,
+			"strlen" : 1
+		},
+		"Callers" : 
+		{
+			"judge_legality" : 1,
+			"main_logic" : 7
+		}
+	},
+	"sprintf" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"judge_legality" : 1,
+			"main_logic" : 7
+		}
+	},
+	"strlen" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"output" : 1
+		}
+	},
+	"trust_interface" : 
+	{
+		"Callees" : null,
+		"Callers" : 
+		{
+			"judge_legality" : 1
+		}
+	}
+}

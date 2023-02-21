@@ -1,0 +1,1960 @@
+{
+ "DMA_CalcDMAMUXChannelBaseAndMask": [],
+ "DMA_CalcDMAMUXRequestGenBaseAndMask": [],
+ "DMA_MultiBufferSetConfig": [],
+ "DMA_SetConfig": [],
+ "DWT_GetTick": [],
+ "DWT_Init": [],
+ "Error_Handler": [],
+ "FLASH_MassErase": [],
+ "FLASH_OB_BootAddrConfig": [],
+ "FLASH_OB_GetBootAddr": [],
+ "FLASH_OB_GetRDP": [],
+ "FLASH_OB_GetUser": [],
+ "FLASH_OB_GetWRP": [],
+ "FLASH_OB_RDPConfig": [],
+ "FLASH_OB_UserConfig": [],
+ "FLASH_OB_WRPConfig": [],
+ "FLASH_PageErase": [],
+ "FLASH_Program_DoubleWord": [],
+ "FLASH_WaitForLastOperation": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_DBGMCU_DisableDBGStandbyMode": [],
+ "HAL_DBGMCU_DisableDBGStopMode": [],
+ "HAL_DBGMCU_EnableDBGStandbyMode": [],
+ "HAL_DBGMCU_EnableDBGStopMode": [],
+ "HAL_DMAEx_ChangeMemory": [],
+ "HAL_DMAEx_ConfigMuxRequestGenerator": [],
+ "HAL_DMAEx_ConfigMuxSync": [],
+ "HAL_DMAEx_DisableMuxRequestGenerator": [],
+ "HAL_DMAEx_EnableMuxRequestGenerator": [],
+ "HAL_DMAEx_MUX_IRQHandler": [
+  "HAL_DMAEx_MUX_IRQHandler_Indir1",
+  "HAL_DMAEx_MUX_IRQHandler_Indir2"
+ ],
+ "HAL_DMAEx_MUX_IRQHandler_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMAEx_MUX_IRQHandler_Indir2": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMAEx_MultiBufferStart": [
+  "DMA_MultiBufferSetConfig"
+ ],
+ "HAL_DMAEx_MultiBufferStart_IT": [
+  "DMA_MultiBufferSetConfig"
+ ],
+ "HAL_DMA_Abort": [],
+ "HAL_DMA_Abort_IT": [
+  "HAL_DMA_Abort_IT_Indir1"
+ ],
+ "HAL_DMA_Abort_IT_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMA_ConfigChannelAttributes": [],
+ "HAL_DMA_DeInit": [
+  "DMA_CalcDMAMUXChannelBaseAndMask",
+  "DMA_CalcDMAMUXRequestGenBaseAndMask"
+ ],
+ "HAL_DMA_GetConfigChannelAttributes": [],
+ "HAL_DMA_GetError": [],
+ "HAL_DMA_GetState": [],
+ "HAL_DMA_IRQHandler": [
+  "HAL_DMA_IRQHandler_Indir1",
+  "HAL_DMA_IRQHandler_Indir2",
+  "HAL_DMA_IRQHandler_Indir3",
+  "HAL_DMA_IRQHandler_Indir4",
+  "HAL_DMA_IRQHandler_Indir5",
+  "HAL_DMA_IRQHandler_Indir6",
+  "HAL_DMA_IRQHandler_Indir7"
+ ],
+ "HAL_DMA_IRQHandler_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMA_IRQHandler_Indir2": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMA_IRQHandler_Indir3": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMA_IRQHandler_Indir4": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMA_IRQHandler_Indir5": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMA_IRQHandler_Indir6": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMA_IRQHandler_Indir7": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_DMA_Init": [
+  "DMA_CalcDMAMUXChannelBaseAndMask",
+  "DMA_CalcDMAMUXRequestGenBaseAndMask"
+ ],
+ "HAL_DMA_PollForTransfer": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_DMA_RegisterCallback": [],
+ "HAL_DMA_Start": [
+  "DMA_SetConfig"
+ ],
+ "HAL_DMA_Start_IT": [
+  "DMA_SetConfig"
+ ],
+ "HAL_DMA_UnRegisterCallback": [],
+ "HAL_DeInit": [
+  "HAL_MspDeInit"
+ ],
+ "HAL_Delay": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_EXTI_ClearConfigLine": [],
+ "HAL_EXTI_ClearPending": [],
+ "HAL_EXTI_ConfigLineAttributes": [],
+ "HAL_EXTI_GenerateSWI": [],
+ "HAL_EXTI_GetConfigLine": [],
+ "HAL_EXTI_GetConfigLineAttributes": [],
+ "HAL_EXTI_GetHandle": [],
+ "HAL_EXTI_GetPending": [],
+ "HAL_EXTI_IRQHandler": [
+  "HAL_EXTI_IRQHandler_Indir1",
+  "HAL_EXTI_IRQHandler_Indir2"
+ ],
+ "HAL_EXTI_IRQHandler_Indir1": [],
+ "HAL_EXTI_IRQHandler_Indir2": [],
+ "HAL_EXTI_RegisterCallback": [],
+ "HAL_EXTI_SetConfigLine": [],
+ "HAL_FLASHEx_ConfigLVEPin": [
+  "FLASH_WaitForLastOperation",
+  "HAL_PWREx_GetVoltageRange"
+ ],
+ "HAL_FLASHEx_ConfigPrivMode": [],
+ "HAL_FLASHEx_DisableRunPowerDown": [],
+ "HAL_FLASHEx_EnableRunPowerDown": [],
+ "HAL_FLASHEx_Erase": [
+  "FLASH_MassErase",
+  "FLASH_PageErase",
+  "FLASH_WaitForLastOperation",
+  "FLASH_WaitForLastOperation",
+  "FLASH_WaitForLastOperation"
+ ],
+ "HAL_FLASHEx_Erase_IT": [
+  "FLASH_MassErase",
+  "FLASH_PageErase",
+  "FLASH_WaitForLastOperation"
+ ],
+ "HAL_FLASHEx_GetLVEPin": [],
+ "HAL_FLASHEx_GetPrivMode": [],
+ "HAL_FLASHEx_OBGetConfig": [
+  "FLASH_OB_GetBootAddr",
+  "FLASH_OB_GetRDP",
+  "FLASH_OB_GetUser",
+  "FLASH_OB_GetWRP"
+ ],
+ "HAL_FLASHEx_OBProgram": [
+  "FLASH_OB_BootAddrConfig",
+  "FLASH_OB_RDPConfig",
+  "FLASH_OB_UserConfig",
+  "FLASH_OB_WRPConfig",
+  "FLASH_WaitForLastOperation",
+  "FLASH_WaitForLastOperation"
+ ],
+ "HAL_FLASHEx_OB_DBankConfig": [],
+ "HAL_FLASH_EndOfOperationCallback": [],
+ "HAL_FLASH_GetError": [],
+ "HAL_FLASH_IRQHandler": [
+  "FLASH_PageErase",
+  "HAL_FLASH_EndOfOperationCallback",
+  "HAL_FLASH_OperationErrorCallback"
+ ],
+ "HAL_FLASH_Lock": [],
+ "HAL_FLASH_OB_Launch": [],
+ "HAL_FLASH_OB_Lock": [],
+ "HAL_FLASH_OB_Unlock": [],
+ "HAL_FLASH_OperationErrorCallback": [],
+ "HAL_FLASH_Program": [
+  "FLASH_Program_DoubleWord",
+  "FLASH_WaitForLastOperation",
+  "FLASH_WaitForLastOperation"
+ ],
+ "HAL_FLASH_Program_IT": [
+  "FLASH_Program_DoubleWord",
+  "FLASH_WaitForLastOperation"
+ ],
+ "HAL_FLASH_Unlock": [],
+ "HAL_GPIO_DeInit": [],
+ "HAL_GPIO_EXTI_Falling_Callback": [],
+ "HAL_GPIO_EXTI_IRQHandler": [
+  "HAL_GPIO_EXTI_Falling_Callback",
+  "HAL_GPIO_EXTI_Rising_Callback"
+ ],
+ "HAL_GPIO_EXTI_Rising_Callback": [],
+ "HAL_GPIO_Init": [],
+ "HAL_GPIO_LockPin": [],
+ "HAL_GPIO_ReadPin": [],
+ "HAL_GPIO_TogglePin": [],
+ "HAL_GPIO_WritePin": [],
+ "HAL_GetDEVID": [],
+ "HAL_GetHalVersion": [],
+ "HAL_GetREVID": [],
+ "HAL_GetTick": [],
+ "HAL_GetTickFreq": [],
+ "HAL_GetTickPrio": [],
+ "HAL_GetUIDw0": [],
+ "HAL_GetUIDw1": [],
+ "HAL_GetUIDw2": [],
+ "HAL_HalfDuplex_EnableReceiver": [],
+ "HAL_HalfDuplex_EnableTransmitter": [],
+ "HAL_HalfDuplex_Init": [
+  "HAL_UART_MspInit",
+  "UART_AdvFeatureConfig",
+  "UART_CheckIdleState",
+  "UART_SetConfig"
+ ],
+ "HAL_I2CEx_ConfigAnalogFilter": [],
+ "HAL_I2CEx_ConfigDigitalFilter": [],
+ "HAL_I2CEx_DisableFastModePlus": [],
+ "HAL_I2CEx_DisableWakeUp": [],
+ "HAL_I2CEx_EnableFastModePlus": [],
+ "HAL_I2CEx_EnableWakeUp": [],
+ "HAL_I2C_AbortCpltCallback": [],
+ "HAL_I2C_AddrCallback": [],
+ "HAL_I2C_DeInit": [
+  "HAL_I2C_MspDeInit"
+ ],
+ "HAL_I2C_DisableListen_IT": [
+  "I2C_Disable_IRQ"
+ ],
+ "HAL_I2C_ER_IRQHandler": [
+  "I2C_ITError"
+ ],
+ "HAL_I2C_EV_IRQHandler": [
+  "HAL_I2C_EV_IRQHandler_Indir1"
+ ],
+ "HAL_I2C_EV_IRQHandler_Indir1": [
+  "I2C_Master_ISR_DMA",
+  "I2C_Master_ISR_IT",
+  "I2C_Slave_ISR_DMA",
+  "I2C_Slave_ISR_IT"
+ ],
+ "HAL_I2C_EnableListen_IT": [
+  "I2C_Enable_IRQ"
+ ],
+ "HAL_I2C_ErrorCallback": [],
+ "HAL_I2C_GetError": [],
+ "HAL_I2C_GetMode": [],
+ "HAL_I2C_GetState": [],
+ "HAL_I2C_Init": [
+  "HAL_I2C_MspInit"
+ ],
+ "HAL_I2C_IsDeviceReady": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout"
+ ],
+ "HAL_I2C_ListenCpltCallback": [],
+ "HAL_I2C_MasterRxCpltCallback": [],
+ "HAL_I2C_MasterTxCpltCallback": [],
+ "HAL_I2C_Master_Abort_IT": [
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ",
+  "I2C_Enable_IRQ",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Master_Receive": [
+  "HAL_GetTick",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnRXNEFlagUntilTimeout",
+  "I2C_WaitOnSTOPFlagUntilTimeout"
+ ],
+ "HAL_I2C_Master_Receive_DMA": [
+  "HAL_DMA_Start_IT",
+  "I2C_Enable_IRQ",
+  "I2C_Enable_IRQ",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Master_Receive_IT": [
+  "I2C_Enable_IRQ",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Master_Seq_Receive_DMA": [
+  "HAL_DMA_Start_IT",
+  "I2C_ConvertOtherXferOptions",
+  "I2C_Enable_IRQ",
+  "I2C_Enable_IRQ",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Master_Seq_Receive_IT": [
+  "I2C_ConvertOtherXferOptions",
+  "I2C_Enable_IRQ",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Master_Seq_Transmit_DMA": [
+  "HAL_DMA_Start_IT",
+  "I2C_ConvertOtherXferOptions",
+  "I2C_Enable_IRQ",
+  "I2C_Enable_IRQ",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Master_Seq_Transmit_IT": [
+  "I2C_ConvertOtherXferOptions",
+  "I2C_Enable_IRQ",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Master_Transmit": [
+  "HAL_GetTick",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnSTOPFlagUntilTimeout",
+  "I2C_WaitOnTXISFlagUntilTimeout"
+ ],
+ "HAL_I2C_Master_Transmit_DMA": [
+  "HAL_DMA_Start_IT",
+  "I2C_Enable_IRQ",
+  "I2C_Enable_IRQ",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Master_Transmit_IT": [
+  "I2C_Enable_IRQ",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_MemRxCpltCallback": [],
+ "HAL_I2C_MemTxCpltCallback": [],
+ "HAL_I2C_Mem_Read": [
+  "HAL_GetTick",
+  "I2C_RequestMemoryRead",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnSTOPFlagUntilTimeout"
+ ],
+ "HAL_I2C_Mem_Read_DMA": [
+  "HAL_DMA_Start_IT",
+  "HAL_GetTick",
+  "I2C_Enable_IRQ",
+  "I2C_RequestMemoryRead",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Mem_Read_IT": [
+  "HAL_GetTick",
+  "I2C_Enable_IRQ",
+  "I2C_RequestMemoryRead",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Mem_Write": [
+  "HAL_GetTick",
+  "I2C_RequestMemoryWrite",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnSTOPFlagUntilTimeout",
+  "I2C_WaitOnTXISFlagUntilTimeout"
+ ],
+ "HAL_I2C_Mem_Write_DMA": [
+  "HAL_DMA_Start_IT",
+  "HAL_GetTick",
+  "I2C_Enable_IRQ",
+  "I2C_RequestMemoryWrite",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_Mem_Write_IT": [
+  "HAL_GetTick",
+  "I2C_Enable_IRQ",
+  "I2C_RequestMemoryWrite",
+  "I2C_TransferConfig"
+ ],
+ "HAL_I2C_MspDeInit": [],
+ "HAL_I2C_MspInit": [],
+ "HAL_I2C_SlaveRxCpltCallback": [],
+ "HAL_I2C_SlaveTxCpltCallback": [],
+ "HAL_I2C_Slave_Receive": [
+  "HAL_GetTick",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnRXNEFlagUntilTimeout",
+  "I2C_WaitOnSTOPFlagUntilTimeout"
+ ],
+ "HAL_I2C_Slave_Receive_DMA": [
+  "HAL_DMA_Start_IT",
+  "I2C_Enable_IRQ"
+ ],
+ "HAL_I2C_Slave_Receive_IT": [
+  "I2C_Enable_IRQ"
+ ],
+ "HAL_I2C_Slave_Seq_Receive_DMA": [
+  "HAL_DMA_Abort_IT",
+  "HAL_DMA_Abort_IT",
+  "HAL_DMA_Start_IT",
+  "HAL_I2C_Slave_Seq_Receive_DMA_Indir1",
+  "HAL_I2C_Slave_Seq_Receive_DMA_Indir2",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ",
+  "I2C_Enable_IRQ"
+ ],
+ "HAL_I2C_Slave_Seq_Receive_DMA_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_I2C_Slave_Seq_Receive_DMA_Indir2": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_I2C_Slave_Seq_Receive_IT": [
+  "HAL_DMA_Abort_IT",
+  "HAL_I2C_Slave_Seq_Receive_IT_Indir1",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ",
+  "I2C_Enable_IRQ"
+ ],
+ "HAL_I2C_Slave_Seq_Receive_IT_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_I2C_Slave_Seq_Transmit_DMA": [
+  "HAL_DMA_Abort_IT",
+  "HAL_DMA_Abort_IT",
+  "HAL_DMA_Start_IT",
+  "HAL_I2C_Slave_Seq_Transmit_DMA_Indir1",
+  "HAL_I2C_Slave_Seq_Transmit_DMA_Indir2",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ",
+  "I2C_Enable_IRQ"
+ ],
+ "HAL_I2C_Slave_Seq_Transmit_DMA_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_I2C_Slave_Seq_Transmit_DMA_Indir2": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_I2C_Slave_Seq_Transmit_IT": [
+  "HAL_DMA_Abort_IT",
+  "HAL_I2C_Slave_Seq_Transmit_IT_Indir1",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ",
+  "I2C_Enable_IRQ"
+ ],
+ "HAL_I2C_Slave_Seq_Transmit_IT_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_I2C_Slave_Transmit": [
+  "HAL_GetTick",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnSTOPFlagUntilTimeout",
+  "I2C_WaitOnTXISFlagUntilTimeout"
+ ],
+ "HAL_I2C_Slave_Transmit_DMA": [
+  "HAL_DMA_Start_IT",
+  "I2C_Enable_IRQ"
+ ],
+ "HAL_I2C_Slave_Transmit_IT": [
+  "I2C_Enable_IRQ"
+ ],
+ "HAL_ICACHE_ConfigAssociativityMode": [],
+ "HAL_ICACHE_DeInit": [
+  "HAL_ICACHE_DisableRemapRegion",
+  "HAL_ICACHE_DisableRemapRegion",
+  "HAL_ICACHE_DisableRemapRegion",
+  "HAL_ICACHE_DisableRemapRegion",
+  "HAL_ICACHE_Monitor_Reset",
+  "HAL_ICACHE_Monitor_Stop",
+  "HAL_ICACHE_WaitForInvalidateComplete"
+ ],
+ "HAL_ICACHE_Disable": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_ICACHE_DisableRemapRegion": [],
+ "HAL_ICACHE_Enable": [],
+ "HAL_ICACHE_EnableRemapRegion": [],
+ "HAL_ICACHE_ErrorCallback": [],
+ "HAL_ICACHE_IRQHandler": [
+  "HAL_ICACHE_ErrorCallback",
+  "HAL_ICACHE_InvalidateCompleteCallback"
+ ],
+ "HAL_ICACHE_Invalidate": [
+  "HAL_ICACHE_WaitForInvalidateComplete"
+ ],
+ "HAL_ICACHE_InvalidateCompleteCallback": [],
+ "HAL_ICACHE_Invalidate_IT": [],
+ "HAL_ICACHE_Monitor_GetHitValue": [],
+ "HAL_ICACHE_Monitor_GetMissValue": [],
+ "HAL_ICACHE_Monitor_Reset": [],
+ "HAL_ICACHE_Monitor_Start": [],
+ "HAL_ICACHE_Monitor_Stop": [],
+ "HAL_ICACHE_WaitForInvalidateComplete": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_IncTick": [],
+ "HAL_Init": [
+  "HAL_InitTick",
+  "HAL_MspInit",
+  "HAL_NVIC_SetPriorityGrouping",
+  "SystemCoreClockUpdate"
+ ],
+ "HAL_InitTick": [
+  "HAL_NVIC_SetPriority",
+  "HAL_SYSTICK_Config"
+ ],
+ "HAL_LIN_Init": [
+  "HAL_UART_MspInit",
+  "UART_AdvFeatureConfig",
+  "UART_CheckIdleState",
+  "UART_SetConfig"
+ ],
+ "HAL_LIN_SendBreak": [],
+ "HAL_MspDeInit": [],
+ "HAL_MspInit": [],
+ "HAL_MultiProcessorEx_AddressLength_Set": [
+  "UART_CheckIdleState"
+ ],
+ "HAL_MultiProcessor_DisableMuteMode": [
+  "UART_CheckIdleState"
+ ],
+ "HAL_MultiProcessor_EnableMuteMode": [
+  "UART_CheckIdleState"
+ ],
+ "HAL_MultiProcessor_EnterMuteMode": [],
+ "HAL_MultiProcessor_Init": [
+  "HAL_UART_MspInit",
+  "UART_AdvFeatureConfig",
+  "UART_CheckIdleState",
+  "UART_SetConfig"
+ ],
+ "HAL_NVIC_ClearPendingIRQ": [
+  "__NVIC_ClearPendingIRQ"
+ ],
+ "HAL_NVIC_DisableIRQ": [
+  "__NVIC_DisableIRQ"
+ ],
+ "HAL_NVIC_EnableIRQ": [
+  "__NVIC_EnableIRQ"
+ ],
+ "HAL_NVIC_GetActive": [
+  "__NVIC_GetActive"
+ ],
+ "HAL_NVIC_GetPendingIRQ": [
+  "__NVIC_GetPendingIRQ"
+ ],
+ "HAL_NVIC_GetPriority": [
+  "NVIC_DecodePriority",
+  "__NVIC_GetPriority"
+ ],
+ "HAL_NVIC_GetPriorityGrouping": [
+  "__NVIC_GetPriorityGrouping"
+ ],
+ "HAL_NVIC_SetPendingIRQ": [
+  "__NVIC_SetPendingIRQ"
+ ],
+ "HAL_NVIC_SetPriority": [
+  "NVIC_EncodePriority",
+  "__NVIC_GetPriorityGrouping",
+  "__NVIC_SetPriority"
+ ],
+ "HAL_NVIC_SetPriorityGrouping": [
+  "__NVIC_SetPriorityGrouping"
+ ],
+ "HAL_NVIC_SystemReset": [
+  "__NVIC_SystemReset"
+ ],
+ "HAL_PWREx_ConfigPVM": [],
+ "HAL_PWREx_ConfigSRAM2ContentRetention": [],
+ "HAL_PWREx_ControlVoltageScaling": [
+  "HAL_PWREx_SMPS_GetEffectiveMode"
+ ],
+ "HAL_PWREx_DisableBatteryCharging": [],
+ "HAL_PWREx_DisableGPIOPullDown": [],
+ "HAL_PWREx_DisableGPIOPullUp": [],
+ "HAL_PWREx_DisableLowPowerRunMode": [],
+ "HAL_PWREx_DisablePVM1": [],
+ "HAL_PWREx_DisablePVM2": [],
+ "HAL_PWREx_DisablePVM3": [],
+ "HAL_PWREx_DisablePVM4": [],
+ "HAL_PWREx_DisablePullUpPullDownConfig": [],
+ "HAL_PWREx_DisableSRAM2ContentRetention": [
+  "HAL_PWREx_ConfigSRAM2ContentRetention"
+ ],
+ "HAL_PWREx_DisableUCPDDeadBattery": [],
+ "HAL_PWREx_DisableUCPDStandbyMode": [],
+ "HAL_PWREx_DisableUltraLowPowerMode": [],
+ "HAL_PWREx_DisableVddIO2": [],
+ "HAL_PWREx_DisableVddUSB": [],
+ "HAL_PWREx_EnableBatteryCharging": [],
+ "HAL_PWREx_EnableGPIOPullDown": [],
+ "HAL_PWREx_EnableGPIOPullUp": [],
+ "HAL_PWREx_EnableLowPowerRunMode": [],
+ "HAL_PWREx_EnablePVM1": [],
+ "HAL_PWREx_EnablePVM2": [],
+ "HAL_PWREx_EnablePVM3": [],
+ "HAL_PWREx_EnablePVM4": [],
+ "HAL_PWREx_EnablePullUpPullDownConfig": [],
+ "HAL_PWREx_EnableSRAM2ContentRetention": [
+  "HAL_PWREx_ConfigSRAM2ContentRetention"
+ ],
+ "HAL_PWREx_EnableUCPDDeadBattery": [],
+ "HAL_PWREx_EnableUCPDStandbyMode": [],
+ "HAL_PWREx_EnableUltraLowPowerMode": [],
+ "HAL_PWREx_EnableVddIO2": [],
+ "HAL_PWREx_EnableVddUSB": [],
+ "HAL_PWREx_EnterSHUTDOWNMode": [],
+ "HAL_PWREx_EnterSTOP0Mode": [],
+ "HAL_PWREx_EnterSTOP1Mode": [],
+ "HAL_PWREx_EnterSTOP2Mode": [],
+ "HAL_PWREx_GetVoltageRange": [],
+ "HAL_PWREx_PVD_PVM_IRQHandler": [
+  "HAL_PWREx_PVM1Callback",
+  "HAL_PWREx_PVM2Callback",
+  "HAL_PWREx_PVM3Callback",
+  "HAL_PWREx_PVM4Callback",
+  "HAL_PWR_PVDCallback"
+ ],
+ "HAL_PWREx_PVM1Callback": [],
+ "HAL_PWREx_PVM2Callback": [],
+ "HAL_PWREx_PVM3Callback": [],
+ "HAL_PWREx_PVM4Callback": [],
+ "HAL_PWREx_SMPS_DisableBypassMode": [],
+ "HAL_PWREx_SMPS_DisableExternal": [],
+ "HAL_PWREx_SMPS_DisableFastStart": [],
+ "HAL_PWREx_SMPS_EnableBypassMode": [],
+ "HAL_PWREx_SMPS_EnableExternal": [],
+ "HAL_PWREx_SMPS_EnableFastStart": [],
+ "HAL_PWREx_SMPS_GetEffectiveMode": [],
+ "HAL_PWREx_SMPS_GetMainRegulatorExtSMPSReadyStatus": [],
+ "HAL_PWREx_SMPS_SetMode": [
+  "HAL_PWREx_GetVoltageRange",
+  "HAL_PWREx_SMPS_EnableBypassMode",
+  "HAL_PWREx_SMPS_GetEffectiveMode",
+  "HAL_PWREx_SMPS_GetEffectiveMode"
+ ],
+ "HAL_PWR_ConfigAttributes": [],
+ "HAL_PWR_ConfigPVD": [],
+ "HAL_PWR_DeInit": [],
+ "HAL_PWR_DisableBkUpAccess": [],
+ "HAL_PWR_DisablePVD": [],
+ "HAL_PWR_DisableSEVOnPend": [],
+ "HAL_PWR_DisableSleepOnExit": [],
+ "HAL_PWR_DisableWakeUpPin": [],
+ "HAL_PWR_EnableBkUpAccess": [],
+ "HAL_PWR_EnablePVD": [],
+ "HAL_PWR_EnableSEVOnPend": [],
+ "HAL_PWR_EnableSleepOnExit": [],
+ "HAL_PWR_EnableWakeUpPin": [],
+ "HAL_PWR_EnterSLEEPMode": [
+  "HAL_PWREx_DisableLowPowerRunMode",
+  "HAL_PWREx_EnableLowPowerRunMode"
+ ],
+ "HAL_PWR_EnterSTANDBYMode": [],
+ "HAL_PWR_EnterSTOPMode": [
+  "HAL_PWREx_EnterSTOP0Mode",
+  "HAL_PWREx_EnterSTOP1Mode"
+ ],
+ "HAL_PWR_GetConfigAttributes": [],
+ "HAL_PWR_PVDCallback": [],
+ "HAL_RCCEx_CRSConfig": [],
+ "HAL_RCCEx_CRSGetSynchronizationInfo": [],
+ "HAL_RCCEx_CRSSoftwareSynchronizationGenerate": [],
+ "HAL_RCCEx_CRSWaitSynchronization": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_RCCEx_CRS_ErrorCallback": [],
+ "HAL_RCCEx_CRS_ExpectedSyncCallback": [],
+ "HAL_RCCEx_CRS_IRQHandler": [
+  "HAL_RCCEx_CRS_ErrorCallback",
+  "HAL_RCCEx_CRS_ExpectedSyncCallback",
+  "HAL_RCCEx_CRS_SyncOkCallback",
+  "HAL_RCCEx_CRS_SyncWarnCallback"
+ ],
+ "HAL_RCCEx_CRS_SyncOkCallback": [],
+ "HAL_RCCEx_CRS_SyncWarnCallback": [],
+ "HAL_RCCEx_DisableLSCO": [
+  "HAL_PWR_DisableBkUpAccess",
+  "HAL_PWR_EnableBkUpAccess"
+ ],
+ "HAL_RCCEx_DisableLSECSS": [],
+ "HAL_RCCEx_DisableMSIPLLMode": [],
+ "HAL_RCCEx_DisablePLLSAI1": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_RCCEx_DisablePLLSAI2": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_RCCEx_EnableLSCO": [
+  "HAL_GPIO_Init",
+  "HAL_PWR_DisableBkUpAccess",
+  "HAL_PWR_EnableBkUpAccess"
+ ],
+ "HAL_RCCEx_EnableLSECSS": [],
+ "HAL_RCCEx_EnableMSIPLLMode": [],
+ "HAL_RCCEx_EnablePLLSAI1": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "RCCEx_PLLSource_Enable"
+ ],
+ "HAL_RCCEx_EnablePLLSAI2": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "RCCEx_PLLSource_Enable"
+ ],
+ "HAL_RCCEx_GetPeriphCLKConfig": [],
+ "HAL_RCCEx_GetPeriphCLKFreq": [
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK2Freq",
+  "HAL_RCC_GetPCLK2Freq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "RCCEx_GetSAIxPeriphCLKFreq",
+  "RCCEx_GetSAIxPeriphCLKFreq",
+  "RCCEx_GetSAIxPeriphCLKFreq",
+  "RCCEx_PLLSAI1_GetVCOFreq",
+  "RCCEx_PLLSAI1_GetVCOFreq",
+  "RCCEx_PLLSAI1_GetVCOFreq",
+  "RCCEx_PLLSAI1_GetVCOFreq"
+ ],
+ "HAL_RCCEx_LSECSS_Callback": [],
+ "HAL_RCCEx_LSECSS_IRQHandler": [
+  "HAL_RCCEx_LSECSS_Callback"
+ ],
+ "HAL_RCCEx_PeriphCLKConfig": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "RCCEx_PLLSAI1_Config",
+  "RCCEx_PLLSAI1_Config",
+  "RCCEx_PLLSAI1_Config",
+  "RCCEx_PLLSAI1_Config",
+  "RCCEx_PLLSAI1_Config",
+  "RCCEx_PLLSAI1_Config",
+  "RCCEx_PLLSAI1_Config",
+  "RCCEx_PLLSAI2_Config",
+  "RCCEx_PLLSAI2_Config"
+ ],
+ "HAL_RCCEx_StandbyMSIRangeConfig": [],
+ "HAL_RCCEx_WakeUpStopCLKConfig": [],
+ "HAL_RCC_CSSCallback": [],
+ "HAL_RCC_ClockConfig": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_InitTick",
+  "HAL_RCC_GetHCLKFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "RCC_GetSysClockFreqFromPLLSource"
+ ],
+ "HAL_RCC_ConfigAttributes": [],
+ "HAL_RCC_DeInit": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_InitTick"
+ ],
+ "HAL_RCC_EnableCSS": [],
+ "HAL_RCC_GetClockConfig": [],
+ "HAL_RCC_GetConfigAttributes": [],
+ "HAL_RCC_GetHCLKFreq": [
+  "HAL_RCC_GetSysClockFreq"
+ ],
+ "HAL_RCC_GetOscConfig": [],
+ "HAL_RCC_GetPCLK1Freq": [
+  "HAL_RCC_GetHCLKFreq"
+ ],
+ "HAL_RCC_GetPCLK2Freq": [
+  "HAL_RCC_GetHCLKFreq"
+ ],
+ "HAL_RCC_GetSysClockFreq": [],
+ "HAL_RCC_MCOConfig": [
+  "HAL_GPIO_Init"
+ ],
+ "HAL_RCC_NMI_IRQHandler": [
+  "HAL_RCC_CSSCallback"
+ ],
+ "HAL_RCC_OscConfig": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_InitTick",
+  "HAL_RCC_GetHCLKFreq",
+  "RCC_SetFlashLatencyFromMSIRange",
+  "RCC_SetFlashLatencyFromMSIRange"
+ ],
+ "HAL_RS485Ex_Init": [
+  "HAL_UART_MspInit",
+  "UART_AdvFeatureConfig",
+  "UART_CheckIdleState",
+  "UART_SetConfig"
+ ],
+ "HAL_ResumeTick": [],
+ "HAL_SYSCFG_DisableIOAnalogBooster": [],
+ "HAL_SYSCFG_DisableIOAnalogSwitchVdd": [],
+ "HAL_SYSCFG_DisableVREFBUF": [],
+ "HAL_SYSCFG_EnableIOAnalogBooster": [],
+ "HAL_SYSCFG_EnableIOAnalogSwitchVdd": [],
+ "HAL_SYSCFG_EnableVREFBUF": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_SYSCFG_GetLock": [],
+ "HAL_SYSCFG_Lock": [],
+ "HAL_SYSCFG_SRAM2Erase": [],
+ "HAL_SYSCFG_VREFBUF_HighImpedanceConfig": [],
+ "HAL_SYSCFG_VREFBUF_TrimmingConfig": [],
+ "HAL_SYSCFG_VREFBUF_VoltageScalingConfig": [
+  "HAL_SYSCFG_VREFBUF_TrimmingConfig"
+ ],
+ "HAL_SYSTICK_CLKSourceConfig": [],
+ "HAL_SYSTICK_Callback": [],
+ "HAL_SYSTICK_Config": [
+  "SysTick_Config"
+ ],
+ "HAL_SYSTICK_IRQHandler": [
+  "HAL_SYSTICK_Callback"
+ ],
+ "HAL_SetTickFreq": [
+  "HAL_InitTick"
+ ],
+ "HAL_SuspendTick": [],
+ "HAL_UARTEx_DisableFifoMode": [],
+ "HAL_UARTEx_DisableStopMode": [],
+ "HAL_UARTEx_EnableFifoMode": [
+  "UARTEx_SetNbDataToProcess"
+ ],
+ "HAL_UARTEx_EnableStopMode": [],
+ "HAL_UARTEx_ReceiveToIdle": [
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "HAL_UARTEx_ReceiveToIdle_DMA": [
+  "UART_Start_Receive_DMA"
+ ],
+ "HAL_UARTEx_ReceiveToIdle_IT": [
+  "UART_Start_Receive_IT"
+ ],
+ "HAL_UARTEx_RxEventCallback": [],
+ "HAL_UARTEx_RxFifoFullCallback": [],
+ "HAL_UARTEx_SetRxFifoThreshold": [
+  "UARTEx_SetNbDataToProcess"
+ ],
+ "HAL_UARTEx_SetTxFifoThreshold": [
+  "UARTEx_SetNbDataToProcess"
+ ],
+ "HAL_UARTEx_StopModeWakeUpSourceConfig": [
+  "HAL_GetTick",
+  "UARTEx_Wakeup_AddressConfig",
+  "UART_WaitOnFlagUntilTimeout"
+ ],
+ "HAL_UARTEx_TxFifoEmptyCallback": [],
+ "HAL_UARTEx_WakeupCallback": [],
+ "HAL_UART_Abort": [
+  "HAL_DMA_Abort",
+  "HAL_DMA_Abort",
+  "HAL_DMA_GetError",
+  "HAL_DMA_GetError"
+ ],
+ "HAL_UART_AbortCpltCallback": [],
+ "HAL_UART_AbortReceive": [
+  "HAL_DMA_Abort",
+  "HAL_DMA_GetError"
+ ],
+ "HAL_UART_AbortReceiveCpltCallback": [],
+ "HAL_UART_AbortReceive_IT": [
+  "HAL_DMA_Abort_IT",
+  "HAL_UART_AbortReceiveCpltCallback",
+  "HAL_UART_AbortReceiveCpltCallback",
+  "HAL_UART_AbortReceive_IT_Indir1"
+ ],
+ "HAL_UART_AbortReceive_IT_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_UART_AbortTransmit": [
+  "HAL_DMA_Abort",
+  "HAL_DMA_GetError"
+ ],
+ "HAL_UART_AbortTransmitCpltCallback": [],
+ "HAL_UART_AbortTransmit_IT": [
+  "HAL_DMA_Abort_IT",
+  "HAL_UART_AbortTransmitCpltCallback",
+  "HAL_UART_AbortTransmitCpltCallback",
+  "HAL_UART_AbortTransmit_IT_Indir1"
+ ],
+ "HAL_UART_AbortTransmit_IT_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_UART_Abort_IT": [
+  "HAL_DMA_Abort_IT",
+  "HAL_DMA_Abort_IT",
+  "HAL_UART_AbortCpltCallback"
+ ],
+ "HAL_UART_DMAPause": [],
+ "HAL_UART_DMAResume": [],
+ "HAL_UART_DMAStop": [
+  "HAL_DMA_Abort",
+  "HAL_DMA_Abort",
+  "HAL_DMA_GetError",
+  "HAL_DMA_GetError",
+  "UART_EndRxTransfer",
+  "UART_EndTxTransfer"
+ ],
+ "HAL_UART_DeInit": [
+  "HAL_UART_MspDeInit"
+ ],
+ "HAL_UART_DisableReceiverTimeout": [],
+ "HAL_UART_EnableReceiverTimeout": [],
+ "HAL_UART_ErrorCallback": [],
+ "HAL_UART_GetError": [],
+ "HAL_UART_GetState": [],
+ "HAL_UART_IRQHandler": [
+  "HAL_DMA_Abort",
+  "HAL_DMA_Abort_IT",
+  "HAL_UARTEx_RxEventCallback",
+  "HAL_UARTEx_RxEventCallback",
+  "HAL_UARTEx_RxFifoFullCallback",
+  "HAL_UARTEx_TxFifoEmptyCallback",
+  "HAL_UARTEx_WakeupCallback",
+  "HAL_UART_ErrorCallback",
+  "HAL_UART_ErrorCallback",
+  "HAL_UART_ErrorCallback",
+  "HAL_UART_IRQHandler_Indir1",
+  "HAL_UART_IRQHandler_Indir2",
+  "HAL_UART_IRQHandler_Indir3",
+  "HAL_UART_IRQHandler_Indir4",
+  "UART_EndRxTransfer",
+  "UART_EndTransmit_IT"
+ ],
+ "HAL_UART_IRQHandler_Indir1": [
+  "HAL_UART_IRQHandler",
+  "HAL_UART_MspDeInit",
+  "HAL_UART_MspInit",
+  "UART_RxISR_16BIT",
+  "UART_RxISR_16BIT_FIFOEN",
+  "UART_RxISR_8BIT",
+  "UART_RxISR_8BIT_FIFOEN",
+  "UART_TxISR_16BIT",
+  "UART_TxISR_16BIT_FIFOEN",
+  "UART_TxISR_8BIT",
+  "UART_TxISR_8BIT_FIFOEN"
+ ],
+ "HAL_UART_IRQHandler_Indir2": [
+  "HAL_UART_IRQHandler",
+  "HAL_UART_MspDeInit",
+  "HAL_UART_MspInit",
+  "UART_RxISR_16BIT",
+  "UART_RxISR_16BIT_FIFOEN",
+  "UART_RxISR_8BIT",
+  "UART_RxISR_8BIT_FIFOEN",
+  "UART_TxISR_16BIT",
+  "UART_TxISR_16BIT_FIFOEN",
+  "UART_TxISR_8BIT",
+  "UART_TxISR_8BIT_FIFOEN"
+ ],
+ "HAL_UART_IRQHandler_Indir3": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "HAL_UART_IRQHandler_Indir4": [
+  "HAL_UART_IRQHandler",
+  "HAL_UART_MspDeInit",
+  "HAL_UART_MspInit",
+  "UART_RxISR_16BIT",
+  "UART_RxISR_16BIT_FIFOEN",
+  "UART_RxISR_8BIT",
+  "UART_RxISR_8BIT_FIFOEN",
+  "UART_TxISR_16BIT",
+  "UART_TxISR_16BIT_FIFOEN",
+  "UART_TxISR_8BIT",
+  "UART_TxISR_8BIT_FIFOEN"
+ ],
+ "HAL_UART_Init": [
+  "HAL_UART_MspInit",
+  "UART_AdvFeatureConfig",
+  "UART_CheckIdleState",
+  "UART_SetConfig"
+ ],
+ "HAL_UART_MspDeInit": [
+  "HAL_GPIO_DeInit",
+  "HAL_NVIC_DisableIRQ"
+ ],
+ "HAL_UART_MspInit": [
+  "Error_Handler",
+  "HAL_GPIO_Init",
+  "HAL_NVIC_EnableIRQ",
+  "HAL_NVIC_SetPriority",
+  "HAL_RCCEx_PeriphCLKConfig"
+ ],
+ "HAL_UART_Receive": [
+  "HAL_GetTick",
+  "UART_WaitOnFlagUntilTimeout"
+ ],
+ "HAL_UART_Receive_DMA": [
+  "UART_Start_Receive_DMA"
+ ],
+ "HAL_UART_Receive_IT": [
+  "UART_Start_Receive_IT"
+ ],
+ "HAL_UART_ReceiverTimeout_Config": [],
+ "HAL_UART_RxCpltCallback": [],
+ "HAL_UART_RxHalfCpltCallback": [],
+ "HAL_UART_Transmit": [
+  "HAL_GetTick",
+  "UART_WaitOnFlagUntilTimeout",
+  "UART_WaitOnFlagUntilTimeout"
+ ],
+ "HAL_UART_Transmit_DMA": [
+  "HAL_DMA_Start_IT"
+ ],
+ "HAL_UART_Transmit_IT": [],
+ "HAL_UART_TxCpltCallback": [],
+ "HAL_UART_TxHalfCpltCallback": [],
+ "I2C_ConvertOtherXferOptions": [],
+ "I2C_DMAAbort": [
+  "I2C_TreatErrorCallback"
+ ],
+ "I2C_DMAError": [
+  "I2C_ITError"
+ ],
+ "I2C_DMAMasterReceiveCplt": [
+  "HAL_DMA_Start_IT",
+  "I2C_Enable_IRQ",
+  "I2C_Enable_IRQ",
+  "I2C_ITError"
+ ],
+ "I2C_DMAMasterTransmitCplt": [
+  "HAL_DMA_Start_IT",
+  "I2C_Enable_IRQ",
+  "I2C_Enable_IRQ",
+  "I2C_ITError"
+ ],
+ "I2C_DMASlaveReceiveCplt": [
+  "I2C_ITSlaveSeqCplt"
+ ],
+ "I2C_DMASlaveTransmitCplt": [
+  "I2C_ITSlaveSeqCplt"
+ ],
+ "I2C_Disable_IRQ": [],
+ "I2C_Enable_IRQ": [],
+ "I2C_Flush_TXDR": [],
+ "I2C_ITAddrCplt": [
+  "HAL_I2C_AddrCallback",
+  "HAL_I2C_AddrCallback",
+  "HAL_I2C_AddrCallback",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ"
+ ],
+ "I2C_ITError": [
+  "HAL_DMA_Abort_IT",
+  "HAL_DMA_Abort_IT",
+  "HAL_DMA_GetState",
+  "HAL_DMA_GetState",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ",
+  "I2C_ITError_Indir1",
+  "I2C_ITError_Indir2",
+  "I2C_TreatErrorCallback",
+  "I2C_TreatErrorCallback",
+  "I2C_TreatErrorCallback"
+ ],
+ "I2C_ITError_Indir1": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "I2C_ITError_Indir2": [
+  "I2C_DMAAbort",
+  "I2C_DMAError",
+  "I2C_DMAMasterReceiveCplt",
+  "I2C_DMAMasterTransmitCplt",
+  "I2C_DMASlaveReceiveCplt",
+  "I2C_DMASlaveTransmitCplt",
+  "UART_DMAAbortOnError",
+  "UART_DMAError",
+  "UART_DMAReceiveCplt",
+  "UART_DMARxAbortCallback",
+  "UART_DMARxHalfCplt",
+  "UART_DMARxOnlyAbortCallback",
+  "UART_DMATransmitCplt",
+  "UART_DMATxAbortCallback",
+  "UART_DMATxHalfCplt",
+  "UART_DMATxOnlyAbortCallback"
+ ],
+ "I2C_ITListenCplt": [
+  "HAL_I2C_ListenCpltCallback",
+  "I2C_Disable_IRQ"
+ ],
+ "I2C_ITMasterCplt": [
+  "HAL_I2C_MasterRxCpltCallback",
+  "HAL_I2C_MasterTxCpltCallback",
+  "HAL_I2C_MemRxCpltCallback",
+  "HAL_I2C_MemTxCpltCallback",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ",
+  "I2C_Flush_TXDR",
+  "I2C_ITError"
+ ],
+ "I2C_ITMasterSeqCplt": [
+  "HAL_I2C_MasterRxCpltCallback",
+  "HAL_I2C_MasterTxCpltCallback",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ"
+ ],
+ "I2C_ITSlaveCplt": [
+  "HAL_I2C_ListenCpltCallback",
+  "HAL_I2C_SlaveRxCpltCallback",
+  "HAL_I2C_SlaveTxCpltCallback",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ",
+  "I2C_Flush_TXDR",
+  "I2C_ITError",
+  "I2C_ITListenCplt",
+  "I2C_ITSlaveSeqCplt"
+ ],
+ "I2C_ITSlaveSeqCplt": [
+  "HAL_I2C_SlaveRxCpltCallback",
+  "HAL_I2C_SlaveTxCpltCallback",
+  "I2C_Disable_IRQ",
+  "I2C_Disable_IRQ"
+ ],
+ "I2C_IsAcknowledgeFailed": [
+  "HAL_GetTick",
+  "I2C_Flush_TXDR"
+ ],
+ "I2C_Master_ISR_DMA": [
+  "I2C_Enable_IRQ",
+  "I2C_Flush_TXDR",
+  "I2C_ITError",
+  "I2C_ITError",
+  "I2C_ITMasterCplt",
+  "I2C_ITMasterSeqCplt",
+  "I2C_ITMasterSeqCplt",
+  "I2C_TransferConfig"
+ ],
+ "I2C_Master_ISR_IT": [
+  "I2C_Flush_TXDR",
+  "I2C_ITError",
+  "I2C_ITError",
+  "I2C_ITMasterCplt",
+  "I2C_ITMasterSeqCplt",
+  "I2C_ITMasterSeqCplt",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig",
+  "I2C_TransferConfig"
+ ],
+ "I2C_RequestMemoryRead": [
+  "I2C_TransferConfig",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnTXISFlagUntilTimeout",
+  "I2C_WaitOnTXISFlagUntilTimeout"
+ ],
+ "I2C_RequestMemoryWrite": [
+  "I2C_TransferConfig",
+  "I2C_WaitOnFlagUntilTimeout",
+  "I2C_WaitOnTXISFlagUntilTimeout",
+  "I2C_WaitOnTXISFlagUntilTimeout"
+ ],
+ "I2C_Slave_ISR_DMA": [
+  "I2C_Flush_TXDR",
+  "I2C_ITAddrCplt",
+  "I2C_ITError",
+  "I2C_ITListenCplt",
+  "I2C_ITSlaveCplt",
+  "I2C_ITSlaveSeqCplt"
+ ],
+ "I2C_Slave_ISR_IT": [
+  "I2C_Flush_TXDR",
+  "I2C_ITAddrCplt",
+  "I2C_ITError",
+  "I2C_ITListenCplt",
+  "I2C_ITSlaveCplt",
+  "I2C_ITSlaveSeqCplt",
+  "I2C_ITSlaveSeqCplt",
+  "I2C_ITSlaveSeqCplt"
+ ],
+ "I2C_TransferConfig": [],
+ "I2C_TreatErrorCallback": [
+  "HAL_I2C_AbortCpltCallback",
+  "HAL_I2C_ErrorCallback"
+ ],
+ "I2C_WaitOnFlagUntilTimeout": [
+  "HAL_GetTick"
+ ],
+ "I2C_WaitOnRXNEFlagUntilTimeout": [
+  "HAL_GetTick",
+  "I2C_IsAcknowledgeFailed"
+ ],
+ "I2C_WaitOnSTOPFlagUntilTimeout": [
+  "HAL_GetTick",
+  "I2C_IsAcknowledgeFailed"
+ ],
+ "I2C_WaitOnTXISFlagUntilTimeout": [
+  "HAL_GetTick",
+  "I2C_IsAcknowledgeFailed"
+ ],
+ "MX_GPIO_Init": [],
+ "MX_USART1_UART_Init": [
+  "Error_Handler",
+  "Error_Handler",
+  "Error_Handler",
+  "Error_Handler",
+  "HAL_UARTEx_DisableFifoMode",
+  "HAL_UARTEx_SetRxFifoThreshold",
+  "HAL_UARTEx_SetTxFifoThreshold",
+  "HAL_UART_Init"
+ ],
+ "MemManage_Handler": [],
+ "NVIC_DecodePriority": [],
+ "NVIC_EncodePriority": [],
+ "PendSV_Handler": [],
+ "RCCEx_GetSAIxPeriphCLKFreq": [
+  "RCCEx_PLLSAI1_GetVCOFreq",
+  "RCCEx_PLLSAI2_GetVCOFreq"
+ ],
+ "RCCEx_PLLSAI1_Config": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "RCCEx_PLLSAI1_GetVCOFreq": [],
+ "RCCEx_PLLSAI2_Config": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "RCCEx_PLLSAI2_GetVCOFreq": [],
+ "RCCEx_PLLSource_Enable": [
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick",
+  "HAL_GetTick"
+ ],
+ "RCC_GetSysClockFreqFromPLLSource": [],
+ "RCC_SetFlashLatencyFromMSIRange": [
+  "HAL_PWREx_GetVoltageRange",
+  "HAL_PWREx_GetVoltageRange"
+ ],
+ "SECURE_SystemCoreClockUpdate": [],
+ "Serial_available": [
+  "print",
+  "sprintf"
+ ],
+ "Serial_begin": [
+  "print",
+  "sprintf"
+ ],
+ "Serial_read": [
+  "getchar"
+ ],
+ "Serial_write": [
+  "print",
+  "sprintf"
+ ],
+ "SysTick_Config": [
+  "__NVIC_SetPriority"
+ ],
+ "SysTick_Handler": [
+  "HAL_IncTick"
+ ],
+ "SystemCoreClockUpdate": [
+  "SECURE_SystemCoreClockUpdate"
+ ],
+ "SystemInit": [],
+ "UARTEx_SetNbDataToProcess": [],
+ "UARTEx_Wakeup_AddressConfig": [],
+ "UART_AdvFeatureConfig": [],
+ "UART_CheckIdleState": [
+  "HAL_GetTick",
+  "UART_WaitOnFlagUntilTimeout",
+  "UART_WaitOnFlagUntilTimeout"
+ ],
+ "UART_DMAAbortOnError": [
+  "HAL_UART_ErrorCallback"
+ ],
+ "UART_DMAError": [
+  "HAL_UART_ErrorCallback",
+  "UART_EndRxTransfer",
+  "UART_EndTxTransfer"
+ ],
+ "UART_DMAReceiveCplt": [
+  "HAL_UARTEx_RxEventCallback",
+  "HAL_UART_RxCpltCallback"
+ ],
+ "UART_DMARxAbortCallback": [
+  "HAL_UART_AbortCpltCallback"
+ ],
+ "UART_DMARxHalfCplt": [
+  "HAL_UARTEx_RxEventCallback",
+  "HAL_UART_RxHalfCpltCallback"
+ ],
+ "UART_DMARxOnlyAbortCallback": [
+  "HAL_UART_AbortReceiveCpltCallback"
+ ],
+ "UART_DMATransmitCplt": [
+  "HAL_UART_TxCpltCallback"
+ ],
+ "UART_DMATxAbortCallback": [
+  "HAL_UART_AbortCpltCallback"
+ ],
+ "UART_DMATxHalfCplt": [
+  "HAL_UART_TxHalfCpltCallback"
+ ],
+ "UART_DMATxOnlyAbortCallback": [
+  "HAL_UART_AbortTransmitCpltCallback"
+ ],
+ "UART_EndRxTransfer": [],
+ "UART_EndTransmit_IT": [
+  "HAL_UART_TxCpltCallback"
+ ],
+ "UART_EndTxTransfer": [],
+ "UART_RxISR_16BIT": [
+  "HAL_UARTEx_RxEventCallback",
+  "HAL_UART_RxCpltCallback"
+ ],
+ "UART_RxISR_16BIT_FIFOEN": [
+  "HAL_UARTEx_RxEventCallback",
+  "HAL_UART_ErrorCallback",
+  "HAL_UART_RxCpltCallback"
+ ],
+ "UART_RxISR_8BIT": [
+  "HAL_UARTEx_RxEventCallback",
+  "HAL_UART_RxCpltCallback"
+ ],
+ "UART_RxISR_8BIT_FIFOEN": [
+  "HAL_UARTEx_RxEventCallback",
+  "HAL_UART_ErrorCallback",
+  "HAL_UART_RxCpltCallback"
+ ],
+ "UART_SetConfig": [
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK1Freq",
+  "HAL_RCC_GetPCLK2Freq",
+  "HAL_RCC_GetPCLK2Freq",
+  "HAL_RCC_GetPCLK2Freq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq",
+  "HAL_RCC_GetSysClockFreq"
+ ],
+ "UART_Start_Receive_DMA": [
+  "HAL_DMA_Start_IT"
+ ],
+ "UART_Start_Receive_IT": [],
+ "UART_TxISR_16BIT": [],
+ "UART_TxISR_16BIT_FIFOEN": [],
+ "UART_TxISR_8BIT": [],
+ "UART_TxISR_8BIT_FIFOEN": [],
+ "UART_WaitOnFlagUntilTimeout": [
+  "HAL_GetTick"
+ ],
+ "USART1_IRQHandler": [
+  "HAL_UART_IRQHandler"
+ ],
+ "UsageFault_Handler": [],
+ "__NVIC_ClearPendingIRQ": [],
+ "__NVIC_DisableIRQ": [],
+ "__NVIC_EnableIRQ": [],
+ "__NVIC_GetActive": [],
+ "__NVIC_GetPendingIRQ": [],
+ "__NVIC_GetPriority": [],
+ "__NVIC_GetPriorityGrouping": [],
+ "__NVIC_SetPendingIRQ": [],
+ "__NVIC_SetPriority": [],
+ "__NVIC_SetPriorityGrouping": [],
+ "__NVIC_SystemReset": [],
+ "__errno": [],
+ "__io_getchar": [],
+ "__io_putchar": [],
+ "_close": [],
+ "_execve": [
+  "__errno"
+ ],
+ "_exit": [
+  "_kill"
+ ],
+ "_fork": [
+  "__errno"
+ ],
+ "_fstat": [],
+ "_getpid": [],
+ "_isatty": [],
+ "_kill": [
+  "__errno"
+ ],
+ "_link": [
+  "__errno"
+ ],
+ "_lseek": [],
+ "_open": [],
+ "_read": [
+  "__io_getchar"
+ ],
+ "_sbrk": [
+  "__errno"
+ ],
+ "_stat": [],
+ "_times": [],
+ "_unlink": [
+  "__errno"
+ ],
+ "_wait": [
+  "__errno"
+ ],
+ "_write": [
+  "__io_putchar"
+ ],
+ "analogRead": [
+  "printf",
+  "scanf"
+ ],
+ "atoi": [],
+ "bolus": [
+  "delayMicroseconds",
+  "delayMicroseconds",
+  "digitalWrite",
+  "digitalWrite",
+  "digitalWrite",
+  "digitalWrite",
+  "led_off",
+  "led_on"
+ ],
+ "checkTriggers": [
+  "bolus",
+  "bolus",
+  "digitalRead",
+  "digitalRead",
+  "updateScreen",
+  "updateScreen"
+ ],
+ "config_dwt": [
+  "tagFunction"
+ ],
+ "config_memory": [],
+ "delayMicroseconds": [
+  "HAL_Delay"
+ ],
+ "digitalRead": [
+  "print",
+  "scanf",
+  "sprintf"
+ ],
+ "digitalWrite": [],
+ "doKeyAction": [
+  "bolus",
+  "bolus",
+  "updateScreen"
+ ],
+ "get_key": [],
+ "getchar": [],
+ "init": [
+  "DWT_Init",
+  "HAL_Init",
+  "MX_GPIO_Init",
+  "MX_USART1_UART_Init",
+  "config_dwt",
+  "config_memory"
+ ],
+ "initialise_monitor_handles": [],
+ "judge_legality": [
+  "print",
+  "sprintf",
+  "trust_interface"
+ ],
+ "lcd_begin": [
+  "print",
+  "sprintf"
+ ],
+ "lcd_clear": [
+  "print",
+  "sprintf"
+ ],
+ "lcd_print": [
+  "print",
+  "sprintf"
+ ],
+ "lcd_setCursor": [
+  "print",
+  "sprintf"
+ ],
+ "led_off": [
+  "print",
+  "sprintf"
+ ],
+ "led_on": [
+  "print",
+  "sprintf"
+ ],
+ "loop": [
+  "print",
+  "processSerial",
+  "sprintf"
+ ],
+ "main": [
+  "init",
+  "main_logic"
+ ],
+ "main_logic": [
+  "DWT_GetTick",
+  "DWT_GetTick",
+  "loop",
+  "print",
+  "print",
+  "print",
+  "print",
+  "setup",
+  "sprintf",
+  "sprintf",
+  "sprintf"
+ ],
+ "millis": [
+  "HAL_GetTick"
+ ],
+ "pinMode": [],
+ "print": [
+  "Error_Handler",
+  "HAL_UART_GetState",
+  "HAL_UART_Transmit_IT"
+ ],
+ "printf": [],
+ "processSerial": [
+  "Serial_write",
+  "Serial_write",
+  "Serial_write",
+  "bolus",
+  "bolus",
+  "toUInt",
+  "toUInt",
+  "updateScreen",
+  "updateScreen",
+  "updateScreen"
+ ],
+ "readKey": [
+  "analogRead",
+  "doKeyAction",
+  "get_key",
+  "millis"
+ ],
+ "readSerial": [
+  "Serial_available",
+  "Serial_read"
+ ],
+ "scanf": [],
+ "setup": [
+  "Serial_begin",
+  "digitalWrite",
+  "digitalWrite",
+  "lcd_begin",
+  "lcd_clear",
+  "lcd_print",
+  "pinMode",
+  "pinMode",
+  "pinMode",
+  "pinMode"
+ ],
+ "sprintf": [],
+ "tagFunction": [],
+ "toUInt": [
+  "atoi"
+ ],
+ "trust_interface": [],
+ "updateScreen": [
+  "lcd_clear",
+  "lcd_print",
+  "lcd_print",
+  "lcd_setCursor",
+  "lcd_setCursor",
+  "sprintf",
+  "sprintf",
+  "sprintf",
+  "sprintf"
+ ]
+}

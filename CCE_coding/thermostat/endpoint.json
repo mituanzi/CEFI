@@ -1,0 +1,6 @@
+[
+ "get_temp",
+ "check_temp",
+ "get_humidity",
+ "get_new_temp"
+]

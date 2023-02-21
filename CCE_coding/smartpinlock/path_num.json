@@ -1,0 +1,8 @@
+{
+ "('main', 'switch_on')": 2,
+ "('main', 'switch_off')": 2,
+ "('main', 'lock')": 2,
+ "('main', 'unlock')": 2,
+ "('main', 'update_firmware')": 2,
+ "('main', 'recovery_firmware')": 2
+}

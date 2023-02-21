@@ -1,0 +1,6 @@
+{
+ "('main', 'get_temp')": 1,
+ "('main', 'check_temp')": 1,
+ "('main', 'get_humidity')": 1,
+ "('main', 'get_new_temp')": 1
+}

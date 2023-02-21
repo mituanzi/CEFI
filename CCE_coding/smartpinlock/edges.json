@@ -1,0 +1,79 @@
+{
+ "edges_id": [
+  {
+   "callingName": "main",
+   "calledFunc": [
+    {
+     "calledName": "main_logic",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "main_logic",
+   "calledFunc": [
+    {
+     "calledName": "worker",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "worker",
+   "calledFunc": [
+    {
+     "calledName": "execute_cmd",
+     "idweight": [
+      0,
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "execute_cmd",
+   "calledFunc": [
+    {
+     "calledName": "switch_on",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "switch_off",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "lock",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "unlock",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "update_firmware",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "recovery_firmware",
+     "idweight": [
+      0
+     ]
+    } 
+   ]
+  }
+ ]
+}

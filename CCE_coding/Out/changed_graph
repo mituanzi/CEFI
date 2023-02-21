@@ -1,0 +1,13 @@
+digraph "./Out/changed_graph" {
+	main [label="main|1"]
+	main_logic [label="main_logic|1"]
+	main -> main_logic [label="+0"]
+	loop [label="loop|1"]
+	main_logic -> loop [label="+0"]
+	processSerial [label="processSerial|1"]
+	loop -> processSerial [label="+0"]
+	Serial_write [label="Serial_write|3"]
+	processSerial -> Serial_write [label="+0"]
+	processSerial -> Serial_write [label="+1"]
+	processSerial -> Serial_write [label="+2"]
+}

@@ -1,0 +1,61 @@
+{
+ "edges_id": [
+  {
+   "callingName": "main",
+   "calledFunc": [
+    {
+     "calledName": "main_logic",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "main_logic",
+   "calledFunc": [
+    {
+     "calledName": "processdata",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "processdata",
+   "calledFunc": [
+    {
+     "calledName": "read_code",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "rf_write_buf",
+     "idweight": [
+      0
+     ]
+    },
+    {
+     "calledName": "set_code",
+     "idweight": [
+      0
+     ]
+    }
+   ]
+  },
+  {
+   "callingName": "read_code",
+   "calledFunc": [
+    {
+     "calledName": "rf_write_buf",
+     "idweight": [
+      1,
+      2
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+digraph "./Out/original_graph" {
+	main
+	main_logic
+	main -> main_logic
+	loop
+	main_logic -> loop
+	processSerial
+	loop -> processSerial
+	Serial_write
+	processSerial -> Serial_write
+	processSerial -> Serial_write
+	processSerial -> Serial_write
+}
