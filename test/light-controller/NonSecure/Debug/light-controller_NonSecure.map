@@ -1,0 +1,1418 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memclr.o)
+                              Build/Objects/light-controller_NonSecure--cceinstrumented.o (__aeabi_memclr)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memcpy.o)
+                              Build/Objects/light-controller_NonSecure--cceinstrumented.o (__aeabi_memcpy)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memset-soft.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memclr.o) (__aeabi_memset)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-errno.o)
+                              Build/Objects/light-controller_NonSecure--cceinstrumented.o (__errno)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-exit.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o (exit)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-impure.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-init.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o (__libc_init_array)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memcpy.o) (memcpy)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memset.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o (memset)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+                              (_printf_float)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o) (_printf_common)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sprintf.o)
+                              Build/Objects/light-controller_NonSecure--cceinstrumented.o (sprintf)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcmp.o)
+                              Build/Objects/light-controller_NonSecure--cceinstrumented.o (strcmp)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcpy.o)
+                              Build/Objects/light-controller_NonSecure--cceinstrumented.o (strcpy)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strlen.o)
+                              Build/Objects/light-controller_NonSecure--cceinstrumented.o (strlen)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strncmp.o)
+                              Build/Objects/light-controller_NonSecure--cceinstrumented.o (strncmp)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o) (_dtoa_r)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o) (_localeconv_r)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o) (malloc)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memchr-stub.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o) (memchr)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o) (_Balloc)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-callocr.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o) (_calloc_r)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-freer.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o) (_free_r)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o) (_malloc_r)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sprintf.o) (_svfprintf_r)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sbrkr.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o) (__global_locale)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mbtowc_r.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o) (__ascii_mbtowc)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memmove.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o) (memmove)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mlock.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o) (_realloc_r)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sbrkr.o) (errno)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-wctomb_r.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o) (__ascii_wctomb)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-ctype_.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o) (_ctype_)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-msizer.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_addsubdf3.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o) (__aeabi_dsub)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_muldivdf3.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o) (__aeabi_dmul)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_cmpdf2.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o) (__aeabi_dcmpeq)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_unorddf2.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o) (__aeabi_dcmpun)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_fixdfsi.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o) (__aeabi_d2iz)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_aeabi_uldivmod.o)
+                              Build/Objects/light-controller_NonSecure--cceinstrumented.o (__aeabi_uldivmod)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_udivmoddi4.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_dvmd_tls.o)
+                              /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_aeabi_uldivmod.o) (__aeabi_ldiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+dfi_trigger_count   0x4               Build/Objects/light-controller_NonSecure--cceinstrumented.o
+cfi_trigger_count   0x4               Build/Objects/light-controller_NonSecure--cceinstrumented.o
+errno               0x4               /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+bitmap              0x2710            Build/Objects/light-controller_NonSecure--cceinstrumented.o
+OutBuf              0x32              Build/Objects/light-controller_NonSecure--cceinstrumented.o
+sensitiveAddr       0x4               Build/Objects/light-controller_NonSecure--cceinstrumented.o
+uwTick              0x4               Build/Objects/light-controller_NonSecure--cceinstrumented.o
+global_esp          0x4               Build/Objects/light-controller_NonSecure--cceinstrumented.o
+memory              0x400             Build/Objects/light-controller_NonSecure--cceinstrumented.o
+global_ebp          0x4               Build/Objects/light-controller_NonSecure--cceinstrumented.o
+huart1              0x90              Build/Objects/light-controller_NonSecure--cceinstrumented.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crti.o
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crti.o
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crti.o
+ .data          0x0000000000000000        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+ .text          0x0000000000000000       0x74 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o
+ .ARM.exidx     0x0000000000000000        0x8 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x24 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o
+ .text          0x0000000000000000       0x14 Build/Objects/startup_stm32l562qeixq.o
+ .data          0x0000000000000000        0x0 Build/Objects/startup_stm32l562qeixq.o
+ .bss           0x0000000000000000        0x0 Build/Objects/startup_stm32l562qeixq.o
+ .RamFunc       0x0000000000000000      0x256 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+ .ARM.exidx.RamFunc
+                0x0000000000000000       0x18 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+ .rodata.cst8   0x0000000000000000       0x10 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memclr.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memclr.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memclr.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memcpy.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memcpy.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memcpy.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memset-soft.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memset-soft.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-errno.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-exit.o)
+ .text.exit     0x0000000000000000       0x28 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-impure.o)
+ .rodata._global_impure_ptr
+                0x0000000000000000        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sprintf.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sprintf.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sprintf.o)
+ .text._sprintf_r
+                0x0000000000000000       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sprintf.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcmp.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcmp.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcpy.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcpy.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcpy.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strncmp.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strncmp.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strncmp.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o)
+ .text.__localeconv_l
+                0x0000000000000000        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o)
+ .text.localeconv
+                0x0000000000000000       0x1c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o)
+ .text.free     0x0000000000000000       0x10 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memchr-stub.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memchr-stub.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memchr-stub.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .text.__s2b    0x0000000000000000       0x7c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .text.__ulp    0x0000000000000000       0x4c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .text.__b2d    0x0000000000000000       0x9c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .text.__ratio  0x0000000000000000       0x66 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .text._mprec_log10
+                0x0000000000000000       0x3c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .text.__copybits
+                0x0000000000000000       0x34 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .text.__any_on
+                0x0000000000000000       0x42 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .rodata.__mprec_tinytens
+                0x0000000000000000       0x28 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-callocr.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-callocr.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-callocr.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+ .text.__ssprint_r
+                0x0000000000000000       0xf0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .text._setlocale_r
+                0x0000000000000000       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .text.__locale_mb_cur_max
+                0x0000000000000000       0x1c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .text.__locale_ctype_ptr_l
+                0x0000000000000000        0x6 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .text.__locale_ctype_ptr
+                0x0000000000000000       0x1c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .text.setlocale
+                0x0000000000000000       0x10 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .bss._PathLocale
+                0x0000000000000000        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mbtowc_r.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mbtowc_r.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mbtowc_r.o)
+ .text._mbtowc_r
+                0x0000000000000000       0x24 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mbtowc_r.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+ .text.cleanup_glue
+                0x0000000000000000       0x1a /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+ .text._reclaim_reent
+                0x0000000000000000       0xb8 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-wctomb_r.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-wctomb_r.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-wctomb_r.o)
+ .text._wctomb_r
+                0x0000000000000000       0x24 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-wctomb_r.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-ctype_.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-msizer.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-msizer.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_cmpdf2.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_cmpdf2.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_unorddf2.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_unorddf2.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_fixdfsi.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_fixdfsi.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_dvmd_tls.o)
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtend.o
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtend.o
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtend.o
+ .text          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtn.o
+ .data          0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtn.o
+ .bss           0x0000000000000000        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x0000000020018000 0x0000000000018000 xrw
+ROM              0x0000000008040000 0x0000000000040000 xr
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crti.o
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/crt0.o
+LOAD Build/Objects/startup_stm32l562qeixq.o
+LOAD Build/Objects/light-controller_NonSecure--cceinstrumented.o
+LOAD ../Secure/Debug/secure_nsclib.o
+START GROUP
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libm.a
+END GROUP
+START GROUP
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a
+END GROUP
+START GROUP
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libnosys.a
+END GROUP
+START GROUP
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libnosys.a
+END GROUP
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtend.o
+LOAD /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtn.o
+                0x0000000020030000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x0000000000000200                _Min_Heap_Size = 0x200
+                0x0000000000000400                _Min_Stack_Size = 0x400
+
+.isr_vector     0x0000000008040000      0x1f4
+                0x0000000008040000                . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x0000000008040000      0x1f4 Build/Objects/startup_stm32l562qeixq.o
+                0x0000000008040000                g_pfnVectors
+                0x00000000080401f4                . = ALIGN (0x4)
+
+.text           0x00000000080401f8    0x15918
+                0x00000000080401f8                . = ALIGN (0x4)
+ *(.text)
+ .text          0x00000000080401f8       0x40 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+ .text          0x0000000008040238    0x12a0a Build/Objects/light-controller_NonSecure--cceinstrumented.o
+                0x0000000008040238                HAL_Init
+                0x000000000804026e                HAL_InitTick
+                0x00000000080402f8                HAL_DeInit
+                0x0000000008040370                HAL_MspDeInit
+                0x0000000008040372                HAL_IncTick
+                0x000000000804038c                HAL_GetTick
+                0x0000000008040398                HAL_GetTickPrio
+                0x00000000080403a4                HAL_SetTickFreq
+                0x0000000008040410                HAL_GetTickFreq
+                0x000000000804041c                HAL_Delay
+                0x0000000008040460                HAL_SuspendTick
+                0x0000000008040472                HAL_ResumeTick
+                0x0000000008040484                HAL_GetHalVersion
+                0x000000000804048e                HAL_GetREVID
+                0x000000000804049c                HAL_GetDEVID
+                0x00000000080404ac                HAL_GetUIDw0
+                0x00000000080404b8                HAL_GetUIDw1
+                0x00000000080404c4                HAL_GetUIDw2
+                0x00000000080404d0                HAL_DBGMCU_EnableDBGStopMode
+                0x00000000080404e2                HAL_DBGMCU_DisableDBGStopMode
+                0x00000000080404f4                HAL_DBGMCU_EnableDBGStandbyMode
+                0x0000000008040506                HAL_DBGMCU_DisableDBGStandbyMode
+                0x0000000008040518                HAL_SYSCFG_SRAM2Erase
+                0x0000000008040536                HAL_SYSCFG_VREFBUF_VoltageScalingConfig
+                0x0000000008040586                HAL_SYSCFG_VREFBUF_TrimmingConfig
+                0x00000000080405a2                HAL_SYSCFG_VREFBUF_HighImpedanceConfig
+                0x00000000080405be                HAL_SYSCFG_EnableVREFBUF
+                0x0000000008040616                HAL_SYSCFG_DisableVREFBUF
+                0x0000000008040628                HAL_SYSCFG_EnableIOAnalogBooster
+                0x000000000804063a                HAL_SYSCFG_DisableIOAnalogBooster
+                0x000000000804064a                HAL_SYSCFG_EnableIOAnalogSwitchVdd
+                0x000000000804065c                HAL_SYSCFG_DisableIOAnalogSwitchVdd
+                0x000000000804066c                HAL_SYSCFG_Lock
+                0x0000000008040680                HAL_SYSCFG_GetLock
+                0x00000000080406b2                HAL_NVIC_SetPriorityGrouping
+                0x0000000008040700                HAL_NVIC_SetPriority
+                0x00000000080407e2                HAL_NVIC_EnableIRQ
+                0x000000000804082a                HAL_NVIC_DisableIRQ
+                0x000000000804087a                HAL_NVIC_SystemReset
+                0x00000000080408a8                HAL_SYSTICK_Config
+                0x000000000804090e                HAL_NVIC_GetPriorityGrouping
+                0x0000000008040918                HAL_NVIC_GetPriority
+                0x00000000080409ec                HAL_NVIC_SetPendingIRQ
+                0x0000000008040a34                HAL_NVIC_GetPendingIRQ
+                0x0000000008040a8a                HAL_NVIC_ClearPendingIRQ
+                0x0000000008040ad2                HAL_NVIC_GetActive
+                0x0000000008040b28                HAL_SYSTICK_CLKSourceConfig
+                0x0000000008040b5c                HAL_SYSTICK_IRQHandler
+                0x0000000008040b66                HAL_SYSTICK_Callback
+                0x0000000008040b68                HAL_DMA_Init
+                0x0000000008040d74                HAL_DMA_DeInit
+                0x0000000008040eae                HAL_DMA_Start
+                0x0000000008040fba                HAL_DMA_Start_IT
+                0x00000000080410b8                HAL_DMA_Abort
+                0x000000000804116a                HAL_DMA_Abort_IT
+                0x000000000804121c                HAL_DMA_PollForTransfer
+                0x00000000080413ee                HAL_DMA_IRQHandler
+                0x00000000080415e4                HAL_DMA_RegisterCallback
+                0x0000000008041694                HAL_DMA_UnRegisterCallback
+                0x0000000008041760                HAL_DMA_GetState
+                0x000000000804176e                HAL_DMA_GetError
+                0x000000000804177a                HAL_DMA_ConfigChannelAttributes
+                0x00000000080417ec                HAL_DMA_GetConfigChannelAttributes
+                0x0000000008041838                HAL_DMAEx_MultiBufferStart
+                0x0000000008041970                HAL_DMAEx_MultiBufferStart_IT
+                0x0000000008041ad0                HAL_DMAEx_ChangeMemory
+                0x0000000008041afc                HAL_DMAEx_ConfigMuxSync
+                0x0000000008041b8c                HAL_DMAEx_ConfigMuxRequestGenerator
+                0x0000000008041c08                HAL_DMAEx_EnableMuxRequestGenerator
+                0x0000000008041c42                HAL_DMAEx_DisableMuxRequestGenerator
+                0x0000000008041c7c                HAL_DMAEx_MUX_IRQHandler
+                0x0000000008041d12                HAL_EXTI_SetConfigLine
+                0x0000000008041ebc                HAL_EXTI_GetConfigLine
+                0x000000000804201e                HAL_EXTI_ClearConfigLine
+                0x0000000008042130                HAL_EXTI_RegisterCallback
+                0x0000000008042182                HAL_EXTI_GetHandle
+                0x00000000080421ac                HAL_EXTI_IRQHandler
+                0x0000000008042242                HAL_EXTI_GetPending
+                0x00000000080422a6                HAL_EXTI_ClearPending
+                0x00000000080422fc                HAL_EXTI_GenerateSWI
+                0x0000000008042334                HAL_EXTI_ConfigLineAttributes
+                0x00000000080423a8                HAL_EXTI_GetConfigLineAttributes
+                0x0000000008042418                HAL_FLASH_Program
+                0x00000000080424d2                FLASH_WaitForLastOperation
+                0x00000000080425ba                HAL_FLASH_Program_IT
+                0x0000000008042666                HAL_FLASH_IRQHandler
+                0x00000000080427be                HAL_FLASH_OperationErrorCallback
+                0x00000000080427c6                HAL_FLASH_EndOfOperationCallback
+                0x00000000080427ce                HAL_FLASH_Unlock
+                0x0000000008042824                HAL_FLASH_Lock
+                0x0000000008042854                HAL_FLASH_OB_Unlock
+                0x00000000080428b0                HAL_FLASH_OB_Lock
+                0x00000000080428e4                HAL_FLASH_OB_Launch
+                0x00000000080428f8                HAL_FLASH_GetError
+                0x0000000008042904                HAL_FLASHEx_Erase
+                0x0000000008042a96                FLASH_PageErase
+                0x0000000008042b0c                HAL_FLASHEx_Erase_IT
+                0x0000000008042be6                HAL_FLASHEx_OBProgram
+                0x0000000008043020                HAL_FLASHEx_OBGetConfig
+                0x00000000080431f6                HAL_FLASHEx_ConfigPrivMode
+                0x0000000008043212                HAL_FLASHEx_GetPrivMode
+                0x0000000008043222                HAL_FLASHEx_ConfigLVEPin
+                0x00000000080432e8                HAL_FLASHEx_GetLVEPin
+                0x00000000080432f8                HAL_GPIO_Init
+                0x000000000804364e                HAL_GPIO_DeInit
+                0x0000000008043836                HAL_GPIO_ReadPin
+                0x0000000008043864                HAL_GPIO_WritePin
+                0x0000000008043890                HAL_GPIO_TogglePin
+                0x00000000080438b8                HAL_GPIO_LockPin
+                0x000000000804390e                HAL_GPIO_EXTI_IRQHandler
+                0x0000000008043974                HAL_GPIO_EXTI_Rising_Callback
+                0x000000000804397e                HAL_GPIO_EXTI_Falling_Callback
+                0x0000000008043988                HAL_I2C_Init
+                0x0000000008043a8e                HAL_I2C_MspInit
+                0x0000000008043a96                HAL_I2C_DeInit
+                0x0000000008043af8                HAL_I2C_MspDeInit
+                0x0000000008043b00                HAL_I2C_Master_Transmit
+                0x0000000008044034                HAL_I2C_Master_Receive
+                0x000000000804433c                HAL_I2C_Slave_Transmit
+                0x000000000804455a                HAL_I2C_Slave_Receive
+                0x000000000804475c                HAL_I2C_Master_Transmit_IT
+                0x00000000080456d2                HAL_I2C_AddrCallback
+                0x0000000008045a88                HAL_I2C_AbortCpltCallback
+                0x0000000008045a90                HAL_I2C_ErrorCallback
+                0x0000000008045a98                HAL_I2C_SlaveTxCpltCallback
+                0x0000000008045aa0                HAL_I2C_SlaveRxCpltCallback
+                0x0000000008045aa8                HAL_I2C_ListenCpltCallback
+                0x0000000008045ce6                HAL_I2C_MemTxCpltCallback
+                0x0000000008045cee                HAL_I2C_MasterTxCpltCallback
+                0x0000000008045cf6                HAL_I2C_MemRxCpltCallback
+                0x0000000008045cfe                HAL_I2C_MasterRxCpltCallback
+                0x0000000008045d06                HAL_I2C_Master_Receive_IT
+                0x0000000008045e0c                HAL_I2C_Slave_Transmit_IT
+                0x0000000008045ec4                HAL_I2C_Slave_Receive_IT
+                0x0000000008045f7c                HAL_I2C_Master_Transmit_DMA
+                0x000000000804623a                HAL_I2C_Master_Receive_DMA
+                0x00000000080464d2                HAL_I2C_Slave_Transmit_DMA
+                0x00000000080466a2                HAL_I2C_Slave_Receive_DMA
+                0x0000000008046878                HAL_I2C_Mem_Write
+                0x0000000008046b96                HAL_I2C_Mem_Read
+                0x0000000008046ec6                HAL_I2C_Mem_Write_IT
+                0x0000000008047036                HAL_I2C_Mem_Read_IT
+                0x00000000080471aa                HAL_I2C_Mem_Write_DMA
+                0x00000000080473de                HAL_I2C_Mem_Read_DMA
+                0x0000000008047616                HAL_I2C_IsDeviceReady
+                0x0000000008047858                HAL_I2C_Master_Seq_Transmit_IT
+                0x00000000080479c8                HAL_I2C_Master_Seq_Transmit_DMA
+                0x0000000008047c12                HAL_I2C_Master_Seq_Receive_IT
+                0x0000000008047d4e                HAL_I2C_Master_Seq_Receive_DMA
+                0x0000000008047f98                HAL_I2C_Slave_Seq_Transmit_IT
+                0x00000000080480fa                HAL_I2C_Slave_Seq_Transmit_DMA
+                0x0000000008048382                HAL_I2C_Slave_Seq_Receive_IT
+                0x00000000080484e2                HAL_I2C_Slave_Seq_Receive_DMA
+                0x000000000804876a                HAL_I2C_EnableListen_IT
+                0x00000000080487b4                HAL_I2C_DisableListen_IT
+                0x0000000008048816                HAL_I2C_Master_Abort_IT
+                0x00000000080488da                HAL_I2C_EV_IRQHandler
+                0x000000000804890a                HAL_I2C_ER_IRQHandler
+                0x00000000080489dc                HAL_I2C_GetState
+                0x00000000080489ea                HAL_I2C_GetMode
+                0x00000000080489f8                HAL_I2C_GetError
+                0x0000000008048a04                HAL_I2CEx_ConfigAnalogFilter
+                0x0000000008048a9c                HAL_I2CEx_ConfigDigitalFilter
+                0x0000000008048b3e                HAL_I2CEx_EnableWakeUp
+                0x0000000008048bc8                HAL_I2CEx_DisableWakeUp
+                0x0000000008048c52                HAL_I2CEx_EnableFastModePlus
+                0x0000000008048c86                HAL_I2CEx_DisableFastModePlus
+                0x0000000008048cbc                HAL_ICACHE_ConfigAssociativityMode
+                0x0000000008048cfc                HAL_ICACHE_DeInit
+                0x0000000008048d52                HAL_ICACHE_Monitor_Stop
+                0x0000000008048d6e                HAL_ICACHE_Monitor_Reset
+                0x0000000008048d94                HAL_ICACHE_DisableRemapRegion
+                0x0000000008048dda                HAL_ICACHE_WaitForInvalidateComplete
+                0x0000000008048e40                HAL_ICACHE_Enable
+                0x0000000008048e54                HAL_ICACHE_Disable
+                0x0000000008048eba                HAL_ICACHE_Invalidate
+                0x0000000008048f0a                HAL_ICACHE_Invalidate_IT
+                0x0000000008048f60                HAL_ICACHE_Monitor_Start
+                0x0000000008048f7a                HAL_ICACHE_Monitor_GetHitValue
+                0x0000000008048f86                HAL_ICACHE_Monitor_GetMissValue
+                0x0000000008048f92                HAL_ICACHE_IRQHandler
+                0x0000000008049014                HAL_ICACHE_ErrorCallback
+                0x0000000008049016                HAL_ICACHE_InvalidateCompleteCallback
+                0x0000000008049018                HAL_ICACHE_EnableRemapRegion
+                0x00000000080490d2                HAL_PWR_DeInit
+                0x00000000080490ec                HAL_PWR_EnableBkUpAccess
+                0x00000000080490fe                HAL_PWR_DisableBkUpAccess
+                0x0000000008049110                HAL_PWR_ConfigPVD
+                0x00000000080491e4                HAL_PWR_EnablePVD
+                0x00000000080491f6                HAL_PWR_DisablePVD
+                0x0000000008049208                HAL_PWR_EnableWakeUpPin
+                0x0000000008049240                HAL_PWR_DisableWakeUpPin
+                0x0000000008049260                HAL_PWR_EnterSLEEPMode
+                0x00000000080492dc                HAL_PWR_EnterSTOPMode
+                0x000000000804930a                HAL_PWR_EnterSTANDBYMode
+                0x0000000008049330                HAL_PWR_EnableSleepOnExit
+                0x0000000008049342                HAL_PWR_DisableSleepOnExit
+                0x0000000008049354                HAL_PWR_EnableSEVOnPend
+                0x0000000008049366                HAL_PWR_DisableSEVOnPend
+                0x0000000008049378                HAL_PWR_PVDCallback
+                0x000000000804937a                HAL_PWR_ConfigAttributes
+                0x00000000080493c6                HAL_PWR_GetConfigAttributes
+                0x0000000008049410                HAL_PWREx_GetVoltageRange
+                0x0000000008049420                HAL_PWREx_ControlVoltageScaling
+                0x0000000008049516                HAL_PWREx_SMPS_GetEffectiveMode
+                0x000000000804955a                HAL_PWREx_EnableBatteryCharging
+                0x000000000804957e                HAL_PWREx_DisableBatteryCharging
+                0x0000000008049590                HAL_PWREx_EnableVddUSB
+                0x00000000080495a2                HAL_PWREx_DisableVddUSB
+                0x00000000080495b4                HAL_PWREx_EnableVddIO2
+                0x00000000080495c6                HAL_PWREx_DisableVddIO2
+                0x00000000080495d8                HAL_PWREx_EnableGPIOPullUp
+                0x0000000008049740                HAL_PWREx_DisableGPIOPullUp
+                0x000000000804981c                HAL_PWREx_EnableGPIOPullDown
+                0x0000000008049984                HAL_PWREx_DisableGPIOPullDown
+                0x0000000008049a62                HAL_PWREx_EnablePullUpPullDownConfig
+                0x0000000008049a74                HAL_PWREx_DisablePullUpPullDownConfig
+                0x0000000008049a86                HAL_PWREx_ConfigSRAM2ContentRetention
+                0x0000000008049aa4                HAL_PWREx_EnableSRAM2ContentRetention
+                0x0000000008049ab2                HAL_PWREx_DisableSRAM2ContentRetention
+                0x0000000008049abe                HAL_PWREx_EnablePVM1
+                0x0000000008049ad0                HAL_PWREx_DisablePVM1
+                0x0000000008049ae2                HAL_PWREx_EnablePVM2
+                0x0000000008049af4                HAL_PWREx_DisablePVM2
+                0x0000000008049b06                HAL_PWREx_EnablePVM3
+                0x0000000008049b18                HAL_PWREx_DisablePVM3
+                0x0000000008049b2a                HAL_PWREx_EnablePVM4
+                0x0000000008049b3c                HAL_PWREx_DisablePVM4
+                0x0000000008049b4e                HAL_PWREx_ConfigPVM
+                0x0000000008049e60                HAL_PWREx_EnableLowPowerRunMode
+                0x0000000008049e72                HAL_PWREx_DisableLowPowerRunMode
+                0x0000000008049f10                HAL_PWREx_EnterSTOP0Mode
+                0x0000000008049f60                HAL_PWREx_EnterSTOP1Mode
+                0x0000000008049fb2                HAL_PWREx_EnterSTOP2Mode
+                0x000000000804a004                HAL_PWREx_EnterSHUTDOWNMode
+                0x000000000804a02a                HAL_PWREx_PVD_PVM_IRQHandler
+                0x000000000804a138                HAL_PWREx_PVM1Callback
+                0x000000000804a13a                HAL_PWREx_PVM2Callback
+                0x000000000804a13c                HAL_PWREx_PVM3Callback
+                0x000000000804a13e                HAL_PWREx_PVM4Callback
+                0x000000000804a140                HAL_PWREx_EnableUCPDStandbyMode
+                0x000000000804a152                HAL_PWREx_DisableUCPDStandbyMode
+                0x000000000804a164                HAL_PWREx_EnableUCPDDeadBattery
+                0x000000000804a176                HAL_PWREx_DisableUCPDDeadBattery
+                0x000000000804a188                HAL_PWREx_EnableUltraLowPowerMode
+                0x000000000804a19a                HAL_PWREx_DisableUltraLowPowerMode
+                0x000000000804a1ac                HAL_PWREx_SMPS_SetMode
+                0x000000000804a2b0                HAL_PWREx_SMPS_EnableBypassMode
+                0x000000000804a2c2                HAL_PWREx_SMPS_EnableFastStart
+                0x000000000804a2d4                HAL_PWREx_SMPS_DisableFastStart
+                0x000000000804a2e6                HAL_PWREx_SMPS_DisableBypassMode
+                0x000000000804a2f8                HAL_PWREx_SMPS_EnableExternal
+                0x000000000804a30a                HAL_PWREx_SMPS_DisableExternal
+                0x000000000804a31c                HAL_PWREx_SMPS_GetMainRegulatorExtSMPSReadyStatus
+                0x000000000804a34a                HAL_RCC_DeInit
+                0x000000000804a5cc                HAL_RCC_OscConfig
+                0x000000000804b1ac                HAL_RCC_GetHCLKFreq
+                0x000000000804b1d0                HAL_RCC_GetSysClockFreq
+                0x000000000804b352                HAL_RCC_ClockConfig
+                0x000000000804b754                HAL_RCC_MCOConfig
+                0x000000000804b7b8                HAL_RCC_GetPCLK1Freq
+                0x000000000804b7dc                HAL_RCC_GetPCLK2Freq
+                0x000000000804b800                HAL_RCC_GetOscConfig
+                0x000000000804ba0a                HAL_RCC_GetClockConfig
+                0x000000000804ba5e                HAL_RCC_EnableCSS
+                0x000000000804ba70                HAL_RCC_NMI_IRQHandler
+                0x000000000804ba9c                HAL_RCC_CSSCallback
+                0x000000000804ba9e                HAL_RCC_ConfigAttributes
+                0x000000000804baea                HAL_RCC_GetConfigAttributes
+                0x000000000804bb34                HAL_RCCEx_PeriphCLKConfig
+                0x000000000804c68e                HAL_RCCEx_GetPeriphCLKConfig
+                0x000000000804c86c                HAL_RCCEx_GetPeriphCLKFreq
+                0x000000000804dae0                HAL_RCCEx_EnablePLLSAI1
+                0x000000000804dd4e                HAL_RCCEx_DisablePLLSAI1
+                0x000000000804ddbc                HAL_RCCEx_EnablePLLSAI2
+                0x000000000804dec8                HAL_RCCEx_DisablePLLSAI2
+                0x000000000804df36                HAL_RCCEx_WakeUpStopCLKConfig
+                0x000000000804df52                HAL_RCCEx_StandbyMSIRangeConfig
+                0x000000000804df70                HAL_RCCEx_EnableLSECSS
+                0x000000000804df82                HAL_RCCEx_DisableLSECSS
+                0x000000000804df94                HAL_RCCEx_LSECSS_IRQHandler
+                0x000000000804dfb2                HAL_RCCEx_LSECSS_Callback
+                0x000000000804dfb4                HAL_RCCEx_EnableLSCO
+                0x000000000804e09e                HAL_RCCEx_DisableLSCO
+                0x000000000804e144                HAL_RCCEx_EnableMSIPLLMode
+                0x000000000804e156                HAL_RCCEx_DisableMSIPLLMode
+                0x000000000804e168                HAL_RCCEx_CRSConfig
+                0x000000000804e1d8                HAL_RCCEx_CRSSoftwareSynchronizationGenerate
+                0x000000000804e1ea                HAL_RCCEx_CRSGetSynchronizationInfo
+                0x000000000804e22e                HAL_RCCEx_CRSWaitSynchronization
+                0x000000000804e378                HAL_RCCEx_CRS_IRQHandler
+                0x000000000804e48a                HAL_RCCEx_CRS_SyncOkCallback
+                0x000000000804e48c                HAL_RCCEx_CRS_SyncWarnCallback
+                0x000000000804e48e                HAL_RCCEx_CRS_ExpectedSyncCallback
+                0x000000000804e490                HAL_RCCEx_CRS_ErrorCallback
+                0x000000000804e498                HAL_UART_Init
+                0x000000000804e544                UART_SetConfig
+                0x000000000804eaf8                UART_AdvFeatureConfig
+                0x000000000804ec40                UART_CheckIdleState
+                0x000000000804ece6                UART_WaitOnFlagUntilTimeout
+                0x000000000804edf4                HAL_HalfDuplex_Init
+                0x000000000804eea0                HAL_LIN_Init
+                0x000000000804ef86                HAL_MultiProcessor_Init
+                0x000000000804f064                HAL_UART_DeInit
+                0x000000000804f0da                HAL_UART_Transmit
+                0x000000000804f22e                HAL_UART_Receive
+                0x000000000804f40a                HAL_UART_Transmit_IT
+                0x000000000804f728                HAL_UART_Receive_IT
+                0x000000000804f7a2                UART_Start_Receive_IT
+                0x000000000804fee0                HAL_UARTEx_RxEventCallback
+                0x000000000804feec                HAL_UART_RxCpltCallback
+                0x000000000804fef4                HAL_UART_ErrorCallback
+                0x000000000804fefc                HAL_UART_Transmit_DMA
+                0x0000000008050184                HAL_UART_TxHalfCpltCallback
+                0x000000000805018c                HAL_UART_TxCpltCallback
+                0x0000000008050194                HAL_UART_Receive_DMA
+                0x000000000805020e                UART_Start_Receive_DMA
+                0x00000000080503b0                HAL_UART_RxHalfCpltCallback
+                0x00000000080503b8                HAL_UART_DMAPause
+                0x000000000805046a                HAL_UART_DMAResume
+                0x0000000008050500                HAL_UART_DMAStop
+                0x00000000080505e8                HAL_UART_Abort
+                0x000000000805073e                HAL_UART_AbortTransmit
+                0x00000000080507f2                HAL_UART_AbortReceive
+                0x00000000080508c0                HAL_UART_Abort_IT
+                0x0000000008050b56                HAL_UART_AbortCpltCallback
+                0x0000000008050b5e                HAL_UART_AbortTransmit_IT
+                0x0000000008050c62                HAL_UART_AbortTransmitCpltCallback
+                0x0000000008050c6a                HAL_UART_AbortReceive_IT
+                0x0000000008050d94                HAL_UART_AbortReceiveCpltCallback
+                0x0000000008050d9c                HAL_UART_IRQHandler
+                0x000000000805125e                HAL_UART_ReceiverTimeout_Config
+                0x0000000008051290                HAL_UART_EnableReceiverTimeout
+                0x000000000805131c                HAL_UART_DisableReceiverTimeout
+                0x00000000080513a8                HAL_MultiProcessor_EnableMuteMode
+                0x0000000008051402                HAL_MultiProcessor_DisableMuteMode
+                0x000000000805145c                HAL_MultiProcessor_EnterMuteMode
+                0x0000000008051470                HAL_HalfDuplex_EnableTransmitter
+                0x00000000080514da                HAL_HalfDuplex_EnableReceiver
+                0x0000000008051544                HAL_LIN_SendBreak
+                0x00000000080515a2                HAL_UART_GetState
+                0x00000000080515c0                HAL_UART_GetError
+                0x00000000080515ce                HAL_RS485Ex_Init
+                0x00000000080516a0                HAL_UARTEx_WakeupCallback
+                0x00000000080516a8                HAL_UARTEx_RxFifoFullCallback
+                0x00000000080516b0                HAL_UARTEx_TxFifoEmptyCallback
+                0x00000000080516b8                HAL_MultiProcessorEx_AddressLength_Set
+                0x0000000008051718                HAL_UARTEx_StopModeWakeUpSourceConfig
+                0x000000000805181a                HAL_UARTEx_EnableStopMode
+                0x0000000008051868                HAL_UARTEx_DisableStopMode
+                0x00000000080518b6                HAL_UARTEx_EnableFifoMode
+                0x00000000080519dc                HAL_UARTEx_DisableFifoMode
+                0x0000000008051a58                HAL_UARTEx_SetTxFifoThreshold
+                0x0000000008051ae6                HAL_UARTEx_SetRxFifoThreshold
+                0x0000000008051b74                HAL_UARTEx_ReceiveToIdle
+                0x0000000008051dca                HAL_UARTEx_ReceiveToIdle_IT
+                0x0000000008051e7e                HAL_UARTEx_ReceiveToIdle_DMA
+                0x0000000008051f32                _sbrk
+                0x0000000008051fba                DWT_Init
+                0x0000000008051ff2                DWT_GetTick
+                0x0000000008051ffe                _gettimeofday
+                0x000000000805204c                judge_legality
+                0x00000000080520e0                Error_Handler
+                0x00000000080520e2                negative_status_response
+                0x00000000080520f8                listen_to_events
+                0x00000000080525ce                init
+                0x00000000080526ae                main
+                0x00000000080526c8                main_logic
+                0x0000000008052878                config_memory
+                0x00000000080528ca                tagFunction
+                0x00000000080528de                config_dwt
+                0x0000000008052942                SystemInit
+                0x0000000008052944                SystemCoreClockUpdate
+                0x0000000008052958                HAL_MspInit
+                0x000000000805299a                HAL_UART_MspInit
+                0x0000000008052a52                HAL_UART_MspDeInit
+                0x0000000008052a96                MemManage_Handler
+                0x0000000008052a9a                UsageFault_Handler
+                0x0000000008052a9e                SVC_Handler
+                0x0000000008052aa0                PendSV_Handler
+                0x0000000008052aa2                SysTick_Handler
+                0x0000000008052aac                USART1_IRQHandler
+                0x0000000008052abe                initialise_monitor_handles
+                0x0000000008052ac0                _getpid
+                0x0000000008052ac4                _kill
+                0x0000000008052ade                _exit
+                0x0000000008052af4                _read
+                0x0000000008052b2c                _write
+                0x0000000008052b64                _close
+                0x0000000008052b70                _fstat
+                0x0000000008052b84                _isatty
+                0x0000000008052b8e                _lseek
+                0x0000000008052b9c                _open
+                0x0000000008052baa                _wait
+                0x0000000008052bc2                _unlink
+                0x0000000008052bda                _times
+                0x0000000008052be6                _stat
+                0x0000000008052bfa                _link
+                0x0000000008052c14                _fork
+                0x0000000008052c26                _execve
+ .text          0x0000000008052c42       0x9a /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memset-soft.o)
+                0x0000000008052c42                __aeabi_memset
+                0x0000000008052c42                __aeabi_memset8
+                0x0000000008052c42                __aeabi_memset4
+ .text          0x0000000008052cdc       0x14 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcmp.o)
+                0x0000000008052cdc                strcmp
+ .text          0x0000000008052cf0       0x10 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strlen.o)
+                0x0000000008052cf0                strlen
+ .text          0x0000000008052d00      0x378 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_addsubdf3.o)
+                0x0000000008052d00                __aeabi_drsub
+                0x0000000008052d08                __aeabi_dsub
+                0x0000000008052d08                __subdf3
+                0x0000000008052d0c                __adddf3
+                0x0000000008052d0c                __aeabi_dadd
+                0x0000000008052f84                __aeabi_ui2d
+                0x0000000008052f84                __floatunsidf
+                0x0000000008052fa4                __floatsidf
+                0x0000000008052fa4                __aeabi_i2d
+                0x0000000008052fc8                __extendsfdf2
+                0x0000000008052fc8                __aeabi_f2d
+                0x000000000805300c                __aeabi_ul2d
+                0x000000000805300c                __floatundidf
+                0x000000000805301c                __floatdidf
+                0x000000000805301c                __aeabi_l2d
+ .text          0x0000000008053078      0x424 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_muldivdf3.o)
+                0x0000000008053078                __aeabi_dmul
+                0x0000000008053078                __muldf3
+                0x00000000080532cc                __aeabi_ddiv
+                0x00000000080532cc                __divdf3
+ .text          0x000000000805349c      0x110 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_cmpdf2.o)
+                0x000000000805349c                __gtdf2
+                0x000000000805349c                __gedf2
+                0x00000000080534a4                __ltdf2
+                0x00000000080534a4                __ledf2
+                0x00000000080534ac                __cmpdf2
+                0x00000000080534ac                __eqdf2
+                0x00000000080534ac                __nedf2
+                0x0000000008053528                __aeabi_cdrcmple
+                0x0000000008053538                __aeabi_cdcmple
+                0x0000000008053538                __aeabi_cdcmpeq
+                0x0000000008053548                __aeabi_dcmpeq
+                0x000000000805355c                __aeabi_dcmplt
+                0x0000000008053570                __aeabi_dcmple
+                0x0000000008053584                __aeabi_dcmpge
+                0x0000000008053598                __aeabi_dcmpgt
+ .text          0x00000000080535ac       0x2c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_unorddf2.o)
+                0x00000000080535ac                __aeabi_dcmpun
+                0x00000000080535ac                __unorddf2
+ .text          0x00000000080535d8       0x50 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_fixdfsi.o)
+                0x00000000080535d8                __fixdfsi
+                0x00000000080535d8                __aeabi_d2iz
+ .text          0x0000000008053628       0x30 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000008053628                __aeabi_uldivmod
+ .text          0x0000000008053658      0x2e0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000000008053658                __udivmoddi4
+ .text          0x0000000008053938        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_dvmd_tls.o)
+                0x0000000008053938                __aeabi_ldiv0
+                0x0000000008053938                __aeabi_idiv0
+ *(.text*)
+ .text.Reset_Handler
+                0x000000000805393c       0x50 Build/Objects/startup_stm32l562qeixq.o
+                0x000000000805393c                Reset_Handler
+ .text.Default_Handler
+                0x000000000805398c        0x2 Build/Objects/startup_stm32l562qeixq.o
+                0x000000000805398c                EXTI2_IRQHandler
+                0x000000000805398c                TIM8_TRG_COM_IRQHandler
+                0x000000000805398c                TIM8_CC_IRQHandler
+                0x000000000805398c                EXTI5_IRQHandler
+                0x000000000805398c                DebugMon_Handler
+                0x000000000805398c                FLASH_S_IRQHandler
+                0x000000000805398c                EXTI13_IRQHandler
+                0x000000000805398c                TIM1_CC_IRQHandler
+                0x000000000805398c                TSC_IRQHandler
+                0x000000000805398c                HardFault_Handler
+                0x000000000805398c                TAMP_IRQHandler
+                0x000000000805398c                TIM6_IRQHandler
+                0x000000000805398c                EXTI12_IRQHandler
+                0x000000000805398c                DMA2_Channel8_IRQHandler
+                0x000000000805398c                NMI_Handler
+                0x000000000805398c                EXTI3_IRQHandler
+                0x000000000805398c                EXTI8_IRQHandler
+                0x000000000805398c                LPTIM2_IRQHandler
+                0x000000000805398c                DFSDM1_FLT1_IRQHandler
+                0x000000000805398c                USB_FS_IRQHandler
+                0x000000000805398c                I2C3_ER_IRQHandler
+                0x000000000805398c                DFSDM1_FLT2_IRQHandler
+                0x000000000805398c                DMAMUX1_IRQHandler
+                0x000000000805398c                LPTIM3_IRQHandler
+                0x000000000805398c                EXTI0_IRQHandler
+                0x000000000805398c                I2C2_EV_IRQHandler
+                0x000000000805398c                FPU_IRQHandler
+                0x000000000805398c                FDCAN1_IT1_IRQHandler
+                0x000000000805398c                ADC1_2_IRQHandler
+                0x000000000805398c                SPI1_IRQHandler
+                0x000000000805398c                OCTOSPI1_IRQHandler
+                0x000000000805398c                TIM8_UP_IRQHandler
+                0x000000000805398c                RCC_S_IRQHandler
+                0x000000000805398c                DMA2_Channel2_IRQHandler
+                0x000000000805398c                DMA1_Channel4_IRQHandler
+                0x000000000805398c                SAI2_IRQHandler
+                0x000000000805398c                DFSDM1_FLT3_IRQHandler
+                0x000000000805398c                PKA_IRQHandler
+                0x000000000805398c                EXTI15_IRQHandler
+                0x000000000805398c                TIM17_IRQHandler
+                0x000000000805398c                USART3_IRQHandler
+                0x000000000805398c                RTC_IRQHandler
+                0x000000000805398c                EXTI9_IRQHandler
+                0x000000000805398c                DMA1_Channel7_IRQHandler
+                0x000000000805398c                UART5_IRQHandler
+                0x000000000805398c                TIM4_IRQHandler
+                0x000000000805398c                DMA2_Channel1_IRQHandler
+                0x000000000805398c                I2C1_EV_IRQHandler
+                0x000000000805398c                DMA1_Channel6_IRQHandler
+                0x000000000805398c                TIM16_IRQHandler
+                0x000000000805398c                UART4_IRQHandler
+                0x000000000805398c                DMA2_Channel4_IRQHandler
+                0x000000000805398c                SecureFault_Handler
+                0x000000000805398c                TIM3_IRQHandler
+                0x000000000805398c                RCC_IRQHandler
+                0x000000000805398c                TIM1_TRG_COM_IRQHandler
+                0x000000000805398c                DMA1_Channel1_IRQHandler
+                0x000000000805398c                Default_Handler
+                0x000000000805398c                DMA2_Channel7_IRQHandler
+                0x000000000805398c                OTFDEC1_IRQHandler
+                0x000000000805398c                DMA1_Channel8_IRQHandler
+                0x000000000805398c                TIM7_IRQHandler
+                0x000000000805398c                SDMMC1_IRQHandler
+                0x000000000805398c                TIM5_IRQHandler
+                0x000000000805398c                UCPD1_IRQHandler
+                0x000000000805398c                TIM15_IRQHandler
+                0x000000000805398c                I2C3_EV_IRQHandler
+                0x000000000805398c                PVD_PVM_IRQHandler
+                0x000000000805398c                SPI2_IRQHandler
+                0x000000000805398c                EXTI14_IRQHandler
+                0x000000000805398c                EXTI11_IRQHandler
+                0x000000000805398c                DMA2_Channel5_IRQHandler
+                0x000000000805398c                CRS_IRQHandler
+                0x000000000805398c                DMA1_Channel5_IRQHandler
+                0x000000000805398c                EXTI4_IRQHandler
+                0x000000000805398c                RTC_S_IRQHandler
+                0x000000000805398c                RNG_IRQHandler
+                0x000000000805398c                DMAMUX1_S_IRQHandler
+                0x000000000805398c                DMA1_Channel3_IRQHandler
+                0x000000000805398c                COMP_IRQHandler
+                0x000000000805398c                TIM1_UP_IRQHandler
+                0x000000000805398c                WWDG_IRQHandler
+                0x000000000805398c                I2C4_EV_IRQHandler
+                0x000000000805398c                LPUART1_IRQHandler
+                0x000000000805398c                DMA2_Channel6_IRQHandler
+                0x000000000805398c                FDCAN1_IT0_IRQHandler
+                0x000000000805398c                TIM2_IRQHandler
+                0x000000000805398c                TAMP_S_IRQHandler
+                0x000000000805398c                EXTI7_IRQHandler
+                0x000000000805398c                TIM1_BRK_IRQHandler
+                0x000000000805398c                DAC_IRQHandler
+                0x000000000805398c                EXTI1_IRQHandler
+                0x000000000805398c                AES_IRQHandler
+                0x000000000805398c                GTZC_IRQHandler
+                0x000000000805398c                USART2_IRQHandler
+                0x000000000805398c                DFSDM1_FLT0_IRQHandler
+                0x000000000805398c                I2C2_ER_IRQHandler
+                0x000000000805398c                DMA1_Channel2_IRQHandler
+                0x000000000805398c                TIM8_BRK_IRQHandler
+                0x000000000805398c                FLASH_IRQHandler
+                0x000000000805398c                BusFault_Handler
+                0x000000000805398c                EXTI10_IRQHandler
+                0x000000000805398c                SPI3_IRQHandler
+                0x000000000805398c                I2C1_ER_IRQHandler
+                0x000000000805398c                FMC_IRQHandler
+                0x000000000805398c                EXTI6_IRQHandler
+                0x000000000805398c                LPTIM1_IRQHandler
+                0x000000000805398c                I2C4_ER_IRQHandler
+                0x000000000805398c                ICACHE_IRQHandler
+                0x000000000805398c                SAI1_IRQHandler
+                0x000000000805398c                HASH_IRQHandler
+                0x000000000805398c                DMA2_Channel3_IRQHandler
+ .text.__aeabi_memclr
+                0x000000000805398e        0x6 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memclr.o)
+                0x000000000805398e                __aeabi_memclr8
+                0x000000000805398e                __aeabi_memclr
+                0x000000000805398e                __aeabi_memclr4
+ .text.__aeabi_memcpy
+                0x0000000008053994        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memcpy.o)
+                0x0000000008053994                __aeabi_memcpy
+                0x0000000008053994                __aeabi_memcpy4
+                0x0000000008053994                __aeabi_memcpy8
+ .text.__errno  0x0000000008053998        0xc /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-errno.o)
+                0x0000000008053998                __errno
+ .text.__libc_init_array
+                0x00000000080539a4       0x48 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-init.o)
+                0x00000000080539a4                __libc_init_array
+ .text.memcpy   0x00000000080539ec       0x16 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+                0x00000000080539ec                memcpy
+ .text.memset   0x0000000008053a02       0x10 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memset.o)
+                0x0000000008053a02                memset
+ .text.__cvt    0x0000000008053a12       0xc2 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000000008053a12                __cvt
+ .text.__exponent
+                0x0000000008053ad4       0x66 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000000008053ad4                __exponent
+ *fill*         0x0000000008053b3a        0x2 
+ .text._printf_float
+                0x0000000008053b3c      0x480 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x0000000008053b3c                _printf_float
+ .text._printf_common
+                0x0000000008053fbc       0xf0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008053fbc                _printf_common
+ .text._printf_i
+                0x00000000080540ac      0x224 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000080540ac                _printf_i
+ .text.sprintf  0x00000000080542d0       0x40 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sprintf.o)
+                0x00000000080542d0                sprintf
+                0x00000000080542d0                siprintf
+ .text.strcpy   0x0000000008054310       0x10 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcpy.o)
+                0x0000000008054310                strcpy
+ .text.strncmp  0x0000000008054320       0x24 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strncmp.o)
+                0x0000000008054320                strncmp
+ .text.quorem   0x0000000008054344      0x120 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o)
+ *fill*         0x0000000008054464        0x4 
+ .text._dtoa_r  0x0000000008054468      0xb68 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o)
+                0x0000000008054468                _dtoa_r
+ .text._localeconv_r
+                0x0000000008054fd0       0x1c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o)
+                0x0000000008054fd0                _localeconv_r
+ .text.malloc   0x0000000008054fec       0x10 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o)
+                0x0000000008054fec                malloc
+ .text.memchr   0x0000000008054ffc       0x1c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memchr-stub.o)
+                0x0000000008054ffc                memchr
+ .text._Balloc  0x0000000008055018       0x68 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008055018                _Balloc
+ .text._Bfree   0x0000000008055080       0x2e /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008055080                _Bfree
+ .text.__multadd
+                0x00000000080550ae       0x7a /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x00000000080550ae                __multadd
+ .text.__hi0bits
+                0x0000000008055128       0x3e /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008055128                __hi0bits
+ .text.__lo0bits
+                0x0000000008055166       0x5e /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008055166                __lo0bits
+ .text.__i2b    0x00000000080551c4       0x12 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x00000000080551c4                __i2b
+ .text.__multiply
+                0x00000000080551d6      0x12a /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x00000000080551d6                __multiply
+ .text.__pow5mult
+                0x0000000008055300       0x9c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008055300                __pow5mult
+ .text.__lshift
+                0x000000000805539c       0xa8 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x000000000805539c                __lshift
+ .text.__mcmp   0x0000000008055444       0x34 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008055444                __mcmp
+ .text.__mdiff  0x0000000008055478       0xc0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008055478                __mdiff
+ .text.__d2b    0x0000000008055538       0x9e /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008055538                __d2b
+ .text._calloc_r
+                0x00000000080555d6       0x1c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-callocr.o)
+                0x00000000080555d6                _calloc_r
+ *fill*         0x00000000080555f2        0x2 
+ .text._free_r  0x00000000080555f4       0x9c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-freer.o)
+                0x00000000080555f4                _free_r
+ .text._malloc_r
+                0x0000000008055690       0xb4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008055690                _malloc_r
+ .text.__ssputs_r
+                0x0000000008055744       0xb4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x0000000008055744                __ssputs_r
+ .text._svfprintf_r
+                0x00000000080557f8      0x1f0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x00000000080557f8                _svfprintf_r
+                0x00000000080557f8                _svfiprintf_r
+ .text._sbrk_r  0x00000000080559e8       0x20 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sbrkr.o)
+                0x00000000080559e8                _sbrk_r
+ .text.__ascii_mbtowc
+                0x0000000008055a08       0x24 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mbtowc_r.o)
+                0x0000000008055a08                __ascii_mbtowc
+ .text.memmove  0x0000000008055a2c       0x32 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memmove.o)
+                0x0000000008055a2c                memmove
+ .text.__malloc_lock
+                0x0000000008055a5e        0x2 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mlock.o)
+                0x0000000008055a5e                __malloc_lock
+ .text.__malloc_unlock
+                0x0000000008055a60        0x2 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mlock.o)
+                0x0000000008055a60                __malloc_unlock
+ .text._realloc_r
+                0x0000000008055a62       0x4c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000000008055a62                _realloc_r
+ .text.__ascii_wctomb
+                0x0000000008055aae       0x1a /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-wctomb_r.o)
+                0x0000000008055aae                __ascii_wctomb
+ .text._malloc_usable_size_r
+                0x0000000008055ac8       0x10 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-msizer.o)
+                0x0000000008055ac8                _malloc_usable_size_r
+ *(.glue_7)
+ .glue_7        0x0000000008055ad8        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008055ad8        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0000000008055ad8        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+ *(.init)
+ .init          0x0000000008055ad8        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crti.o
+                0x0000000008055ad8                _init
+ .init          0x0000000008055adc        0x8 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtn.o
+ *(.fini)
+ .fini          0x0000000008055ae4        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crti.o
+                0x0000000008055ae4                _fini
+ .fini          0x0000000008055ae8        0x8 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtn.o
+ .fini.__stub   0x0000000008055af0       0x20 linker stubs
+                0x0000000008055b10                . = ALIGN (0x4)
+                0x0000000008055b10                _etext = .
+
+.vfp11_veneer   0x0000000008055b10        0x0
+ .vfp11_veneer  0x0000000008055b10        0x0 linker stubs
+
+.v4_bx          0x0000000008055b10        0x0
+ .v4_bx         0x0000000008055b10        0x0 linker stubs
+
+.iplt           0x0000000008055b10        0x0
+ .iplt          0x0000000008055b10        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+
+.rodata         0x0000000008055b10      0xb30
+                0x0000000008055b10                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x0000000008055b10      0x438 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+                0x0000000008055b2c                UARTPrescTable
+                0x0000000008055b44                DEVICE_ROUTINGS
+                0x0000000008055e88                DEVICE_COUNT
+                0x0000000008055e8c                SWITCH_PATTERNS
+                0x0000000008055ebc                PATTERN_COUNT
+                0x0000000008055ec0                SWITCH_MEMORY_ITEMS
+                0x0000000008055ec8                PATTERN_TIMEOUT_MS
+                0x0000000008055ed0                METHOD_TURNON
+                0x0000000008055edf                METHOD_TURNOFF
+                0x0000000008055eef                AHBPrescTable
+                0x0000000008055eff                APBPrescTable
+                0x0000000008055f08                MSIRangeTable
+ *(.rodata*)
+ .rodata.str1.1
+                0x0000000008055f48      0x498 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+                                        0x4dd (size before relaxing)
+ .rodata._printf_float.str1.1
+                0x00000000080563e0       0x12 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+ .rodata._printf_i.str1.1
+                0x00000000080563f2       0x22 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata._dtoa_r.str1.1
+                0x0000000008056414        0xd /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o)
+                                          0xf (size before relaxing)
+ *fill*         0x0000000008056421        0x7 
+ .rodata.__mprec_bigtens
+                0x0000000008056428       0x28 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008056428                __mprec_bigtens
+ .rodata.__mprec_tens
+                0x0000000008056450       0xc8 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+                0x0000000008056450                __mprec_tens
+ .rodata.p05.7359
+                0x0000000008056518        0xc /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .rodata._svfprintf_r.str1.1
+                0x0000000008056524       0x11 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+ .rodata._setlocale_r.str1.1
+                0x0000000008056535        0x8 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+                                          0x9 (size before relaxing)
+ .rodata.str1.1
+                0x000000000805653d        0x2 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .rodata._ctype_
+                0x000000000805653f      0x101 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-ctype_.o)
+                0x000000000805653f                _ctype_
+                0x0000000008056640                . = ALIGN (0x4)
+
+.ARM.extab      0x0000000008056640        0x0
+                0x0000000008056640                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x0000000008056640                . = ALIGN (0x4)
+
+.ARM            0x0000000008056640        0x8
+                0x0000000008056640                . = ALIGN (0x4)
+                0x0000000008056640                __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx     0x0000000008056640        0x8 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+                                        0xf78 (size before relaxing)
+ .ARM.exidx     0x0000000008056648        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_udivmoddi4.o)
+                                          0x8 (size before relaxing)
+                0x0000000008056648                __exidx_end = .
+                0x0000000008056648                . = ALIGN (0x4)
+
+.rel.dyn        0x0000000008056648        0x0
+ .rel.iplt      0x0000000008056648        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+
+.preinit_array  0x0000000008056648        0x0
+                0x0000000008056648                . = ALIGN (0x4)
+                0x0000000008056648                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x0000000008056648                PROVIDE (__preinit_array_end = .)
+                0x0000000008056648                . = ALIGN (0x4)
+
+.init_array     0x0000000008056648        0x4
+                0x0000000008056648                . = ALIGN (0x4)
+                0x0000000008056648                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x0000000008056648        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+                0x000000000805664c                PROVIDE (__init_array_end = .)
+                0x000000000805664c                . = ALIGN (0x4)
+
+.fini_array     0x000000000805664c        0x4
+                0x000000000805664c                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x000000000805664c        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x0000000008056650                . = ALIGN (0x4)
+                0x0000000008056650                _sidata = LOADADDR (.data)
+
+.data           0x0000000020018000      0x224 load address 0x0000000008056650
+                0x0000000020018000                . = ALIGN (0x4)
+                0x0000000020018000                _sdata = .
+ *(.data)
+ .data          0x0000000020018000       0x54 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+                0x0000000020018000                uwTickPrio
+                0x0000000020018004                uwTickFreq
+                0x0000000020018008                pFlash
+                0x0000000020018024                PATTERN_KIRKAS_HIMMEA
+                0x0000000020018038                PATTERN_HIMMEA_KIRKAS
+                0x000000002001804c                SystemCoreClock
+                0x0000000020018050                environ
+ *(.data*)
+ .data._impure_ptr
+                0x0000000020018054        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-impure.o)
+                0x0000000020018054                _impure_ptr
+ .data.impure_data
+                0x0000000020018058       0x60 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-impure.o)
+ .data.__global_locale
+                0x00000000200180b8      0x16c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+                0x00000000200180b8                __global_locale
+                0x0000000020018224                . = ALIGN (0x4)
+                0x0000000020018224                _edata = .
+
+.igot.plt       0x0000000020018224        0x0 load address 0x0000000008056874
+ .igot.plt      0x0000000020018224        0x0 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+                0x0000000020018224                . = ALIGN (0x4)
+
+.bss            0x0000000020018228     0x2c98 load address 0x0000000008056874
+                0x0000000020018228                _sbss = .
+                0x0000000020018228                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x0000000020018228       0x1c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+ *fill*         0x0000000020018244        0x4 
+ .bss           0x0000000020018248       0x80 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+                0x000000002001824c                printstr
+                0x000000002001827e                UartReady
+                0x00000000200182c0                __env
+                0x00000000200182c4                __unnamed_1
+ *(.bss*)
+ .bss.__malloc_free_list
+                0x00000000200182c8        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000200182c8                __malloc_free_list
+ .bss.__malloc_sbrk_start
+                0x00000000200182cc        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+                0x00000000200182cc                __malloc_sbrk_start
+ *(COMMON)
+ COMMON         0x00000000200182d0     0x2bec Build/Objects/light-controller_NonSecure--cceinstrumented.o
+                0x00000000200182d0                dfi_trigger_count
+                0x00000000200182d4                cfi_trigger_count
+                0x00000000200182d8                bitmap
+                0x000000002001a9e8                OutBuf
+                0x000000002001aa1c                sensitiveAddr
+                0x000000002001aa20                uwTick
+                0x000000002001aa24                global_esp
+                0x000000002001aa28                memory
+                0x000000002001ae28                global_ebp
+                0x000000002001ae2c                huart1
+ COMMON         0x000000002001aebc        0x4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+                0x000000002001aebc                errno
+                0x000000002001aec0                . = ALIGN (0x4)
+                0x000000002001aec0                _ebss = .
+                0x000000002001aec0                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x000000002001aec0      0x600 load address 0x0000000008056874
+                0x000000002001aec0                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                0x000000002001aec0                PROVIDE (_end = .)
+                0x000000002001b0c0                . = (. + _Min_Heap_Size)
+ *fill*         0x000000002001aec0      0x200 
+                0x000000002001b4c0                . = (. + _Min_Stack_Size)
+ *fill*         0x000000002001b0c0      0x400 
+                0x000000002001b4c0                . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x0000000000000000       0x3a
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x0000000000000000       0x26 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crti.o
+ .ARM.attributes
+                0x0000000000000026       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtbegin.o
+ .ARM.attributes
+                0x000000000000005e       0x24 Build/Objects/startup_stm32l562qeixq.o
+ .ARM.attributes
+                0x0000000000000082       0x38 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+ .ARM.attributes
+                0x00000000000000ba       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memclr.o)
+ .ARM.attributes
+                0x00000000000000f2       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memcpy.o)
+ .ARM.attributes
+                0x000000000000012a       0x24 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memset-soft.o)
+ .ARM.attributes
+                0x000000000000014e       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000000000000186       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x00000000000001be       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000000000001f6       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000000000000022e       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000266       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+ .ARM.attributes
+                0x000000000000029e       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .ARM.attributes
+                0x00000000000002d6       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sprintf.o)
+ .ARM.attributes
+                0x000000000000030e       0x24 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x0000000000000332       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x000000000000036a       0x1b /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x0000000000000385       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strncmp.o)
+ .ARM.attributes
+                0x00000000000003bd       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o)
+ .ARM.attributes
+                0x00000000000003f5       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o)
+ .ARM.attributes
+                0x000000000000042d       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o)
+ .ARM.attributes
+                0x0000000000000465       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x000000000000049d       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .ARM.attributes
+                0x00000000000004d5       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-callocr.o)
+ .ARM.attributes
+                0x000000000000050d       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x0000000000000545       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x000000000000057d       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+ .ARM.attributes
+                0x00000000000005b5       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000000005ed       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .ARM.attributes
+                0x0000000000000625       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mbtowc_r.o)
+ .ARM.attributes
+                0x000000000000065d       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memmove.o)
+ .ARM.attributes
+                0x0000000000000695       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x00000000000006cd       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000000000000705       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x000000000000073d       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-wctomb_r.o)
+ .ARM.attributes
+                0x0000000000000775       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x00000000000007ad       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-msizer.o)
+ .ARM.attributes
+                0x00000000000007e5       0x26 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x000000000000080b       0x26 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .ARM.attributes
+                0x0000000000000831       0x26 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_cmpdf2.o)
+ .ARM.attributes
+                0x0000000000000857       0x26 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_unorddf2.o)
+ .ARM.attributes
+                0x000000000000087d       0x26 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_fixdfsi.o)
+ .ARM.attributes
+                0x00000000000008a3       0x26 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000000000008c9       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x0000000000000901       0x26 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000000000000927       0x26 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/crtn.o
+OUTPUT(Build/Objects/light-controller_NonSecure--cceinstrumented.elf elf32-littlearm)
+
+.debug_line     0x0000000000000000     0xef3e
+ .debug_line    0x0000000000000000       0x87 Build/Objects/startup_stm32l562qeixq.o
+ .debug_line    0x0000000000000087     0xeeb7 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+
+.debug_info     0x0000000000000000      0x4aa
+ .debug_info    0x0000000000000000       0x22 Build/Objects/startup_stm32l562qeixq.o
+ .debug_info    0x0000000000000022      0x488 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+
+.debug_abbrev   0x0000000000000000       0x5c
+ .debug_abbrev  0x0000000000000000       0x12 Build/Objects/startup_stm32l562qeixq.o
+ .debug_abbrev  0x0000000000000012       0x4a Build/Objects/light-controller_NonSecure--cceinstrumented.o
+
+.debug_aranges  0x0000000000000000       0x28
+ .debug_aranges
+                0x0000000000000000       0x28 Build/Objects/startup_stm32l562qeixq.o
+
+.debug_str      0x0000000000000000      0x5bb
+ .debug_str     0x0000000000000000       0x7f Build/Objects/startup_stm32l562qeixq.o
+ .debug_str     0x000000000000007f      0x53c Build/Objects/light-controller_NonSecure--cceinstrumented.o
+                                        0x585 (size before relaxing)
+
+.debug_ranges   0x0000000000000000       0x20
+ .debug_ranges  0x0000000000000000       0x20 Build/Objects/startup_stm32l562qeixq.o
+
+.comment        0x0000000000000000       0x16
+ .comment       0x0000000000000000       0x16 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+                                        0x253 (size before relaxing)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+
+.debug_frame    0x0000000000000000     0x37f0
+ .debug_frame   0x0000000000000000     0x2c64 Build/Objects/light-controller_NonSecure--cceinstrumented.o
+ .debug_frame   0x0000000000002c64       0x20 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memclr.o)
+ .debug_frame   0x0000000000002c84       0x20 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-aeabi_memcpy.o)
+ .debug_frame   0x0000000000002ca4       0x20 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000002cc4       0x2c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000002cf0       0x28 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000002d18       0x20 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000002d38       0x8c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_float.o)
+ .debug_frame   0x0000000000002dc4       0x60 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000002e24       0x6c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sprintf.o)
+ .debug_frame   0x0000000000002e90       0x20 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcmp.o)
+ .debug_frame   0x0000000000002eb0       0x20 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strcpy.o)
+ .debug_frame   0x0000000000002ed0       0x28 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-strncmp.o)
+ .debug_frame   0x0000000000002ef8       0x70 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-dtoa.o)
+ .debug_frame   0x0000000000002f68       0x40 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-localeconv.o)
+ .debug_frame   0x0000000000002fa8       0x30 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-malloc.o)
+ .debug_frame   0x0000000000002fd8       0x28 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000003000      0x244 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mprec.o)
+ .debug_frame   0x0000000000003244       0x2c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-callocr.o)
+ .debug_frame   0x0000000000003270       0x38 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x00000000000032a8       0x2c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x00000000000032d4       0x90 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-svfprintf.o)
+ .debug_frame   0x0000000000003364       0x2c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000003390       0x68 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-locale.o)
+ .debug_frame   0x00000000000033f8       0x48 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x0000000000003440       0x28 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000003468       0x30 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000003498       0x3c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x00000000000034d4       0x5c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000003530       0x3c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-wctomb_r.o)
+ .debug_frame   0x000000000000356c       0x20 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main/fpv5-sp/hard/libc_nano.a(lib_a-nano-msizer.o)
+ .debug_frame   0x000000000000358c       0xac /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x0000000000003638       0x50 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000003688       0xc4 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x000000000000374c       0x20 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x000000000000376c       0x24 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x0000000000003790       0x2c /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00000000000037bc       0x34 /home/fdl/Desktop/llvm_build_source/urai-rt-lib/gcc/bins/bin/../lib/gcc/arm-none-eabi/7.3.1/thumb/v8-m.main/fpv5-sp/hard/libgcc.a(_udivmoddi4.o)

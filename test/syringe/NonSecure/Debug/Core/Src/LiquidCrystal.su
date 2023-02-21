@@ -1,0 +1,4 @@
+LiquidCrystal.c:6:6:lcd_begin	136	static
+LiquidCrystal.c:16:6:lcd_clear	72	static
+LiquidCrystal.c:26:6:lcd_print	232	static
+LiquidCrystal.c:36:6:lcd_setCursor	136	static

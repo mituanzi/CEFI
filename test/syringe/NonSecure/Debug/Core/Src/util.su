@@ -1,0 +1,12 @@
+util.c:9:6:pinMode	80	static
+util.c:18:5:digitalRead	24	static
+util.c:25:6:digitalWrite	80	static
+util.c:35:6:Serial_begin	72	static
+util.c:45:5:Serial_available	64	static
+util.c:62:5:Serial_read	16	static
+util.c:70:5:Serial_write	88	static
+util.c:80:5:analogRead	24	static
+util.c:87:15:millis	32	static
+util.c:96:15:usecs	32	static
+util.c:105:6:delayMicroseconds	16	static
+util.c:110:5:toUInt	24	static

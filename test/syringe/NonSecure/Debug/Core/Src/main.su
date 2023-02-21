@@ -1,0 +1,15 @@
+main.c:135:6:print	16	static
+main.c:152:6:setup	8	static
+main.c:185:6:loop	96	static
+main.c:221:6:checkTriggers	24	static
+main.c:244:6:readSerial	16	static
+main.c:259:6:processSerial	16	static
+main.c:283:6:bolus	32	static
+main.c:317:6:readKey	24	static
+main.c:348:6:doKeyAction	16	static
+main.c:405:6:updateScreen	192	static
+main.c:433:5:get_key	24	static
+main.c:459:5:main	16	static
+main.c:511:13:MX_USART1_UART_Init	8	static
+main.c:559:13:MX_GPIO_Init	16	static
+main.c:576:6:Error_Handler	4	static

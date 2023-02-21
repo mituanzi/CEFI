@@ -1,0 +1,2 @@
+led.c:5:6:led_on	64	static
+led.c:15:6:led_off	64	static

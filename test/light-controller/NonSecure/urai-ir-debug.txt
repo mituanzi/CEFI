@@ -1,0 +1,621 @@
+--------------------------------------------------------
+	 [+] Adding callers for Func: _fini
+	 [+] Adding callees for Func: _fini
+--------------------------------------------------------
+	 [+] Adding callers for Func: _init
+	 [+] Adding callees for Func: _init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_Init
+		 main_logic
+		   %call = call zeroext i8 @HAL_Init() #6, !dbg !83
+	 [+] Adding callees for Func: HAL_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_InitTick
+		 HAL_Init
+		   %call = call zeroext i8 @HAL_InitTick(i32 0) #6, !dbg !85
+	 [+] Adding callees for Func: HAL_InitTick
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_IncTick
+		 SysTick_Handler
+		   call void @HAL_IncTick() #6, !dbg !83
+	 [+] Adding callees for Func: HAL_IncTick
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetTick
+		 main_logic
+		   %call3 = call i32 @HAL_GetTick() #6, !dbg !103
+		 main_logic
+		   %call1 = call i32 @HAL_GetTick() #6, !dbg !88
+		 listen_to_events
+		   %call = call i32 @HAL_GetTick() #6, !dbg !83
+		 UART_WaitOnFlagUntilTimeout
+		   %call = call i32 @HAL_GetTick() #6, !dbg !88
+		 UART_CheckIdleState
+		   %call = call i32 @HAL_GetTick() #6, !dbg !85
+		 RCCEx_PLLSAI1_Config
+		   %call78 = call i32 @HAL_GetTick() #6, !dbg !134
+		 RCCEx_PLLSAI1_Config
+		   %call72 = call i32 @HAL_GetTick() #6, !dbg !129
+		 RCCEx_PLLSAI1_Config
+		   %call18 = call i32 @HAL_GetTick() #6, !dbg !108
+		 RCCEx_PLLSAI1_Config
+		   %call = call i32 @HAL_GetTick() #6, !dbg !103
+		 RCCEx_PLLSAI2_Config
+		   %call46 = call i32 @HAL_GetTick() #6, !dbg !129
+		 RCCEx_PLLSAI2_Config
+		   %call40 = call i32 @HAL_GetTick() #6, !dbg !124
+		 RCCEx_PLLSAI2_Config
+		   %call18 = call i32 @HAL_GetTick() #6, !dbg !108
+		 RCCEx_PLLSAI2_Config
+		   %call = call i32 @HAL_GetTick() #6, !dbg !103
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call84 = call i32 @HAL_GetTick() #6, !dbg !195
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call78 = call i32 @HAL_GetTick() #6, !dbg !190
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call55 = call i32 @HAL_GetTick() #6, !dbg !161
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call51 = call i32 @HAL_GetTick() #6, !dbg !155
+	 [+] Adding callees for Func: HAL_GetTick
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_SetPriorityGrouping
+		 HAL_Init
+		   call void @HAL_NVIC_SetPriorityGrouping(i32 4) #6, !dbg !83
+	 [+] Adding callees for Func: HAL_NVIC_SetPriorityGrouping
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_SetPriorityGrouping
+		 HAL_NVIC_SetPriorityGrouping
+		   call void @__NVIC_SetPriorityGrouping(i32 %0) #6, !dbg !83
+	 [+] Adding callees for Func: __NVIC_SetPriorityGrouping
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_SetPriority
+		 HAL_UART_MspInit
+		   call void @HAL_NVIC_SetPriority(i8 signext 61, i32 0, i32 0) #6, !dbg !109
+		 HAL_InitTick
+		   call void @HAL_NVIC_SetPriority(i8 signext -1, i32 %4, i32 0) #6, !dbg !96
+	 [+] Adding callees for Func: HAL_NVIC_SetPriority
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_GetPriorityGrouping
+		 HAL_NVIC_SetPriority
+		   %call = call i32 @__NVIC_GetPriorityGrouping() #6, !dbg !82
+	 [+] Adding callees for Func: __NVIC_GetPriorityGrouping
+--------------------------------------------------------
+	 [+] Adding callers for Func: NVIC_EncodePriority
+		 HAL_NVIC_SetPriority
+		   %call1 = call i32 @NVIC_EncodePriority(i32 %1, i32 %2, i32 %3) #6, !dbg !88
+	 [+] Adding callees for Func: NVIC_EncodePriority
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_SetPriority
+		 SysTick_Config
+		   call void @__NVIC_SetPriority(i8 signext -1, i32 7) #6, !dbg !91
+		 HAL_NVIC_SetPriority
+		   call void @__NVIC_SetPriority(i8 signext %0, i32 %call1) #6, !dbg !89
+	 [+] Adding callees for Func: __NVIC_SetPriority
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_EnableIRQ
+		 HAL_UART_MspInit
+		   call void @HAL_NVIC_EnableIRQ(i8 signext 61) #6, !dbg !110
+	 [+] Adding callees for Func: HAL_NVIC_EnableIRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_EnableIRQ
+		 HAL_NVIC_EnableIRQ
+		   call void @__NVIC_EnableIRQ(i8 signext %0) #6, !dbg !83
+	 [+] Adding callees for Func: __NVIC_EnableIRQ
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "", "~{memory}"() #6, !dbg !86, !srcloc !87
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "", "~{memory}"() #6, !dbg !97, !srcloc !98
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSTICK_Config
+		 HAL_InitTick
+		   %call = call i32 @HAL_SYSTICK_Config(i32 %div3) #6, !dbg !91
+	 [+] Adding callees for Func: HAL_SYSTICK_Config
+--------------------------------------------------------
+	 [+] Adding callers for Func: SysTick_Config
+		 HAL_SYSTICK_Config
+		   %call = call i32 @SysTick_Config(i32 %0) #6, !dbg !83
+	 [+] Adding callees for Func: SysTick_Config
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_Abort
+		 HAL_UART_IRQHandler
+		   %call183 = call zeroext i8 @HAL_DMA_Abort(%struct.__DMA_HandleTypeDef* %129) #7, !dbg !303
+	 [+] Adding callees for Func: HAL_DMA_Abort
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_Abort_IT
+		 HAL_UART_IRQHandler
+		   %call = call zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %81) #7, !dbg !239
+	 [+] Adding callees for Func: HAL_DMA_Abort_IT
+	Indirect call:   call void %34(%struct.__DMA_HandleTypeDef* %35) #6, !dbg !133
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_Init
+		 HAL_UART_MspInit
+		   call void @HAL_GPIO_Init(%struct.GPIO_TypeDef* inttoptr (i32 1107427328 to %struct.GPIO_TypeDef*), %struct.DMA_Channel_TypeDef* %GPIO_InitStruct) #6, !dbg !108
+	 [+] Adding callees for Func: HAL_GPIO_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetHCLKFreq
+		 HAL_RCC_GetPCLK2Freq
+		   %call = call i32 @HAL_RCC_GetHCLKFreq() #6, !dbg !82
+		 HAL_RCC_GetPCLK1Freq
+		   %call = call i32 @HAL_RCC_GetHCLKFreq() #6, !dbg !82
+	 [+] Adding callees for Func: HAL_RCC_GetHCLKFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetSysClockFreq
+		 UART_SetConfig
+		   %call223 = call i32 @HAL_RCC_GetSysClockFreq() #6, !dbg !242
+		 UART_SetConfig
+		   %call173 = call i32 @HAL_RCC_GetSysClockFreq() #6, !dbg !195
+		 UART_SetConfig
+		   %call112 = call i32 @HAL_RCC_GetSysClockFreq() #6, !dbg !131
+		 HAL_RCC_GetHCLKFreq
+		   %call = call i32 @HAL_RCC_GetSysClockFreq() #6, !dbg !82
+	 [+] Adding callees for Func: HAL_RCC_GetSysClockFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetPCLK1Freq
+		 UART_SetConfig
+		   %call218 = call i32 @HAL_RCC_GetPCLK1Freq() #6, !dbg !234
+		 UART_SetConfig
+		   %call168 = call i32 @HAL_RCC_GetPCLK1Freq() #6, !dbg !187
+		 UART_SetConfig
+		   %call = call i32 @HAL_RCC_GetPCLK1Freq() #6, !dbg !123
+	 [+] Adding callees for Func: HAL_RCC_GetPCLK1Freq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetPCLK2Freq
+		 UART_SetConfig
+		   %call220 = call i32 @HAL_RCC_GetPCLK2Freq() #6, !dbg !237
+		 UART_SetConfig
+		   %call170 = call i32 @HAL_RCC_GetPCLK2Freq() #6, !dbg !190
+		 UART_SetConfig
+		   %call109 = call i32 @HAL_RCC_GetPCLK2Freq() #6, !dbg !126
+	 [+] Adding callees for Func: HAL_RCC_GetPCLK2Freq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_PeriphCLKConfig
+		 HAL_UART_MspInit
+		   %call = call zeroext i8 @HAL_RCCEx_PeriphCLKConfig(%struct.RCC_PeriphCLKInitTypeDef* %PeriphClkInit) #6, !dbg !92
+	 [+] Adding callees for Func: HAL_RCCEx_PeriphCLKConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCCEx_PLLSAI1_Config
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call349 = call zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLSAI1InitTypeDef* %PLLSAI1348, i32 2) #6, !dbg !426
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call327 = call zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLSAI1InitTypeDef* %PLLSAI1326, i32 1) #6, !dbg !406
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call286 = call zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLSAI1InitTypeDef* %PLLSAI1285, i32 1) #6, !dbg !371
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call255 = call zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLSAI1InitTypeDef* %PLLSAI1254, i32 1) #6, !dbg !351
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call192 = call zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLSAI1InitTypeDef* %PLLSAI1191, i32 0) #6, !dbg !295
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call21 = call zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLSAI1InitTypeDef* %PLLSAI120, i32 0) #6, !dbg !126
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call = call zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLSAI1InitTypeDef* %PLLSAI1, i32 0) #6, !dbg !96
+	 [+] Adding callees for Func: RCCEx_PLLSAI1_Config
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCCEx_PLLSAI2_Config
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call24 = call zeroext i8 @RCCEx_PLLSAI2_Config(%struct.DMA_Channel_TypeDef* %PLLSAI223, i32 0) #6, !dbg !131
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call3 = call zeroext i8 @RCCEx_PLLSAI2_Config(%struct.DMA_Channel_TypeDef* %PLLSAI2, i32 0) #6, !dbg !101
+	 [+] Adding callees for Func: RCCEx_PLLSAI2_Config
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Init
+		 MX_USART1_UART_Init
+		   %call = call zeroext i8 @HAL_UART_Init(%struct.__UART_HandleTypeDef* @huart1) #6, !dbg !94
+	 [+] Adding callees for Func: HAL_UART_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_SetConfig
+		 HAL_UART_Init
+		   %call = call zeroext i8 @UART_SetConfig(%struct.__UART_HandleTypeDef* %11) #6, !dbg !104
+	 [+] Adding callees for Func: UART_SetConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_AdvFeatureConfig
+		 HAL_UART_Init
+		   call void @UART_AdvFeatureConfig(%struct.__UART_HandleTypeDef* %14) #6, !dbg !112
+	 [+] Adding callees for Func: UART_AdvFeatureConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_CheckIdleState
+		 HAL_UART_Init
+		   %call22 = call zeroext i8 @UART_CheckIdleState(%struct.__UART_HandleTypeDef* %24) #6, !dbg !118
+	 [+] Adding callees for Func: UART_CheckIdleState
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_WaitOnFlagUntilTimeout
+		 UART_CheckIdleState
+		   %call12 = call zeroext i8 @UART_WaitOnFlagUntilTimeout(%struct.__UART_HandleTypeDef* %9, i32 4194304, i8 zeroext 0, i32 %10, i32 33554431) #6, !dbg !107
+		 UART_CheckIdleState
+		   %call1 = call zeroext i8 @UART_WaitOnFlagUntilTimeout(%struct.__UART_HandleTypeDef* %4, i32 2097152, i8 zeroext 0, i32 %5, i32 33554431) #6, !dbg !95
+	 [+] Adding callees for Func: UART_WaitOnFlagUntilTimeout
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Transmit_IT
+		 print
+		   %call = call zeroext i8 @HAL_UART_Transmit_IT(%struct.__UART_HandleTypeDef* @huart1, i8* %0, i16 zeroext %conv) #6, !dbg !85
+	 [+] Adding callees for Func: HAL_UART_Transmit_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_TxISR_16BIT_FIFOEN
+	 [+] Adding callees for Func: UART_TxISR_16BIT_FIFOEN
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_TxISR_8BIT_FIFOEN
+	 [+] Adding callees for Func: UART_TxISR_8BIT_FIFOEN
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_TxISR_16BIT
+	 [+] Adding callees for Func: UART_TxISR_16BIT
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_TxISR_8BIT
+	 [+] Adding callees for Func: UART_TxISR_8BIT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_IRQHandler
+	 [+] Adding callees for Func: HAL_UART_IRQHandler
+	Indirect call:   call void %17(%struct.__UART_HandleTypeDef* %18) #6, !dbg !108
+	 Indirect Type: void (%struct.__UART_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call void %61(%struct.__UART_HandleTypeDef* %62) #6, !dbg !212
+	 Indirect Type: void (%struct.__UART_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call void %84(%struct.__DMA_HandleTypeDef* %86) #6, !dbg !241
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call void %167(%struct.__UART_HandleTypeDef* %168) #6, !dbg !372
+	 Indirect Type: void (%struct.__UART_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_EndRxTransfer
+		 HAL_UART_IRQHandler
+		   call void @UART_EndRxTransfer(%struct.__UART_HandleTypeDef* %69) #7, !dbg !227
+	 [+] Adding callees for Func: UART_EndRxTransfer
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMAAbortOnError
+	 [+] Adding callees for Func: UART_DMAAbortOnError
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_ErrorCallback
+		 UART_DMAAbortOnError
+		   call void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %5) #6, !dbg !93
+		 HAL_UART_IRQHandler
+		   call void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %89) #7, !dbg !255
+		 HAL_UART_IRQHandler
+		   call void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %88) #7, !dbg !252
+		 HAL_UART_IRQHandler
+		   call void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %87) #7, !dbg !249
+	 [+] Adding callees for Func: HAL_UART_ErrorCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_RxEventCallback
+		 HAL_UART_IRQHandler
+		   call void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %154, i16 zeroext %155) #7, !dbg !342
+		 HAL_UART_IRQHandler
+		   call void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %130, i16 zeroext %conv189) #7, !dbg !312
+	 [+] Adding callees for Func: HAL_UARTEx_RxEventCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_EndTransmit_IT
+		 HAL_UART_IRQHandler
+		   call void @UART_EndTransmit_IT(%struct.__UART_HandleTypeDef* %171) #7, !dbg !386
+	 [+] Adding callees for Func: UART_EndTransmit_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_TxCpltCallback
+		 UART_EndTransmit_IT
+		   call void @HAL_UART_TxCpltCallback(%struct.__UART_HandleTypeDef* %5) #6, !dbg !90
+	 [+] Adding callees for Func: HAL_UART_TxCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_GetState
+		 print
+		   %call3 = call i32 @HAL_UART_GetState(%struct.__UART_HandleTypeDef* @huart1) #6, !dbg !90
+	 [+] Adding callees for Func: HAL_UART_GetState
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_WakeupCallback
+		 HAL_UART_IRQHandler
+		   call void @HAL_UARTEx_WakeupCallback(%struct.__UART_HandleTypeDef* %160) #7, !dbg !355
+	 [+] Adding callees for Func: HAL_UARTEx_WakeupCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_RxFifoFullCallback
+		 HAL_UART_IRQHandler
+		   call void @HAL_UARTEx_RxFifoFullCallback(%struct.__UART_HandleTypeDef* %177) #7, !dbg !408
+	 [+] Adding callees for Func: HAL_UARTEx_RxFifoFullCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_TxFifoEmptyCallback
+		 HAL_UART_IRQHandler
+		   call void @HAL_UARTEx_TxFifoEmptyCallback(%struct.__UART_HandleTypeDef* %174) #7, !dbg !397
+	 [+] Adding callees for Func: HAL_UARTEx_TxFifoEmptyCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_DisableFifoMode
+		 MX_USART1_UART_Init
+		   %call14 = call zeroext i8 @HAL_UARTEx_DisableFifoMode(%struct.__UART_HandleTypeDef* @huart1) #6, !dbg !106
+	 [+] Adding callees for Func: HAL_UARTEx_DisableFifoMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_SetTxFifoThreshold
+		 MX_USART1_UART_Init
+		   %call2 = call zeroext i8 @HAL_UARTEx_SetTxFifoThreshold(%struct.__UART_HandleTypeDef* @huart1, i32 0) #6, !dbg !98
+	 [+] Adding callees for Func: HAL_UARTEx_SetTxFifoThreshold
+--------------------------------------------------------
+	 [+] Adding callers for Func: UARTEx_SetNbDataToProcess
+		 HAL_UARTEx_SetRxFifoThreshold
+		   call void @UARTEx_SetNbDataToProcess(%struct.__UART_HandleTypeDef* %16) #6, !dbg !91
+		 HAL_UARTEx_SetTxFifoThreshold
+		   call void @UARTEx_SetNbDataToProcess(%struct.__UART_HandleTypeDef* %16) #6, !dbg !91
+	 [+] Adding callees for Func: UARTEx_SetNbDataToProcess
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_SetRxFifoThreshold
+		 MX_USART1_UART_Init
+		   %call8 = call zeroext i8 @HAL_UARTEx_SetRxFifoThreshold(%struct.__UART_HandleTypeDef* @huart1, i32 0) #6, !dbg !102
+	 [+] Adding callees for Func: HAL_UARTEx_SetRxFifoThreshold
+--------------------------------------------------------
+	 [+] Adding callers for Func: _sbrk
+	 [+] Adding callees for Func: _sbrk
+--------------------------------------------------------
+	 [+] Adding callers for Func: __errno
+		 _execve
+		   %call = call i32* @__errno() #7, !dbg !83
+		 _fork
+		   %call = call i32* @__errno() #7, !dbg !83
+		 _link
+		   %call = call i32* @__errno() #7, !dbg !83
+		 _unlink
+		   %call = call i32* @__errno() #7, !dbg !83
+		 _wait
+		   %call = call i32* @__errno() #7, !dbg !83
+		 _kill
+		   %call = call i32* @__errno() #7, !dbg !83
+		 _sbrk
+		   %call = call i32* @__errno() #7, !dbg !97
+	 [+] Adding callees for Func: __errno
+--------------------------------------------------------
+	 [+] Adding callers for Func: listen_to_events
+		 main_logic
+		   call void @listen_to_events(i8* %arraydecay, i32 0, i32 0, i8* null) #7, !dbg !99
+	 [+] Adding callees for Func: listen_to_events
+--------------------------------------------------------
+	 [+] Adding callers for Func: sprintf
+		 main_logic
+		   %call53 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([30 x i8], [30 x i8]* @.str.23, i32 0, i32 0), i32 %37) #7, !dbg !186
+		 main_logic
+		   %call46 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([26 x i8], [26 x i8]* @.str.22, i32 0, i32 0), i32 %34) #7, !dbg !179
+		 main_logic
+		   %call40 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([26 x i8], [26 x i8]* @.str.21, i32 0, i32 0), i32 %31) #7, !dbg !172
+		 main_logic
+		   %call21 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([36 x i8], [36 x i8]* @.str.20, i32 0, i32 0), i32 %14, i32 %17, i32 %20, i32 %23) #7, !dbg !147
+		 main_logic
+		   %call6 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([23 x i8], [23 x i8]* @.str.19, i32 0, i32 0), i32 %6) #7, !dbg !112
+		 main_logic
+		   %call5 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([23 x i8], [23 x i8]* @.str.18, i32 0, i32 0), i32 %5) #7, !dbg !109
+		 main_logic
+		   %call4 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.17, i32 0, i32 0), i32 %4) #7, !dbg !106
+		 main_logic
+		   %call2 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8], [12 x i8]* @.str.16, i32 0, i32 0), i32 %1) #7, !dbg !91
+		 react_to_pattern
+		   %call37 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i8* getelementptr inbounds ([26 x i8], [26 x i8]* @.str.25, i32 0, i32 0), i32 %32, i32 %conv36) #7, !dbg !154
+		 react_to_pattern
+		   %call29 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i8* getelementptr inbounds ([25 x i8], [25 x i8]* @.str.24, i32 0, i32 0), i32 %27, i32 %conv28) #7, !dbg !145
+		 react_to_pattern
+		   %call = call i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.10, i32 0, i32 0), i8* getelementptr inbounds ([17 x i8], [17 x i8]* @__func__.react_to_pattern, i32 0, i32 0)) #7, !dbg !88
+		 listen_to_events
+		   %call58 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i8* getelementptr inbounds ([20 x i8], [20 x i8]* @.str.15, i32 0, i32 0), i8* %41) #7, !dbg !184
+		 listen_to_events
+		   %call49 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i8* getelementptr inbounds ([14 x i8], [14 x i8]* @.str.14, i32 0, i32 0), i32 %conv48) #7, !dbg !175
+		 listen_to_events
+		   %call38 = call i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i8* getelementptr inbounds ([13 x i8], [13 x i8]* @.str.12, i32 0, i32 0), i32 %conv37) #7, !dbg !162
+		 listen_to_events
+		   %call1 = call i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([7 x i8], [7 x i8]* @.str.10, i32 0, i32 0), i8* getelementptr inbounds ([17 x i8], [17 x i8]* @__func__.listen_to_events, i32 0, i32 0)) #7, !dbg !89
+	 [+] Adding callees for Func: sprintf
+--------------------------------------------------------
+	 [+] Adding callers for Func: print
+		 main_logic
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50) #7, !dbg !187
+		 main_logic
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50) #7, !dbg !180
+		 main_logic
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50) #7, !dbg !173
+		 main_logic
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50) #7, !dbg !148
+		 main_logic
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50) #7, !dbg !113
+		 main_logic
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50) #7, !dbg !110
+		 main_logic
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50) #7, !dbg !107
+		 main_logic
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50) #7, !dbg !92
+		 react_to_pattern
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i32 50) #7, !dbg !155
+		 react_to_pattern
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i32 50) #7, !dbg !146
+		 react_to_pattern
+		   call void @print(i8* %arraydecay1, i32 50) #7, !dbg !90
+		 listen_to_events
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i32 50) #7, !dbg !185
+		 listen_to_events
+		   call void @print(i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.13, i32 0, i32 0), i32 10) #7, !dbg !181
+		 listen_to_events
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i32 50) #7, !dbg !176
+		 listen_to_events
+		   call void @print(i8* getelementptr inbounds ([10 x i8], [10 x i8]* @.str.13, i32 0, i32 0), i32 10) #7, !dbg !168
+		 listen_to_events
+		   call void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @printstr, i32 0, i32 0), i32 50) #7, !dbg !163
+		 listen_to_events
+		   call void @print(i8* getelementptr inbounds ([15 x i8], [15 x i8]* @.str.11, i32 0, i32 0), i32 15) #7, !dbg !144
+		 listen_to_events
+		   call void @print(i8* %arraydecay2, i32 30) #7, !dbg !91
+	 [+] Adding callees for Func: print
+--------------------------------------------------------
+	 [+] Adding callers for Func: strlen
+		 listen_to_events
+		   %call3 = call i32 @strlen(i8* %4) #7, !dbg !102
+	 [+] Adding callees for Func: strlen
+--------------------------------------------------------
+	 [+] Adding callers for Func: strncmp
+		 listen_to_events
+		   %call25 = call i32 @strncmp(i8* %25, i8* %27, i32 %28) #7, !dbg !150
+		 listen_to_events
+		   %call5 = call i32 @strncmp(i8* %5, i8* %7, i32 %8) #7, !dbg !108
+	 [+] Adding callees for Func: strncmp
+--------------------------------------------------------
+	 [+] Adding callers for Func: strcmp
+		 listen_to_events
+		   %call43 = call i32 @strcmp(i8* %36, i8* getelementptr inbounds ([16 x i8], [16 x i8]* @METHOD_TURNOFF, i32 0, i32 0)) #7, !dbg !171
+		 listen_to_events
+		   %call32 = call i32 @strcmp(i8* %31, i8* getelementptr inbounds ([15 x i8], [15 x i8]* @METHOD_TURNON, i32 0, i32 0)) #7, !dbg !158
+		 listen_to_events
+		   %call12 = call i32 @strcmp(i8* %17, i8* getelementptr inbounds ([16 x i8], [16 x i8]* @METHOD_TURNOFF, i32 0, i32 0)) #7, !dbg !129
+	 [+] Adding callees for Func: strcmp
+--------------------------------------------------------
+	 [+] Adding callers for Func: react_to_pattern
+		 listen_to_events
+		   call void @react_to_pattern(i64 %conv67) #7, !dbg !193
+	 [+] Adding callees for Func: react_to_pattern
+--------------------------------------------------------
+	 [+] Adding callers for Func: Error_Handler
+		 HAL_UART_MspInit
+		   call void @Error_Handler() #7, !dbg !94
+		 MX_USART1_UART_Init
+		   call void @Error_Handler() #7, !dbg !108
+		 MX_USART1_UART_Init
+		   call void @Error_Handler() #7, !dbg !104
+		 MX_USART1_UART_Init
+		   call void @Error_Handler() #7, !dbg !100
+		 MX_USART1_UART_Init
+		   call void @Error_Handler() #7, !dbg !96
+		 print
+		   call void @Error_Handler() #7, !dbg !87
+	 [+] Adding callees for Func: Error_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: init
+		 main
+		   call void @init() #7, !dbg !83
+	 [+] Adding callees for Func: init
+--------------------------------------------------------
+	 [+] Adding callers for Func: main
+	 [+] Adding callees for Func: main
+--------------------------------------------------------
+	 [+] Adding callers for Func: main_logic
+		 main
+		   %call = call i32 @main_logic() #7, !dbg !84
+	 [+] Adding callees for Func: main_logic
+--------------------------------------------------------
+	 [+] Adding callers for Func: MX_GPIO_Init
+		 main_logic
+		   call void @MX_GPIO_Init() #7, !dbg !84
+	 [+] Adding callees for Func: MX_GPIO_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: MX_USART1_UART_Init
+		 main_logic
+		   call void @MX_USART1_UART_Init() #7, !dbg !85
+	 [+] Adding callees for Func: MX_USART1_UART_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: config_memory
+		 init
+		   call void @config_memory() #7, !dbg !83
+	 [+] Adding callees for Func: config_memory
+--------------------------------------------------------
+	 [+] Adding callers for Func: tagFunction
+		 config_dwt
+		   call void @tagFunction(i32 0) #7, !dbg !83
+	 [+] Adding callees for Func: tagFunction
+--------------------------------------------------------
+	 [+] Adding callers for Func: config_dwt
+		 init
+		   call void @config_dwt() #7, !dbg !84
+	 [+] Adding callees for Func: config_dwt
+--------------------------------------------------------
+	 [+] Adding callers for Func: SystemInit
+	 [+] Adding callees for Func: SystemInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: SystemCoreClockUpdate
+		 HAL_Init
+		   call void @SystemCoreClockUpdate() #7, !dbg !84
+	 [+] Adding callees for Func: SystemCoreClockUpdate
+--------------------------------------------------------
+	 [+] Adding callers for Func: SECURE_SystemCoreClockUpdate
+		 SystemCoreClockUpdate
+		   %call = call i32 @SECURE_SystemCoreClockUpdate() #7, !dbg !83
+	 [+] Adding callees for Func: SECURE_SystemCoreClockUpdate
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_MspInit
+		 HAL_Init
+		   call void @HAL_MspInit() #7, !dbg !89
+	 [+] Adding callees for Func: HAL_MspInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_MspInit
+	 [+] Adding callees for Func: HAL_UART_MspInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: MemManage_Handler
+	 [+] Adding callees for Func: MemManage_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: UsageFault_Handler
+	 [+] Adding callees for Func: UsageFault_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: PendSV_Handler
+	 [+] Adding callees for Func: PendSV_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: SysTick_Handler
+	 [+] Adding callees for Func: SysTick_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: USART1_IRQHandler
+	 [+] Adding callees for Func: USART1_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: _getpid
+	 [+] Adding callees for Func: _getpid
+--------------------------------------------------------
+	 [+] Adding callers for Func: _kill
+		 _exit
+		   %call = call i32 @_kill(i32 %0, i32 -1) #7, !dbg !84
+	 [+] Adding callees for Func: _kill
+--------------------------------------------------------
+	 [+] Adding callers for Func: _exit
+	 [+] Adding callees for Func: _exit
+--------------------------------------------------------
+	 [+] Adding callers for Func: _read
+	 [+] Adding callees for Func: _read
+--------------------------------------------------------
+	 [+] Adding callers for Func: __io_getchar
+		 _read
+		   %call = call i32 @__io_getchar() #7, !dbg !89
+	 [+] Adding callees for Func: __io_getchar
+--------------------------------------------------------
+	 [+] Adding callers for Func: _write
+	 [+] Adding callees for Func: _write
+--------------------------------------------------------
+	 [+] Adding callers for Func: __io_putchar
+		 _write
+		   %call = call i32 @__io_putchar(i32 %conv) #6, !dbg !91
+	 [+] Adding callees for Func: __io_putchar
+--------------------------------------------------------
+	 [+] Adding callers for Func: _close
+	 [+] Adding callees for Func: _close
+--------------------------------------------------------
+	 [+] Adding callers for Func: _fstat
+	 [+] Adding callees for Func: _fstat
+--------------------------------------------------------
+	 [+] Adding callers for Func: _isatty
+	 [+] Adding callees for Func: _isatty
+--------------------------------------------------------
+	 [+] Adding callers for Func: _lseek
+	 [+] Adding callees for Func: _lseek
+--------------------------------------------------------
+	 [+] Adding callers for Func: _open
+	 [+] Adding callees for Func: _open
+--------------------------------------------------------
+	 [+] Adding callers for Func: _wait
+	 [+] Adding callees for Func: _wait
+--------------------------------------------------------
+	 [+] Adding callers for Func: _unlink
+	 [+] Adding callees for Func: _unlink
+--------------------------------------------------------
+	 [+] Adding callers for Func: _times
+	 [+] Adding callees for Func: _times
+--------------------------------------------------------
+	 [+] Adding callers for Func: _stat
+	 [+] Adding callees for Func: _stat
+--------------------------------------------------------
+	 [+] Adding callers for Func: _link
+	 [+] Adding callees for Func: _link
+--------------------------------------------------------
+	 [+] Adding callers for Func: _fork
+	 [+] Adding callees for Func: _fork
+--------------------------------------------------------
+	 [+] Adding callers for Func: _execve
+	 [+] Adding callees for Func: _execve

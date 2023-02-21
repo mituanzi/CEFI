@@ -1,0 +1,3213 @@
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_Init
+		 init
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_Init(), !dbg !69
+	 [+] Adding callees for Func: HAL_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_InitTick
+		 HAL_RCC_ClockConfig
+		   %call117 = call arm_aapcs_vfpcc zeroext i8 @HAL_InitTick(i32 %59), !dbg !194
+		 HAL_RCC_OscConfig
+		   %call54 = call arm_aapcs_vfpcc zeroext i8 @HAL_InitTick(i32 %35), !dbg !122
+		 HAL_RCC_DeInit
+		   %call6 = call arm_aapcs_vfpcc zeroext i8 @HAL_InitTick(i32 %4), !dbg !89
+		 HAL_SetTickFreq
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_InitTick(i32 %4), !dbg !77
+		 HAL_Init
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_InitTick(i32 0), !dbg !71
+	 [+] Adding callees for Func: HAL_InitTick
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DeInit
+	 [+] Adding callees for Func: HAL_DeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_MspDeInit
+		 HAL_DeInit
+		   call arm_aapcs_vfpcc void @HAL_MspDeInit(), !dbg !78
+	 [+] Adding callees for Func: HAL_MspDeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_IncTick
+		 SysTick_Handler
+		   call arm_aapcs_vfpcc void @HAL_IncTick(), !dbg !69
+	 [+] Adding callees for Func: HAL_IncTick
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetTick
+		 millis
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !69
+		 HAL_UARTEx_ReceiveToIdle
+		   %call118 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !168
+		 HAL_UARTEx_ReceiveToIdle
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !88
+		 HAL_UARTEx_StopModeWakeUpSourceConfig
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !82
+		 HAL_UART_Receive
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !88
+		 HAL_UART_Transmit
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !85
+		 UART_WaitOnFlagUntilTimeout
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !74
+		 UART_CheckIdleState
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !71
+		 HAL_RCCEx_CRSWaitSynchronization
+		   %call1 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !74
+		 HAL_RCCEx_CRSWaitSynchronization
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !69
+		 HAL_RCCEx_DisablePLLSAI2
+		   %call2 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !75
+		 HAL_RCCEx_DisablePLLSAI2
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !70
+		 HAL_RCCEx_EnablePLLSAI2
+		   %call28 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !100
+		 HAL_RCCEx_EnablePLLSAI2
+		   %call22 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !95
+		 HAL_RCCEx_EnablePLLSAI2
+		   %call2 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !75
+		 HAL_RCCEx_EnablePLLSAI2
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !70
+		 HAL_RCCEx_DisablePLLSAI1
+		   %call2 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !75
+		 HAL_RCCEx_DisablePLLSAI1
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !70
+		 RCCEx_PLLSource_Enable
+		   %call34 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !117
+		 RCCEx_PLLSource_Enable
+		   %call29 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !112
+		 RCCEx_PLLSource_Enable
+		   %call17 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !98
+		 RCCEx_PLLSource_Enable
+		   %call12 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !93
+		 RCCEx_PLLSource_Enable
+		   %call3 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !79
+		 RCCEx_PLLSource_Enable
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !74
+		 HAL_RCCEx_EnablePLLSAI1
+		   %call35 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !100
+		 HAL_RCCEx_EnablePLLSAI1
+		   %call29 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !95
+		 HAL_RCCEx_EnablePLLSAI1
+		   %call2 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !75
+		 HAL_RCCEx_EnablePLLSAI1
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !70
+		 RCCEx_PLLSAI1_Config
+		   %call78 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !120
+		 RCCEx_PLLSAI1_Config
+		   %call72 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !115
+		 RCCEx_PLLSAI1_Config
+		   %call18 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !94
+		 RCCEx_PLLSAI1_Config
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !89
+		 RCCEx_PLLSAI2_Config
+		   %call46 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !115
+		 RCCEx_PLLSAI2_Config
+		   %call40 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !110
+		 RCCEx_PLLSAI2_Config
+		   %call18 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !94
+		 RCCEx_PLLSAI2_Config
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !89
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call84 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !181
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call78 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !176
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call55 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !147
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call51 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !141
+		 HAL_RCC_ClockConfig
+		   %call73 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !148
+		 HAL_RCC_ClockConfig
+		   %call69 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !140
+		 HAL_RCC_OscConfig
+		   %call552 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !533
+		 HAL_RCC_OscConfig
+		   %call546 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !528
+		 HAL_RCC_OscConfig
+		   %call530 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !513
+		 HAL_RCC_OscConfig
+		   %call524 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !508
+		 HAL_RCC_OscConfig
+		   %call492 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !497
+		 HAL_RCC_OscConfig
+		   %call486 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !492
+		 HAL_RCC_OscConfig
+		   %call464 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !472
+		 HAL_RCC_OscConfig
+		   %call458 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !467
+		 HAL_RCC_OscConfig
+		   %call449 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !457
+		 HAL_RCC_OscConfig
+		   %call443 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !452
+		 HAL_RCC_OscConfig
+		   %call418 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !429
+		 HAL_RCC_OscConfig
+		   %call401 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !415
+		 HAL_RCC_OscConfig
+		   %call395 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !410
+		 HAL_RCC_OscConfig
+		   %call386 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !401
+		 HAL_RCC_OscConfig
+		   %call372 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !388
+		 HAL_RCC_OscConfig
+		   %call354 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !371
+		 HAL_RCC_OscConfig
+		   %call348 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !366
+		 HAL_RCC_OscConfig
+		   %call318 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !337
+		 HAL_RCC_OscConfig
+		   %call312 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !333
+		 HAL_RCC_OscConfig
+		   %call284 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !312
+		 HAL_RCC_OscConfig
+		   %call278 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !307
+		 HAL_RCC_OscConfig
+		   %call269 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !297
+		 HAL_RCC_OscConfig
+		   %call263 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !292
+		 HAL_RCC_OscConfig
+		   %call237 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !268
+		 HAL_RCC_OscConfig
+		   %call231 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !263
+		 HAL_RCC_OscConfig
+		   %call218 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !252
+		 HAL_RCC_OscConfig
+		   %call212 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !247
+		 HAL_RCC_OscConfig
+		   %call170 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !210
+		 HAL_RCC_OscConfig
+		   %call164 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !205
+		 HAL_RCC_OscConfig
+		   %call156 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !196
+		 HAL_RCC_OscConfig
+		   %call150 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !191
+		 HAL_RCC_OscConfig
+		   %call94 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !155
+		 HAL_RCC_OscConfig
+		   %call88 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !150
+		 HAL_RCC_OscConfig
+		   %call71 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !138
+		 HAL_RCC_OscConfig
+		   %call67 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !133
+		 HAL_RCC_DeInit
+		   %call47 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !129
+		 HAL_RCC_DeInit
+		   %call41 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !124
+		 HAL_RCC_DeInit
+		   %call30 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !109
+		 HAL_RCC_DeInit
+		   %call24 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !104
+		 HAL_RCC_DeInit
+		   %call16 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !95
+		 HAL_RCC_DeInit
+		   %call5 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !85
+		 HAL_RCC_DeInit
+		   %call1 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !75
+		 HAL_RCC_DeInit
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !70
+		 HAL_ICACHE_Disable
+		   %call3 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !76
+		 HAL_ICACHE_Disable
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !71
+		 HAL_ICACHE_WaitForInvalidateComplete
+		   %call3 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !76
+		 HAL_ICACHE_WaitForInvalidateComplete
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !71
+		 HAL_I2C_IsDeviceReady
+		   %call51 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !103
+		 HAL_I2C_IsDeviceReady
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !88
+		 HAL_I2C_Mem_Read_DMA
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !85
+		 HAL_I2C_Mem_Write_DMA
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !85
+		 HAL_I2C_Mem_Read_IT
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !85
+		 HAL_I2C_Mem_Write_IT
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !85
+		 HAL_I2C_Mem_Read
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !82
+		 HAL_I2C_Mem_Write
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !82
+		 HAL_I2C_Slave_Receive
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !82
+		 HAL_I2C_Slave_Transmit
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !82
+		 I2C_WaitOnRXNEFlagUntilTimeout
+		   %call29 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !100
+		 HAL_I2C_Master_Receive
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !72
+		 I2C_WaitOnFlagUntilTimeout
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !74
+		 I2C_WaitOnTXISFlagUntilTimeout
+		   %call7 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !79
+		 I2C_IsAcknowledgeFailed
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !75
+		 I2C_WaitOnSTOPFlagUntilTimeout
+		   %call4 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !77
+		 HAL_I2C_Master_Transmit
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !72
+		 FLASH_WaitForLastOperation
+		   %call2 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !76
+		 FLASH_WaitForLastOperation
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !68
+		 HAL_DMA_PollForTransfer
+		   %call41 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !138
+		 HAL_DMA_PollForTransfer
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !101
+		 HAL_SYSCFG_EnableVREFBUF
+		   %call1 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !74
+		 HAL_SYSCFG_EnableVREFBUF
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !69
+		 HAL_Delay
+		   %call1 = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !79
+		 HAL_Delay
+		   %call = call arm_aapcs_vfpcc i32 @HAL_GetTick(), !dbg !68
+	 [+] Adding callees for Func: HAL_GetTick
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetTickPrio
+	 [+] Adding callees for Func: HAL_GetTickPrio
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SetTickFreq
+	 [+] Adding callees for Func: HAL_SetTickFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetTickFreq
+	 [+] Adding callees for Func: HAL_GetTickFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_Delay
+		 delayMicroseconds
+		   call arm_aapcs_vfpcc void @HAL_Delay(i32 %conv), !dbg !70
+		 loop
+		   call arm_aapcs_vfpcc void @HAL_Delay(i32 10), !dbg !94
+		 loop
+		   call arm_aapcs_vfpcc void @HAL_Delay(i32 10), !dbg !70
+		 setup
+		   call arm_aapcs_vfpcc void @HAL_Delay(i32 1000), !dbg !78
+	 [+] Adding callees for Func: HAL_Delay
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SuspendTick
+	 [+] Adding callees for Func: HAL_SuspendTick
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ResumeTick
+	 [+] Adding callees for Func: HAL_ResumeTick
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetHalVersion
+	 [+] Adding callees for Func: HAL_GetHalVersion
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetREVID
+	 [+] Adding callees for Func: HAL_GetREVID
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetDEVID
+	 [+] Adding callees for Func: HAL_GetDEVID
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetUIDw0
+	 [+] Adding callees for Func: HAL_GetUIDw0
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetUIDw1
+	 [+] Adding callees for Func: HAL_GetUIDw1
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GetUIDw2
+	 [+] Adding callees for Func: HAL_GetUIDw2
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DBGMCU_EnableDBGStopMode
+	 [+] Adding callees for Func: HAL_DBGMCU_EnableDBGStopMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DBGMCU_DisableDBGStopMode
+	 [+] Adding callees for Func: HAL_DBGMCU_DisableDBGStopMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DBGMCU_EnableDBGStandbyMode
+	 [+] Adding callees for Func: HAL_DBGMCU_EnableDBGStandbyMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DBGMCU_DisableDBGStandbyMode
+	 [+] Adding callees for Func: HAL_DBGMCU_DisableDBGStandbyMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_SRAM2Erase
+	 [+] Adding callees for Func: HAL_SYSCFG_SRAM2Erase
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_VREFBUF_VoltageScalingConfig
+	 [+] Adding callees for Func: HAL_SYSCFG_VREFBUF_VoltageScalingConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_VREFBUF_TrimmingConfig
+		 HAL_SYSCFG_VREFBUF_VoltageScalingConfig
+		   call arm_aapcs_vfpcc void @HAL_SYSCFG_VREFBUF_TrimmingConfig(i32 %5), !dbg !81
+	 [+] Adding callees for Func: HAL_SYSCFG_VREFBUF_TrimmingConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_VREFBUF_HighImpedanceConfig
+	 [+] Adding callees for Func: HAL_SYSCFG_VREFBUF_HighImpedanceConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_EnableVREFBUF
+	 [+] Adding callees for Func: HAL_SYSCFG_EnableVREFBUF
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_DisableVREFBUF
+	 [+] Adding callees for Func: HAL_SYSCFG_DisableVREFBUF
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_EnableIOAnalogBooster
+	 [+] Adding callees for Func: HAL_SYSCFG_EnableIOAnalogBooster
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_DisableIOAnalogBooster
+	 [+] Adding callees for Func: HAL_SYSCFG_DisableIOAnalogBooster
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_EnableIOAnalogSwitchVdd
+	 [+] Adding callees for Func: HAL_SYSCFG_EnableIOAnalogSwitchVdd
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_DisableIOAnalogSwitchVdd
+	 [+] Adding callees for Func: HAL_SYSCFG_DisableIOAnalogSwitchVdd
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_Lock
+	 [+] Adding callees for Func: HAL_SYSCFG_Lock
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSCFG_GetLock
+	 [+] Adding callees for Func: HAL_SYSCFG_GetLock
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_SetPriorityGrouping
+		 HAL_Init
+		   call arm_aapcs_vfpcc void @HAL_NVIC_SetPriorityGrouping(i32 4), !dbg !69
+	 [+] Adding callees for Func: HAL_NVIC_SetPriorityGrouping
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_SetPriorityGrouping
+		 HAL_NVIC_SetPriorityGrouping
+		   call arm_aapcs_vfpcc void @__NVIC_SetPriorityGrouping(i32 %0), !dbg !69
+	 [+] Adding callees for Func: __NVIC_SetPriorityGrouping
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_SetPriority
+		 HAL_UART_MspInit
+		   call arm_aapcs_vfpcc void @HAL_NVIC_SetPriority(i8 signext 61, i32 0, i32 0), !dbg !95
+		 HAL_InitTick
+		   call arm_aapcs_vfpcc void @HAL_NVIC_SetPriority(i8 signext -1, i32 %4, i32 0), !dbg !82
+	 [+] Adding callees for Func: HAL_NVIC_SetPriority
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_GetPriorityGrouping
+		 HAL_NVIC_GetPriorityGrouping
+		   %call = call arm_aapcs_vfpcc i32 @__NVIC_GetPriorityGrouping(), !dbg !68
+		 HAL_NVIC_SetPriority
+		   %call = call arm_aapcs_vfpcc i32 @__NVIC_GetPriorityGrouping(), !dbg !68
+	 [+] Adding callees for Func: __NVIC_GetPriorityGrouping
+--------------------------------------------------------
+	 [+] Adding callers for Func: NVIC_EncodePriority
+		 HAL_NVIC_SetPriority
+		   %call1 = call arm_aapcs_vfpcc i32 @NVIC_EncodePriority(i32 %1, i32 %2, i32 %3), !dbg !74
+	 [+] Adding callees for Func: NVIC_EncodePriority
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_SetPriority
+		 SysTick_Config
+		   call arm_aapcs_vfpcc void @__NVIC_SetPriority(i8 signext -1, i32 7), !dbg !77
+		 HAL_NVIC_SetPriority
+		   call arm_aapcs_vfpcc void @__NVIC_SetPriority(i8 signext %0, i32 %call1), !dbg !75
+	 [+] Adding callees for Func: __NVIC_SetPriority
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_EnableIRQ
+		 HAL_UART_MspInit
+		   call arm_aapcs_vfpcc void @HAL_NVIC_EnableIRQ(i8 signext 61), !dbg !96
+	 [+] Adding callees for Func: HAL_NVIC_EnableIRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_EnableIRQ
+		 HAL_NVIC_EnableIRQ
+		   call arm_aapcs_vfpcc void @__NVIC_EnableIRQ(i8 signext %0), !dbg !69
+	 [+] Adding callees for Func: __NVIC_EnableIRQ
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "", "~{memory}"() #5, !dbg !72, !srcloc !73
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "", "~{memory}"() #5, !dbg !83, !srcloc !84
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_DisableIRQ
+		 HAL_UART_MspDeInit
+		   call arm_aapcs_vfpcc void @HAL_NVIC_DisableIRQ(i8 signext 61), !dbg !74
+	 [+] Adding callees for Func: HAL_NVIC_DisableIRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_DisableIRQ
+		 HAL_NVIC_DisableIRQ
+		   call arm_aapcs_vfpcc void @__NVIC_DisableIRQ(i8 signext %0), !dbg !69
+	 [+] Adding callees for Func: __NVIC_DisableIRQ
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "dsb 0xF", "~{memory}"() #5, !dbg !81, !srcloc !85
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "isb 0xF", "~{memory}"() #5, !dbg !86, !srcloc !89
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_SystemReset
+	 [+] Adding callees for Func: HAL_NVIC_SystemReset
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_SystemReset
+		 HAL_NVIC_SystemReset
+		   call arm_aapcs_vfpcc void @__NVIC_SystemReset() #6, !dbg !68
+	 [+] Adding callees for Func: __NVIC_SystemReset
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "dsb 0xF", "~{memory}"() #6, !dbg !69, !srcloc !73
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "dsb 0xF", "~{memory}"() #6, !dbg !79, !srcloc !73
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "nop", ""() #6, !dbg !82, !srcloc !83
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSTICK_Config
+		 HAL_InitTick
+		   %call = call arm_aapcs_vfpcc i32 @HAL_SYSTICK_Config(i32 %div3), !dbg !77
+	 [+] Adding callees for Func: HAL_SYSTICK_Config
+--------------------------------------------------------
+	 [+] Adding callers for Func: SysTick_Config
+		 HAL_SYSTICK_Config
+		   %call = call arm_aapcs_vfpcc i32 @SysTick_Config(i32 %0), !dbg !69
+	 [+] Adding callees for Func: SysTick_Config
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_GetPriorityGrouping
+	 [+] Adding callees for Func: HAL_NVIC_GetPriorityGrouping
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_GetPriority
+	 [+] Adding callees for Func: HAL_NVIC_GetPriority
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_GetPriority
+		 HAL_NVIC_GetPriority
+		   %call = call arm_aapcs_vfpcc i32 @__NVIC_GetPriority(i8 signext %0), !dbg !69
+	 [+] Adding callees for Func: __NVIC_GetPriority
+--------------------------------------------------------
+	 [+] Adding callers for Func: NVIC_DecodePriority
+		 HAL_NVIC_GetPriority
+		   call arm_aapcs_vfpcc void @NVIC_DecodePriority(i32 %call, i32 %1, i32* %2, i32* %3), !dbg !73
+	 [+] Adding callees for Func: NVIC_DecodePriority
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_SetPendingIRQ
+	 [+] Adding callees for Func: HAL_NVIC_SetPendingIRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_SetPendingIRQ
+		 HAL_NVIC_SetPendingIRQ
+		   call arm_aapcs_vfpcc void @__NVIC_SetPendingIRQ(i8 signext %0), !dbg !69
+	 [+] Adding callees for Func: __NVIC_SetPendingIRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_GetPendingIRQ
+	 [+] Adding callees for Func: HAL_NVIC_GetPendingIRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_GetPendingIRQ
+		 HAL_NVIC_GetPendingIRQ
+		   %call = call arm_aapcs_vfpcc i32 @__NVIC_GetPendingIRQ(i8 signext %0), !dbg !69
+	 [+] Adding callees for Func: __NVIC_GetPendingIRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_ClearPendingIRQ
+	 [+] Adding callees for Func: HAL_NVIC_ClearPendingIRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_ClearPendingIRQ
+		 HAL_NVIC_ClearPendingIRQ
+		   call arm_aapcs_vfpcc void @__NVIC_ClearPendingIRQ(i8 signext %0), !dbg !69
+	 [+] Adding callees for Func: __NVIC_ClearPendingIRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_NVIC_GetActive
+	 [+] Adding callees for Func: HAL_NVIC_GetActive
+--------------------------------------------------------
+	 [+] Adding callers for Func: __NVIC_GetActive
+		 HAL_NVIC_GetActive
+		   %call = call arm_aapcs_vfpcc i32 @__NVIC_GetActive(i8 signext %0), !dbg !69
+	 [+] Adding callees for Func: __NVIC_GetActive
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSTICK_CLKSourceConfig
+	 [+] Adding callees for Func: HAL_SYSTICK_CLKSourceConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSTICK_IRQHandler
+	 [+] Adding callees for Func: HAL_SYSTICK_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_SYSTICK_Callback
+		 HAL_SYSTICK_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_SYSTICK_Callback(), !dbg !68
+	 [+] Adding callees for Func: HAL_SYSTICK_Callback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_Init
+	 [+] Adding callees for Func: HAL_DMA_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: DMA_CalcDMAMUXChannelBaseAndMask
+		 HAL_DMA_DeInit
+		   call arm_aapcs_vfpcc void @DMA_CalcDMAMUXChannelBaseAndMask(%struct.__DMA_HandleTypeDef* %23), !dbg !115
+		 HAL_DMA_Init
+		   call arm_aapcs_vfpcc void @DMA_CalcDMAMUXChannelBaseAndMask(%struct.__DMA_HandleTypeDef* %37), !dbg !142
+	 [+] Adding callees for Func: DMA_CalcDMAMUXChannelBaseAndMask
+--------------------------------------------------------
+	 [+] Adding callers for Func: DMA_CalcDMAMUXRequestGenBaseAndMask
+		 HAL_DMA_DeInit
+		   call arm_aapcs_vfpcc void @DMA_CalcDMAMUXRequestGenBaseAndMask(%struct.__DMA_HandleTypeDef* %34), !dbg !137
+		 HAL_DMA_Init
+		   call arm_aapcs_vfpcc void @DMA_CalcDMAMUXRequestGenBaseAndMask(%struct.__DMA_HandleTypeDef* %53), !dbg !177
+	 [+] Adding callees for Func: DMA_CalcDMAMUXRequestGenBaseAndMask
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_DeInit
+	 [+] Adding callees for Func: HAL_DMA_DeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_Start
+	 [+] Adding callees for Func: HAL_DMA_Start
+--------------------------------------------------------
+	 [+] Adding callers for Func: DMA_SetConfig
+		 HAL_DMA_Start_IT
+		   call arm_aapcs_vfpcc void @DMA_SetConfig(%struct.__DMA_HandleTypeDef* %10, i32 %11, i32 %12, i32 %13), !dbg !85
+		 HAL_DMA_Start
+		   call arm_aapcs_vfpcc void @DMA_SetConfig(%struct.__DMA_HandleTypeDef* %10, i32 %11, i32 %12, i32 %13), !dbg !85
+	 [+] Adding callees for Func: DMA_SetConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_Start_IT
+		 UART_Start_Receive_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %17, i32 %20, i32 %23, i32 %conv), !dbg !111
+		 HAL_UART_Transmit_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %26, i32 %29, i32 %32, i32 %conv21), !dbg !126
+		 HAL_I2C_Slave_Seq_Receive_DMA
+		   %call95 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %75, i32 %78, i32 %80, i32 %conv94), !dbg !217
+		 HAL_I2C_Slave_Seq_Transmit_DMA
+		   %call95 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %75, i32 %77, i32 %80, i32 %conv94), !dbg !217
+		 HAL_I2C_Master_Seq_Receive_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %46, i32 %49, i32 %51, i32 %conv51), !dbg !163
+		 HAL_I2C_Master_Seq_Transmit_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %46, i32 %48, i32 %51, i32 %conv51), !dbg !163
+		 HAL_I2C_Mem_Read_DMA
+		   %call51 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %44, i32 %47, i32 %49, i32 %conv50), !dbg !162
+		 HAL_I2C_Mem_Write_DMA
+		   %call51 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %44, i32 %46, i32 %49, i32 %conv50), !dbg !162
+		 HAL_I2C_Slave_Receive_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %31, i32 %34, i32 %36, i32 %conv26), !dbg !139
+		 HAL_I2C_Slave_Transmit_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %31, i32 %33, i32 %36, i32 %conv26), !dbg !139
+		 I2C_DMAMasterReceiveCplt
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %20, i32 %23, i32 %26, i32 %conv15), !dbg !110
+		 HAL_I2C_Master_Receive_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %37, i32 %40, i32 %42, i32 %conv38), !dbg !144
+		 I2C_DMAMasterTransmitCplt
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %20, i32 %23, i32 %26, i32 %conv15), !dbg !110
+		 HAL_I2C_Master_Transmit_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Start_IT(%struct.__DMA_HandleTypeDef* %37, i32 %39, i32 %42, i32 %conv38), !dbg !144
+	 [+] Adding callees for Func: HAL_DMA_Start_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_Abort
+		 HAL_UART_IRQHandler
+		   %call183 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort(%struct.__DMA_HandleTypeDef* %129), !dbg !289
+		 HAL_UART_AbortReceive
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort(%struct.__DMA_HandleTypeDef* %22), !dbg !86
+		 HAL_UART_AbortTransmit
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort(%struct.__DMA_HandleTypeDef* %17), !dbg !81
+		 HAL_UART_Abort
+		   %call45 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort(%struct.__DMA_HandleTypeDef* %37), !dbg !110
+		 HAL_UART_Abort
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort(%struct.__DMA_HandleTypeDef* %22), !dbg !86
+		 HAL_UART_DMAStop
+		   %call35 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort(%struct.__DMA_HandleTypeDef* %29), !dbg !111
+		 HAL_UART_DMAStop
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort(%struct.__DMA_HandleTypeDef* %14), !dbg !85
+	 [+] Adding callees for Func: HAL_DMA_Abort
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_Abort_IT
+		 HAL_UART_IRQHandler
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %81), !dbg !225
+		 HAL_UART_AbortReceive_IT
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %22), !dbg !86
+		 HAL_UART_AbortTransmit_IT
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %17), !dbg !81
+		 HAL_UART_Abort_IT
+		   %call67 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %50), !dbg !128
+		 HAL_UART_Abort_IT
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %38), !dbg !111
+		 HAL_I2C_Slave_Seq_Receive_DMA
+		   %call62 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %42), !dbg !144
+		 HAL_I2C_Slave_Seq_Receive_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %23), !dbg !111
+		 HAL_I2C_Slave_Seq_Receive_IT
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %23), !dbg !111
+		 HAL_I2C_Slave_Seq_Transmit_DMA
+		   %call62 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %42), !dbg !144
+		 HAL_I2C_Slave_Seq_Transmit_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %23), !dbg !111
+		 HAL_I2C_Slave_Seq_Transmit_IT
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %23), !dbg !111
+		 I2C_ITError
+		   %call84 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %60), !dbg !193
+		 I2C_ITError
+		   %call41 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_Abort_IT(%struct.__DMA_HandleTypeDef* %37), !dbg !149
+	 [+] Adding callees for Func: HAL_DMA_Abort_IT
+	Indirect call:   call arm_aapcs_vfpcc void %34(%struct.__DMA_HandleTypeDef* %35), !dbg !119
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_PollForTransfer
+	 [+] Adding callees for Func: HAL_DMA_PollForTransfer
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_IRQHandler
+	 [+] Adding callees for Func: HAL_DMA_IRQHandler
+	Indirect call:   call arm_aapcs_vfpcc void %23(%struct.__DMA_HandleTypeDef* %24), !dbg !111
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %28(%struct.__DMA_HandleTypeDef* %29), !dbg !119
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %43(%struct.__DMA_HandleTypeDef* %44), !dbg !143
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %58(%struct.__DMA_HandleTypeDef* %59), !dbg !175
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %63(%struct.__DMA_HandleTypeDef* %64), !dbg !183
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %80(%struct.__DMA_HandleTypeDef* %81), !dbg !211
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %99(%struct.__DMA_HandleTypeDef* %100), !dbg !247
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_RegisterCallback
+	 [+] Adding callees for Func: HAL_DMA_RegisterCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_UnRegisterCallback
+	 [+] Adding callees for Func: HAL_DMA_UnRegisterCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_GetState
+		 I2C_ITError
+		   %call73 = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_GetState(%struct.__DMA_HandleTypeDef* %55), !dbg !184
+		 I2C_ITError
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_DMA_GetState(%struct.__DMA_HandleTypeDef* %32), !dbg !140
+	 [+] Adding callees for Func: HAL_DMA_GetState
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_GetError
+		 HAL_UART_AbortReceive
+		   %call22 = call arm_aapcs_vfpcc i32 @HAL_DMA_GetError(%struct.__DMA_HandleTypeDef* %24), !dbg !90
+		 HAL_UART_AbortTransmit
+		   %call17 = call arm_aapcs_vfpcc i32 @HAL_DMA_GetError(%struct.__DMA_HandleTypeDef* %19), !dbg !85
+		 HAL_UART_Abort
+		   %call51 = call arm_aapcs_vfpcc i32 @HAL_DMA_GetError(%struct.__DMA_HandleTypeDef* %39), !dbg !114
+		 HAL_UART_Abort
+		   %call22 = call arm_aapcs_vfpcc i32 @HAL_DMA_GetError(%struct.__DMA_HandleTypeDef* %24), !dbg !90
+		 HAL_UART_DMAStop
+		   %call41 = call arm_aapcs_vfpcc i32 @HAL_DMA_GetError(%struct.__DMA_HandleTypeDef* %31), !dbg !115
+		 HAL_UART_DMAStop
+		   %call12 = call arm_aapcs_vfpcc i32 @HAL_DMA_GetError(%struct.__DMA_HandleTypeDef* %16), !dbg !89
+	 [+] Adding callees for Func: HAL_DMA_GetError
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_ConfigChannelAttributes
+	 [+] Adding callees for Func: HAL_DMA_ConfigChannelAttributes
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMA_GetConfigChannelAttributes
+	 [+] Adding callees for Func: HAL_DMA_GetConfigChannelAttributes
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMAEx_MultiBufferStart
+	 [+] Adding callees for Func: HAL_DMAEx_MultiBufferStart
+--------------------------------------------------------
+	 [+] Adding callers for Func: DMA_MultiBufferSetConfig
+		 HAL_DMAEx_MultiBufferStart_IT
+		   call arm_aapcs_vfpcc void @DMA_MultiBufferSetConfig(%struct.__DMA_HandleTypeDef* %19, i32 %20, i32 %21, i32 %22), !dbg !101
+		 HAL_DMAEx_MultiBufferStart
+		   call arm_aapcs_vfpcc void @DMA_MultiBufferSetConfig(%struct.__DMA_HandleTypeDef* %16, i32 %17, i32 %18, i32 %19), !dbg !101
+	 [+] Adding callees for Func: DMA_MultiBufferSetConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMAEx_MultiBufferStart_IT
+	 [+] Adding callees for Func: HAL_DMAEx_MultiBufferStart_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMAEx_ChangeMemory
+	 [+] Adding callees for Func: HAL_DMAEx_ChangeMemory
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMAEx_ConfigMuxSync
+	 [+] Adding callees for Func: HAL_DMAEx_ConfigMuxSync
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMAEx_ConfigMuxRequestGenerator
+	 [+] Adding callees for Func: HAL_DMAEx_ConfigMuxRequestGenerator
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMAEx_EnableMuxRequestGenerator
+	 [+] Adding callees for Func: HAL_DMAEx_EnableMuxRequestGenerator
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMAEx_DisableMuxRequestGenerator
+	 [+] Adding callees for Func: HAL_DMAEx_DisableMuxRequestGenerator
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_DMAEx_MUX_IRQHandler
+	 [+] Adding callees for Func: HAL_DMAEx_MUX_IRQHandler
+	Indirect call:   call arm_aapcs_vfpcc void %17(%struct.__DMA_HandleTypeDef* %18), !dbg !92
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %38(%struct.__DMA_HandleTypeDef* %39), !dbg !124
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_SetConfigLine
+	 [+] Adding callees for Func: HAL_EXTI_SetConfigLine
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_GetConfigLine
+	 [+] Adding callees for Func: HAL_EXTI_GetConfigLine
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_ClearConfigLine
+	 [+] Adding callees for Func: HAL_EXTI_ClearConfigLine
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_RegisterCallback
+	 [+] Adding callees for Func: HAL_EXTI_RegisterCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_GetHandle
+	 [+] Adding callees for Func: HAL_EXTI_GetHandle
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_IRQHandler
+	 [+] Adding callees for Func: HAL_EXTI_IRQHandler
+	Indirect call:   call arm_aapcs_vfpcc void %14(), !dbg !95
+	 Indirect Type: void ()
+
+------------ indirect_analysis: START -----------
+-----------------------------------------
+The violating indirect call:   call arm_aapcs_vfpcc void %14(), !dbg !95
+The violating indirect call TYPE: void ()
+-----------------------------------------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %25(), !dbg !116
+	 Indirect Type: void ()
+
+------------ indirect_analysis: START -----------
+-----------------------------------------
+The violating indirect call:   call arm_aapcs_vfpcc void %25(), !dbg !116
+The violating indirect call TYPE: void ()
+-----------------------------------------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_GetPending
+	 [+] Adding callees for Func: HAL_EXTI_GetPending
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_ClearPending
+	 [+] Adding callees for Func: HAL_EXTI_ClearPending
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_GenerateSWI
+	 [+] Adding callees for Func: HAL_EXTI_GenerateSWI
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_ConfigLineAttributes
+	 [+] Adding callees for Func: HAL_EXTI_ConfigLineAttributes
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_EXTI_GetConfigLineAttributes
+	 [+] Adding callees for Func: HAL_EXTI_GetConfigLineAttributes
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_Program
+	 [+] Adding callees for Func: HAL_FLASH_Program
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_WaitForLastOperation
+		 HAL_FLASHEx_ConfigLVEPin
+		   %call = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !69
+		 HAL_FLASHEx_OBProgram
+		   %call28 = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !119
+		 HAL_FLASHEx_OBProgram
+		   %call = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !70
+		 HAL_FLASHEx_Erase_IT
+		   %call = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !70
+		 HAL_FLASHEx_Erase
+		   %call15 = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !106
+		 HAL_FLASHEx_Erase
+		   %call9 = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !85
+		 HAL_FLASHEx_Erase
+		   %call = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !70
+		 HAL_FLASH_Program_IT
+		   %call = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !70
+		 HAL_FLASH_Program
+		   %call6 = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !80
+		 HAL_FLASH_Program
+		   %call = call arm_aapcs_vfpcc zeroext i8 @FLASH_WaitForLastOperation(i32 1000), !dbg !70
+	 [+] Adding callees for Func: FLASH_WaitForLastOperation
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_Program_DoubleWord
+		 HAL_FLASH_Program_IT
+		   call arm_aapcs_vfpcc void @FLASH_Program_DoubleWord(i32 %6, i64 %7), !dbg !85
+		 HAL_FLASH_Program
+		   call arm_aapcs_vfpcc void @FLASH_Program_DoubleWord(i32 %3, i64 %4), !dbg !79
+	 [+] Adding callees for Func: FLASH_Program_DoubleWord
+		 <Inline assembly> :Inline ASM:   %0 = call i32 asm sideeffect "MRS $0, primask", "=r,~{memory}"() #6, !dbg !69, !srcloc !73
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "cpsid i", "~{memory}"() #6, !dbg !76, !srcloc !79
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "isb 0xF", "~{memory}"() #6, !dbg !86, !srcloc !89
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "MSR primask, $0", "r,~{memory}"(i32 %11) #6, !dbg !101, !srcloc !102
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_Program_IT
+	 [+] Adding callees for Func: HAL_FLASH_Program_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_IRQHandler
+	 [+] Adding callees for Func: HAL_FLASH_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_OperationErrorCallback
+		 HAL_FLASH_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_FLASH_OperationErrorCallback(i32 %17), !dbg !103
+	 [+] Adding callees for Func: HAL_FLASH_OperationErrorCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_EndOfOperationCallback
+		 HAL_FLASH_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_FLASH_EndOfOperationCallback(i32 %27), !dbg !128
+	 [+] Adding callees for Func: HAL_FLASH_EndOfOperationCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_Unlock
+	 [+] Adding callees for Func: HAL_FLASH_Unlock
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_Lock
+	 [+] Adding callees for Func: HAL_FLASH_Lock
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_OB_Unlock
+	 [+] Adding callees for Func: HAL_FLASH_OB_Unlock
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_OB_Lock
+	 [+] Adding callees for Func: HAL_FLASH_OB_Lock
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_OB_Launch
+	 [+] Adding callees for Func: HAL_FLASH_OB_Launch
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASH_GetError
+	 [+] Adding callees for Func: HAL_FLASH_GetError
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_Erase
+	 [+] Adding callees for Func: HAL_FLASHEx_Erase
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_MassErase
+		 HAL_FLASHEx_Erase_IT
+		   call arm_aapcs_vfpcc void @FLASH_MassErase(i32 %10), !dbg !91
+		 HAL_FLASHEx_Erase
+		   call arm_aapcs_vfpcc void @FLASH_MassErase(i32 %6), !dbg !84
+	 [+] Adding callees for Func: FLASH_MassErase
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_PageErase
+		 HAL_FLASHEx_Erase_IT
+		   call arm_aapcs_vfpcc void @FLASH_PageErase(i32 %16, i32 %18), !dbg !103
+		 HAL_FLASH_IRQHandler
+		   call arm_aapcs_vfpcc void @FLASH_PageErase(i32 %25, i32 %26), !dbg !121
+		 HAL_FLASHEx_Erase
+		   call arm_aapcs_vfpcc void @FLASH_PageErase(i32 %15, i32 %17), !dbg !105
+	 [+] Adding callees for Func: FLASH_PageErase
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_Erase_IT
+	 [+] Adding callees for Func: HAL_FLASHEx_Erase_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_OBProgram
+	 [+] Adding callees for Func: HAL_FLASHEx_OBProgram
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_OB_WRPConfig
+		 HAL_FLASHEx_OBProgram
+		   call arm_aapcs_vfpcc void @FLASH_OB_WRPConfig(i32 %5, i32 %7, i32 %9), !dbg !85
+	 [+] Adding callees for Func: FLASH_OB_WRPConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_OB_RDPConfig
+		 HAL_FLASHEx_OBProgram
+		   call arm_aapcs_vfpcc void @FLASH_OB_RDPConfig(i32 %13), !dbg !94
+	 [+] Adding callees for Func: FLASH_OB_RDPConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_OB_UserConfig
+		 HAL_FLASHEx_OBProgram
+		   call arm_aapcs_vfpcc void @FLASH_OB_UserConfig(i32 %17, i32 %19), !dbg !105
+	 [+] Adding callees for Func: FLASH_OB_UserConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_OB_BootAddrConfig
+		 HAL_FLASHEx_OBProgram
+		   call arm_aapcs_vfpcc void @FLASH_OB_BootAddrConfig(i32 %23, i32 %25), !dbg !116
+	 [+] Adding callees for Func: FLASH_OB_BootAddrConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_OBGetConfig
+	 [+] Adding callees for Func: HAL_FLASHEx_OBGetConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_OB_GetWRP
+		 HAL_FLASHEx_OBGetConfig
+		   call arm_aapcs_vfpcc void @FLASH_OB_GetWRP(i32 %12, i32* %WRPStartOffset, i32* %WRPEndOffset), !dbg !96
+	 [+] Adding callees for Func: FLASH_OB_GetWRP
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_OB_GetRDP
+		 HAL_FLASHEx_OBGetConfig
+		   %call = call arm_aapcs_vfpcc i32 @FLASH_OB_GetRDP(), !dbg !98
+	 [+] Adding callees for Func: FLASH_OB_GetRDP
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_OB_GetUser
+		 HAL_FLASHEx_OBGetConfig
+		   %call11 = call arm_aapcs_vfpcc i32 @FLASH_OB_GetUser(), !dbg !102
+	 [+] Adding callees for Func: FLASH_OB_GetUser
+--------------------------------------------------------
+	 [+] Adding callers for Func: FLASH_OB_GetBootAddr
+		 HAL_FLASHEx_OBGetConfig
+		   call arm_aapcs_vfpcc void @FLASH_OB_GetBootAddr(i32 %24, i32* %BootAddr), !dbg !121
+	 [+] Adding callees for Func: FLASH_OB_GetBootAddr
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_ConfigPrivMode
+	 [+] Adding callees for Func: HAL_FLASHEx_ConfigPrivMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_GetPrivMode
+	 [+] Adding callees for Func: HAL_FLASHEx_GetPrivMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_ConfigLVEPin
+	 [+] Adding callees for Func: HAL_FLASHEx_ConfigLVEPin
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_GetLVEPin
+	 [+] Adding callees for Func: HAL_FLASHEx_GetLVEPin
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_EnableRunPowerDown
+	 [+] Adding callees for Func: HAL_FLASHEx_EnableRunPowerDown
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_DisableRunPowerDown
+	 [+] Adding callees for Func: HAL_FLASHEx_DisableRunPowerDown
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_FLASHEx_OB_DBankConfig
+	 [+] Adding callees for Func: HAL_FLASHEx_OB_DBankConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_Init
+		 HAL_UART_MspInit
+		   call arm_aapcs_vfpcc void @HAL_GPIO_Init(%struct.GPIO_TypeDef* inttoptr (i32 1107427328 to %struct.GPIO_TypeDef*), %struct.DBGMCU_TypeDef* %GPIO_InitStruct), !dbg !94
+		 HAL_RCCEx_EnableLSCO
+		   call arm_aapcs_vfpcc void @HAL_GPIO_Init(%struct.GPIO_TypeDef* inttoptr (i32 1107427328 to %struct.GPIO_TypeDef*), %struct.DBGMCU_TypeDef* %GPIO_InitStruct), !dbg !79
+		 HAL_RCC_MCOConfig
+		   call arm_aapcs_vfpcc void @HAL_GPIO_Init(%struct.GPIO_TypeDef* inttoptr (i32 1107427328 to %struct.GPIO_TypeDef*), %struct.DBGMCU_TypeDef* %GPIO_InitStruct), !dbg !79
+	 [+] Adding callees for Func: HAL_GPIO_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_DeInit
+		 HAL_UART_MspDeInit
+		   call arm_aapcs_vfpcc void @HAL_GPIO_DeInit(%struct.GPIO_TypeDef* inttoptr (i32 1107427328 to %struct.GPIO_TypeDef*), i32 1536), !dbg !73
+	 [+] Adding callees for Func: HAL_GPIO_DeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_ReadPin
+	 [+] Adding callees for Func: HAL_GPIO_ReadPin
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_WritePin
+	 [+] Adding callees for Func: HAL_GPIO_WritePin
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_TogglePin
+	 [+] Adding callees for Func: HAL_GPIO_TogglePin
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_LockPin
+	 [+] Adding callees for Func: HAL_GPIO_LockPin
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_EXTI_IRQHandler
+	 [+] Adding callees for Func: HAL_GPIO_EXTI_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_EXTI_Rising_Callback
+		 HAL_GPIO_EXTI_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_GPIO_EXTI_Rising_Callback(i16 zeroext %3), !dbg !72
+	 [+] Adding callees for Func: HAL_GPIO_EXTI_Rising_Callback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_GPIO_EXTI_Falling_Callback
+		 HAL_GPIO_EXTI_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_GPIO_EXTI_Falling_Callback(i16 zeroext %7), !dbg !78
+	 [+] Adding callees for Func: HAL_GPIO_EXTI_Falling_Callback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Init
+	 [+] Adding callees for Func: HAL_I2C_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_MspInit
+		 HAL_I2C_Init
+		   call arm_aapcs_vfpcc void @HAL_I2C_MspInit(%struct.__I2C_HandleTypeDef* %4), !dbg !78
+	 [+] Adding callees for Func: HAL_I2C_MspInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_DeInit
+	 [+] Adding callees for Func: HAL_I2C_DeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_MspDeInit
+		 HAL_I2C_DeInit
+		   call arm_aapcs_vfpcc void @HAL_I2C_MspDeInit(%struct.__I2C_HandleTypeDef* %5), !dbg !76
+	 [+] Adding callees for Func: HAL_I2C_MspDeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Transmit
+	 [+] Adding callees for Func: HAL_I2C_Master_Transmit
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_WaitOnFlagUntilTimeout
+		 HAL_I2C_IsDeviceReady
+		   %call117 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %67, i32 32, i8 zeroext 0, i32 %68, i32 %69), !dbg !159
+		 HAL_I2C_IsDeviceReady
+		   %call100 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %55, i32 32, i8 zeroext 0, i32 %56, i32 %57), !dbg !144
+		 HAL_I2C_IsDeviceReady
+		   %call88 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %48, i32 32, i8 zeroext 0, i32 %49, i32 %50), !dbg !132
+		 I2C_RequestMemoryRead
+		   %call34 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %19, i32 64, i8 zeroext 0, i32 %20, i32 %21), !dbg !106
+		 HAL_I2C_Mem_Read
+		   %call66 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %57, i32 128, i8 zeroext 0, i32 %58, i32 %59), !dbg !177
+		 HAL_I2C_Mem_Read
+		   %call45 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %39, i32 4, i8 zeroext 0, i32 %40, i32 %41), !dbg !147
+		 HAL_I2C_Mem_Read
+		   %call14 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %8, i32 32768, i8 zeroext 1, i32 25, i32 %9), !dbg !86
+		 I2C_RequestMemoryWrite
+		   %call34 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %19, i32 128, i8 zeroext 0, i32 %20, i32 %21), !dbg !106
+		 HAL_I2C_Mem_Write
+		   %call66 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %57, i32 128, i8 zeroext 0, i32 %58, i32 %59), !dbg !177
+		 HAL_I2C_Mem_Write
+		   %call14 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %8, i32 32768, i8 zeroext 1, i32 25, i32 %9), !dbg !86
+		 HAL_I2C_Slave_Receive
+		   %call79 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %71, i32 32768, i8 zeroext 1, i32 %72, i32 %73), !dbg !188
+		 HAL_I2C_Slave_Receive
+		   %call25 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %27, i32 65536, i8 zeroext 1, i32 %28, i32 %29), !dbg !122
+		 HAL_I2C_Slave_Receive
+		   %call16 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %19, i32 8, i8 zeroext 0, i32 %20, i32 %21), !dbg !111
+		 HAL_I2C_Slave_Transmit
+		   %call85 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %71, i32 32768, i8 zeroext 1, i32 %72, i32 %73), !dbg !196
+		 HAL_I2C_Slave_Transmit
+		   %call40 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %37, i32 65536, i8 zeroext 0, i32 %38, i32 %39), !dbg !138
+		 HAL_I2C_Slave_Transmit
+		   %call28 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %29, i32 8, i8 zeroext 0, i32 %30, i32 %31), !dbg !126
+		 HAL_I2C_Slave_Transmit
+		   %call16 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %19, i32 8, i8 zeroext 0, i32 %20, i32 %21), !dbg !111
+		 HAL_I2C_Master_Receive
+		   %call52 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %49, i32 128, i8 zeroext 0, i32 %50, i32 %51), !dbg !160
+		 HAL_I2C_Master_Receive
+		   %call7 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %5, i32 32768, i8 zeroext 1, i32 25, i32 %6), !dbg !76
+		 HAL_I2C_Master_Transmit
+		   %call52 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %49, i32 128, i8 zeroext 0, i32 %50, i32 %51), !dbg !160
+		 HAL_I2C_Master_Transmit
+		   %call7 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %5, i32 32768, i8 zeroext 1, i32 25, i32 %6), !dbg !76
+	 [+] Adding callees for Func: I2C_WaitOnFlagUntilTimeout
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_TransferConfig
+		 HAL_I2C_Master_Abort_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %14, i16 zeroext %15, i8 zeroext 1, i32 33554432, i32 -2147467264), !dbg !95
+		 HAL_I2C_Master_Seq_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %81, i16 zeroext %82, i8 zeroext %conv88, i32 33554432, i32 -2147474432), !dbg !220
+		 HAL_I2C_Master_Seq_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %60, i16 zeroext %61, i8 zeroext %conv65, i32 %64, i32 %65), !dbg !186
+		 HAL_I2C_Master_Seq_Receive_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %33, i16 zeroext %34, i8 zeroext %conv38, i32 %37, i32 %38), !dbg !138
+		 HAL_I2C_Master_Seq_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %81, i16 zeroext %82, i8 zeroext %conv88, i32 33554432, i32 -2147475456), !dbg !220
+		 HAL_I2C_Master_Seq_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %60, i16 zeroext %61, i8 zeroext %conv65, i32 %64, i32 %65), !dbg !186
+		 HAL_I2C_Master_Seq_Transmit_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %33, i16 zeroext %34, i8 zeroext %conv38, i32 %37, i32 %38), !dbg !138
+		 HAL_I2C_Mem_Read_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %58, i16 zeroext %59, i8 zeroext %conv65, i32 %62, i32 -2147474432), !dbg !184
+		 HAL_I2C_Mem_Write_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %58, i16 zeroext %59, i8 zeroext %conv65, i32 %62, i32 0), !dbg !184
+		 HAL_I2C_Mem_Read_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %33, i16 zeroext %34, i8 zeroext %conv41, i32 %37, i32 -2147474432), !dbg !139
+		 HAL_I2C_Mem_Write_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %33, i16 zeroext %34, i8 zeroext %conv41, i32 %37, i32 0), !dbg !139
+		 I2C_RequestMemoryRead
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %0, i16 zeroext %1, i8 zeroext %conv, i32 0, i32 -2147475456), !dbg !72
+		 HAL_I2C_Mem_Read
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %70, i16 zeroext %71, i8 zeroext %conv84, i32 33554432, i32 0), !dbg !203
+		 HAL_I2C_Mem_Read
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %63, i16 zeroext %64, i8 zeroext %conv79, i32 16777216, i32 0), !dbg !191
+		 HAL_I2C_Mem_Read
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %35, i16 zeroext %36, i8 zeroext %conv42, i32 33554432, i32 -2147474432), !dbg !142
+		 HAL_I2C_Mem_Read
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %28, i16 zeroext %29, i8 zeroext %conv37, i32 16777216, i32 -2147474432), !dbg !130
+		 I2C_RequestMemoryWrite
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %0, i16 zeroext %1, i8 zeroext %conv, i32 16777216, i32 -2147475456), !dbg !72
+		 HAL_I2C_Mem_Write
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %70, i16 zeroext %71, i8 zeroext %conv84, i32 33554432, i32 0), !dbg !203
+		 HAL_I2C_Mem_Write
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %63, i16 zeroext %64, i8 zeroext %conv79, i32 16777216, i32 0), !dbg !191
+		 HAL_I2C_Mem_Write
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %35, i16 zeroext %36, i8 zeroext %conv42, i32 33554432, i32 0), !dbg !142
+		 HAL_I2C_Mem_Write
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %28, i16 zeroext %29, i8 zeroext %conv37, i32 16777216, i32 0), !dbg !130
+		 HAL_I2C_Master_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %71, i16 zeroext %72, i8 zeroext %conv75, i32 33554432, i32 -2147474432), !dbg !200
+		 HAL_I2C_Master_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %51, i16 zeroext %52, i8 zeroext %conv52, i32 %55, i32 -2147474432), !dbg !166
+		 HAL_I2C_Master_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %71, i16 zeroext %72, i8 zeroext %conv75, i32 33554432, i32 -2147475456), !dbg !200
+		 HAL_I2C_Master_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %51, i16 zeroext %52, i8 zeroext %conv52, i32 %55, i32 -2147475456), !dbg !166
+		 HAL_I2C_Master_Receive_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %24, i16 zeroext %25, i8 zeroext %conv24, i32 %28, i32 -2147474432), !dbg !118
+		 I2C_Master_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %73, i16 zeroext %74, i8 zeroext %conv105, i32 33554432, i32 0), !dbg !186
+		 I2C_Master_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %67, i16 zeroext %68, i8 zeroext %conv101, i32 %72, i32 0), !dbg !179
+		 I2C_Master_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %58, i16 zeroext %59, i8 zeroext %conv93, i32 16777216, i32 0), !dbg !162
+		 I2C_Master_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %35, i16 zeroext %36, i8 zeroext %conv54, i32 %39, i32 0), !dbg !127
+		 HAL_I2C_Master_Transmit_IT
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %24, i16 zeroext %25, i8 zeroext %conv24, i32 %28, i32 -2147475456), !dbg !118
+		 HAL_I2C_Master_Receive
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %62, i16 zeroext %63, i8 zeroext %conv70, i32 33554432, i32 0), !dbg !186
+		 HAL_I2C_Master_Receive
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %55, i16 zeroext %56, i8 zeroext %conv65, i32 16777216, i32 0), !dbg !174
+		 HAL_I2C_Master_Receive
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %25, i16 zeroext %26, i8 zeroext %conv25, i32 33554432, i32 -2147474432), !dbg !122
+		 HAL_I2C_Master_Receive
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %18, i16 zeroext %19, i8 zeroext %conv20, i32 16777216, i32 -2147474432), !dbg !110
+		 HAL_I2C_Master_Transmit
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %62, i16 zeroext %63, i8 zeroext %conv70, i32 33554432, i32 0), !dbg !186
+		 HAL_I2C_Master_Transmit
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %55, i16 zeroext %56, i8 zeroext %conv65, i32 16777216, i32 0), !dbg !174
+		 HAL_I2C_Master_Transmit
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %25, i16 zeroext %26, i8 zeroext %conv25, i32 33554432, i32 -2147475456), !dbg !122
+		 HAL_I2C_Master_Transmit
+		   call arm_aapcs_vfpcc void @I2C_TransferConfig(%struct.__I2C_HandleTypeDef* %18, i16 zeroext %19, i8 zeroext %conv20, i32 16777216, i32 -2147475456), !dbg !110
+	 [+] Adding callees for Func: I2C_TransferConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_WaitOnTXISFlagUntilTimeout
+		 I2C_RequestMemoryRead
+		   %call20 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnTXISFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %13, i32 %14, i32 %15), !dbg !95
+		 I2C_RequestMemoryRead
+		   %call = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnTXISFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %3, i32 %4, i32 %5), !dbg !76
+		 I2C_RequestMemoryWrite
+		   %call20 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnTXISFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %13, i32 %14, i32 %15), !dbg !95
+		 I2C_RequestMemoryWrite
+		   %call = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnTXISFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %3, i32 %4, i32 %5), !dbg !76
+		 HAL_I2C_Mem_Write
+		   %call45 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnTXISFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %39, i32 %40, i32 %41), !dbg !147
+		 HAL_I2C_Slave_Transmit
+		   %call53 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnTXISFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %45, i32 %46, i32 %47), !dbg !152
+		 HAL_I2C_Master_Transmit
+		   %call31 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnTXISFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %31, i32 %32, i32 %33), !dbg !130
+	 [+] Adding callees for Func: I2C_WaitOnTXISFlagUntilTimeout
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_WaitOnSTOPFlagUntilTimeout
+		 HAL_I2C_Mem_Read
+		   %call92 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnSTOPFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %76, i32 %77, i32 %78), !dbg !214
+		 HAL_I2C_Mem_Write
+		   %call92 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnSTOPFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %76, i32 %77, i32 %78), !dbg !214
+		 HAL_I2C_Slave_Receive
+		   %call68 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnSTOPFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %63, i32 %64, i32 %65), !dbg !177
+		 HAL_I2C_Slave_Transmit
+		   %call67 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnSTOPFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %60, i32 %61, i32 %62), !dbg !177
+		 HAL_I2C_Master_Receive
+		   %call73 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnSTOPFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %66, i32 %67, i32 %68), !dbg !193
+		 HAL_I2C_Master_Transmit
+		   %call73 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnSTOPFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %66, i32 %67, i32 %68), !dbg !193
+	 [+] Adding callees for Func: I2C_WaitOnSTOPFlagUntilTimeout
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_IsAcknowledgeFailed
+		 I2C_WaitOnRXNEFlagUntilTimeout
+		   %call = call arm_aapcs_vfpcc zeroext i8 @I2C_IsAcknowledgeFailed(%struct.__I2C_HandleTypeDef* %4, i32 %5, i32 %6), !dbg !74
+		 I2C_WaitOnTXISFlagUntilTimeout
+		   %call = call arm_aapcs_vfpcc zeroext i8 @I2C_IsAcknowledgeFailed(%struct.__I2C_HandleTypeDef* %4, i32 %5, i32 %6), !dbg !74
+		 I2C_WaitOnSTOPFlagUntilTimeout
+		   %call = call arm_aapcs_vfpcc zeroext i8 @I2C_IsAcknowledgeFailed(%struct.__I2C_HandleTypeDef* %4, i32 %5, i32 %6), !dbg !74
+	 [+] Adding callees for Func: I2C_IsAcknowledgeFailed
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_Flush_TXDR
+		 I2C_Master_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_Flush_TXDR(%struct.__I2C_HandleTypeDef* %12), !dbg !82
+		 I2C_ITMasterCplt
+		   call arm_aapcs_vfpcc void @I2C_Flush_TXDR(%struct.__I2C_HandleTypeDef* %30), !dbg !118
+		 I2C_Master_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_Flush_TXDR(%struct.__I2C_HandleTypeDef* %12), !dbg !82
+		 I2C_ITSlaveCplt
+		   call arm_aapcs_vfpcc void @I2C_Flush_TXDR(%struct.__I2C_HandleTypeDef* %22), !dbg !106
+		 I2C_Slave_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_Flush_TXDR(%struct.__I2C_HandleTypeDef* %28), !dbg !113
+		 I2C_Slave_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_Flush_TXDR(%struct.__I2C_HandleTypeDef* %46), !dbg !139
+		 I2C_IsAcknowledgeFailed
+		   call arm_aapcs_vfpcc void @I2C_Flush_TXDR(%struct.__I2C_HandleTypeDef* %21), !dbg !101
+	 [+] Adding callees for Func: I2C_Flush_TXDR
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Receive
+	 [+] Adding callees for Func: HAL_I2C_Master_Receive
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_WaitOnRXNEFlagUntilTimeout
+		 HAL_I2C_Slave_Receive
+		   %call38 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnRXNEFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %35, i32 %36, i32 %37), !dbg !136
+		 HAL_I2C_Master_Receive
+		   %call31 = call arm_aapcs_vfpcc zeroext i8 @I2C_WaitOnRXNEFlagUntilTimeout(%struct.__I2C_HandleTypeDef* %31, i32 %32, i32 %33), !dbg !130
+	 [+] Adding callees for Func: I2C_WaitOnRXNEFlagUntilTimeout
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Transmit
+	 [+] Adding callees for Func: HAL_I2C_Slave_Transmit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Receive
+	 [+] Adding callees for Func: HAL_I2C_Slave_Receive
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Transmit_IT
+	 [+] Adding callees for Func: HAL_I2C_Master_Transmit_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_Master_ISR_IT
+	 [+] Adding callees for Func: I2C_Master_ISR_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_Enable_IRQ
+		 HAL_I2C_Master_Abort_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %17, i16 zeroext 32), !dbg !98
+		 HAL_I2C_EnableListen_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %4, i16 zeroext -32768), !dbg !78
+		 HAL_I2C_Slave_Seq_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %105, i16 zeroext -32766), !dbg !259
+		 HAL_I2C_Slave_Seq_Receive_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %51, i16 zeroext -32766), !dbg !161
+		 HAL_I2C_Slave_Seq_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %105, i16 zeroext -32768), !dbg !259
+		 HAL_I2C_Slave_Seq_Transmit_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %51, i16 zeroext -32767), !dbg !161
+		 HAL_I2C_Master_Seq_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %86, i16 zeroext 1), !dbg !223
+		 HAL_I2C_Master_Seq_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %71, i16 zeroext 16), !dbg !194
+		 HAL_I2C_Master_Seq_Receive_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %40, i16 zeroext 2), !dbg !141
+		 HAL_I2C_Master_Seq_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %86, i16 zeroext 1), !dbg !223
+		 HAL_I2C_Master_Seq_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %71, i16 zeroext 16), !dbg !194
+		 HAL_I2C_Master_Seq_Transmit_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %40, i16 zeroext 1), !dbg !141
+		 HAL_I2C_Mem_Read_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %68, i16 zeroext 16), !dbg !192
+		 HAL_I2C_Mem_Write_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %68, i16 zeroext 16), !dbg !192
+		 HAL_I2C_Mem_Read_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %39, i16 zeroext 2), !dbg !142
+		 HAL_I2C_Mem_Write_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %39, i16 zeroext 1), !dbg !142
+		 HAL_I2C_Slave_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %49, i16 zeroext -32768), !dbg !161
+		 HAL_I2C_Slave_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %49, i16 zeroext -32768), !dbg !161
+		 I2C_DMAMasterReceiveCplt
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %30, i16 zeroext 64), !dbg !116
+		 I2C_DMAMasterReceiveCplt
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %8, i16 zeroext 32), !dbg !80
+		 HAL_I2C_Master_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %76, i16 zeroext 1), !dbg !203
+		 HAL_I2C_Master_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %61, i16 zeroext 16), !dbg !174
+		 I2C_DMAMasterTransmitCplt
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %30, i16 zeroext 64), !dbg !116
+		 I2C_DMAMasterTransmitCplt
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %8, i16 zeroext 32), !dbg !80
+		 HAL_I2C_Master_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %76, i16 zeroext 1), !dbg !203
+		 HAL_I2C_Master_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %61, i16 zeroext 16), !dbg !174
+		 HAL_I2C_Slave_Receive_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %21, i16 zeroext -32766), !dbg !106
+		 HAL_I2C_Slave_Transmit_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %21, i16 zeroext -32767), !dbg !106
+		 HAL_I2C_Master_Receive_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %30, i16 zeroext 2), !dbg !121
+		 I2C_Master_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %11, i16 zeroext 32), !dbg !80
+		 HAL_I2C_Master_Transmit_IT
+		   call arm_aapcs_vfpcc void @I2C_Enable_IRQ(%struct.__I2C_HandleTypeDef* %30, i16 zeroext 1), !dbg !121
+	 [+] Adding callees for Func: I2C_Enable_IRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_Master_ISR_DMA
+	 [+] Adding callees for Func: I2C_Master_ISR_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_Slave_ISR_DMA
+	 [+] Adding callees for Func: I2C_Slave_ISR_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_ITSlaveCplt
+		 I2C_Slave_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITSlaveCplt(%struct.__I2C_HandleTypeDef* %10, i32 %11), !dbg !82
+		 I2C_Slave_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITSlaveCplt(%struct.__I2C_HandleTypeDef* %9, i32 %10), !dbg !81
+	 [+] Adding callees for Func: I2C_ITSlaveCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_ITListenCplt
+		 I2C_ITSlaveCplt
+		   call arm_aapcs_vfpcc void @I2C_ITListenCplt(%struct.__I2C_HandleTypeDef* %76, i32 %77), !dbg !189
+		 I2C_Slave_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITListenCplt(%struct.__I2C_HandleTypeDef* %21, i32 %22), !dbg !102
+		 I2C_Slave_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITListenCplt(%struct.__I2C_HandleTypeDef* %39, i32 %40), !dbg !128
+	 [+] Adding callees for Func: I2C_ITListenCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_ITSlaveSeqCplt
+		 I2C_DMASlaveReceiveCplt
+		   call arm_aapcs_vfpcc void @I2C_ITSlaveSeqCplt(%struct.__I2C_HandleTypeDef* %13), !dbg !86
+		 I2C_DMASlaveTransmitCplt
+		   call arm_aapcs_vfpcc void @I2C_ITSlaveSeqCplt(%struct.__I2C_HandleTypeDef* %10), !dbg !86
+		 I2C_ITSlaveCplt
+		   call arm_aapcs_vfpcc void @I2C_ITSlaveSeqCplt(%struct.__I2C_HandleTypeDef* %80), !dbg !196
+		 I2C_Slave_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITSlaveSeqCplt(%struct.__I2C_HandleTypeDef* %87), !dbg !215
+		 I2C_Slave_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITSlaveSeqCplt(%struct.__I2C_HandleTypeDef* %61), !dbg !169
+		 I2C_Slave_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITSlaveSeqCplt(%struct.__I2C_HandleTypeDef* %29), !dbg !115
+		 I2C_Slave_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITSlaveSeqCplt(%struct.__I2C_HandleTypeDef* %47), !dbg !141
+	 [+] Adding callees for Func: I2C_ITSlaveSeqCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_ITError
+		 HAL_I2C_ER_IRQHandler
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %33, i32 %34), !dbg !114
+		 I2C_DMAMasterReceiveCplt
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %29, i32 16), !dbg !113
+		 I2C_DMAMasterTransmitCplt
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %29, i32 16), !dbg !113
+		 I2C_DMAError
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %6, i32 16), !dbg !77
+		 I2C_Master_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %97, i32 64), !dbg !220
+		 I2C_Master_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %81, i32 64), !dbg !194
+		 I2C_ITMasterCplt
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %36, i32 %38), !dbg !132
+		 I2C_Master_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %72, i32 64), !dbg !178
+		 I2C_Master_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %56, i32 64), !dbg !152
+		 I2C_ITSlaveCplt
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %71, i32 %73), !dbg !183
+		 I2C_Slave_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %38, i32 %40), !dbg !132
+		 I2C_Slave_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITError(%struct.__I2C_HandleTypeDef* %64, i32 %66), !dbg !181
+	 [+] Adding callees for Func: I2C_ITError
+	Indirect call:   call arm_aapcs_vfpcc void %40(%struct.__DMA_HandleTypeDef* %42), !dbg !151
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %63(%struct.__DMA_HandleTypeDef* %65), !dbg !195
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_ITAddrCplt
+		 I2C_Slave_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITAddrCplt(%struct.__I2C_HandleTypeDef* %66, i32 %67), !dbg !180
+		 I2C_Slave_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITAddrCplt(%struct.__I2C_HandleTypeDef* %73, i32 %74), !dbg !194
+	 [+] Adding callees for Func: I2C_ITAddrCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_AddrCallback
+		 I2C_ITAddrCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_AddrCallback(%struct.__I2C_HandleTypeDef* %39, i8 zeroext %40, i16 zeroext %41), !dbg !129
+		 I2C_ITAddrCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_AddrCallback(%struct.__I2C_HandleTypeDef* %34, i8 zeroext %35, i16 zeroext %36), !dbg !121
+		 I2C_ITAddrCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_AddrCallback(%struct.__I2C_HandleTypeDef* %28, i8 zeroext %29, i16 zeroext %30), !dbg !110
+	 [+] Adding callees for Func: HAL_I2C_AddrCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_Disable_IRQ
+		 HAL_I2C_Master_Abort_IT
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %11, i16 zeroext 2), !dbg !85
+		 HAL_I2C_Master_Abort_IT
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %7, i16 zeroext 1), !dbg !76
+		 HAL_I2C_DisableListen_IT
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %11, i16 zeroext -32768), !dbg !94
+		 HAL_I2C_Slave_Seq_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %11, i16 zeroext 1), !dbg !91
+		 HAL_I2C_Slave_Seq_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %5, i16 zeroext -32766), !dbg !85
+		 HAL_I2C_Slave_Seq_Receive_IT
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %11, i16 zeroext 1), !dbg !91
+		 HAL_I2C_Slave_Seq_Receive_IT
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %5, i16 zeroext -32766), !dbg !85
+		 HAL_I2C_Slave_Seq_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %11, i16 zeroext 2), !dbg !91
+		 HAL_I2C_Slave_Seq_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %8, i16 zeroext -32767), !dbg !86
+		 HAL_I2C_Slave_Seq_Transmit_IT
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %11, i16 zeroext 2), !dbg !91
+		 HAL_I2C_Slave_Seq_Transmit_IT
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %5, i16 zeroext -32767), !dbg !85
+		 I2C_ITMasterSeqCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %12, i16 zeroext 2), !dbg !99
+		 I2C_ITMasterSeqCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %6, i16 zeroext 1), !dbg !84
+		 I2C_ITMasterCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %9, i16 zeroext 2), !dbg !84
+		 I2C_ITMasterCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %5, i16 zeroext 1), !dbg !75
+		 I2C_ITSlaveCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %14, i16 zeroext -32766), !dbg !95
+		 I2C_ITSlaveCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %10, i16 zeroext -32767), !dbg !83
+		 I2C_ITListenCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %22, i16 zeroext -32765), !dbg !111
+		 I2C_ITSlaveSeqCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %25, i16 zeroext 2), !dbg !112
+		 I2C_ITSlaveSeqCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %18, i16 zeroext 1), !dbg !97
+		 I2C_ITError
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %14, i16 zeroext -32765), !dbg !103
+		 I2C_ITError
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %11, i16 zeroext 3), !dbg !94
+		 I2C_ITAddrCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %37, i16 zeroext -32768), !dbg !124
+		 I2C_ITAddrCplt
+		   call arm_aapcs_vfpcc void @I2C_Disable_IRQ(%struct.__I2C_HandleTypeDef* %32, i16 zeroext -32768), !dbg !116
+	 [+] Adding callees for Func: I2C_Disable_IRQ
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_Slave_ISR_IT
+	 [+] Adding callees for Func: I2C_Slave_ISR_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_DMAAbort
+	 [+] Adding callees for Func: I2C_DMAAbort
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_TreatErrorCallback
+		 I2C_DMAAbort
+		   call arm_aapcs_vfpcc void @I2C_TreatErrorCallback(%struct.__I2C_HandleTypeDef* %11), !dbg !89
+		 I2C_ITError
+		   call arm_aapcs_vfpcc void @I2C_TreatErrorCallback(%struct.__I2C_HandleTypeDef* %67), !dbg !206
+		 I2C_ITError
+		   call arm_aapcs_vfpcc void @I2C_TreatErrorCallback(%struct.__I2C_HandleTypeDef* %66), !dbg !203
+		 I2C_ITError
+		   call arm_aapcs_vfpcc void @I2C_TreatErrorCallback(%struct.__I2C_HandleTypeDef* %43), !dbg !159
+	 [+] Adding callees for Func: I2C_TreatErrorCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_AbortCpltCallback
+		 I2C_TreatErrorCallback
+		   call arm_aapcs_vfpcc void @HAL_I2C_AbortCpltCallback(%struct.__I2C_HandleTypeDef* %5), !dbg !79
+	 [+] Adding callees for Func: HAL_I2C_AbortCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_ErrorCallback
+		 I2C_TreatErrorCallback
+		   call arm_aapcs_vfpcc void @HAL_I2C_ErrorCallback(%struct.__I2C_HandleTypeDef* %8), !dbg !86
+	 [+] Adding callees for Func: HAL_I2C_ErrorCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_SlaveTxCpltCallback
+		 I2C_ITSlaveCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_SlaveTxCpltCallback(%struct.__I2C_HandleTypeDef* %95), !dbg !231
+		 I2C_ITSlaveSeqCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_SlaveTxCpltCallback(%struct.__I2C_HandleTypeDef* %20), !dbg !100
+	 [+] Adding callees for Func: HAL_I2C_SlaveTxCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_SlaveRxCpltCallback
+		 I2C_ITSlaveCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_SlaveRxCpltCallback(%struct.__I2C_HandleTypeDef* %91), !dbg !221
+		 I2C_ITSlaveSeqCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_SlaveRxCpltCallback(%struct.__I2C_HandleTypeDef* %27), !dbg !115
+	 [+] Adding callees for Func: HAL_I2C_SlaveRxCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_ListenCpltCallback
+		 I2C_ITSlaveCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_ListenCpltCallback(%struct.__I2C_HandleTypeDef* %85), !dbg !208
+		 I2C_ITListenCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_ListenCpltCallback(%struct.__I2C_HandleTypeDef* %26), !dbg !115
+	 [+] Adding callees for Func: HAL_I2C_ListenCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_ITMasterSeqCplt
+		 I2C_Master_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITMasterSeqCplt(%struct.__I2C_HandleTypeDef* %96), !dbg !216
+		 I2C_Master_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITMasterSeqCplt(%struct.__I2C_HandleTypeDef* %80), !dbg !191
+		 I2C_Master_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITMasterSeqCplt(%struct.__I2C_HandleTypeDef* %71), !dbg !174
+		 I2C_Master_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITMasterSeqCplt(%struct.__I2C_HandleTypeDef* %55), !dbg !149
+	 [+] Adding callees for Func: I2C_ITMasterSeqCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_ITMasterCplt
+		 I2C_Master_ISR_IT
+		   call arm_aapcs_vfpcc void @I2C_ITMasterCplt(%struct.__I2C_HandleTypeDef* %102, i32 %103), !dbg !230
+		 I2C_Master_ISR_DMA
+		   call arm_aapcs_vfpcc void @I2C_ITMasterCplt(%struct.__I2C_HandleTypeDef* %77, i32 %78), !dbg !188
+	 [+] Adding callees for Func: I2C_ITMasterCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_MemTxCpltCallback
+		 I2C_ITMasterCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_MemTxCpltCallback(%struct.__I2C_HandleTypeDef* %47), !dbg !151
+	 [+] Adding callees for Func: HAL_I2C_MemTxCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_MasterTxCpltCallback
+		 I2C_ITMasterSeqCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_MasterTxCpltCallback(%struct.__I2C_HandleTypeDef* %8), !dbg !87
+		 I2C_ITMasterCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_MasterTxCpltCallback(%struct.__I2C_HandleTypeDef* %50), !dbg !158
+	 [+] Adding callees for Func: HAL_I2C_MasterTxCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_MemRxCpltCallback
+		 I2C_ITMasterCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_MemRxCpltCallback(%struct.__I2C_HandleTypeDef* %59), !dbg !177
+	 [+] Adding callees for Func: HAL_I2C_MemRxCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_MasterRxCpltCallback
+		 I2C_ITMasterSeqCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_MasterRxCpltCallback(%struct.__I2C_HandleTypeDef* %14), !dbg !102
+		 I2C_ITMasterCplt
+		   call arm_aapcs_vfpcc void @HAL_I2C_MasterRxCpltCallback(%struct.__I2C_HandleTypeDef* %62), !dbg !184
+	 [+] Adding callees for Func: HAL_I2C_MasterRxCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Receive_IT
+	 [+] Adding callees for Func: HAL_I2C_Master_Receive_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Transmit_IT
+	 [+] Adding callees for Func: HAL_I2C_Slave_Transmit_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Receive_IT
+	 [+] Adding callees for Func: HAL_I2C_Slave_Receive_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Transmit_DMA
+	 [+] Adding callees for Func: HAL_I2C_Master_Transmit_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_DMAMasterTransmitCplt
+	 [+] Adding callees for Func: I2C_DMAMasterTransmitCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_DMAError
+	 [+] Adding callees for Func: I2C_DMAError
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Receive_DMA
+	 [+] Adding callees for Func: HAL_I2C_Master_Receive_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_DMAMasterReceiveCplt
+	 [+] Adding callees for Func: I2C_DMAMasterReceiveCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Transmit_DMA
+	 [+] Adding callees for Func: HAL_I2C_Slave_Transmit_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_DMASlaveTransmitCplt
+	 [+] Adding callees for Func: I2C_DMASlaveTransmitCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Receive_DMA
+	 [+] Adding callees for Func: HAL_I2C_Slave_Receive_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_DMASlaveReceiveCplt
+	 [+] Adding callees for Func: I2C_DMASlaveReceiveCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Mem_Write
+	 [+] Adding callees for Func: HAL_I2C_Mem_Write
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_RequestMemoryWrite
+		 HAL_I2C_Mem_Write_DMA
+		   %call31 = call arm_aapcs_vfpcc zeroext i8 @I2C_RequestMemoryWrite(%struct.__I2C_HandleTypeDef* %27, i16 zeroext %28, i16 zeroext %29, i16 zeroext %30, i32 25, i32 %31), !dbg !129
+		 HAL_I2C_Mem_Write_IT
+		   %call31 = call arm_aapcs_vfpcc zeroext i8 @I2C_RequestMemoryWrite(%struct.__I2C_HandleTypeDef* %27, i16 zeroext %28, i16 zeroext %29, i16 zeroext %30, i32 25, i32 %31), !dbg !129
+		 HAL_I2C_Mem_Write
+		   %call22 = call arm_aapcs_vfpcc zeroext i8 @I2C_RequestMemoryWrite(%struct.__I2C_HandleTypeDef* %18, i16 zeroext %19, i16 zeroext %20, i16 zeroext %21, i32 %22, i32 %23), !dbg !115
+	 [+] Adding callees for Func: I2C_RequestMemoryWrite
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Mem_Read
+	 [+] Adding callees for Func: HAL_I2C_Mem_Read
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_RequestMemoryRead
+		 HAL_I2C_Mem_Read_DMA
+		   %call31 = call arm_aapcs_vfpcc zeroext i8 @I2C_RequestMemoryRead(%struct.__I2C_HandleTypeDef* %27, i16 zeroext %28, i16 zeroext %29, i16 zeroext %30, i32 25, i32 %31), !dbg !129
+		 HAL_I2C_Mem_Read_IT
+		   %call31 = call arm_aapcs_vfpcc zeroext i8 @I2C_RequestMemoryRead(%struct.__I2C_HandleTypeDef* %27, i16 zeroext %28, i16 zeroext %29, i16 zeroext %30, i32 25, i32 %31), !dbg !129
+		 HAL_I2C_Mem_Read
+		   %call22 = call arm_aapcs_vfpcc zeroext i8 @I2C_RequestMemoryRead(%struct.__I2C_HandleTypeDef* %18, i16 zeroext %19, i16 zeroext %20, i16 zeroext %21, i32 %22, i32 %23), !dbg !115
+	 [+] Adding callees for Func: I2C_RequestMemoryRead
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Mem_Write_IT
+	 [+] Adding callees for Func: HAL_I2C_Mem_Write_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Mem_Read_IT
+	 [+] Adding callees for Func: HAL_I2C_Mem_Read_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Mem_Write_DMA
+	 [+] Adding callees for Func: HAL_I2C_Mem_Write_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Mem_Read_DMA
+	 [+] Adding callees for Func: HAL_I2C_Mem_Read_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_IsDeviceReady
+	 [+] Adding callees for Func: HAL_I2C_IsDeviceReady
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Seq_Transmit_IT
+	 [+] Adding callees for Func: HAL_I2C_Master_Seq_Transmit_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: I2C_ConvertOtherXferOptions
+		 HAL_I2C_Master_Seq_Receive_DMA
+		   call arm_aapcs_vfpcc void @I2C_ConvertOtherXferOptions(%struct.__I2C_HandleTypeDef* %28), !dbg !123
+		 HAL_I2C_Master_Seq_Receive_IT
+		   call arm_aapcs_vfpcc void @I2C_ConvertOtherXferOptions(%struct.__I2C_HandleTypeDef* %28), !dbg !123
+		 HAL_I2C_Master_Seq_Transmit_DMA
+		   call arm_aapcs_vfpcc void @I2C_ConvertOtherXferOptions(%struct.__I2C_HandleTypeDef* %28), !dbg !123
+		 HAL_I2C_Master_Seq_Transmit_IT
+		   call arm_aapcs_vfpcc void @I2C_ConvertOtherXferOptions(%struct.__I2C_HandleTypeDef* %28), !dbg !123
+	 [+] Adding callees for Func: I2C_ConvertOtherXferOptions
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Seq_Transmit_DMA
+	 [+] Adding callees for Func: HAL_I2C_Master_Seq_Transmit_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Seq_Receive_IT
+	 [+] Adding callees for Func: HAL_I2C_Master_Seq_Receive_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Seq_Receive_DMA
+	 [+] Adding callees for Func: HAL_I2C_Master_Seq_Receive_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Seq_Transmit_IT
+	 [+] Adding callees for Func: HAL_I2C_Slave_Seq_Transmit_IT
+	Indirect call:   call arm_aapcs_vfpcc void %26(%struct.__DMA_HandleTypeDef* %28), !dbg !113
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Seq_Transmit_DMA
+	 [+] Adding callees for Func: HAL_I2C_Slave_Seq_Transmit_DMA
+	Indirect call:   call arm_aapcs_vfpcc void %26(%struct.__DMA_HandleTypeDef* %28), !dbg !113
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %45(%struct.__DMA_HandleTypeDef* %47), !dbg !146
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Seq_Receive_IT
+	 [+] Adding callees for Func: HAL_I2C_Slave_Seq_Receive_IT
+	Indirect call:   call arm_aapcs_vfpcc void %26(%struct.__DMA_HandleTypeDef* %28), !dbg !113
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Slave_Seq_Receive_DMA
+	 [+] Adding callees for Func: HAL_I2C_Slave_Seq_Receive_DMA
+	Indirect call:   call arm_aapcs_vfpcc void %26(%struct.__DMA_HandleTypeDef* %28), !dbg !113
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %45(%struct.__DMA_HandleTypeDef* %47), !dbg !146
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_EnableListen_IT
+	 [+] Adding callees for Func: HAL_I2C_EnableListen_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_DisableListen_IT
+	 [+] Adding callees for Func: HAL_I2C_DisableListen_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_Master_Abort_IT
+	 [+] Adding callees for Func: HAL_I2C_Master_Abort_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_EV_IRQHandler
+	 [+] Adding callees for Func: HAL_I2C_EV_IRQHandler
+	Indirect call:   %call = call arm_aapcs_vfpcc zeroext i8 %9(%struct.__I2C_HandleTypeDef* %10, i32 %11, i32 %12), !dbg !75
+	 Indirect Type: i8 (%struct.__I2C_HandleTypeDef*, i32, i32)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_ER_IRQHandler
+	 [+] Adding callees for Func: HAL_I2C_ER_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_GetState
+	 [+] Adding callees for Func: HAL_I2C_GetState
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_GetMode
+	 [+] Adding callees for Func: HAL_I2C_GetMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2C_GetError
+	 [+] Adding callees for Func: HAL_I2C_GetError
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2CEx_ConfigAnalogFilter
+	 [+] Adding callees for Func: HAL_I2CEx_ConfigAnalogFilter
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2CEx_ConfigDigitalFilter
+	 [+] Adding callees for Func: HAL_I2CEx_ConfigDigitalFilter
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2CEx_EnableWakeUp
+	 [+] Adding callees for Func: HAL_I2CEx_EnableWakeUp
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2CEx_DisableWakeUp
+	 [+] Adding callees for Func: HAL_I2CEx_DisableWakeUp
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2CEx_EnableFastModePlus
+	 [+] Adding callees for Func: HAL_I2CEx_EnableFastModePlus
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_I2CEx_DisableFastModePlus
+	 [+] Adding callees for Func: HAL_I2CEx_DisableFastModePlus
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_ConfigAssociativityMode
+	 [+] Adding callees for Func: HAL_ICACHE_ConfigAssociativityMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_DeInit
+	 [+] Adding callees for Func: HAL_ICACHE_DeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_Monitor_Stop
+		 HAL_ICACHE_DeInit
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_ICACHE_Monitor_Stop(i32 196608), !dbg !69
+	 [+] Adding callees for Func: HAL_ICACHE_Monitor_Stop
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_Monitor_Reset
+		 HAL_ICACHE_DeInit
+		   %call1 = call arm_aapcs_vfpcc zeroext i8 @HAL_ICACHE_Monitor_Reset(i32 196608), !dbg !70
+	 [+] Adding callees for Func: HAL_ICACHE_Monitor_Reset
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_DisableRemapRegion
+		 HAL_ICACHE_DeInit
+		   %call5 = call arm_aapcs_vfpcc zeroext i8 @HAL_ICACHE_DisableRemapRegion(i32 3), !dbg !74
+		 HAL_ICACHE_DeInit
+		   %call4 = call arm_aapcs_vfpcc zeroext i8 @HAL_ICACHE_DisableRemapRegion(i32 2), !dbg !73
+		 HAL_ICACHE_DeInit
+		   %call3 = call arm_aapcs_vfpcc zeroext i8 @HAL_ICACHE_DisableRemapRegion(i32 1), !dbg !72
+		 HAL_ICACHE_DeInit
+		   %call2 = call arm_aapcs_vfpcc zeroext i8 @HAL_ICACHE_DisableRemapRegion(i32 0), !dbg !71
+	 [+] Adding callees for Func: HAL_ICACHE_DisableRemapRegion
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_WaitForInvalidateComplete
+		 HAL_ICACHE_Invalidate
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_ICACHE_WaitForInvalidateComplete(), !dbg !74
+		 HAL_ICACHE_DeInit
+		   %call6 = call arm_aapcs_vfpcc zeroext i8 @HAL_ICACHE_WaitForInvalidateComplete(), !dbg !75
+	 [+] Adding callees for Func: HAL_ICACHE_WaitForInvalidateComplete
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_Enable
+	 [+] Adding callees for Func: HAL_ICACHE_Enable
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_Disable
+	 [+] Adding callees for Func: HAL_ICACHE_Disable
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_Invalidate
+	 [+] Adding callees for Func: HAL_ICACHE_Invalidate
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_Invalidate_IT
+	 [+] Adding callees for Func: HAL_ICACHE_Invalidate_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_Monitor_Start
+	 [+] Adding callees for Func: HAL_ICACHE_Monitor_Start
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_Monitor_GetHitValue
+	 [+] Adding callees for Func: HAL_ICACHE_Monitor_GetHitValue
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_Monitor_GetMissValue
+	 [+] Adding callees for Func: HAL_ICACHE_Monitor_GetMissValue
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_IRQHandler
+	 [+] Adding callees for Func: HAL_ICACHE_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_ErrorCallback
+		 HAL_ICACHE_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_ICACHE_ErrorCallback(), !dbg !80
+	 [+] Adding callees for Func: HAL_ICACHE_ErrorCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_InvalidateCompleteCallback
+		 HAL_ICACHE_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_ICACHE_InvalidateCompleteCallback(), !dbg !90
+	 [+] Adding callees for Func: HAL_ICACHE_InvalidateCompleteCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_ICACHE_EnableRemapRegion
+	 [+] Adding callees for Func: HAL_ICACHE_EnableRemapRegion
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_DeInit
+	 [+] Adding callees for Func: HAL_PWR_DeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_EnableBkUpAccess
+		 HAL_RCCEx_DisableLSCO
+		   call arm_aapcs_vfpcc void @HAL_PWR_EnableBkUpAccess(), !dbg !75
+		 HAL_RCCEx_EnableLSCO
+		   call arm_aapcs_vfpcc void @HAL_PWR_EnableBkUpAccess(), !dbg !85
+	 [+] Adding callees for Func: HAL_PWR_EnableBkUpAccess
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_DisableBkUpAccess
+		 HAL_RCCEx_DisableLSCO
+		   call arm_aapcs_vfpcc void @HAL_PWR_DisableBkUpAccess(), !dbg !81
+		 HAL_RCCEx_EnableLSCO
+		   call arm_aapcs_vfpcc void @HAL_PWR_DisableBkUpAccess(), !dbg !91
+	 [+] Adding callees for Func: HAL_PWR_DisableBkUpAccess
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_ConfigPVD
+	 [+] Adding callees for Func: HAL_PWR_ConfigPVD
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_EnablePVD
+	 [+] Adding callees for Func: HAL_PWR_EnablePVD
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_DisablePVD
+	 [+] Adding callees for Func: HAL_PWR_DisablePVD
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_EnableWakeUpPin
+	 [+] Adding callees for Func: HAL_PWR_EnableWakeUpPin
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_DisableWakeUpPin
+	 [+] Adding callees for Func: HAL_PWR_DisableWakeUpPin
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_EnterSLEEPMode
+	 [+] Adding callees for Func: HAL_PWR_EnterSLEEPMode
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfi", ""() #6, !dbg !83, !srcloc !84
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "sev", ""() #6, !dbg !86, !srcloc !87
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfe", ""() #6, !dbg !88, !srcloc !89
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfe", ""() #6, !dbg !90, !srcloc !91
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_EnterSTOPMode
+	 [+] Adding callees for Func: HAL_PWR_EnterSTOPMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_EnterSTANDBYMode
+	 [+] Adding callees for Func: HAL_PWR_EnterSTANDBYMode
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfi", ""() #6, !dbg !70, !srcloc !71
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_EnableSleepOnExit
+	 [+] Adding callees for Func: HAL_PWR_EnableSleepOnExit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_DisableSleepOnExit
+	 [+] Adding callees for Func: HAL_PWR_DisableSleepOnExit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_EnableSEVOnPend
+	 [+] Adding callees for Func: HAL_PWR_EnableSEVOnPend
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_DisableSEVOnPend
+	 [+] Adding callees for Func: HAL_PWR_DisableSEVOnPend
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_PVDCallback
+		 HAL_PWREx_PVD_PVM_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_PWR_PVDCallback(), !dbg !78
+	 [+] Adding callees for Func: HAL_PWR_PVDCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_ConfigAttributes
+	 [+] Adding callees for Func: HAL_PWR_ConfigAttributes
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWR_GetConfigAttributes
+	 [+] Adding callees for Func: HAL_PWR_GetConfigAttributes
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_GetVoltageRange
+		 RCC_SetFlashLatencyFromMSIRange
+		   %call2 = call arm_aapcs_vfpcc i32 @HAL_PWREx_GetVoltageRange(), !dbg !74
+		 RCC_SetFlashLatencyFromMSIRange
+		   %call = call arm_aapcs_vfpcc i32 @HAL_PWREx_GetVoltageRange(), !dbg !70
+		 HAL_PWREx_SMPS_SetMode
+		   %call = call arm_aapcs_vfpcc i32 @HAL_PWREx_GetVoltageRange(), !dbg !74
+		 HAL_FLASHEx_ConfigLVEPin
+		   %call6 = call arm_aapcs_vfpcc i32 @HAL_PWREx_GetVoltageRange(), !dbg !73
+	 [+] Adding callees for Func: HAL_PWREx_GetVoltageRange
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_ControlVoltageScaling
+	 [+] Adding callees for Func: HAL_PWREx_ControlVoltageScaling
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_SMPS_GetEffectiveMode
+		 HAL_PWREx_SMPS_SetMode
+		   %call19 = call arm_aapcs_vfpcc i32 @HAL_PWREx_SMPS_GetEffectiveMode(), !dbg !102
+		 HAL_PWREx_SMPS_SetMode
+		   %call16 = call arm_aapcs_vfpcc i32 @HAL_PWREx_SMPS_GetEffectiveMode(), !dbg !92
+		 HAL_PWREx_ControlVoltageScaling
+		   %call = call arm_aapcs_vfpcc i32 @HAL_PWREx_SMPS_GetEffectiveMode(), !dbg !70
+	 [+] Adding callees for Func: HAL_PWREx_SMPS_GetEffectiveMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableBatteryCharging
+	 [+] Adding callees for Func: HAL_PWREx_EnableBatteryCharging
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableBatteryCharging
+	 [+] Adding callees for Func: HAL_PWREx_DisableBatteryCharging
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableVddUSB
+	 [+] Adding callees for Func: HAL_PWREx_EnableVddUSB
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableVddUSB
+	 [+] Adding callees for Func: HAL_PWREx_DisableVddUSB
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableVddIO2
+	 [+] Adding callees for Func: HAL_PWREx_EnableVddIO2
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableVddIO2
+	 [+] Adding callees for Func: HAL_PWREx_DisableVddIO2
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableGPIOPullUp
+	 [+] Adding callees for Func: HAL_PWREx_EnableGPIOPullUp
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableGPIOPullUp
+	 [+] Adding callees for Func: HAL_PWREx_DisableGPIOPullUp
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableGPIOPullDown
+	 [+] Adding callees for Func: HAL_PWREx_EnableGPIOPullDown
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableGPIOPullDown
+	 [+] Adding callees for Func: HAL_PWREx_DisableGPIOPullDown
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnablePullUpPullDownConfig
+	 [+] Adding callees for Func: HAL_PWREx_EnablePullUpPullDownConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisablePullUpPullDownConfig
+	 [+] Adding callees for Func: HAL_PWREx_DisablePullUpPullDownConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_ConfigSRAM2ContentRetention
+		 HAL_PWREx_DisableSRAM2ContentRetention
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_PWREx_ConfigSRAM2ContentRetention(i32 0), !dbg !68
+		 HAL_PWREx_EnableSRAM2ContentRetention
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_PWREx_ConfigSRAM2ContentRetention(i32 256), !dbg !68
+	 [+] Adding callees for Func: HAL_PWREx_ConfigSRAM2ContentRetention
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableSRAM2ContentRetention
+	 [+] Adding callees for Func: HAL_PWREx_EnableSRAM2ContentRetention
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableSRAM2ContentRetention
+	 [+] Adding callees for Func: HAL_PWREx_DisableSRAM2ContentRetention
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnablePVM1
+	 [+] Adding callees for Func: HAL_PWREx_EnablePVM1
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisablePVM1
+	 [+] Adding callees for Func: HAL_PWREx_DisablePVM1
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnablePVM2
+	 [+] Adding callees for Func: HAL_PWREx_EnablePVM2
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisablePVM2
+	 [+] Adding callees for Func: HAL_PWREx_DisablePVM2
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnablePVM3
+	 [+] Adding callees for Func: HAL_PWREx_EnablePVM3
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisablePVM3
+	 [+] Adding callees for Func: HAL_PWREx_DisablePVM3
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnablePVM4
+	 [+] Adding callees for Func: HAL_PWREx_EnablePVM4
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisablePVM4
+	 [+] Adding callees for Func: HAL_PWREx_DisablePVM4
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_ConfigPVM
+	 [+] Adding callees for Func: HAL_PWREx_ConfigPVM
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableLowPowerRunMode
+		 HAL_PWR_EnterSLEEPMode
+		   call arm_aapcs_vfpcc void @HAL_PWREx_EnableLowPowerRunMode(), !dbg !78
+	 [+] Adding callees for Func: HAL_PWREx_EnableLowPowerRunMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableLowPowerRunMode
+		 HAL_PWR_EnterSLEEPMode
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_PWREx_DisableLowPowerRunMode(), !dbg !71
+	 [+] Adding callees for Func: HAL_PWREx_DisableLowPowerRunMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnterSTOP0Mode
+		 HAL_PWR_EnterSTOPMode
+		   call arm_aapcs_vfpcc void @HAL_PWREx_EnterSTOP0Mode(i8 zeroext %2), !dbg !74
+	 [+] Adding callees for Func: HAL_PWREx_EnterSTOP0Mode
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfi", ""() #6, !dbg !72, !srcloc !73
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "sev", ""() #6, !dbg !75, !srcloc !76
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfe", ""() #6, !dbg !77, !srcloc !78
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfe", ""() #6, !dbg !79, !srcloc !80
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnterSTOP1Mode
+		 HAL_PWR_EnterSTOPMode
+		   call arm_aapcs_vfpcc void @HAL_PWREx_EnterSTOP1Mode(i8 zeroext %1), !dbg !71
+	 [+] Adding callees for Func: HAL_PWREx_EnterSTOP1Mode
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfi", ""() #6, !dbg !72, !srcloc !73
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "sev", ""() #6, !dbg !75, !srcloc !76
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfe", ""() #6, !dbg !77, !srcloc !78
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfe", ""() #6, !dbg !79, !srcloc !80
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnterSTOP2Mode
+	 [+] Adding callees for Func: HAL_PWREx_EnterSTOP2Mode
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfi", ""() #6, !dbg !72, !srcloc !73
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "sev", ""() #6, !dbg !75, !srcloc !76
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfe", ""() #6, !dbg !77, !srcloc !78
+------------------
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfe", ""() #6, !dbg !79, !srcloc !80
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnterSHUTDOWNMode
+	 [+] Adding callees for Func: HAL_PWREx_EnterSHUTDOWNMode
+		 <Inline assembly> :Inline ASM:   call void asm sideeffect "wfi", ""() #6, !dbg !70, !srcloc !71
+------------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_PVD_PVM_IRQHandler
+	 [+] Adding callees for Func: HAL_PWREx_PVD_PVM_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_PVM1Callback
+		 HAL_PWREx_PVD_PVM_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_PWREx_PVM1Callback(), !dbg !92
+	 [+] Adding callees for Func: HAL_PWREx_PVM1Callback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_PVM2Callback
+		 HAL_PWREx_PVD_PVM_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_PWREx_PVM2Callback(), !dbg !102
+	 [+] Adding callees for Func: HAL_PWREx_PVM2Callback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_PVM3Callback
+		 HAL_PWREx_PVD_PVM_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_PWREx_PVM3Callback(), !dbg !112
+	 [+] Adding callees for Func: HAL_PWREx_PVM3Callback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_PVM4Callback
+		 HAL_PWREx_PVD_PVM_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_PWREx_PVM4Callback(), !dbg !122
+	 [+] Adding callees for Func: HAL_PWREx_PVM4Callback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableUCPDStandbyMode
+	 [+] Adding callees for Func: HAL_PWREx_EnableUCPDStandbyMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableUCPDStandbyMode
+	 [+] Adding callees for Func: HAL_PWREx_DisableUCPDStandbyMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableUCPDDeadBattery
+	 [+] Adding callees for Func: HAL_PWREx_EnableUCPDDeadBattery
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableUCPDDeadBattery
+	 [+] Adding callees for Func: HAL_PWREx_DisableUCPDDeadBattery
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_EnableUltraLowPowerMode
+	 [+] Adding callees for Func: HAL_PWREx_EnableUltraLowPowerMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_DisableUltraLowPowerMode
+	 [+] Adding callees for Func: HAL_PWREx_DisableUltraLowPowerMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_SMPS_SetMode
+	 [+] Adding callees for Func: HAL_PWREx_SMPS_SetMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_SMPS_EnableBypassMode
+		 HAL_PWREx_SMPS_SetMode
+		   call arm_aapcs_vfpcc void @HAL_PWREx_SMPS_EnableBypassMode(), !dbg !84
+	 [+] Adding callees for Func: HAL_PWREx_SMPS_EnableBypassMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_SMPS_EnableFastStart
+	 [+] Adding callees for Func: HAL_PWREx_SMPS_EnableFastStart
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_SMPS_DisableFastStart
+	 [+] Adding callees for Func: HAL_PWREx_SMPS_DisableFastStart
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_SMPS_DisableBypassMode
+	 [+] Adding callees for Func: HAL_PWREx_SMPS_DisableBypassMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_SMPS_EnableExternal
+	 [+] Adding callees for Func: HAL_PWREx_SMPS_EnableExternal
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_SMPS_DisableExternal
+	 [+] Adding callees for Func: HAL_PWREx_SMPS_DisableExternal
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_PWREx_SMPS_GetMainRegulatorExtSMPSReadyStatus
+	 [+] Adding callees for Func: HAL_PWREx_SMPS_GetMainRegulatorExtSMPSReadyStatus
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_DeInit
+	 [+] Adding callees for Func: HAL_RCC_DeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_OscConfig
+	 [+] Adding callees for Func: HAL_RCC_OscConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCC_SetFlashLatencyFromMSIRange
+		 HAL_RCC_OscConfig
+		   %call45 = call arm_aapcs_vfpcc zeroext i8 @RCC_SetFlashLatencyFromMSIRange(i32 %34), !dbg !115
+		 HAL_RCC_OscConfig
+		   %call = call arm_aapcs_vfpcc zeroext i8 @RCC_SetFlashLatencyFromMSIRange(i32 %17), !dbg !103
+	 [+] Adding callees for Func: RCC_SetFlashLatencyFromMSIRange
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetHCLKFreq
+		 HAL_RCC_GetPCLK2Freq
+		   %call = call arm_aapcs_vfpcc i32 @HAL_RCC_GetHCLKFreq(), !dbg !68
+		 HAL_RCC_GetPCLK1Freq
+		   %call = call arm_aapcs_vfpcc i32 @HAL_RCC_GetHCLKFreq(), !dbg !68
+		 HAL_RCC_ClockConfig
+		   %call116 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetHCLKFreq(), !dbg !191
+		 HAL_RCC_OscConfig
+		   %call53 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetHCLKFreq(), !dbg !119
+	 [+] Adding callees for Func: HAL_RCC_GetHCLKFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetSysClockFreq
+		 UART_SetConfig
+		   %call223 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !228
+		 UART_SetConfig
+		   %call173 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !181
+		 UART_SetConfig
+		   %call112 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !117
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call417 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !524
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call404 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !508
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call391 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !492
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call378 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !476
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call344 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !445
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call317 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !409
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call301 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !392
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call283 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !372
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call265 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !352
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call247 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !332
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call229 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !312
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call211 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !292
+		 HAL_RCC_ClockConfig
+		   %call59 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !132
+		 HAL_RCC_GetHCLKFreq
+		   %call = call arm_aapcs_vfpcc i32 @HAL_RCC_GetSysClockFreq(), !dbg !68
+	 [+] Adding callees for Func: HAL_RCC_GetSysClockFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_ClockConfig
+	 [+] Adding callees for Func: HAL_RCC_ClockConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCC_GetSysClockFreqFromPLLSource
+		 HAL_RCC_ClockConfig
+		   %call = call arm_aapcs_vfpcc i32 @RCC_GetSysClockFreqFromPLLSource(), !dbg !92
+	 [+] Adding callees for Func: RCC_GetSysClockFreqFromPLLSource
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_MCOConfig
+	 [+] Adding callees for Func: HAL_RCC_MCOConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetPCLK1Freq
+		 UART_SetConfig
+		   %call218 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !220
+		 UART_SetConfig
+		   %call168 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !173
+		 UART_SetConfig
+		   %call = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !109
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call470 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !579
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call449 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !558
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call428 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !537
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call415 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !521
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call402 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !505
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call389 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !489
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call376 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !473
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call299 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !389
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call281 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !369
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call263 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !349
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call245 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !329
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call227 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK1Freq(), !dbg !309
+	 [+] Adding callees for Func: HAL_RCC_GetPCLK1Freq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetPCLK2Freq
+		 UART_SetConfig
+		   %call220 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK2Freq(), !dbg !223
+		 UART_SetConfig
+		   %call170 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK2Freq(), !dbg !176
+		 UART_SetConfig
+		   %call109 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK2Freq(), !dbg !112
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call342 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK2Freq(), !dbg !442
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call209 = call arm_aapcs_vfpcc i32 @HAL_RCC_GetPCLK2Freq(), !dbg !289
+	 [+] Adding callees for Func: HAL_RCC_GetPCLK2Freq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetOscConfig
+	 [+] Adding callees for Func: HAL_RCC_GetOscConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetClockConfig
+	 [+] Adding callees for Func: HAL_RCC_GetClockConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_EnableCSS
+	 [+] Adding callees for Func: HAL_RCC_EnableCSS
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_NMI_IRQHandler
+	 [+] Adding callees for Func: HAL_RCC_NMI_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_CSSCallback
+		 HAL_RCC_NMI_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_RCC_CSSCallback(), !dbg !69
+	 [+] Adding callees for Func: HAL_RCC_CSSCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_ConfigAttributes
+	 [+] Adding callees for Func: HAL_RCC_ConfigAttributes
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCC_GetConfigAttributes
+	 [+] Adding callees for Func: HAL_RCC_GetConfigAttributes
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_PeriphCLKConfig
+		 HAL_UART_MspInit
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_RCCEx_PeriphCLKConfig(%struct.RCC_PeriphCLKInitTypeDef* %PeriphClkInit), !dbg !78
+	 [+] Adding callees for Func: HAL_RCCEx_PeriphCLKConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCCEx_PLLSAI1_Config
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call349 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLInitTypeDef* %PLLSAI1348, i32 2), !dbg !412
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call327 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLInitTypeDef* %PLLSAI1326, i32 1), !dbg !392
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call286 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLInitTypeDef* %PLLSAI1285, i32 1), !dbg !357
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call255 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLInitTypeDef* %PLLSAI1254, i32 1), !dbg !337
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call192 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLInitTypeDef* %PLLSAI1191, i32 0), !dbg !281
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call21 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLInitTypeDef* %PLLSAI120, i32 0), !dbg !112
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSAI1_Config(%struct.RCC_PLLInitTypeDef* %PLLSAI1, i32 0), !dbg !82
+	 [+] Adding callees for Func: RCCEx_PLLSAI1_Config
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCCEx_PLLSAI2_Config
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call24 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSAI2_Config(%struct.DBGMCU_TypeDef* %PLLSAI223, i32 0), !dbg !117
+		 HAL_RCCEx_PeriphCLKConfig
+		   %call3 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSAI2_Config(%struct.DBGMCU_TypeDef* %PLLSAI2, i32 0), !dbg !87
+	 [+] Adding callees for Func: RCCEx_PLLSAI2_Config
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_GetPeriphCLKConfig
+	 [+] Adding callees for Func: HAL_RCCEx_GetPeriphCLKConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_GetPeriphCLKFreq
+	 [+] Adding callees for Func: HAL_RCCEx_GetPeriphCLKFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCCEx_GetSAIxPeriphCLKFreq
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call349 = call arm_aapcs_vfpcc i32 @RCCEx_GetSAIxPeriphCLKFreq(i32 2048, i32 %115), !dbg !453
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call42 = call arm_aapcs_vfpcc i32 @RCCEx_GetSAIxPeriphCLKFreq(i32 4096, i32 %17), !dbg !120
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call = call arm_aapcs_vfpcc i32 @RCCEx_GetSAIxPeriphCLKFreq(i32 2048, i32 %16), !dbg !116
+	 [+] Adding callees for Func: RCCEx_GetSAIxPeriphCLKFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCCEx_PLLSAI1_GetVCOFreq
+		 RCCEx_GetSAIxPeriphCLKFreq
+		   %call = call arm_aapcs_vfpcc i32 @RCCEx_PLLSAI1_GetVCOFreq(), !dbg !140
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call520 = call arm_aapcs_vfpcc i32 @RCCEx_PLLSAI1_GetVCOFreq(), !dbg !629
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call322 = call arm_aapcs_vfpcc i32 @RCCEx_PLLSAI1_GetVCOFreq(), !dbg !414
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call183 = call arm_aapcs_vfpcc i32 @RCCEx_PLLSAI1_GetVCOFreq(), !dbg !256
+		 HAL_RCCEx_GetPeriphCLKFreq
+		   %call85 = call arm_aapcs_vfpcc i32 @RCCEx_PLLSAI1_GetVCOFreq(), !dbg !159
+	 [+] Adding callees for Func: RCCEx_PLLSAI1_GetVCOFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCCEx_PLLSAI2_GetVCOFreq
+		 RCCEx_GetSAIxPeriphCLKFreq
+		   %call77 = call arm_aapcs_vfpcc i32 @RCCEx_PLLSAI2_GetVCOFreq(), !dbg !178
+	 [+] Adding callees for Func: RCCEx_PLLSAI2_GetVCOFreq
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_EnablePLLSAI1
+	 [+] Adding callees for Func: HAL_RCCEx_EnablePLLSAI1
+--------------------------------------------------------
+	 [+] Adding callers for Func: RCCEx_PLLSource_Enable
+		 HAL_RCCEx_EnablePLLSAI2
+		   %call7 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSource_Enable(i32 %5), !dbg !88
+		 HAL_RCCEx_EnablePLLSAI1
+		   %call7 = call arm_aapcs_vfpcc zeroext i8 @RCCEx_PLLSource_Enable(i32 %5), !dbg !88
+	 [+] Adding callees for Func: RCCEx_PLLSource_Enable
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_DisablePLLSAI1
+	 [+] Adding callees for Func: HAL_RCCEx_DisablePLLSAI1
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_EnablePLLSAI2
+	 [+] Adding callees for Func: HAL_RCCEx_EnablePLLSAI2
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_DisablePLLSAI2
+	 [+] Adding callees for Func: HAL_RCCEx_DisablePLLSAI2
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_WakeUpStopCLKConfig
+	 [+] Adding callees for Func: HAL_RCCEx_WakeUpStopCLKConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_StandbyMSIRangeConfig
+	 [+] Adding callees for Func: HAL_RCCEx_StandbyMSIRangeConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_EnableLSECSS
+	 [+] Adding callees for Func: HAL_RCCEx_EnableLSECSS
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_DisableLSECSS
+	 [+] Adding callees for Func: HAL_RCCEx_DisableLSECSS
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_LSECSS_IRQHandler
+	 [+] Adding callees for Func: HAL_RCCEx_LSECSS_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_LSECSS_Callback
+		 HAL_RCCEx_LSECSS_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_RCCEx_LSECSS_Callback(), !dbg !70
+	 [+] Adding callees for Func: HAL_RCCEx_LSECSS_Callback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_EnableLSCO
+	 [+] Adding callees for Func: HAL_RCCEx_EnableLSCO
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_DisableLSCO
+	 [+] Adding callees for Func: HAL_RCCEx_DisableLSCO
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_EnableMSIPLLMode
+	 [+] Adding callees for Func: HAL_RCCEx_EnableMSIPLLMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_DisableMSIPLLMode
+	 [+] Adding callees for Func: HAL_RCCEx_DisableMSIPLLMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_CRSConfig
+	 [+] Adding callees for Func: HAL_RCCEx_CRSConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_CRSSoftwareSynchronizationGenerate
+	 [+] Adding callees for Func: HAL_RCCEx_CRSSoftwareSynchronizationGenerate
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_CRSGetSynchronizationInfo
+	 [+] Adding callees for Func: HAL_RCCEx_CRSGetSynchronizationInfo
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_CRSWaitSynchronization
+	 [+] Adding callees for Func: HAL_RCCEx_CRSWaitSynchronization
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_CRS_IRQHandler
+	 [+] Adding callees for Func: HAL_RCCEx_CRS_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_CRS_SyncOkCallback
+		 HAL_RCCEx_CRS_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_RCCEx_CRS_SyncOkCallback(), !dbg !82
+	 [+] Adding callees for Func: HAL_RCCEx_CRS_SyncOkCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_CRS_SyncWarnCallback
+		 HAL_RCCEx_CRS_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_RCCEx_CRS_SyncWarnCallback(), !dbg !93
+	 [+] Adding callees for Func: HAL_RCCEx_CRS_SyncWarnCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_CRS_ExpectedSyncCallback
+		 HAL_RCCEx_CRS_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_RCCEx_CRS_ExpectedSyncCallback(), !dbg !104
+	 [+] Adding callees for Func: HAL_RCCEx_CRS_ExpectedSyncCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RCCEx_CRS_ErrorCallback
+		 HAL_RCCEx_CRS_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_RCCEx_CRS_ErrorCallback(i32 %16), !dbg !134
+	 [+] Adding callees for Func: HAL_RCCEx_CRS_ErrorCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Init
+		 MX_USART1_UART_Init
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_UART_Init(%struct.__UART_HandleTypeDef* @huart1), !dbg !80
+	 [+] Adding callees for Func: HAL_UART_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_SetConfig
+		 HAL_RS485Ex_Init
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_SetConfig(%struct.__UART_HandleTypeDef* %9), !dbg !85
+		 HAL_MultiProcessor_Init
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_SetConfig(%struct.__UART_HandleTypeDef* %9), !dbg !85
+		 HAL_LIN_Init
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_SetConfig(%struct.__UART_HandleTypeDef* %13), !dbg !95
+		 HAL_HalfDuplex_Init
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_SetConfig(%struct.__UART_HandleTypeDef* %9), !dbg !85
+		 HAL_UART_Init
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_SetConfig(%struct.__UART_HandleTypeDef* %11), !dbg !90
+	 [+] Adding callees for Func: UART_SetConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_AdvFeatureConfig
+		 HAL_RS485Ex_Init
+		   call arm_aapcs_vfpcc void @UART_AdvFeatureConfig(%struct.__UART_HandleTypeDef* %12), !dbg !93
+		 HAL_MultiProcessor_Init
+		   call arm_aapcs_vfpcc void @UART_AdvFeatureConfig(%struct.__UART_HandleTypeDef* %12), !dbg !93
+		 HAL_LIN_Init
+		   call arm_aapcs_vfpcc void @UART_AdvFeatureConfig(%struct.__UART_HandleTypeDef* %16), !dbg !103
+		 HAL_HalfDuplex_Init
+		   call arm_aapcs_vfpcc void @UART_AdvFeatureConfig(%struct.__UART_HandleTypeDef* %12), !dbg !93
+		 HAL_UART_Init
+		   call arm_aapcs_vfpcc void @UART_AdvFeatureConfig(%struct.__UART_HandleTypeDef* %14), !dbg !98
+	 [+] Adding callees for Func: UART_AdvFeatureConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_CheckIdleState
+		 HAL_MultiProcessorEx_AddressLength_Set
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_CheckIdleState(%struct.__UART_HandleTypeDef* %14), !dbg !78
+		 HAL_RS485Ex_Init
+		   %call31 = call arm_aapcs_vfpcc zeroext i8 @UART_CheckIdleState(%struct.__UART_HandleTypeDef* %34), !dbg !106
+		 HAL_MultiProcessor_DisableMuteMode
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_CheckIdleState(%struct.__UART_HandleTypeDef* %8), !dbg !77
+		 HAL_MultiProcessor_EnableMuteMode
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_CheckIdleState(%struct.__UART_HandleTypeDef* %8), !dbg !77
+		 HAL_MultiProcessor_Init
+		   %call36 = call arm_aapcs_vfpcc zeroext i8 @UART_CheckIdleState(%struct.__UART_HandleTypeDef* %35), !dbg !104
+		 HAL_LIN_Init
+		   %call35 = call arm_aapcs_vfpcc zeroext i8 @UART_CheckIdleState(%struct.__UART_HandleTypeDef* %35), !dbg !111
+		 HAL_HalfDuplex_Init
+		   %call22 = call arm_aapcs_vfpcc zeroext i8 @UART_CheckIdleState(%struct.__UART_HandleTypeDef* %25), !dbg !100
+		 HAL_UART_Init
+		   %call22 = call arm_aapcs_vfpcc zeroext i8 @UART_CheckIdleState(%struct.__UART_HandleTypeDef* %24), !dbg !104
+	 [+] Adding callees for Func: UART_CheckIdleState
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_WaitOnFlagUntilTimeout
+		 HAL_UARTEx_StopModeWakeUpSourceConfig
+		   %call15 = call arm_aapcs_vfpcc zeroext i8 @UART_WaitOnFlagUntilTimeout(%struct.__UART_HandleTypeDef* %21, i32 4194304, i8 zeroext 0, i32 %22, i32 33554431), !dbg !86
+		 HAL_UART_Receive
+		   %call78 = call arm_aapcs_vfpcc zeroext i8 @UART_WaitOnFlagUntilTimeout(%struct.__UART_HandleTypeDef* %45, i32 32, i8 zeroext 0, i32 %46, i32 %47), !dbg !128
+		 HAL_UART_Transmit
+		   %call49 = call arm_aapcs_vfpcc zeroext i8 @UART_WaitOnFlagUntilTimeout(%struct.__UART_HandleTypeDef* %39, i32 64, i8 zeroext 0, i32 %40, i32 %41), !dbg !153
+		 HAL_UART_Transmit
+		   %call27 = call arm_aapcs_vfpcc zeroext i8 @UART_WaitOnFlagUntilTimeout(%struct.__UART_HandleTypeDef* %23, i32 128, i8 zeroext 0, i32 %24, i32 %25), !dbg !121
+		 UART_CheckIdleState
+		   %call12 = call arm_aapcs_vfpcc zeroext i8 @UART_WaitOnFlagUntilTimeout(%struct.__UART_HandleTypeDef* %9, i32 4194304, i8 zeroext 0, i32 %10, i32 33554431), !dbg !93
+		 UART_CheckIdleState
+		   %call1 = call arm_aapcs_vfpcc zeroext i8 @UART_WaitOnFlagUntilTimeout(%struct.__UART_HandleTypeDef* %4, i32 2097152, i8 zeroext 0, i32 %5, i32 33554431), !dbg !81
+	 [+] Adding callees for Func: UART_WaitOnFlagUntilTimeout
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_HalfDuplex_Init
+	 [+] Adding callees for Func: HAL_HalfDuplex_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_LIN_Init
+	 [+] Adding callees for Func: HAL_LIN_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_MultiProcessor_Init
+	 [+] Adding callees for Func: HAL_MultiProcessor_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_DeInit
+	 [+] Adding callees for Func: HAL_UART_DeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Transmit
+	 [+] Adding callees for Func: HAL_UART_Transmit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Receive
+	 [+] Adding callees for Func: HAL_UART_Receive
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Transmit_IT
+		 print
+		   %call = call arm_aapcs_vfpcc zeroext i8 @HAL_UART_Transmit_IT(%struct.__UART_HandleTypeDef* @huart1, i8* %0, i16 zeroext %conv), !dbg !71
+	 [+] Adding callees for Func: HAL_UART_Transmit_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_TxISR_16BIT_FIFOEN
+	 [+] Adding callees for Func: UART_TxISR_16BIT_FIFOEN
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_TxISR_8BIT_FIFOEN
+	 [+] Adding callees for Func: UART_TxISR_8BIT_FIFOEN
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_TxISR_16BIT
+	 [+] Adding callees for Func: UART_TxISR_16BIT
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_TxISR_8BIT
+	 [+] Adding callees for Func: UART_TxISR_8BIT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Receive_IT
+	 [+] Adding callees for Func: HAL_UART_Receive_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_Start_Receive_IT
+		 HAL_UARTEx_ReceiveToIdle_IT
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_Start_Receive_IT(%struct.__UART_HandleTypeDef* %8, i8* %9, i16 zeroext %10), !dbg !85
+		 HAL_UART_Receive_IT
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_Start_Receive_IT(%struct.__UART_HandleTypeDef* %8, i8* %9, i16 zeroext %10), !dbg !85
+	 [+] Adding callees for Func: UART_Start_Receive_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_RxISR_16BIT_FIFOEN
+	 [+] Adding callees for Func: UART_RxISR_16BIT_FIFOEN
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_RxISR_8BIT_FIFOEN
+	 [+] Adding callees for Func: UART_RxISR_8BIT_FIFOEN
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_RxISR_16BIT
+	 [+] Adding callees for Func: UART_RxISR_16BIT
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_RxISR_8BIT
+	 [+] Adding callees for Func: UART_RxISR_8BIT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_RxEventCallback
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %154, i16 zeroext %155), !dbg !328
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %130, i16 zeroext %conv189), !dbg !298
+		 UART_DMAReceiveCplt
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %24, i16 zeroext %26), !dbg !94
+		 UART_DMARxHalfCplt
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %5, i16 zeroext %conv1), !dbg !79
+		 UART_RxISR_16BIT_FIFOEN
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %72, i16 zeroext %74), !dbg !183
+		 UART_RxISR_8BIT_FIFOEN
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %70, i16 zeroext %72), !dbg !181
+		 UART_RxISR_16BIT
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %32, i16 zeroext %34), !dbg !111
+		 UART_RxISR_8BIT
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_RxEventCallback(%struct.__UART_HandleTypeDef* %30, i16 zeroext %32), !dbg !109
+	 [+] Adding callees for Func: HAL_UARTEx_RxEventCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_RxCpltCallback
+		 UART_DMAReceiveCplt
+		   call arm_aapcs_vfpcc void @HAL_UART_RxCpltCallback(%struct.__UART_HandleTypeDef* %27), !dbg !97
+		 UART_RxISR_16BIT_FIFOEN
+		   call arm_aapcs_vfpcc void @HAL_UART_RxCpltCallback(%struct.__UART_HandleTypeDef* %75), !dbg !186
+		 UART_RxISR_8BIT_FIFOEN
+		   call arm_aapcs_vfpcc void @HAL_UART_RxCpltCallback(%struct.__UART_HandleTypeDef* %73), !dbg !184
+		 UART_RxISR_16BIT
+		   call arm_aapcs_vfpcc void @HAL_UART_RxCpltCallback(%struct.__UART_HandleTypeDef* %35), !dbg !114
+		 UART_RxISR_8BIT
+		   call arm_aapcs_vfpcc void @HAL_UART_RxCpltCallback(%struct.__UART_HandleTypeDef* %33), !dbg !112
+	 [+] Adding callees for Func: HAL_UART_RxCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_ErrorCallback
+		 UART_DMAAbortOnError
+		   call arm_aapcs_vfpcc void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %5), !dbg !79
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %89), !dbg !241
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %88), !dbg !238
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %87), !dbg !235
+		 UART_DMAError
+		   call arm_aapcs_vfpcc void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %21), !dbg !104
+		 UART_RxISR_16BIT_FIFOEN
+		   call arm_aapcs_vfpcc void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %55), !dbg !159
+		 UART_RxISR_8BIT_FIFOEN
+		   call arm_aapcs_vfpcc void @HAL_UART_ErrorCallback(%struct.__UART_HandleTypeDef* %53), !dbg !157
+	 [+] Adding callees for Func: HAL_UART_ErrorCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Transmit_DMA
+	 [+] Adding callees for Func: HAL_UART_Transmit_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMATransmitCplt
+	 [+] Adding callees for Func: UART_DMATransmitCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMATxHalfCplt
+	 [+] Adding callees for Func: UART_DMATxHalfCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMAError
+	 [+] Adding callees for Func: UART_DMAError
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_EndTxTransfer
+		 HAL_UART_DMAStop
+		   call arm_aapcs_vfpcc void @UART_EndTxTransfer(%struct.__UART_HandleTypeDef* %18), !dbg !98
+		 UART_DMAError
+		   call arm_aapcs_vfpcc void @UART_EndTxTransfer(%struct.__UART_HandleTypeDef* %12), !dbg !87
+	 [+] Adding callees for Func: UART_EndTxTransfer
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_EndRxTransfer
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @UART_EndRxTransfer(%struct.__UART_HandleTypeDef* %69), !dbg !213
+		 HAL_UART_DMAStop
+		   call arm_aapcs_vfpcc void @UART_EndRxTransfer(%struct.__UART_HandleTypeDef* %33), !dbg !124
+		 UART_DMAError
+		   call arm_aapcs_vfpcc void @UART_EndRxTransfer(%struct.__UART_HandleTypeDef* %18), !dbg !98
+	 [+] Adding callees for Func: UART_EndRxTransfer
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_TxHalfCpltCallback
+		 UART_DMATxHalfCplt
+		   call arm_aapcs_vfpcc void @HAL_UART_TxHalfCpltCallback(%struct.__UART_HandleTypeDef* %3), !dbg !73
+	 [+] Adding callees for Func: HAL_UART_TxHalfCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_TxCpltCallback
+		 UART_EndTransmit_IT
+		   call arm_aapcs_vfpcc void @HAL_UART_TxCpltCallback(%struct.__UART_HandleTypeDef* %5), !dbg !76
+		 UART_DMATransmitCplt
+		   call arm_aapcs_vfpcc void @HAL_UART_TxCpltCallback(%struct.__UART_HandleTypeDef* %13), !dbg !80
+	 [+] Adding callees for Func: HAL_UART_TxCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Receive_DMA
+	 [+] Adding callees for Func: HAL_UART_Receive_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_Start_Receive_DMA
+		 HAL_UARTEx_ReceiveToIdle_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_Start_Receive_DMA(%struct.__UART_HandleTypeDef* %8, i8* %9, i16 zeroext %10), !dbg !85
+		 HAL_UART_Receive_DMA
+		   %call = call arm_aapcs_vfpcc zeroext i8 @UART_Start_Receive_DMA(%struct.__UART_HandleTypeDef* %8, i8* %9, i16 zeroext %10), !dbg !85
+	 [+] Adding callees for Func: UART_Start_Receive_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMAReceiveCplt
+	 [+] Adding callees for Func: UART_DMAReceiveCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMARxHalfCplt
+	 [+] Adding callees for Func: UART_DMARxHalfCplt
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_RxHalfCpltCallback
+		 UART_DMARxHalfCplt
+		   call arm_aapcs_vfpcc void @HAL_UART_RxHalfCpltCallback(%struct.__UART_HandleTypeDef* %8), !dbg !82
+	 [+] Adding callees for Func: HAL_UART_RxHalfCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_DMAPause
+	 [+] Adding callees for Func: HAL_UART_DMAPause
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_DMAResume
+	 [+] Adding callees for Func: HAL_UART_DMAResume
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_DMAStop
+	 [+] Adding callees for Func: HAL_UART_DMAStop
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Abort
+	 [+] Adding callees for Func: HAL_UART_Abort
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_AbortTransmit
+	 [+] Adding callees for Func: HAL_UART_AbortTransmit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_AbortReceive
+	 [+] Adding callees for Func: HAL_UART_AbortReceive
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_Abort_IT
+	 [+] Adding callees for Func: HAL_UART_Abort_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMATxAbortCallback
+	 [+] Adding callees for Func: UART_DMATxAbortCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMARxAbortCallback
+	 [+] Adding callees for Func: UART_DMARxAbortCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_AbortCpltCallback
+		 UART_DMATxAbortCallback
+		   call arm_aapcs_vfpcc void @HAL_UART_AbortCpltCallback(%struct.__UART_HandleTypeDef* %23), !dbg !110
+		 UART_DMARxAbortCallback
+		   call arm_aapcs_vfpcc void @HAL_UART_AbortCpltCallback(%struct.__UART_HandleTypeDef* %21), !dbg !106
+		 HAL_UART_Abort_IT
+		   call arm_aapcs_vfpcc void @HAL_UART_AbortCpltCallback(%struct.__UART_HandleTypeDef* %72), !dbg !173
+	 [+] Adding callees for Func: HAL_UART_AbortCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_AbortTransmit_IT
+	 [+] Adding callees for Func: HAL_UART_AbortTransmit_IT
+	Indirect call:   call arm_aapcs_vfpcc void %20(%struct.__DMA_HandleTypeDef* %22), !dbg !83
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMATxOnlyAbortCallback
+	 [+] Adding callees for Func: UART_DMATxOnlyAbortCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_AbortTransmitCpltCallback
+		 UART_DMATxOnlyAbortCallback
+		   call arm_aapcs_vfpcc void @HAL_UART_AbortTransmitCpltCallback(%struct.__UART_HandleTypeDef* %10), !dbg !84
+		 HAL_UART_AbortTransmit_IT
+		   call arm_aapcs_vfpcc void @HAL_UART_AbortTransmitCpltCallback(%struct.__UART_HandleTypeDef* %35), !dbg !117
+		 HAL_UART_AbortTransmit_IT
+		   call arm_aapcs_vfpcc void @HAL_UART_AbortTransmitCpltCallback(%struct.__UART_HandleTypeDef* %26), !dbg !100
+	 [+] Adding callees for Func: HAL_UART_AbortTransmitCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_AbortReceive_IT
+	 [+] Adding callees for Func: HAL_UART_AbortReceive_IT
+	Indirect call:   call arm_aapcs_vfpcc void %25(%struct.__DMA_HandleTypeDef* %27), !dbg !88
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMARxOnlyAbortCallback
+	 [+] Adding callees for Func: UART_DMARxOnlyAbortCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_AbortReceiveCpltCallback
+		 UART_DMARxOnlyAbortCallback
+		   call arm_aapcs_vfpcc void @HAL_UART_AbortReceiveCpltCallback(%struct.__UART_HandleTypeDef* %11), !dbg !84
+		 HAL_UART_AbortReceive_IT
+		   call arm_aapcs_vfpcc void @HAL_UART_AbortReceiveCpltCallback(%struct.__UART_HandleTypeDef* %44), !dbg !126
+		 HAL_UART_AbortReceive_IT
+		   call arm_aapcs_vfpcc void @HAL_UART_AbortReceiveCpltCallback(%struct.__UART_HandleTypeDef* %37), !dbg !110
+	 [+] Adding callees for Func: HAL_UART_AbortReceiveCpltCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_IRQHandler
+	 [+] Adding callees for Func: HAL_UART_IRQHandler
+	Indirect call:   call arm_aapcs_vfpcc void %17(%struct.__UART_HandleTypeDef* %18), !dbg !94
+	 Indirect Type: void (%struct.__UART_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %61(%struct.__UART_HandleTypeDef* %62), !dbg !198
+	 Indirect Type: void (%struct.__UART_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %84(%struct.__DMA_HandleTypeDef* %86), !dbg !227
+	 Indirect Type: void (%struct.__DMA_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+	Indirect call:   call arm_aapcs_vfpcc void %167(%struct.__UART_HandleTypeDef* %168), !dbg !358
+	 Indirect Type: void (%struct.__UART_HandleTypeDef*)
+
+------------ indirect_analysis: START -----------
+------------ indirect_analysis: END  ------------
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_DMAAbortOnError
+	 [+] Adding callees for Func: UART_DMAAbortOnError
+--------------------------------------------------------
+	 [+] Adding callers for Func: UART_EndTransmit_IT
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @UART_EndTransmit_IT(%struct.__UART_HandleTypeDef* %171), !dbg !372
+	 [+] Adding callees for Func: UART_EndTransmit_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_ReceiverTimeout_Config
+	 [+] Adding callees for Func: HAL_UART_ReceiverTimeout_Config
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_EnableReceiverTimeout
+	 [+] Adding callees for Func: HAL_UART_EnableReceiverTimeout
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_DisableReceiverTimeout
+	 [+] Adding callees for Func: HAL_UART_DisableReceiverTimeout
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_MultiProcessor_EnableMuteMode
+	 [+] Adding callees for Func: HAL_MultiProcessor_EnableMuteMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_MultiProcessor_DisableMuteMode
+	 [+] Adding callees for Func: HAL_MultiProcessor_DisableMuteMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_MultiProcessor_EnterMuteMode
+	 [+] Adding callees for Func: HAL_MultiProcessor_EnterMuteMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_HalfDuplex_EnableTransmitter
+	 [+] Adding callees for Func: HAL_HalfDuplex_EnableTransmitter
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_HalfDuplex_EnableReceiver
+	 [+] Adding callees for Func: HAL_HalfDuplex_EnableReceiver
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_LIN_SendBreak
+	 [+] Adding callees for Func: HAL_LIN_SendBreak
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_GetState
+		 print
+		   %call3 = call arm_aapcs_vfpcc i32 @HAL_UART_GetState(%struct.__UART_HandleTypeDef* @huart1), !dbg !76
+	 [+] Adding callees for Func: HAL_UART_GetState
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_GetError
+	 [+] Adding callees for Func: HAL_UART_GetError
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_RS485Ex_Init
+	 [+] Adding callees for Func: HAL_RS485Ex_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_WakeupCallback
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_WakeupCallback(%struct.__UART_HandleTypeDef* %160), !dbg !341
+	 [+] Adding callees for Func: HAL_UARTEx_WakeupCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_RxFifoFullCallback
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_RxFifoFullCallback(%struct.__UART_HandleTypeDef* %177), !dbg !394
+	 [+] Adding callees for Func: HAL_UARTEx_RxFifoFullCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_TxFifoEmptyCallback
+		 HAL_UART_IRQHandler
+		   call arm_aapcs_vfpcc void @HAL_UARTEx_TxFifoEmptyCallback(%struct.__UART_HandleTypeDef* %174), !dbg !383
+	 [+] Adding callees for Func: HAL_UARTEx_TxFifoEmptyCallback
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_MultiProcessorEx_AddressLength_Set
+	 [+] Adding callees for Func: HAL_MultiProcessorEx_AddressLength_Set
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_StopModeWakeUpSourceConfig
+	 [+] Adding callees for Func: HAL_UARTEx_StopModeWakeUpSourceConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: UARTEx_Wakeup_AddressConfig
+		 HAL_UARTEx_StopModeWakeUpSourceConfig
+		   call arm_aapcs_vfpcc void @UARTEx_Wakeup_AddressConfig(%struct.__UART_HandleTypeDef* %15, [2 x i32] %17), !dbg !79
+	 [+] Adding callees for Func: UARTEx_Wakeup_AddressConfig
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_EnableStopMode
+	 [+] Adding callees for Func: HAL_UARTEx_EnableStopMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_DisableStopMode
+	 [+] Adding callees for Func: HAL_UARTEx_DisableStopMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_EnableFifoMode
+	 [+] Adding callees for Func: HAL_UARTEx_EnableFifoMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: UARTEx_SetNbDataToProcess
+		 HAL_UARTEx_SetRxFifoThreshold
+		   call arm_aapcs_vfpcc void @UARTEx_SetNbDataToProcess(%struct.__UART_HandleTypeDef* %16), !dbg !77
+		 HAL_UARTEx_SetTxFifoThreshold
+		   call arm_aapcs_vfpcc void @UARTEx_SetNbDataToProcess(%struct.__UART_HandleTypeDef* %16), !dbg !77
+		 HAL_UARTEx_EnableFifoMode
+		   call arm_aapcs_vfpcc void @UARTEx_SetNbDataToProcess(%struct.__UART_HandleTypeDef* %15), !dbg !81
+	 [+] Adding callees for Func: UARTEx_SetNbDataToProcess
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_DisableFifoMode
+		 MX_USART1_UART_Init
+		   %call14 = call arm_aapcs_vfpcc zeroext i8 @HAL_UARTEx_DisableFifoMode(%struct.__UART_HandleTypeDef* @huart1), !dbg !92
+	 [+] Adding callees for Func: HAL_UARTEx_DisableFifoMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_SetTxFifoThreshold
+		 MX_USART1_UART_Init
+		   %call2 = call arm_aapcs_vfpcc zeroext i8 @HAL_UARTEx_SetTxFifoThreshold(%struct.__UART_HandleTypeDef* @huart1, i32 0), !dbg !84
+	 [+] Adding callees for Func: HAL_UARTEx_SetTxFifoThreshold
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_SetRxFifoThreshold
+		 MX_USART1_UART_Init
+		   %call8 = call arm_aapcs_vfpcc zeroext i8 @HAL_UARTEx_SetRxFifoThreshold(%struct.__UART_HandleTypeDef* @huart1, i32 0), !dbg !88
+	 [+] Adding callees for Func: HAL_UARTEx_SetRxFifoThreshold
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_ReceiveToIdle
+	 [+] Adding callees for Func: HAL_UARTEx_ReceiveToIdle
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_ReceiveToIdle_IT
+	 [+] Adding callees for Func: HAL_UARTEx_ReceiveToIdle_IT
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UARTEx_ReceiveToIdle_DMA
+	 [+] Adding callees for Func: HAL_UARTEx_ReceiveToIdle_DMA
+--------------------------------------------------------
+	 [+] Adding callers for Func: _sbrk
+	 [+] Adding callees for Func: _sbrk
+--------------------------------------------------------
+	 [+] Adding callers for Func: __errno
+		 _execve
+		   %call = call arm_aapcs_vfpcc i32* @__errno(), !dbg !69
+		 _fork
+		   %call = call arm_aapcs_vfpcc i32* @__errno(), !dbg !69
+		 _link
+		   %call = call arm_aapcs_vfpcc i32* @__errno(), !dbg !69
+		 _unlink
+		   %call = call arm_aapcs_vfpcc i32* @__errno(), !dbg !69
+		 _wait
+		   %call = call arm_aapcs_vfpcc i32* @__errno(), !dbg !69
+		 _kill
+		   %call = call arm_aapcs_vfpcc i32* @__errno(), !dbg !69
+		 _sbrk
+		   %call = call arm_aapcs_vfpcc i32* @__errno(), !dbg !83
+	 [+] Adding callees for Func: __errno
+--------------------------------------------------------
+	 [+] Adding callers for Func: config_memory
+	 [+] Adding callees for Func: config_memory
+--------------------------------------------------------
+	 [+] Adding callers for Func: tagFunction
+		 config_dwt
+		   call arm_aapcs_vfpcc void @tagFunction(i32 0), !dbg !69
+	 [+] Adding callees for Func: tagFunction
+--------------------------------------------------------
+	 [+] Adding callers for Func: config_dwt
+	 [+] Adding callees for Func: config_dwt
+--------------------------------------------------------
+	 [+] Adding callers for Func: DWT_Init
+		 init
+		   %call1 = call arm_aapcs_vfpcc i32 @DWT_Init(), !dbg !72
+	 [+] Adding callees for Func: DWT_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: DWT_GetTick
+		 loop
+		   %call41 = call arm_aapcs_vfpcc i32 @DWT_GetTick(), !dbg !148
+		 loop
+		   %call21 = call arm_aapcs_vfpcc i32 @DWT_GetTick(), !dbg !112
+	 [+] Adding callees for Func: DWT_GetTick
+--------------------------------------------------------
+	 [+] Adding callers for Func: print
+		 lcd_setCursor
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 100), !dbg !75
+		 lcd_print
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 200), !dbg !76
+		 lcd_clear
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 50), !dbg !73
+		 lcd_begin
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 100), !dbg !76
+		 led_off
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 50), !dbg !73
+		 led_on
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 50), !dbg !73
+		 analogWrite
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 80), !dbg !75
+		 Serial_write
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 60), !dbg !75
+		 Serial_available
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 50), !dbg !75
+		 Serial_begin
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 50), !dbg !74
+		 digitalWrite
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 50), !dbg !75
+		 digitalRead
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 50), !dbg !74
+		 pinMode
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay1, i32 50), !dbg !75
+		 main_logic
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([28 x i8], [28 x i8]* @.str.15, i32 0, i32 0), i32 28), !dbg !69
+		 loop
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50), !dbg !166
+		 loop
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50), !dbg !156
+		 loop
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([68 x i8], [68 x i8]* @.str.12, i32 0, i32 0), i32 68), !dbg !144
+		 loop
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50), !dbg !133
+		 loop
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50), !dbg !120
+		 loop
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([35 x i8], [35 x i8]* @.str.7, i32 0, i32 0), i32 35), !dbg !108
+		 loop
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i32 50), !dbg !102
+		 loop
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([31 x i8], [31 x i8]* @.str.5, i32 0, i32 0), i32 31), !dbg !90
+		 loop
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([8 x i8], [8 x i8]* @.str.4, i32 0, i32 0), i32 8), !dbg !79
+		 setup
+		   call arm_aapcs_vfpcc void @print(i8* getelementptr inbounds ([31 x i8], [31 x i8]* @.str.3, i32 0, i32 0), i32 31), !dbg !77
+		 judge_legality
+		   call arm_aapcs_vfpcc void @print(i8* %arraydecay2, i32 50), !dbg !79
+	 [+] Adding callees for Func: print
+--------------------------------------------------------
+	 [+] Adding callers for Func: Error_Handler
+		 HAL_UART_MspInit
+		   call arm_aapcs_vfpcc void @Error_Handler(), !dbg !80
+		 MX_USART1_UART_Init
+		   call arm_aapcs_vfpcc void @Error_Handler(), !dbg !94
+		 MX_USART1_UART_Init
+		   call arm_aapcs_vfpcc void @Error_Handler(), !dbg !90
+		 MX_USART1_UART_Init
+		   call arm_aapcs_vfpcc void @Error_Handler(), !dbg !86
+		 MX_USART1_UART_Init
+		   call arm_aapcs_vfpcc void @Error_Handler(), !dbg !82
+		 print
+		   call arm_aapcs_vfpcc void @Error_Handler(), !dbg !73
+	 [+] Adding callees for Func: Error_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: judge_legality
+	 [+] Adding callees for Func: judge_legality
+--------------------------------------------------------
+	 [+] Adding callers for Func: trust_interface
+		 judge_legality
+		   %call = call arm_aapcs_vfpcc i32 @trust_interface(i8* %1, i32 %2), !dbg !72
+	 [+] Adding callees for Func: trust_interface
+--------------------------------------------------------
+	 [+] Adding callers for Func: sprintf
+		 lcd_setCursor
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([57 x i8], [57 x i8]* @.str.3.62, i32 0, i32 0), i8* getelementptr inbounds ([14 x i8], [14 x i8]* @__func__.lcd_setCursor, i32 0, i32 0), i32 %1, i32 %2), !dbg !73
+		 lcd_print
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([67 x i8], [67 x i8]* @.str.2.61, i32 0, i32 0), i8* getelementptr inbounds ([10 x i8], [10 x i8]* @__func__.lcd_print, i32 0, i32 0), %struct.DMAMUX_Channel_TypeDef* %1, i8* %2, i32 %3), !dbg !74
+		 lcd_clear
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([33 x i8], [33 x i8]* @.str.1.60, i32 0, i32 0), i8* getelementptr inbounds ([10 x i8], [10 x i8]* @__func__.lcd_clear, i32 0, i32 0)), !dbg !71
+		 lcd_begin
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([82 x i8], [82 x i8]* @.str.59, i32 0, i32 0), i8* getelementptr inbounds ([10 x i8], [10 x i8]* @__func__.lcd_begin, i32 0, i32 0), %struct.DMAMUX_Channel_TypeDef* %1, i32 %2, i32 %3), !dbg !74
+		 led_off
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.58, i32 0, i32 0), i8* getelementptr inbounds ([8 x i8], [8 x i8]* @__func__.led_off, i32 0, i32 0)), !dbg !71
+		 led_on
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([5 x i8], [5 x i8]* @.str.58, i32 0, i32 0), i8* getelementptr inbounds ([7 x i8], [7 x i8]* @__func__.led_on, i32 0, i32 0)), !dbg !71
+		 analogWrite
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([44 x i8], [44 x i8]* @.str.8.41, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8], [12 x i8]* @__func__.analogWrite, i32 0, i32 0), i8* %1, i32 %2), !dbg !73
+		 Serial_write
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([38 x i8], [38 x i8]* @.str.6.37, i32 0, i32 0), i8* getelementptr inbounds ([13 x i8], [13 x i8]* @__func__.Serial_write, i32 0, i32 0), i8* %1, i32 %2), !dbg !73
+		 Serial_available
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([12 x i8], [12 x i8]* @.str.5.36, i32 0, i32 0), i8* getelementptr inbounds ([17 x i8], [17 x i8]* @__func__.Serial_available, i32 0, i32 0), i32 %conv), !dbg !73
+		 Serial_begin
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([21 x i8], [21 x i8]* @.str.4.35, i32 0, i32 0), i8* getelementptr inbounds ([13 x i8], [13 x i8]* @__func__.Serial_begin, i32 0, i32 0), i32 %1), !dbg !72
+		 digitalWrite
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([36 x i8], [36 x i8]* @.str.3.32, i32 0, i32 0), i8* getelementptr inbounds ([13 x i8], [13 x i8]* @__func__.digitalWrite, i32 0, i32 0), i32 %1, i32 %2), !dbg !73
+		 digitalRead
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([20 x i8], [20 x i8]* @.str.1.28, i32 0, i32 0), i8* getelementptr inbounds ([12 x i8], [12 x i8]* @__func__.digitalRead, i32 0, i32 0), i32 %1), !dbg !72
+		 pinMode
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([35 x i8], [35 x i8]* @.str.27, i32 0, i32 0), i8* getelementptr inbounds ([8 x i8], [8 x i8]* @__func__.pinMode, i32 0, i32 0), i32 %1, i32 %2), !dbg !73
+		 loop
+		   %call50 = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([17 x i8], [17 x i8]* @.str.14, i32 0, i32 0), double %div49), !dbg !165
+		 loop
+		   %call45 = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([11 x i8], [11 x i8]* @.str.13, i32 0, i32 0), double %div44), !dbg !155
+		 loop
+		   %call28 = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([19 x i8], [19 x i8]* @.str.10, i32 0, i32 0), i8* getelementptr inbounds ([1 x i8], [1 x i8]* @command, i32 0, i32 0), i32 %13), !dbg !132
+		 loop
+		   %call24 = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([14 x i8], [14 x i8]* @.str.8, i32 0, i32 0), double %div), !dbg !119
+		 loop
+		   %call = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* getelementptr inbounds ([50 x i8], [50 x i8]* @OutBuf, i32 0, i32 0), i8* getelementptr inbounds ([27 x i8], [27 x i8]* @.str.6, i32 0, i32 0), i32 %6, i32 %7), !dbg !101
+		 judge_legality
+		   %call1 = call arm_aapcs_vfpcc i32 (i8*, i8*, ...) @sprintf(i8* %arraydecay, i8* getelementptr inbounds ([30 x i8], [30 x i8]* @.str, i32 0, i32 0)), !dbg !77
+	 [+] Adding callees for Func: sprintf
+--------------------------------------------------------
+	 [+] Adding callers for Func: straightAndStop
+		 loop
+		   call arm_aapcs_vfpcc void @straightAndStop(), !dbg !107
+		 loop
+		   call arm_aapcs_vfpcc void @straightAndStop(), !dbg !89
+		 loop
+		   call arm_aapcs_vfpcc void @straightAndStop(), !dbg !78
+		 setup
+		   call arm_aapcs_vfpcc void @straightAndStop(), !dbg !76
+	 [+] Adding callees for Func: straightAndStop
+--------------------------------------------------------
+	 [+] Adding callers for Func: setup
+		 main_logic
+		   call arm_aapcs_vfpcc void @setup(), !dbg !70
+	 [+] Adding callees for Func: setup
+--------------------------------------------------------
+	 [+] Adding callers for Func: loop
+		 main_logic
+		   call arm_aapcs_vfpcc void @loop(), !dbg !71
+	 [+] Adding callees for Func: loop
+--------------------------------------------------------
+	 [+] Adding callers for Func: strcpy
+		 loop
+		   %call27 = call arm_aapcs_vfpcc i8* @strcpy(i8* getelementptr inbounds ([1 x i8], [1 x i8]* @command, i32 0, i32 0), i8* getelementptr inbounds ([6 x i8], [6 x i8]* @.str.9, i32 0, i32 0)), !dbg !126
+	 [+] Adding callees for Func: strcpy
+--------------------------------------------------------
+	 [+] Adding callers for Func: strcmp
+		 loop
+		   %call34 = call arm_aapcs_vfpcc i32 @strcmp(i8* getelementptr inbounds ([1 x i8], [1 x i8]* @command, i32 0, i32 0), i8* getelementptr inbounds ([6 x i8], [6 x i8]* @.str.9, i32 0, i32 0)), !dbg !139
+		 loop
+		   %call29 = call arm_aapcs_vfpcc i32 @strcmp(i8* getelementptr inbounds ([1 x i8], [1 x i8]* @command, i32 0, i32 0), i8* getelementptr inbounds ([6 x i8], [6 x i8]* @.str.11, i32 0, i32 0)), !dbg !134
+	 [+] Adding callees for Func: strcmp
+--------------------------------------------------------
+	 [+] Adding callers for Func: init
+		 main
+		   call arm_aapcs_vfpcc void @init(), !dbg !69
+	 [+] Adding callees for Func: init
+--------------------------------------------------------
+	 [+] Adding callers for Func: MX_GPIO_Init
+		 init
+		   call arm_aapcs_vfpcc void @MX_GPIO_Init(), !dbg !70
+	 [+] Adding callees for Func: MX_GPIO_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: MX_USART1_UART_Init
+		 init
+		   call arm_aapcs_vfpcc void @MX_USART1_UART_Init(), !dbg !71
+	 [+] Adding callees for Func: MX_USART1_UART_Init
+--------------------------------------------------------
+	 [+] Adding callers for Func: main
+	 [+] Adding callees for Func: main
+--------------------------------------------------------
+	 [+] Adding callers for Func: main_logic
+		 main
+		   %call = call arm_aapcs_vfpcc i32 @main_logic(), !dbg !70
+	 [+] Adding callees for Func: main_logic
+--------------------------------------------------------
+	 [+] Adding callers for Func: pinMode
+		 setup
+		   call arm_aapcs_vfpcc void @pinMode(i32 13, i32 1), !dbg !70
+		 setup
+		   call arm_aapcs_vfpcc void @pinMode(i32 6, i32 1), !dbg !71
+		 setup
+		   call arm_aapcs_vfpcc void @pinMode(i32 12, i32 0), !dbg !72
+		 setup
+		   call arm_aapcs_vfpcc void @pinMode(i32 4, i32 0), !dbg !73
+		 setup
+		   call arm_aapcs_vfpcc void @pinMode(i32 3, i32 0), !dbg !74
+		 setup
+		   call arm_aapcs_vfpcc void @pinMode(i32 2, i32 0), !dbg !75
+	 [+] Adding callees for Func: pinMode
+--------------------------------------------------------
+	 [+] Adding callers for Func: digitalRead
+	 [+] Adding callees for Func: digitalRead
+--------------------------------------------------------
+	 [+] Adding callers for Func: scanf
+		 analogRead
+		   %call1 = call arm_aapcs_vfpcc i32 (i8*, ...) @scanf(i8* getelementptr inbounds ([3 x i8], [3 x i8]* @.str.2.29, i32 0, i32 0), i32* %val), !dbg !71
+		 digitalRead
+		   %call2 = call arm_aapcs_vfpcc i32 (i8*, ...) @scanf(i8* getelementptr inbounds ([3 x i8], [3 x i8]* @.str.2.29, i32 0, i32 0), i32* %val), !dbg !75
+	 [+] Adding callees for Func: scanf
+--------------------------------------------------------
+	 [+] Adding callers for Func: digitalWrite
+		 loop
+		   call arm_aapcs_vfpcc void @digitalWrite(i32 13, i32 %conv), !dbg !75
+	 [+] Adding callees for Func: digitalWrite
+--------------------------------------------------------
+	 [+] Adding callers for Func: Serial_begin
+		 setup
+		   call arm_aapcs_vfpcc void @Serial_begin(i32 115200), !dbg !69
+	 [+] Adding callees for Func: Serial_begin
+--------------------------------------------------------
+	 [+] Adding callers for Func: Serial_available
+	 [+] Adding callees for Func: Serial_available
+--------------------------------------------------------
+	 [+] Adding callers for Func: Serial_read
+	 [+] Adding callees for Func: Serial_read
+--------------------------------------------------------
+	 [+] Adding callers for Func: getchar
+		 Serial_read
+		   %call = call arm_aapcs_vfpcc i32 @getchar(), !dbg !69
+	 [+] Adding callees for Func: getchar
+--------------------------------------------------------
+	 [+] Adding callers for Func: Serial_write
+	 [+] Adding callees for Func: Serial_write
+--------------------------------------------------------
+	 [+] Adding callers for Func: analogRead
+	 [+] Adding callees for Func: analogRead
+--------------------------------------------------------
+	 [+] Adding callers for Func: printf
+		 analogRead
+		   %call = call arm_aapcs_vfpcc i32 (i8*, ...) @printf(i8* getelementptr inbounds ([18 x i8], [18 x i8]* @.str.7.38, i32 0, i32 0), i32 %0), !dbg !70
+	 [+] Adding callees for Func: printf
+--------------------------------------------------------
+	 [+] Adding callers for Func: analogWrite
+		 straightAndStop
+		   call arm_aapcs_vfpcc void @analogWrite(i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.1, i32 0, i32 0), i32 90), !dbg !69
+		 straightAndStop
+		   call arm_aapcs_vfpcc void @analogWrite(i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.2, i32 0, i32 0), i32 90), !dbg !70
+		 loop
+		   call arm_aapcs_vfpcc void @analogWrite(i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.2, i32 0, i32 0), i32 %14), !dbg !137
+		 loop
+		   call arm_aapcs_vfpcc void @analogWrite(i8* getelementptr inbounds ([9 x i8], [9 x i8]* @.str.1, i32 0, i32 0), i32 %15), !dbg !142
+	 [+] Adding callees for Func: analogWrite
+--------------------------------------------------------
+	 [+] Adding callers for Func: millis
+	 [+] Adding callees for Func: millis
+--------------------------------------------------------
+	 [+] Adding callers for Func: delayMicroseconds
+	 [+] Adding callees for Func: delayMicroseconds
+--------------------------------------------------------
+	 [+] Adding callers for Func: toUInt
+	 [+] Adding callees for Func: toUInt
+--------------------------------------------------------
+	 [+] Adding callers for Func: atoi
+		 toUInt
+		   %call = call arm_aapcs_vfpcc i32 @atoi(i8* %0), !dbg !70
+	 [+] Adding callees for Func: atoi
+--------------------------------------------------------
+	 [+] Adding callers for Func: SystemInit
+	 [+] Adding callees for Func: SystemInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: SystemCoreClockUpdate
+		 HAL_Init
+		   call arm_aapcs_vfpcc void @SystemCoreClockUpdate(), !dbg !70
+	 [+] Adding callees for Func: SystemCoreClockUpdate
+--------------------------------------------------------
+	 [+] Adding callers for Func: SECURE_SystemCoreClockUpdate
+		 SystemCoreClockUpdate
+		   %call = call arm_aapcs_vfpcc i32 @SECURE_SystemCoreClockUpdate(), !dbg !69
+	 [+] Adding callees for Func: SECURE_SystemCoreClockUpdate
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_MspInit
+		 HAL_Init
+		   call arm_aapcs_vfpcc void @HAL_MspInit(), !dbg !75
+	 [+] Adding callees for Func: HAL_MspInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_MspInit
+	 [+] Adding callees for Func: HAL_UART_MspInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: HAL_UART_MspDeInit
+	 [+] Adding callees for Func: HAL_UART_MspDeInit
+--------------------------------------------------------
+	 [+] Adding callers for Func: MemManage_Handler
+	 [+] Adding callees for Func: MemManage_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: UsageFault_Handler
+	 [+] Adding callees for Func: UsageFault_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: PendSV_Handler
+	 [+] Adding callees for Func: PendSV_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: SysTick_Handler
+	 [+] Adding callees for Func: SysTick_Handler
+--------------------------------------------------------
+	 [+] Adding callers for Func: USART1_IRQHandler
+	 [+] Adding callees for Func: USART1_IRQHandler
+--------------------------------------------------------
+	 [+] Adding callers for Func: initialise_monitor_handles
+	 [+] Adding callees for Func: initialise_monitor_handles
+--------------------------------------------------------
+	 [+] Adding callers for Func: _getpid
+	 [+] Adding callees for Func: _getpid
+--------------------------------------------------------
+	 [+] Adding callers for Func: _kill
+		 _exit
+		   %call = call arm_aapcs_vfpcc i32 @_kill(i32 %0, i32 -1), !dbg !70
+	 [+] Adding callees for Func: _kill
+--------------------------------------------------------
+	 [+] Adding callers for Func: _exit
+	 [+] Adding callees for Func: _exit
+--------------------------------------------------------
+	 [+] Adding callers for Func: _read
+	 [+] Adding callees for Func: _read
+--------------------------------------------------------
+	 [+] Adding callers for Func: __io_getchar
+		 _read
+		   %call = call arm_aapcs_vfpcc i32 @__io_getchar(), !dbg !75
+	 [+] Adding callees for Func: __io_getchar
+--------------------------------------------------------
+	 [+] Adding callers for Func: _write
+	 [+] Adding callees for Func: _write
+--------------------------------------------------------
+	 [+] Adding callers for Func: __io_putchar
+		 _write
+		   %call = call arm_aapcs_vfpcc i32 @__io_putchar(i32 %conv), !dbg !77
+	 [+] Adding callees for Func: __io_putchar
+--------------------------------------------------------
+	 [+] Adding callers for Func: _close
+	 [+] Adding callees for Func: _close
+--------------------------------------------------------
+	 [+] Adding callers for Func: _fstat
+	 [+] Adding callees for Func: _fstat
+--------------------------------------------------------
+	 [+] Adding callers for Func: _isatty
+	 [+] Adding callees for Func: _isatty
+--------------------------------------------------------
+	 [+] Adding callers for Func: _lseek
+	 [+] Adding callees for Func: _lseek
+--------------------------------------------------------
+	 [+] Adding callers for Func: _open
+	 [+] Adding callees for Func: _open
+--------------------------------------------------------
+	 [+] Adding callers for Func: _wait
+	 [+] Adding callees for Func: _wait
+--------------------------------------------------------
+	 [+] Adding callers for Func: _unlink
+	 [+] Adding callees for Func: _unlink
+--------------------------------------------------------
+	 [+] Adding callers for Func: _times
+	 [+] Adding callees for Func: _times
+--------------------------------------------------------
+	 [+] Adding callers for Func: _stat
+	 [+] Adding callees for Func: _stat
+--------------------------------------------------------
+	 [+] Adding callers for Func: _link
+	 [+] Adding callees for Func: _link
+--------------------------------------------------------
+	 [+] Adding callers for Func: _fork
+	 [+] Adding callees for Func: _fork
+--------------------------------------------------------
+	 [+] Adding callers for Func: _execve
+	 [+] Adding callees for Func: _execve
+--------------------------------------------------------
+	 [+] Adding callers for Func: led_on
+	 [+] Adding callees for Func: led_on
+--------------------------------------------------------
+	 [+] Adding callers for Func: led_off
+	 [+] Adding callees for Func: led_off
+--------------------------------------------------------
+	 [+] Adding callers for Func: lcd_begin
+	 [+] Adding callees for Func: lcd_begin
+--------------------------------------------------------
+	 [+] Adding callers for Func: lcd_clear
+	 [+] Adding callees for Func: lcd_clear
+--------------------------------------------------------
+	 [+] Adding callers for Func: lcd_print
+	 [+] Adding callees for Func: lcd_print
+--------------------------------------------------------
+	 [+] Adding callers for Func: lcd_setCursor
+	 [+] Adding callees for Func: lcd_setCursor
