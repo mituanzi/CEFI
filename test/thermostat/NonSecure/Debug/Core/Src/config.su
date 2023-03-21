@@ -1,0 +1,4 @@
+config.c:4:6:config_memory	4	static
+config.c:14:6:tagFunction	16	static
+config.c:20:6:SensitiveFunction	4	static
+config.c:26:6:config_dwt	16	static

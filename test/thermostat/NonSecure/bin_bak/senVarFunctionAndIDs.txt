@@ -1,0 +1,99 @@
+Name: unlock_count ID: 1
+Name: PinRxBuffer ID: 2
+Name: LockRxBuffer ID: 3
+Name: key ID: 4
+Name: key_in ID: 5
+Name: unlock_count ID: 1
+Name: PinRxBuffer ID: 2
+Name: LockRxBuffer ID: 3
+Name: key ID: 4
+Name: key_in ID: 5
+NonRootSenVar:  ID: 2 senVarID_For_Tag: 2
+RootSenVar: unlock_count ID: 1 senVarID_For_Tag: 3
+NonRootSenVar: add.ptr22 ID: 2 senVarID_For_Tag: 4
+NonRootSenVar: add.ptr30 ID: 2 senVarID_For_Tag: 5
+NonRootSenVar: input ID: 2 senVarID_For_Tag: 6
+NonRootSenVar: output ID: 4 senVarID_For_Tag: 7
+NonRootSenVar: output ID: 5 senVarID_For_Tag: 7
+NonRootSenVar: data ID: 2 senVarID_For_Tag: 8
+NonRootSenVar: input ID: 2 senVarID_For_Tag: 9
+NonRootSenVar: output ID: 4 senVarID_For_Tag: 10
+NonRootSenVar: output ID: 5 senVarID_For_Tag: 10
+NonRootSenVar: arrayidx70 ID: 4 senVarID_For_Tag: 11
+NonRootSenVar: arrayidx70 ID: 5 senVarID_For_Tag: 11
+NonRootSenVar: arrayidx75 ID: 4 senVarID_For_Tag: 12
+NonRootSenVar: arrayidx75 ID: 5 senVarID_For_Tag: 12
+NonRootSenVar: arrayidx80 ID: 4 senVarID_For_Tag: 13
+NonRootSenVar: arrayidx80 ID: 5 senVarID_For_Tag: 13
+NonRootSenVar: arrayidx84 ID: 4 senVarID_For_Tag: 14
+NonRootSenVar: arrayidx84 ID: 5 senVarID_For_Tag: 14
+NonRootSenVar: arrayidx91 ID: 4 senVarID_For_Tag: 15
+NonRootSenVar: arrayidx91 ID: 5 senVarID_For_Tag: 15
+NonRootSenVar: arrayidx96 ID: 4 senVarID_For_Tag: 16
+NonRootSenVar: arrayidx96 ID: 5 senVarID_For_Tag: 16
+NonRootSenVar: arrayidx101 ID: 4 senVarID_For_Tag: 17
+NonRootSenVar: arrayidx101 ID: 5 senVarID_For_Tag: 17
+NonRootSenVar: arrayidx105 ID: 4 senVarID_For_Tag: 18
+NonRootSenVar: arrayidx105 ID: 5 senVarID_For_Tag: 18
+NonRootSenVar: arrayidx112 ID: 4 senVarID_For_Tag: 19
+NonRootSenVar: arrayidx112 ID: 5 senVarID_For_Tag: 19
+NonRootSenVar: arrayidx117 ID: 4 senVarID_For_Tag: 20
+NonRootSenVar: arrayidx117 ID: 5 senVarID_For_Tag: 20
+NonRootSenVar: arrayidx122 ID: 4 senVarID_For_Tag: 21
+NonRootSenVar: arrayidx122 ID: 5 senVarID_For_Tag: 21
+NonRootSenVar: arrayidx126 ID: 4 senVarID_For_Tag: 22
+NonRootSenVar: arrayidx126 ID: 5 senVarID_For_Tag: 22
+NonRootSenVar: arrayidx133 ID: 4 senVarID_For_Tag: 23
+NonRootSenVar: arrayidx133 ID: 5 senVarID_For_Tag: 23
+NonRootSenVar: arrayidx138 ID: 4 senVarID_For_Tag: 24
+NonRootSenVar: arrayidx138 ID: 5 senVarID_For_Tag: 24
+NonRootSenVar: arrayidx143 ID: 4 senVarID_For_Tag: 25
+NonRootSenVar: arrayidx143 ID: 5 senVarID_For_Tag: 25
+NonRootSenVar: arrayidx147 ID: 4 senVarID_For_Tag: 26
+NonRootSenVar: arrayidx147 ID: 5 senVarID_For_Tag: 26
+NonRootSenVar: arrayidx154 ID: 4 senVarID_For_Tag: 27
+NonRootSenVar: arrayidx154 ID: 5 senVarID_For_Tag: 27
+NonRootSenVar: arrayidx159 ID: 4 senVarID_For_Tag: 28
+NonRootSenVar: arrayidx159 ID: 5 senVarID_For_Tag: 28
+NonRootSenVar: arrayidx164 ID: 4 senVarID_For_Tag: 29
+NonRootSenVar: arrayidx164 ID: 5 senVarID_For_Tag: 29
+NonRootSenVar: arrayidx168 ID: 4 senVarID_For_Tag: 30
+NonRootSenVar: arrayidx168 ID: 5 senVarID_For_Tag: 30
+NonRootSenVar: arrayidx175 ID: 4 senVarID_For_Tag: 31
+NonRootSenVar: arrayidx175 ID: 5 senVarID_For_Tag: 31
+NonRootSenVar: arrayidx180 ID: 4 senVarID_For_Tag: 32
+NonRootSenVar: arrayidx180 ID: 5 senVarID_For_Tag: 32
+NonRootSenVar: arrayidx185 ID: 4 senVarID_For_Tag: 33
+NonRootSenVar: arrayidx185 ID: 5 senVarID_For_Tag: 33
+NonRootSenVar: arrayidx189 ID: 4 senVarID_For_Tag: 34
+NonRootSenVar: arrayidx189 ID: 5 senVarID_For_Tag: 34
+NonRootSenVar: arrayidx196 ID: 4 senVarID_For_Tag: 35
+NonRootSenVar: arrayidx196 ID: 5 senVarID_For_Tag: 35
+NonRootSenVar: arrayidx201 ID: 4 senVarID_For_Tag: 36
+NonRootSenVar: arrayidx201 ID: 5 senVarID_For_Tag: 36
+NonRootSenVar: arrayidx206 ID: 4 senVarID_For_Tag: 37
+NonRootSenVar: arrayidx206 ID: 5 senVarID_For_Tag: 37
+NonRootSenVar: arrayidx210 ID: 4 senVarID_For_Tag: 38
+NonRootSenVar: arrayidx210 ID: 5 senVarID_For_Tag: 38
+NonRootSenVar: arrayidx220 ID: 4 senVarID_For_Tag: 39
+NonRootSenVar: arrayidx220 ID: 5 senVarID_For_Tag: 39
+NonRootSenVar: arrayidx225 ID: 4 senVarID_For_Tag: 40
+NonRootSenVar: arrayidx225 ID: 5 senVarID_For_Tag: 40
+NonRootSenVar: arrayidx230 ID: 4 senVarID_For_Tag: 41
+NonRootSenVar: arrayidx230 ID: 5 senVarID_For_Tag: 41
+NonRootSenVar: arrayidx234 ID: 4 senVarID_For_Tag: 42
+NonRootSenVar: arrayidx234 ID: 5 senVarID_For_Tag: 42
+NonRootSenVar: input ID: 2 senVarID_For_Tag: 43
+NonRootSenVar: output ID: 4 senVarID_For_Tag: 44
+NonRootSenVar: output ID: 5 senVarID_For_Tag: 44
+NonRootSenVar:  ID: 2 senVarID_For_Tag: 45
+NonRootSenVar:  ID: 2 senVarID_For_Tag: 46
+NonRootSenVar:  ID: 2 senVarID_For_Tag: 47
+NonRootSenVar:  ID: 2 senVarID_For_Tag: 48
+RootSenVar: PinRxBuffer ID: 2 senVarID_For_Tag: 49
+RootSenVar: LockRxBuffer ID: 3 senVarID_For_Tag: 50
+RootSenVar: key ID: 4 senVarID_For_Tag: 51
+RootSenVar: key_in ID: 5 senVarID_For_Tag: 52
+[start]oldebp: main_logic ID: 4660 size: 4
+[start]funcptr: main_logic ID: 4660 size: 4
+[start]tag: main_logic ID: 4660 size: 4

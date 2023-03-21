@@ -1,0 +1,15 @@
+stm32l562e_discovery.c:120:9:BSP_GetVersion	4	static
+stm32l562e_discovery.c:129:16:BSP_GetBoardName	4	static
+stm32l562e_discovery.c:138:16:BSP_GetBoardID	4	static
+stm32l562e_discovery.c:155:9:BSP_LED_Init	56	static
+stm32l562e_discovery.c:194:9:BSP_LED_DeInit	40	static
+stm32l562e_discovery.c:217:9:BSP_LED_On	24	static
+stm32l562e_discovery.c:234:9:BSP_LED_Off	24	static
+stm32l562e_discovery.c:251:9:BSP_LED_Toggle	24	static
+stm32l562e_discovery.c:268:9:BSP_LED_GetState	24	static
+stm32l562e_discovery.c:298:9:BSP_PB_Init	56	static
+stm32l562e_discovery.c:356:9:BSP_PB_DeInit	40	static
+stm32l562e_discovery.c:374:9:BSP_PB_GetState	24	static
+stm32l562e_discovery.c:388:13:BSP_PB_Callback	16	static
+stm32l562e_discovery.c:405:6:BSP_PB_IRQHandler	16	static
+stm32l562e_discovery.c:682:13:BUTTON_USER_EXTI_Callback	8	static

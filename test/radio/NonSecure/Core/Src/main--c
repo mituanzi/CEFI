@@ -1,0 +1,126 @@
+// /* USER CODE BEGIN Header */
+// /**
+//   ******************************************************************************
+//   * @file           : main.c
+//   * @brief          : Main program body
+//   ******************************************************************************
+//   * @attention
+//   *
+//   * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
+//   * All rights reserved.</center></h2>
+//   *
+//   * This software component is licensed by ST under BSD 3-Clause license,
+//   * the "License"; You may not use this file except in compliance with the
+//   * License. You may obtain a copy of the License at:
+//   *                        opensource.org/licenses/BSD-3-Clause
+//   *
+//   ******************************************************************************
+//   */
+// /* USER CODE END Header */
+// /* Includes ------------------------------------------------------------------*/
+// #include "main.h"
+// #include "mbedtls.h"
+
+// unsigned char __attribute__((annotate("sensitive"))) PinRxBuffer[PINRXBUFFSIZE];
+// unsigned char __attribute__((annotate("sensitive"))) LockRxBuffer[LOCKRXBUFFSIZE];
+// unsigned char __attribute__((annotate("sensitive"))) key[32];
+// unsigned char __attribute__((annotate("sensitive"))) key_in[32];
+// unsigned char  pin[] = "19955";
+
+// unsigned char msg[20];
+// unsigned char OutBuf[50];
+// /* USER CODE END Includes */
+// UART_HandleTypeDef huart1;
+// __IO ITStatus UartReady = HAL_UART_STATE_RESET;//RESET;
+
+
+
+ void init(){
+
+   config_memory();
+   config_dwt();
+   
+  }
+
+// int main(){
+//   init();
+//   main_logic();
+//   return 0;
+// }
+
+// void memcpy_2(char *dst, char *src, int n){
+//   for (int i=0; i<n; i++){
+//     dst[i] = src[i];
+//   }
+// }
+
+// void test_ptr(int *ptr){
+//   *ptr += 1;
+
+// }
+
+// int main_logic(void)
+// {
+ 
+//   char buf[12];
+//   memcpy_2(buf,key,12);
+
+//   mbedtls_sha256((unsigned char*)pin,PINBUFFSIZE,key,0);
+//   PinRxBuffer[0]='0';
+//   PinRxBuffer[1]='0';
+//   PinRxBuffer[2]='0';
+//   PinRxBuffer[3]='0';
+//   PinRxBuffer[4]='0';
+//   mbedtls_sha256((unsigned char*)PinRxBuffer,PINRXBUFFSIZE,key_in,0);
+
+// }
+#include "main.h"
+#include "mbedtls.h"
+//#include "config.h"
+
+UART_HandleTypeDef huart1;
+__IO ITStatus UartReady = HAL_UART_STATE_RESET;//RESET;
+
+
+unsigned char __attribute__((annotate("sensitive"))) PinRxBuffer[PINRXBUFFSIZE];
+unsigned char __attribute__((annotate("sensitive"))) LockRxBuffer[LOCKRXBUFFSIZE];
+unsigned char __attribute__((annotate("sensitive"))) key[32];
+unsigned char __attribute__((annotate("sensitive"))) key_in[32];
+unsigned char  pin[] = "19955";
+
+unsigned char msg[20];
+unsigned char OutBuf[50];
+/* USER CODE END Includes */
+
+// void init(){
+
+//    config_memory();
+//    config_dwt();
+   
+//   }
+
+int main(){
+  init();
+  main_logic();
+  return 0;
+}
+
+
+int main_logic(void)
+{
+ 
+  // char buf[12];
+  //  memcpy_2(buf,key,12);
+
+  //mbedtls_sha256((unsigned char*)pin,5,key,0);
+  //PinRxBuffer[0]='0';
+  //PinRxBuffer[1]='0';
+  //PinRxBuffer[2]='0';
+  //PinRxBuffer[3]='0';
+  //PinRxBuffer[4]='0';
+  mbedtls_sha256((unsigned char*)PinRxBuffer,PINRXBUFFSIZE,key_in,0);
+
+}
+
+
+

@@ -1,0 +1,3 @@
+export C_INCLUDE_PATH=/home/iotse/pan/workspace/uRAI/gcc/bins//arm-none-eabi/include
+/home/iotse/pan/workspace/uRAI/llvm_build/build/bin/opt -debug -load LLVMNova.so -nova bin/pinlock_NonSecure.elf.0.5.precodegen.bc -o bin/pinlock_NonSecure.ll
+Makefile:207: recipe for target 'bin/pinlock_NonSecure.ll' failed

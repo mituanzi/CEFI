@@ -1,0 +1,2 @@
+secure_nsc.c:49:20:SECURE_RegisterCallback	16	static
+secure_nsc.c:79:19:trust_interface	24	static
