@@ -7,4 +7,5 @@
 6. extract_origGraph.py: execute it alone, we can get the functions related with start func and end func and their calling relationships storing in `related_dict.json`. And we can get a calling graph associated with the start func and end func.
 7. extract_changedGraph.py: execute it alone, we can give each edge in the related_dict.json a weight, store the calling relationship and the weights of each edge in file `edges.json`.
 8. table_generate.py: This file runs separately. Its job is to tabular the dict stored in the path_num.
+9. processjson.py: translate the format of CGAnalysis.json to invoke_dict.json
 

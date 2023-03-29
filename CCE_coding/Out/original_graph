@@ -1,13 +1,223 @@
 digraph "./Out/original_graph" {
 	main
+	init
+	main -> init
 	main_logic
 	main -> main_logic
+	DWT_Init
+	init -> DWT_Init
+	HAL_Init
+	init -> HAL_Init
+	MX_GPIO_Init
+	init -> MX_GPIO_Init
+	MX_USART1_UART_Init
+	init -> MX_USART1_UART_Init
+	config_dwt
+	init -> config_dwt
+	config_memory
+	init -> config_memory
+	HAL_InitTick
+	HAL_Init -> HAL_InitTick
+	SystemCoreClockUpdate
+	HAL_Init -> SystemCoreClockUpdate
+	HAL_MspInit
+	HAL_Init -> HAL_MspInit
+	HAL_NVIC_SetPriorityGrouping
+	HAL_Init -> HAL_NVIC_SetPriorityGrouping
+	HAL_NVIC_SetPriority
+	HAL_InitTick -> HAL_NVIC_SetPriority
+	HAL_SYSTICK_Config
+	HAL_InitTick -> HAL_SYSTICK_Config
+	NVIC_EncodePriority
+	HAL_NVIC_SetPriority -> NVIC_EncodePriority
+	__NVIC_GetPriorityGrouping
+	HAL_NVIC_SetPriority -> __NVIC_GetPriorityGrouping
+	__NVIC_SetPriority
+	HAL_NVIC_SetPriority -> __NVIC_SetPriority
+	SysTick_Config
+	HAL_SYSTICK_Config -> SysTick_Config
+	SysTick_Config -> __NVIC_SetPriority
+	SECURE_SystemCoreClockUpdate
+	SystemCoreClockUpdate -> SECURE_SystemCoreClockUpdate
+	__NVIC_SetPriorityGrouping
+	HAL_NVIC_SetPriorityGrouping -> __NVIC_SetPriorityGrouping
+	HAL_UARTEx_DisableFifoMode
+	MX_USART1_UART_Init -> HAL_UARTEx_DisableFifoMode
+	Error_Handler
+	MX_USART1_UART_Init -> Error_Handler
+	MX_USART1_UART_Init -> Error_Handler
+	MX_USART1_UART_Init -> Error_Handler
+	MX_USART1_UART_Init -> Error_Handler
+	HAL_UARTEx_SetRxFifoThreshold
+	MX_USART1_UART_Init -> HAL_UARTEx_SetRxFifoThreshold
+	HAL_UARTEx_SetTxFifoThreshold
+	MX_USART1_UART_Init -> HAL_UARTEx_SetTxFifoThreshold
+	HAL_UART_Init
+	MX_USART1_UART_Init -> HAL_UART_Init
+	UARTEx_SetNbDataToProcess
+	HAL_UARTEx_SetRxFifoThreshold -> UARTEx_SetNbDataToProcess
+	HAL_UARTEx_SetTxFifoThreshold -> UARTEx_SetNbDataToProcess
+	UART_CheckIdleState
+	HAL_UART_Init -> UART_CheckIdleState
+	HAL_UART_MspInit
+	HAL_UART_Init -> HAL_UART_MspInit
+	UART_SetConfig
+	HAL_UART_Init -> UART_SetConfig
+	UART_AdvFeatureConfig
+	HAL_UART_Init -> UART_AdvFeatureConfig
+	HAL_GetTick
+	UART_CheckIdleState -> HAL_GetTick
+	UART_WaitOnFlagUntilTimeout
+	UART_CheckIdleState -> UART_WaitOnFlagUntilTimeout
+	UART_CheckIdleState -> UART_WaitOnFlagUntilTimeout
+	UART_WaitOnFlagUntilTimeout -> HAL_GetTick
+	HAL_GPIO_Init
+	HAL_UART_MspInit -> HAL_GPIO_Init
+	HAL_UART_MspInit -> Error_Handler
+	HAL_NVIC_EnableIRQ
+	HAL_UART_MspInit -> HAL_NVIC_EnableIRQ
+	HAL_RCCEx_PeriphCLKConfig
+	HAL_UART_MspInit -> HAL_RCCEx_PeriphCLKConfig
+	HAL_UART_MspInit -> HAL_NVIC_SetPriority
+	__NVIC_EnableIRQ
+	HAL_NVIC_EnableIRQ -> __NVIC_EnableIRQ
+	HAL_RCCEx_PeriphCLKConfig -> HAL_GetTick
+	HAL_RCCEx_PeriphCLKConfig -> HAL_GetTick
+	HAL_RCCEx_PeriphCLKConfig -> HAL_GetTick
+	HAL_RCCEx_PeriphCLKConfig -> HAL_GetTick
+	RCCEx_PLLSAI1_Config
+	HAL_RCCEx_PeriphCLKConfig -> RCCEx_PLLSAI1_Config
+	HAL_RCCEx_PeriphCLKConfig -> RCCEx_PLLSAI1_Config
+	HAL_RCCEx_PeriphCLKConfig -> RCCEx_PLLSAI1_Config
+	HAL_RCCEx_PeriphCLKConfig -> RCCEx_PLLSAI1_Config
+	HAL_RCCEx_PeriphCLKConfig -> RCCEx_PLLSAI1_Config
+	HAL_RCCEx_PeriphCLKConfig -> RCCEx_PLLSAI1_Config
+	HAL_RCCEx_PeriphCLKConfig -> RCCEx_PLLSAI1_Config
+	RCCEx_PLLSAI2_Config
+	HAL_RCCEx_PeriphCLKConfig -> RCCEx_PLLSAI2_Config
+	HAL_RCCEx_PeriphCLKConfig -> RCCEx_PLLSAI2_Config
+	RCCEx_PLLSAI1_Config -> HAL_GetTick
+	RCCEx_PLLSAI1_Config -> HAL_GetTick
+	RCCEx_PLLSAI1_Config -> HAL_GetTick
+	RCCEx_PLLSAI1_Config -> HAL_GetTick
+	RCCEx_PLLSAI2_Config -> HAL_GetTick
+	RCCEx_PLLSAI2_Config -> HAL_GetTick
+	RCCEx_PLLSAI2_Config -> HAL_GetTick
+	RCCEx_PLLSAI2_Config -> HAL_GetTick
+	HAL_RCC_GetPCLK1Freq
+	UART_SetConfig -> HAL_RCC_GetPCLK1Freq
+	UART_SetConfig -> HAL_RCC_GetPCLK1Freq
+	UART_SetConfig -> HAL_RCC_GetPCLK1Freq
+	HAL_RCC_GetPCLK2Freq
+	UART_SetConfig -> HAL_RCC_GetPCLK2Freq
+	UART_SetConfig -> HAL_RCC_GetPCLK2Freq
+	UART_SetConfig -> HAL_RCC_GetPCLK2Freq
+	HAL_RCC_GetSysClockFreq
+	UART_SetConfig -> HAL_RCC_GetSysClockFreq
+	UART_SetConfig -> HAL_RCC_GetSysClockFreq
+	UART_SetConfig -> HAL_RCC_GetSysClockFreq
+	HAL_RCC_GetHCLKFreq
+	HAL_RCC_GetPCLK1Freq -> HAL_RCC_GetHCLKFreq
+	HAL_RCC_GetHCLKFreq -> HAL_RCC_GetSysClockFreq
+	HAL_RCC_GetPCLK2Freq -> HAL_RCC_GetHCLKFreq
+	tagFunction
+	config_dwt -> tagFunction
 	loop
 	main_logic -> loop
+	DWT_GetTick
+	main_logic -> DWT_GetTick
+	main_logic -> DWT_GetTick
+	print
+	main_logic -> print
+	main_logic -> print
+	main_logic -> print
+	main_logic -> print
+	setup
+	main_logic -> setup
+	sprintf
+	main_logic -> sprintf
+	main_logic -> sprintf
+	main_logic -> sprintf
 	processSerial
 	loop -> processSerial
+	loop -> print
+	loop -> sprintf
+	bolus
+	processSerial -> bolus
+	processSerial -> bolus
+	toUInt
+	processSerial -> toUInt
+	processSerial -> toUInt
 	Serial_write
 	processSerial -> Serial_write
 	processSerial -> Serial_write
 	processSerial -> Serial_write
+	updateScreen
+	processSerial -> updateScreen
+	processSerial -> updateScreen
+	processSerial -> updateScreen
+	led_off
+	bolus -> led_off
+	delayMicroseconds
+	bolus -> delayMicroseconds
+	bolus -> delayMicroseconds
+	led_on
+	bolus -> led_on
+	digitalWrite
+	bolus -> digitalWrite
+	bolus -> digitalWrite
+	bolus -> digitalWrite
+	bolus -> digitalWrite
+	led_off -> print
+	led_off -> sprintf
+	print -> Error_Handler
+	HAL_UART_Transmit_IT
+	print -> HAL_UART_Transmit_IT
+	HAL_UART_GetState
+	print -> HAL_UART_GetState
+	HAL_Delay
+	delayMicroseconds -> HAL_Delay
+	HAL_Delay -> HAL_GetTick
+	HAL_Delay -> HAL_GetTick
+	led_on -> print
+	led_on -> sprintf
+	atoi
+	toUInt -> atoi
+	Serial_write -> print
+	Serial_write -> sprintf
+	lcd_print
+	updateScreen -> lcd_print
+	updateScreen -> lcd_print
+	updateScreen -> sprintf
+	updateScreen -> sprintf
+	updateScreen -> sprintf
+	updateScreen -> sprintf
+	lcd_setCursor
+	updateScreen -> lcd_setCursor
+	updateScreen -> lcd_setCursor
+	lcd_clear
+	updateScreen -> lcd_clear
+	lcd_print -> print
+	lcd_print -> sprintf
+	lcd_setCursor -> print
+	lcd_setCursor -> sprintf
+	lcd_clear -> print
+	lcd_clear -> sprintf
+	Serial_begin
+	setup -> Serial_begin
+	setup -> lcd_clear
+	setup -> lcd_print
+	pinMode
+	setup -> pinMode
+	setup -> pinMode
+	setup -> pinMode
+	setup -> pinMode
+	lcd_begin
+	setup -> lcd_begin
+	setup -> digitalWrite
+	setup -> digitalWrite
+	Serial_begin -> print
+	Serial_begin -> sprintf
+	lcd_begin -> print
+	lcd_begin -> sprintf
 }

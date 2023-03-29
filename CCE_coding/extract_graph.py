@@ -383,7 +383,7 @@ def get_changed_graph(invoke_dict,startname,endname,edges_json,recursion=False):
 	return target.get_numCC()
 
 if __name__ == '__main__':
-	with open('.\\parser\\invoke.json','r') as infile:
+	with open('./In/invoke_dict.json','r') as infile:
 		invoke_dict = json.loads(infile.read())
-	get_original_graph(invoke_dict)
+	get_original_graph(invoke_dict, "main", False)
 	
